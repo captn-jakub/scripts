@@ -73,6 +73,10 @@ Stuff just happens.
 
 ## Homebrew
 
+### Serpent (Demon)
+
+[v? by Puck](homebrew/serpent/serpent.json)
+
 ### The Dude Abides
 
 [v0.2 by capt'n jakub](homebrew/the-dude-abides/the_dude_abides.json)
