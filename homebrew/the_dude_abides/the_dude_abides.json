@@ -199,10 +199,10 @@
   {
     "id": "caucasian_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/caucasian_thedudeabides.png",
-    "otherNightReminder": "If the Caucasian was killed by the demon: show them a good character of an alive player.",
+    "otherNightReminder": "If the Caucasian was killed by the demon: show them 1 good character and 1 evil character of 2 alive players.",
     "name": "Caucasian",
     "team": "townsfolk",
-    "ability": "If the Demon kills you, you learn 1 alive good character.",
+    "ability": "If the Demon kills you, you learn 2 alive characters, 1 good and 1 evil.",
     "flavor": "Fuck, man!  There's a beverage here!",
     "otherNight": 17
   },
