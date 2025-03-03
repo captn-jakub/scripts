@@ -1,7 +1,7 @@
 name: validate json
 on: 
   pull_request:
-    paths: ['**.json']
+    paths: ['**.txt']
 jobs:
   validate:
     runs-on: ubuntu-latest
