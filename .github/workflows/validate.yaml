@@ -8,5 +8,4 @@ jobs:
         with:
           schema: https://github.com/ThePandemoniumInstitute/botc-release/blob/main/script-schema.json
           files: |
-            custom/*.json
-            homebrew/**/*.json
+            homebrew/the_dude_abides/the_dude_abides.json
