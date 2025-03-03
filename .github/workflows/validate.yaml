@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: dsanders11/json-schema-validate-action@v1.2.0
         with:
-          schema: schema.json
+          schema: https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/script-schema.json
           files: |
             homebrew/the_dude_abides/the_dude_abides.json
