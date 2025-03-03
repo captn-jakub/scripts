@@ -8,7 +8,6 @@
       "dusk",
       "minioninfo",
       "demoninfo",
-      "smokey_thedudeabides",
       "sarsaparilla_thedudeabides",
       "jackytreehorn_thedudeabides",
       "dude_thedudeabides",
@@ -18,12 +17,12 @@
       "brandt_thedudeabides",
       "marty_thedudeabides",
       "stranger_thedudeabides",
+      "smokey_thedudeabides",
       "dawn"
     ],
     "otherNight": [
       "dusk",
       "fawngunderson_thedudeabides",
-      "smokey_thedudeabides",
       "ball_thedudeabides",
       "logjammer_thedudeabides",
       "sarsaparilla_thedudeabides",
@@ -40,6 +39,7 @@
       "caucasian_thedudeabides",
       "littleachiever_thedudeabides",
       "stranger_thedudeabides",
+      "smokey_thedudeabides",
       "dawn"
     ]
   },
@@ -51,7 +51,7 @@
     "team": "townsfolk",
     "ability": "You start knowing 2 not in play evil characters.",
     "flavor": "We've been frantically trying to reach you, Dude.",
-    "firstNight": 18
+    "firstNight": 17
   },
   {
     "id": "donny_thedudeabides",
@@ -64,7 +64,7 @@
     "team": "townsfolk",
     "ability": "You start knowing 1 Townsfolk player.",
     "flavor": "I am the walrus.",
-    "firstNight": 17
+    "firstNight": 16
   },
   {
     "id": "marty_thedudeabides",
@@ -75,7 +75,7 @@
     "team": "townsfolk",
     "ability": "You start knowing how many steps from you to the nearest Outsider. [+0 or +1 Outsider]",
     "flavor": "Dude, uh, tomorrow is already the tenth.",
-    "firstNight": 19
+    "firstNight": 18
   },
   {
     "id": "sarsaparilla_thedudeabides",
@@ -89,8 +89,8 @@
     "team": "townsfolk",
     "ability": "Each night, choose a player: they are sober and healthy until dusk.",
     "flavor": "I like your style, Dude.",
-    "firstNight": 12,
-    "otherNight": 6
+    "firstNight": 11,
+    "otherNight": 5
   },
   {
     "id": "stranger_thedudeabides",
@@ -101,8 +101,8 @@
     "team": "townsfolk",
     "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours.",
     "flavor": "Sometimes, there's a man... Lost my train of thought there.",
-    "firstNight": 20,
-    "otherNight": 19
+    "firstNight": 19,
+    "otherNight": 18
   },
   {
     "id": "littleachiever_thedudeabides",
@@ -116,7 +116,7 @@
     "name": "Little Achiever",
     "team": "townsfolk",
     "ability": "Each night*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]",
-    "otherNight": 18,
+    "otherNight": 17,
     "special": [
       {
         "name": "bag-duplicate",
@@ -135,7 +135,7 @@
     "team": "townsfolk",
     "ability": "Each night*, choose a player: they cannot die tonight.",
     "flavor": "He's a good man, and thorough.",
-    "otherNight": 9
+    "otherNight": 8
   },
   {
     "id": "dude_thedudeabides",
@@ -150,8 +150,8 @@
     "team": "townsfolk",
     "ability": "Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
     "flavor": "New shit has come to light, man.",
-    "firstNight": 14,
-    "otherNight": 8
+    "firstNight": 13,
+    "otherNight": 7
   },
   {
     "id": "waltersobchak_thedudeabides",
@@ -165,7 +165,7 @@
     "team": "townsfolk",
     "ability": "Once per game, at night*, choose an alive player: a Minion, if chosen, dies. All Minions know that Walter Sobchak is in play.",
     "flavor": "My friend, you're entering a world of pain.",
-    "otherNight": 10
+    "otherNight": 9
   },
   {
     "id": "dafino_thedudeabides",
@@ -186,7 +186,7 @@
     "team": "townsfolk",
     "ability": "When you learn that you died, publicly choose an alive player: if they are evil, all evil characters are drunk until dawn.",
     "flavor": "Obviously you're not a golfer.",
-    "otherNight": 4
+    "otherNight": 3
   },
   {
     "id": "bunny_thedudeabides",
@@ -204,7 +204,7 @@
     "team": "townsfolk",
     "ability": "If the Demon kills you, you learn 2 alive characters, 1 good and 1 evil.",
     "flavor": "Fuck, man!  There's a beverage here!",
-    "otherNight": 17
+    "otherNight": 16
   },
   {
     "id": "smokey_thedudeabides",
@@ -219,8 +219,8 @@
     "team": "outsider",
     "ability": "On your first night, choose 2 players: when you die, you become the alignment of 1 of them, even if drunk or poisoned.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
-    "firstNight": 11,
-    "otherNight": 3
+    "firstNight": 20,
+    "otherNight": 19
   },
   {
     "id": "rug_thedudeabides",
@@ -281,8 +281,8 @@
     "team": "minion",
     "ability": "Each night, choose a player and an Outsider character: if Townsfolk, they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.",
     "flavor": "Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!",
-    "firstNight": 15,
-    "otherNight": 11
+    "firstNight": 14,
+    "otherNight": 10
   },
   {
     "id": "jesus_thedudeabides",
@@ -298,8 +298,8 @@
     "team": "minion",
     "ability": "Each night, you may choose up to 3 players: they are \"mad\" about being the Jesus tomorrow, or might be executed. If only 5 players live, you lose this ability.",
     "flavor": "You said it, man.",
-    "firstNight": 16,
-    "otherNight": 12
+    "firstNight": 15,
+    "otherNight": 11
   },
   {
     "id": "woo_thedudeabides",
@@ -313,7 +313,7 @@
     "team": "minion",
     "ability": "Each night*, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
     "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
-    "otherNight": 16
+    "otherNight": 15
   },
   {
     "id": "logjammer_thedudeabides",
@@ -326,7 +326,7 @@
     "team": "minion",
     "ability": "Each night*, choose a player (different to last night): they don't wake tonight.",
     "flavor": "Za, okay, I bring mein toolz.",
-    "otherNight": 5
+    "otherNight": 4
   },
   {
     "id": "jackytreehorn_thedudeabides",
@@ -343,8 +343,8 @@
     "team": "demon",
     "ability": "Each night, choose a player: they are poisoned. If the poisoned player dies to execution, their nearest good neighbour dies tonight. If more than 3 players are poisoned, one of the previously poisoned players becomes healthy.",
     "flavor": "What's your drink, Dude?",
-    "firstNight": 13,
-    "otherNight": 7
+    "firstNight": 12,
+    "otherNight": 6
   },
   {
     "id": "biglebowski_thedudeabides",
@@ -358,7 +358,7 @@
     "team": "demon",
     "ability": "Each night*, choose 2 players: 1 or both die. You might register as good and as the Dude, and the Dude as evil and as the Big Lebowski.",
     "flavor": "Are you employed, sir?",
-    "otherNight": 13
+    "otherNight": 12
   },
   {
     "id": "eagles_thedudeabides",
@@ -372,7 +372,7 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. If only good players publicly claimed \"I hate fucking Eagles, man!\" today, you are drunk.",
     "flavor": "That's it! Outta this fucking cab!",
-    "otherNight": 14
+    "otherNight": 13
   },
   {
     "id": "nihilist_thedudeabides",
@@ -387,6 +387,6 @@
     "team": "demon",
     "ability": "Each night*, choose a player: if at least one other Nihilist chose them, they die. You register as a Minion too. [+1 Nihilist. All evil players are Nihilists]",
     "flavor": "Vee belief in nossing. Give us ze money, Lebowski!",
-    "otherNight": 15
+    "otherNight": 14
   }
 ]
