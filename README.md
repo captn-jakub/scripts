@@ -1,3 +1,15 @@
+# Contributing
+
+New content can be added via pull request into main. 
+
+A workflow will run to validate against the schema in ThePandemoniumInstitute/botc-release repo. A copy of the schema is available here for convenience. If the workflow fails on the pull request, fix all issues with the JSON file before merging.
+
+Custom scripts should be placed in the `custom` directory. 
+
+Homebrew (either full scripts or individual characters) should be placed in a dedicated subdirectory of `homebrew`.
+
+List all new content in the appropriate section below, with a local link to the JSON file, and a link to the Almanac, if applicable.
+
 # Custom Scripts
 
 ## A Few Good Men
