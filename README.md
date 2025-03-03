@@ -1,18 +1,29 @@
+# The Good Vibes Club
+
+Repository of Blood on the Clocktower scripts and homebrew creations for use by the members of our Discord server.
+
 # Contributing
 
-New content can be added via pull request into main. 
+New content can be added via pull request into `main`:
+* fork the repository
+* make your changes
+* open a pull request
 
-A workflow will run to validate against the schema in ThePandemoniumInstitute/botc-release repo. A copy of the schema is available here for convenience. If the workflow fails on the pull request, fix all issues with the JSON file before merging.
+A workflow will run to validate against the schema in `ThePandemoniumInstitute/botc-release repo`. A copy of the schema is available here for convenience. If the workflow fails on the pull request, fix all issues with the JSON file before merging.
 
 Custom scripts should be placed in the `custom` directory. 
 
 Homebrew (either full scripts or individual characters) should be placed in a dedicated subdirectory of `homebrew`.
 
-List all new content in the appropriate section below, with a local link to the JSON file, and a link to the Almanac, if applicable.
+List all new content in the appropriate section below, with a local link to the JSON file, and a link to the Almanac and the script database, if applicable.
 
-# Custom Scripts
+# Contents
 
-## A Few Good Men
+## Custom Scripts
+
+Scripts using standard characters. Scripts built around a specific homebrew character should be placed in that characters homebrew directory.
+
+### A Few Good Men
 
 [v0.1 by capt'n jakub](custom/A_Few_Good_Men.json)
 
@@ -20,7 +31,7 @@ Solo Legion script, to see if it would work.
 
 Should never give all Legion bluffs - it's fine to be outed Legion anyway.
 
-## Delegation of Duties
+### Delegation of Duties
 
 [v0.1 by capt'n jakub](custom/Delegation_of_Duties.json)
 
@@ -30,7 +41,7 @@ Minions either kill or add a win condition.
 
 Town adding evils and night deaths.
 
-## Don't Take My Word For It
+### Don't Take My Word For It
 
 [v0.1 by capt'n jakub](custom/Dont_Take_My_Word_For_It.json)
 
@@ -44,7 +55,7 @@ Psychopath to boost the evil's changes a bit.
 
 Ojo has the best info it can ever get, as all town is always confirmed.
 
-## Miss-a-Line
+### Miss-a-Line
 
 [v0.3 by capt'n jakub](custom/Miss-a-Line.json)
 
@@ -52,7 +63,7 @@ Solo Lord of Typhon, to see if it works.
 
 Work in progress.
 
-## Stuff Happens
+### Stuff Happens
 
 [v0.1 by capt'n jakub](custom/Stuff_Happens.json)
 
@@ -60,9 +71,9 @@ All weirdness you can get: Amnesiac, Wizard, Magician, all kinds of dorizon, nob
 
 Stuff just happens.
 
-# Homebrew
+## Homebrew
 
-## The Dude Abides 
+### The Dude Abides
 
 [v0.2 by capt'n jakub](homebrew/the-dude-abides/the_dude_abides.json)
 
