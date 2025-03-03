@@ -281,7 +281,7 @@
     ],
     "name": "Chief",
     "team": "minion",
-    "ability": "Each night, choose a player and an Outsider character: if Townsfolk, they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.",
+    "ability": "Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.",
     "flavor": "Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!",
     "firstNight": 14,
     "otherNight": 10
