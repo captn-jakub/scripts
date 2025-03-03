@@ -57,3 +57,5 @@ Stuff just happens.
 [Almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
 
 Full homebrew script based on The Big Lebowski.
+
+Do not use in streamed games, as it contains copyrighted material.
