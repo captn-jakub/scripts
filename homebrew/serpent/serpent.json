@@ -1,5 +1,10 @@
 [
   {
+    "id": "_meta",
+    "author": "Puck",
+    "name": "Serpent"
+  },
+  {
     "id": "serpent_serpent_token",
     "image": "https://www.bloodstar.xyz/p/Puck/Serpent_Token/serpent_serpent_token.png",
     "reminders": [
