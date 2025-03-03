@@ -6,9 +6,12 @@
   },
   {
     "id": "serpent_serpent_token",
-    "image": "https://www.bloodstar.xyz/p/Puck/Serpent_Token/serpent_serpent_token.png",
+    "image": [ 
+      "https://www.bloodstar.xyz/p/Puck/Serpent_Token/serpent_serpent_token.png",
+      "https://www.bloodstar.xyz/p/Puck/Serpent_Token/serpent1_serpent_token.png" ]
     "reminders": [
       "Dead",
+      "Poisoned",
       "Chain Kill",
       "Chain Kill",
       "Chain Kill",
@@ -19,8 +22,8 @@
     ],
     "name": "Serpent",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die at dawn. Any players chosen by your target's ability tonight might also die at dawn. One player in the target-chain might become poisoned.",
-    "otherNight": 7,
+    "ability": "“Each night*, choose a player: they die before dawn. Any players chosen by your target tonight might also die. One player in the target-chain might become poisoned.”",
+    "otherNight": 45,
     "otherNightReminder": "The Serpent chooses a player. If that player has selected any other players tonight, the might die as well. One player in the chain may become poisoned."
   }
 ]
