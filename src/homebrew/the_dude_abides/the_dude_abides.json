@@ -17,6 +17,7 @@
       "donny_thedudeabides",
       "brandt_thedudeabides",
       "marty_thedudeabides",
+      "stranger_thedudeabides",
       "dawn"
     ],
     "otherNight": [
@@ -92,6 +93,18 @@
     "otherNight": 6
   },
   {
+    "id": "stranger_thedudeabides",
+    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/stranger_thedudeabides.png",
+    "firstNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours.",
+    "otherNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours.",
+    "name": "Stranger",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours.",
+    "flavor": "Sometimes, there's a man... Lost my train of thought there.",
+    "firstNight": 20,
+    "otherNight": 19
+  },
+  {
     "id": "littleachiever_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/littleachiever_thedudeabides.png",
     "otherNightReminder": "Show the character token of a 1 Nominee. If the Little Achiever doesn't learn information tonight, they don't wake. Little Achievers might learn different information.",
@@ -123,18 +136,6 @@
     "ability": "Each night*, choose a player: they cannot die tonight.",
     "flavor": "He's a good man, and thorough.",
     "otherNight": 9
-  },
-  {
-    "id": "stranger_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/stranger_thedudeabides.png",
-    "firstNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours.",
-    "otherNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours.",
-    "name": "Stranger",
-    "team": "townsfolk",
-    "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours.",
-    "flavor": "Sometimes, there's a man... Lost my train of thought there.",
-    "firstNight": 20,
-    "otherNight": 19
   },
   {
     "id": "dude_thedudeabides",
