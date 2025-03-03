@@ -1,0 +1,9 @@
+# system files
+# mac
+.DS_Store
+**.DS_Store/*
+# win
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
