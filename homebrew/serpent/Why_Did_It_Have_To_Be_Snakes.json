@@ -2,42 +2,38 @@
   {
     "id": "_meta",
     "author": "Puck",
-    "name": "Why Did It Have To Be Snakes?"
+    "name": "Why Did It Have To Be Snakes? v0.16"
   },
-"clockmaker",
+  "clockmaker",
   "sailor",
   "villageidiot",
-"mathematician",
+  "mathematician",
   "fortuneteller",
   "monk",
   "gambler",
   "lycanthrope",
   "seamstress",
-"huntsman",
-"soldier",
+  "huntsman",
+  "soldier",
   "ravenkeeper",
   "fool",
   "lunatic",
   "drunk",
   "plaguedoctor",
-"damsel",
-"poisoner",
-"devil's advocate",
+  "damsel",
+  "poisoner",
+  "devil's advocate",
   "cerenovus",
   "xaan",
   "scarlet woman",
-"yaggababble",
-"lil' monsta",
-  {
-     "id": "_meta",
-    "author": "Puck",
-    "name": "Serpent"
-  },
+  "yaggababble",
+  "lil' monsta",
   {
     "id": "serpent_serpent_token",
-    "image": [ 
+    "image": [
       "https://www.bloodstar.xyz/p/Puck/Serpent_Token/serpent_serpent_token.png",
-      "https://www.bloodstar.xyz/p/Puck/Serpent_Token/serpent1_serpent_token.png" ],
+      "https://www.bloodstar.xyz/p/Puck/Serpent_Token/serpent1_serpent_token.png"
+    ],
     "reminders": [
       "Dead",
       "Poisoned",
