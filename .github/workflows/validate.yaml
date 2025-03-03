@@ -4,8 +4,8 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: dsanders11/json-schema-validate-action@main
+      - uses: dsanders11/json-schema-validate-action@v1.2.0
         with:
-          schema: https://github.com/ThePandemoniumInstitute/botc-release/blob/main/script-schema.json
+          schema: schema.json
           files: |
             homebrew/the_dude_abides/the_dude_abides.json
