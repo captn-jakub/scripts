@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "name": "The Dude Abides v0.2",
+    "name": "The Dude Abides v0.3",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
     "firstNight": [
@@ -102,7 +102,7 @@
     "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours.",
     "flavor": "Sometimes, there's a man... Lost my train of thought there.",
     "firstNight": 19,
-    "otherNight": 18
+    "otherNight": 19
   },
   {
     "id": "littleachiever_thedudeabides",
@@ -116,7 +116,7 @@
     "name": "Little Achiever",
     "team": "townsfolk",
     "ability": "Each night*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]",
-    "otherNight": 17,
+    "otherNight": 18,
     "special": [
       {
         "name": "bag-duplicate",
@@ -204,7 +204,7 @@
     "team": "townsfolk",
     "ability": "If the Demon kills you, you learn 2 alive characters, 1 good and 1 evil.",
     "flavor": "Fuck, man!  There's a beverage here!",
-    "otherNight": 16
+    "otherNight": 17
   },
   {
     "id": "smokey_thedudeabides",
@@ -220,7 +220,7 @@
     "ability": "On your first night, choose 2 players: when you die, you become the alignment of 1 of them, even if drunk or poisoned.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
     "firstNight": 20,
-    "otherNight": 19
+    "otherNight": 20
   },
   {
     "id": "rug_thedudeabides",
@@ -247,13 +247,15 @@
   {
     "id": "johnson_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/johnson_thedudeabides.png",
+    "otherNightReminder": "If the Johnson died today or tonight, another player might die.",
     "reminders": [
       "Dead"
     ],
     "name": "Johnson",
     "team": "outsider",
     "ability": "When you die, a player might die tonight.",
-    "flavor": "Tomorrow vee come back und cut off your chonson."
+    "flavor": "Tomorrow vee come back und cut off your chonson.",
+    "otherNight": 15
   },
   {
     "id": "fawngunderson_thedudeabides",
@@ -313,7 +315,7 @@
     "team": "minion",
     "ability": "Each night*, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
     "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
-    "otherNight": 15
+    "otherNight": 16
   },
   {
     "id": "logjammer_thedudeabides",
