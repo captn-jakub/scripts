@@ -30,7 +30,7 @@
     ],
     "name": "Martyr",
     "team": "townsfolk",
-    "ability": "Each Night*, select two players: if either character’s ability would cause a death tonight, you die instead. If executed, you might not die.",
+    "ability": "Each Night*, select two players: if either character’s ability would cause a death tonight, you die instead. If executed, you might not die."
   }
 "moonchild",
 "saint",
