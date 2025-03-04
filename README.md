@@ -81,22 +81,9 @@ Stuff just happens.
 
 ### Playtest scripts
 
-#### Our Hands In Prayer by Puck
-
-Martyr and Skulker
-
-#### Why Did It Have To Be Snakes by Puck
-
-Serpent
+* [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr and Skulker)
+* [Why Did It Have To Be Snakes by Puck](homebrew/Why_Did_It_Have_To_Be_Snakes.json) (Serpent)
 
 ### Full Homebrew Scripts
 
-#### The Dude Abides by capt'n jakub
-
-[v0.2 by capt'n jakub](homebrew/the-dude-abides/the_dude_abides.json)
-
-[Almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
-
-Full homebrew script based on The Big Lebowski.
-
-Do not use in streamed games, as it contains copyrighted material.
+* [The Dude Abides by capt'n jakub](homebrew/the-dude-abides/the_dude_abides.json): [Almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
