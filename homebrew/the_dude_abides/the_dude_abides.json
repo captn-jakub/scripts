@@ -226,7 +226,7 @@
     "id": "rug_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/rug_thedudeabides.png",
     "remindersGlobal": [
-      "Rug"
+      "Is the Rug"
     ],
     "setup": true,
     "name": "Rug",
@@ -276,8 +276,7 @@
     "firstNightReminder": "The Chief chooses a player and points to an Outsider character on the script. Wake the target. Show the 'this character selected you' card and the Chief token. Show the selected Outsider token. If the player is not mad about being that character tomorrow, they might become it.",
     "otherNightReminder": "The Chief chooses a player and points to an Outsider character on the script. Wake the target. Show the 'this character selected you' card and the Chief token. Show the selected Outsider token. If the player is not mad about being that character tomorrow, they might become it.",
     "reminders": [
-      "Mad",
-      "Get Out!"
+      "Mad"
     ],
     "name": "Chief",
     "team": "minion",
