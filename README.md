@@ -21,7 +21,7 @@ List all new content in the appropriate section below, with a local link to the 
 
 ## Custom Scripts
 
-Scripts using standard characters. Scripts built around a specific homebrew character should be placed in that characters homebrew directory.
+Scripts using standard characters only. Scripts built for play-testing homebrew characters should be placed the homebrew directory.
 
 ### A Few Good Men
 
@@ -73,11 +73,25 @@ Stuff just happens.
 
 ## Homebrew
 
-### Serpent (Demon)
+### Characters
 
-[v? by Puck](homebrew/characters/serpent.json)
+* [Martyr (Townsfolk) by Puck](homebrew/characters/martyr.json)
+* [Serpent (Demon) by Puck](homebrew/characters/serpent.json)
+* [Skulker (Minion) by Puck](homebrew/characters/skulker.json)
 
-### The Dude Abides
+### Playtest scripts
+
+#### Our Hands In Prayer by Puck
+
+Martyr and Skulker
+
+#### Why Did It Have To Be Snakes by Puck
+
+Serpent
+
+### Full Homebrew Scripts
+
+#### The Dude Abides by capt'n jakub
 
 [v0.2 by capt'n jakub](homebrew/the-dude-abides/the_dude_abides.json)
 
