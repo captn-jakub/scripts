@@ -86,4 +86,12 @@ Stuff just happens.
 
 ### Full Homebrew Scripts
 
-* [The Dude Abides by capt'n jakub](homebrew/the-dude-abides/the_dude_abides.json): [Almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
+#### [The Dude Abides by capt'n jakub](homebrew/the-dude-abides/the_dude_abides.json)
+
+[Almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
+
+[script database](https://botc-scripts.azurewebsites.net/script/6594/0.3.0)
+
+Full homebrew script based on The Big Lebowski.
+
+Do not use in streamed games, as it contains copyrighted material.
