@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "Puck",
-    "name": "Why Did It Have To Be Snakes? v0.16"
+    "name": "Why Did It Have To Be Snakes? v0.17"
   },
   "clockmaker",
   "sailor",
@@ -23,11 +23,11 @@
   "damsel",
   "poisoner",
   "devil's advocate",
+  "witch",
   "cerenovus",
   "xaan",
   "scarlet woman",
   "yaggababble",
-  "lil' monsta",
   {
     "id": "serpent_serpent_token",
     "image": [
