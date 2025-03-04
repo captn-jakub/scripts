@@ -31,7 +31,7 @@
     "name": "Martyr",
     "team": "townsfolk",
     "ability": "Each Night*, select two players: if either character’s ability would cause a death tonight, you die instead. If executed, you might not die.",
-  },
+  }
 "moonchild",
 "saint",
 {
@@ -46,7 +46,7 @@
     "name": "Skulker",
     "team": "outsider",
     "ability": "You register as evil, but are good. On night two, chose your alignment. A player learns of your choice."
-  },
+  }
 "heretic",
 "harpy",
 "witch",
