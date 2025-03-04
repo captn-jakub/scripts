@@ -95,3 +95,9 @@ Solo Lord of Typhon, to see if it works. Work in progress.
 All weirdness you can get: Amnesiac, Wizard, Magician, all kinds of dorizon, nobody knows what is going on.
 
 Stuff just happens.
+
+### Suspicious Brew by Puck
+
+[json](custom/Suspicious_Brew.json)
+
+Solo Kazali. Rated "Most Fun" by the readers of The Good Vibes Club magazine.
