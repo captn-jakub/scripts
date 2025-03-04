@@ -1,0 +1,60 @@
+[
+  {
+    "id": "_meta",
+    "author": "Puck",
+    "name": "Our Hands In Prayer"
+  },
+  "steward",
+  "librarian",
+  "shugenja",
+  "bountyhunter",
+  "highpriestess",
+  "preacher",
+  "cultleader",
+  "exorcist",
+  "philosopher",
+  "sage",
+  "virgin",
+  "poppygrower",
+  "atheist",
+  {
+    "id": "Martyr",
+    "image": [
+      "https://www.bloodstar.xyz/p/Puck/martyr_token/martyr_martyr_token.png",
+      "https://www.bloodstar.xyz/p/Puck/martyr_token/martyr1_martyr_token.png"
+    ],
+    "otherNightReminder": "Each night, wake the Martyr. They pick two players, If either chosen player would cause a death tonight, the Martyr dies instead.",
+    "reminders": [
+      "Dead",
+      "Chosen",
+      "Chosen"
+    ],
+    "name": "Martyr",
+    "team": "townsfolk",
+    "ability": "Each Night*, select two players: if either character’s ability would cause a death tonight, you die instead. If executed, you might not die."
+  },
+  "moonchild",
+  "saint",
+  {
+    "id": "skulker",
+    "image": [
+      "https://www.bloodstar.xyz/p/Puck/Skulker/skulker_skulker.png",
+      "https://www.bloodstar.xyz/p/Puck/Skulker/skulker1_skulker.png"
+    ],
+    "otherNightReminder": "On the second night, wake the Skulker and have them select their alignment. Wake a player and tell them of the choice.",
+    "reminders": [
+      "Know"
+    ],
+    "name": "Skulker",
+    "team": "outsider",
+    "ability": "You register as evil, but are good. On night two, chose your alignment. A player learns of your choice."
+  },
+  "heretic",
+  "harpy",
+  "witch",
+  "fearmonger",
+  "assassin",
+  "marionette",
+  "pukka",
+  "vigormortis"
+]
