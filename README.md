@@ -11,17 +11,43 @@ New content can be added via pull request into `main`:
 
 A workflow will run to validate against the schema in `ThePandemoniumInstitute/botc-release repo`. A copy of the schema is available here for convenience. If the workflow fails on the pull request, fix all issues with the JSON file before merging.
 
-Custom scripts should be placed in the `custom` directory. 
+Custom scripts build with standard (TPI) characters only should be placed in the `custom` directory. 
 
-Homebrew (either full scripts or individual characters) should be placed in a dedicated subdirectory of `homebrew`.
+Homebrew (either full scripts or individual characters) should be placed in a dedicated subdirectory of `homebrew`. 
+
+Scripts for play-testing the homebrew characters should be placed in the `homebrew` directory.
 
 List all new content in the appropriate section below, with a local link to the JSON file, and a link to the Almanac and the script database, if applicable.
 
 # Contents
 
+## Homebrew Characters
+
+* [Martyr (Townsfolk) by Puck](homebrew/characters/martyr.json)
+* [Serpent (Demon) by Puck](homebrew/characters/serpent.json)
+* [Skulker (Minion) by Puck](homebrew/characters/skulker.json)
+
+### Playtest scripts
+
+* [I Like My Friends Close... by Puck](homebrew/I_Like_My_Friends_Close.json) (Skulker)
+* [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr and Skulker)
+* [Why Did It Have To Be Snakes by Puck](homebrew/Why_Did_It_Have_To_Be_Snakes.json) (Serpent)
+
+## Homebrew Scripts
+
+### The Dude Abides by capt'n jakub
+
+[json](homebrew/the_dude_abides/the_dude_abides.json) - 
+[almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html) - 
+[script database](https://botc-scripts.azurewebsites.net/script/6594)
+
+Full homebrew script based on The Big Lebowski.
+
+Do not use in streamed games, as it contains copyrighted material.
+
 ## Custom Scripts
 
-Scripts using standard characters. Scripts built around a specific homebrew character should be placed in that characters homebrew directory.
+Scripts using standard characters only. 
 
 ### A Few Good Men
 
@@ -70,15 +96,3 @@ Work in progress.
 All weirdness you can get: Amnesiac, Wizard, Magician, all kinds of dorizon, nobody knows what is going on.
 
 Stuff just happens.
-
-## Homebrew
-
-### The Dude Abides
-
-[v0.3 by capt'n jakub](homebrew/the_dude_abides/the_dude_abides.json)
-
-[Almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
-
-Full homebrew script based on The Big Lebowski.
-
-Do not use in streamed games, as it contains copyrighted material.
