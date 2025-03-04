@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "name": "The Dude Abides v0.2",
+    "name": "The Dude Abides v0.3",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
     "firstNight": [
@@ -102,7 +102,7 @@
     "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours.",
     "flavor": "Sometimes, there's a man... Lost my train of thought there.",
     "firstNight": 19,
-    "otherNight": 18
+    "otherNight": 19
   },
   {
     "id": "littleachiever_thedudeabides",
@@ -116,7 +116,7 @@
     "name": "Little Achiever",
     "team": "townsfolk",
     "ability": "Each night*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]",
-    "otherNight": 17,
+    "otherNight": 18,
     "special": [
       {
         "name": "bag-duplicate",
@@ -204,7 +204,7 @@
     "team": "townsfolk",
     "ability": "If the Demon kills you, you learn 2 alive characters, 1 good and 1 evil.",
     "flavor": "Fuck, man!  There's a beverage here!",
-    "otherNight": 16
+    "otherNight": 17
   },
   {
     "id": "smokey_thedudeabides",
@@ -220,13 +220,13 @@
     "ability": "On your first night, choose 2 players: when you die, you become the alignment of 1 of them, even if drunk or poisoned.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
     "firstNight": 20,
-    "otherNight": 19
+    "otherNight": 20
   },
   {
     "id": "rug_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/rug_thedudeabides.png",
     "remindersGlobal": [
-      "Rug"
+      "Is the Rug"
     ],
     "setup": true,
     "name": "Rug",
@@ -247,13 +247,15 @@
   {
     "id": "johnson_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/johnson_thedudeabides.png",
+    "otherNightReminder": "If the Johnson died today or tonight, another player might die.",
     "reminders": [
       "Dead"
     ],
     "name": "Johnson",
     "team": "outsider",
     "ability": "When you die, a player might die tonight.",
-    "flavor": "Tomorrow vee come back und cut off your chonson."
+    "flavor": "Tomorrow vee come back und cut off your chonson.",
+    "otherNight": 15
   },
   {
     "id": "fawngunderson_thedudeabides",
@@ -274,12 +276,11 @@
     "firstNightReminder": "The Chief chooses a player and points to an Outsider character on the script. Wake the target. Show the 'this character selected you' card and the Chief token. Show the selected Outsider token. If the player is not mad about being that character tomorrow, they might become it.",
     "otherNightReminder": "The Chief chooses a player and points to an Outsider character on the script. Wake the target. Show the 'this character selected you' card and the Chief token. Show the selected Outsider token. If the player is not mad about being that character tomorrow, they might become it.",
     "reminders": [
-      "Mad",
-      "Get Out!"
+      "Mad"
     ],
     "name": "Chief",
     "team": "minion",
-    "ability": "Each night, choose a player and an Outsider character: if Townsfolk, they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.",
+    "ability": "Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.",
     "flavor": "Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!",
     "firstNight": 14,
     "otherNight": 10
@@ -313,7 +314,7 @@
     "team": "minion",
     "ability": "Each night*, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
     "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
-    "otherNight": 15
+    "otherNight": 16
   },
   {
     "id": "logjammer_thedudeabides",
@@ -332,7 +333,7 @@
     "id": "jackytreehorn_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackytreehorn_thedudeabides.png",
     "firstNightReminder": "Jacky Treehorn chooses a player: mark them as Poisoned.",
-    "otherNightReminder": "Jacky Treehorn chooses a player. If 3 previously poisoned players are alive, remove the Poisoned reminder from 1 of them. If a Poisoned player was executed and died today, mark their nearest good neighbour as Dead. If good neighbours are equidistant, you choose.",
+    "otherNightReminder": "Jacky Treehorn chooses a player. If 3 players you previously poisoned are alive, remove the Poisoned reminder from 1 of them. If player who was executed and died today was poisoned (in any way), mark their nearest alive good neighbour as Dead. If alive good neighbours are equidistant, you choose.",
     "reminders": [
       "Poisoned",
       "Poisoned",
@@ -341,7 +342,7 @@
     ],
     "name": "Jacky Treehorn",
     "team": "demon",
-    "ability": "Each night, choose a player: they are poisoned. If the poisoned player dies to execution, their nearest good neighbour dies tonight. If more than 3 players are poisoned, one of the previously poisoned players becomes healthy.",
+    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player dies to execution, their nearest alive good neighbour dies tonight.",
     "flavor": "What's your drink, Dude?",
     "firstNight": 12,
     "otherNight": 6
