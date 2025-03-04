@@ -28,7 +28,7 @@
     "otherNightReminder": "On the second night, wake the Skulker and have them select their alignment. Wake a player and tell them of the choice.",
     "reminders": [
       "Know"
-    ]
+    ],
     "name": "Skulker",
     "team": "outsider",
     "ability": "You register as evil, but are good. On your second night, chose your alignment. A player learns of your choice."
