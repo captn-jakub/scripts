@@ -19,7 +19,9 @@ Scripts for play-testing the homebrew characters should be placed in the `homebr
 
 List all new content in the appropriate section below, with a local link to the JSON file, and a link to the Almanac and the script database, if applicable.
 
+
 # Contents
+
 
 ## Homebrew Characters
 
@@ -33,43 +35,41 @@ List all new content in the appropriate section below, with a local link to the 
 * [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr and Skulker)
 * [Why Did It Have To Be Snakes by Puck](homebrew/Why_Did_It_Have_To_Be_Snakes.json) (Serpent)
 
+
 ## Homebrew Scripts
 
 ### The Dude Abides by capt'n jakub
 
 [json](homebrew/the_dude_abides/the_dude_abides.json) - 
 [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html) - 
-[script database](https://botc-scripts.azurewebsites.net/script/6594)
+[database](https://botc-scripts.azurewebsites.net/script/6594)
 
 Full homebrew script based on The Big Lebowski.
 
 Do not use in streamed games, as it contains copyrighted material.
 
+
 ## Custom Scripts
 
 Scripts using standard characters only. 
 
-### A Few Good Men
+### A Few Good Men by capt'n jakub
 
-[v0.1 by capt'n jakub](custom/A_Few_Good_Men.json)
+[json](custom/A_Few_Good_Men.json)
 
-Solo Legion script, to see if it would work.
+Solo Legion script, to see if it would work. Should never give all Legion bluffs - it's fine to be outed Legion anyway.
 
-Should never give all Legion bluffs - it's fine to be outed Legion anyway.
+### Delegation of Duties by capt'n jakub
 
-### Delegation of Duties
-
-[v0.1 by capt'n jakub](custom/Delegation_of_Duties.json)
+[json](custom/Delegation_of_Duties.json)
 
 "Weaker" Demons: either not choosing kills (Lil' Monsta, Yagababble, sometimes Ojo), or with a possibility of no death (Pukka with an execution on their poison).
 
-Minions either kill or add a win condition.
+Minions either kill or add a win condition. Town adding evils and night deaths.
 
-Town adding evils and night deaths.
+### Don't Take My Word For It by capt'n jakub
 
-### Don't Take My Word For It
-
-[v0.1 by capt'n jakub](custom/Dont_Take_My_Word_For_It.json)
+[json](custom/Dont_Take_My_Word_For_It.json)
 
 All characters have a way of mechanical confirmation for themselves, with a few that confirm other players.
 
@@ -81,17 +81,16 @@ Psychopath to boost the evil's changes a bit.
 
 Ojo has the best info it can ever get, as all town is always confirmed.
 
-### Miss-a-Line
+### Miss-a-Line by capt'n jakub
 
-[v0.3 by capt'n jakub](custom/Miss-a-Line.json)
+[json](custom/Miss-a-Line.json) - 
+[database](https://botc-scripts.azurewebsites.net/script/6595)
 
-Solo Lord of Typhon, to see if it works.
+Solo Lord of Typhon, to see if it works. Work in progress.
 
-Work in progress.
+### Stuff Happens by capt'n jakub
 
-### Stuff Happens
-
-[v0.1 by capt'n jakub](custom/Stuff_Happens.json)
+[json](custom/Stuff_Happens.json)
 
 All weirdness you can get: Amnesiac, Wizard, Magician, all kinds of dorizon, nobody knows what is going on.
 
