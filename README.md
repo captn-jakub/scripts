@@ -19,9 +19,36 @@ List all new content in the appropriate section below, with a local link to the 
 
 # Contents
 
+Scripts built for play-testing homebrew characters should be placed the `homebrew` directory. 
+The `custom` directory is for scripts using standard characters only.
+
+## Homebrew Characters
+
+* [Martyr (Townsfolk) by Puck](homebrew/characters/martyr.json)
+* [Serpent (Demon) by Puck](homebrew/characters/serpent.json)
+* [Skulker (Minion) by Puck](homebrew/characters/skulker.json)
+
+### Playtest scripts
+
+* [I Like My Friends Close... by Puck](homebrew/I_Like_My_Friends_Close.json) (Skulker)
+* [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr and Skulker)
+* [Why Did It Have To Be Snakes by Puck](homebrew/Why_Did_It_Have_To_Be_Snakes.json) (Serpent)
+
+## Homebrew Scripts
+
+### The Dude Abides by capt'n jakub
+
+[json](homebrew/the_dude_abides/the_dude_abides.json) - 
+[almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html) - 
+[script database](https://botc-scripts.azurewebsites.net/script/6594)
+
+Full homebrew script based on The Big Lebowski.
+
+Do not use in streamed games, as it contains copyrighted material.
+
 ## Custom Scripts
 
-Scripts using standard characters only. Scripts built for play-testing homebrew characters should be placed the homebrew directory.
+Scripts using standard characters only. 
 
 ### A Few Good Men
 
@@ -70,27 +97,3 @@ Work in progress.
 All weirdness you can get: Amnesiac, Wizard, Magician, all kinds of dorizon, nobody knows what is going on.
 
 Stuff just happens.
-
-## Homebrew Characters
-
-* [Martyr (Townsfolk) by Puck](homebrew/characters/martyr.json)
-* [Serpent (Demon) by Puck](homebrew/characters/serpent.json)
-* [Skulker (Minion) by Puck](homebrew/characters/skulker.json)
-
-### Playtest scripts
-
-* [I Like My Friends Close... by Puck](homebrew/I_Like_My_Friends_Close.json) (Skulker)
-* [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr and Skulker)
-* [Why Did It Have To Be Snakes by Puck](homebrew/Why_Did_It_Have_To_Be_Snakes.json) (Serpent)
-
-## Homebrew Scripts
-
-### The Dude Abides by capt'n jakub
-
-[json](homebrew/the_dude_abides/the_dude_abides.json) - 
-[almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html) - 
-[script database](https://botc-scripts.azurewebsites.net/script/6594)
-
-Full homebrew script based on The Big Lebowski.
-
-Do not use in streamed games, as it contains copyrighted material.
