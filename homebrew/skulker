@@ -1,0 +1,11 @@
+[
+  {
+    "id": "skulker",
+    "image": [
+    "https://www.bloodstar.xyz/p/Puck/Skulker/skulker_skulker.png",
+    "https://www.bloodstar.xyz/p/Puck/Skulker/skulker1_skulker.png"],
+    "name": "Skulker",
+    "team": "outsider",
+    "ability": "You register as evil, but are good. On night two, chose your alignment. A player learns of your choice."
+  },
+]
