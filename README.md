@@ -71,9 +71,7 @@ All weirdness you can get: Amnesiac, Wizard, Magician, all kinds of dorizon, nob
 
 Stuff just happens.
 
-## Homebrew
-
-### Characters
+## Homebrew Characters
 
 * [Martyr (Townsfolk) by Puck](homebrew/characters/martyr.json)
 * [Serpent (Demon) by Puck](homebrew/characters/serpent.json)
@@ -84,13 +82,15 @@ Stuff just happens.
 * [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr and Skulker)
 * [Why Did It Have To Be Snakes by Puck](homebrew/Why_Did_It_Have_To_Be_Snakes.json) (Serpent)
 
-### Full Homebrew Scripts
+## Homebrew Scripts
 
-#### [The Dude Abides by capt'n jakub](homebrew/the-dude-abides/the_dude_abides.json)
+### The Dude Abides by capt'n jakub
+
+[json](homebrew/the_dude_abides/the_dude_abides.json)
 
 [Almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
 
-[script database](https://botc-scripts.azurewebsites.net/script/6594/0.3.0)
+[script database](https://botc-scripts.azurewebsites.net/script/6594)
 
 Full homebrew script based on The Big Lebowski.
 
