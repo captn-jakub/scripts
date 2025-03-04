@@ -75,7 +75,7 @@ Stuff just happens.
 
 ### Serpent (Demon)
 
-[v? by Puck](homebrew/serpent/serpent.json)
+[v? by Puck](homebrew/characters/serpent.json)
 
 ### The Dude Abides
 
