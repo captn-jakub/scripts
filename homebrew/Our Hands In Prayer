@@ -31,7 +31,7 @@
     "name": "Martyr",
     "team": "townsfolk",
     "ability": "Each Night*, select two players: if either character’s ability would cause a death tonight, you die instead. If executed, you might not die.",
-  },
+  }
 "moonchild",
 "saint",
 {
@@ -42,7 +42,7 @@
     "otherNightReminder": "On the second night, wake the Skulker and have them select their alignment. Wake a player and tell them of the choice.",
     "reminders": [
       "Know"
-    ],
+    ]
     "name": "Skulker",
     "team": "outsider",
     "ability": "You register as evil, but are good. On night two, chose your alignment. A player learns of your choice."
