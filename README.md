@@ -79,6 +79,7 @@ Stuff just happens.
 
 ### Playtest scripts
 
+* [I Like My Friends Close... by Puck](homebrew/I_Like_My_Friends_Close.json) (Skulker)
 * [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr and Skulker)
 * [Why Did It Have To Be Snakes by Puck](homebrew/Why_Did_It_Have_To_Be_Snakes.json) (Serpent)
 
