@@ -1,0 +1,30 @@
+[
+  {
+    "id": "_meta",
+    "name": "Rampage (Minion)",
+    "author": "capt'n jakub",
+    "almanac": "https://www.bloodstar.xyz/p/captn_jakub/Rampage/almanac.html"
+  },
+  {
+    "id": "rampage",
+    "image": [
+      "https://github.com/captn-jakub/scripts/blob/main/homebrew/characters/assets/rampage.png",
+      "https://github.com/captn-jakub/scripts/blob/main/homebrew/characters/assets/rampage_good.png"
+    ],
+    "firstNightReminder": "The Rampage chooses three players: mark them as Targets.",
+    "otherNightReminder": "If the Rampage nominated and executed one of their Targets today, all Targets might die.",
+    "reminders": [
+      "Target",
+      "Target",
+      "Target",
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "name": "Rampage",
+    "team": "minion",
+    "ability": "On your first night, choose 3 players: the first time you nominate & execute one of them, they all might die tonight.",
+    "firstNight": 11,
+    "otherNight": 11
+  }
+]
