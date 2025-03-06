@@ -25,6 +25,6 @@
     "team": "minion",
     "ability": "On your first night, choose 3 players: the first time you nominate & execute one of them, they all might die tonight.",
     "firstNight": 11,
-    "otherNight": 2
+    "otherNight": 11
   }
 ]
