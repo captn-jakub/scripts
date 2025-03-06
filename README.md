@@ -26,6 +26,7 @@ List all new content in the appropriate section below, with a local link to the 
 ## Homebrew Characters
 
 * [Martyr (Townsfolk) by Puck](homebrew/characters/martyr.json)
+* [Rampage (Minion) by capt'n jakub](homebrew/characters/rampage.json)
 * [Serpent (Demon) by Puck](homebrew/characters/serpent.json)
 * [Skulker (Minion) by Puck](homebrew/characters/skulker.json)
 
