@@ -8,8 +8,8 @@
   {
     "id": "rampage",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/Rampage/rampage_rampage.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/Rampage/rampage_good_rampage.png"
+      "https://www.bloodstar.xyz/p/captn_jakub/rampage/rampage_rampage.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/rampage/rampage_good_rampage.png"
     ],
     "firstNightReminder": "The Rampage chooses three players: mark them as Targets.",
     "otherNightReminder": "If the Rampage nominated and executed one of their Targets today, all Targets might die.",
