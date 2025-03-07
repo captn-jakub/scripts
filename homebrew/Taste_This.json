@@ -37,10 +37,6 @@
   "assassin",
   "marionette",
   {
-    "name": "Siphon",
-    "almanac": "https://www.bloodstar.xyz/p/Puck/siphon_token/almanac.html"
-  },
-  {
     "id": "siphon_token",
     "image": [
       "https://www.bloodstar.xyz/p/Puck/siphon_token/siphon_siphon_token.png",
