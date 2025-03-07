@@ -26,8 +26,8 @@
     "otherNight":14,"otherNightReminder":"Do whatever needs to be done to simulate the Hooligan acting. If the Hooligan has the same ability as an alive Minion, wake the Minion. Show the Hooligan token and their target(s).",
     "reminders":["Chosen","Chosen"],
     "remindersGlobal":["Is The Hooligan"],
-    "team":"outsider",
-}
+    "team":"outsider"
+},
 "tinker",
 "plaguedoctor",
 "moonchild",
