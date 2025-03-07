@@ -333,7 +333,7 @@
     "id": "jackytreehorn_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackytreehorn_thedudeabides.png",
     "firstNightReminder": "Jacky Treehorn chooses a player: mark them as Poisoned.",
-    "otherNightReminder": "Jacky Treehorn chooses a player. If 3 players you previously poisoned are alive, remove the Poisoned reminder from 1 of them. If player who was executed and died today was poisoned (in any way), mark their nearest alive good neighbour as Dead. If alive good neighbours are equidistant, you choose.",
+    "otherNightReminder": "Jacky Treehorn chooses a player. If 3 other players were already poisoned by Jacky Treehorn, remove the Poisoned reminder from 1 of them. If the player who was executed today was poisoned (in any way), mark their nearest alive good neighbour as Dead. If alive good neighbours are equidistant, you choose.",
     "reminders": [
       "Poisoned",
       "Poisoned",
@@ -342,7 +342,7 @@
     ],
     "name": "Jacky Treehorn",
     "team": "demon",
-    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player dies to execution, their nearest alive good neighbour dies tonight.",
+    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player is executed today, their nearest alive good neighbour dies tonight.",
     "flavor": "What's your drink, Dude?",
     "firstNight": 12,
     "otherNight": 6
