@@ -41,11 +41,11 @@
     "image": [
         "https://www.bloodstar.xyz/p/Puck/torment_token/torment_torment_token.png",
         "https://www.bloodstar.xyz/p/Puck/torment_token/torment1_torment_token.png"],
+    "otherNight":45
     "otherNightReminder": "The Torment points to a player, this player will die before dawn, and becomes tormented. Once the tormented target wakes in the night, wake the Torment again and relay the target-learned information.",
     "reminders": ["Dead","Dead","Tormented","Tormented"],
     "name": "Torment",
     "team": "demon",
-    "ability": "Each Night*, choose a player: they die before dawn, and you learn their information from tonight. The Storyteller announces what you learned, but may lie.",
-    "otherNight": 7
+    "ability": "Each Night*, choose a player: they die before dawn, and you learn their information from tonight. The Storyteller announces what you learned, but may lie."
   }
 ]
