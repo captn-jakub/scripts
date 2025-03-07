@@ -1,9 +1,10 @@
 [
-  {
-    "id": "siphon_token",
+ {
+    "id": "siphon_siphon_token",
     "image": [
-      "https://www.bloodstar.xyz/p/Puck/siphon_token/siphon_siphon_token.png",
-      "https://www.bloodstar.xyz/p/Puck/siphon_token/siphon1_siphon_token.png" ],
+   "https://www.bloodstar.xyz/p/Puck/siphon_token/siphon_siphon_token.png",
+   "https://www.bloodstar.xyz/p/Puck/siphon_token/siphon1_siphon_token.png"
+    ]
     "firstNightReminder": "Each night, select a player. This player is chosen.",
     "reminders": [
       "Chosen ",
