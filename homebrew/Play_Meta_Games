@@ -1,0 +1,28 @@
+[
+{"id":"_meta",
+"author":"Puck",
+"name":"Play Meta Games..."},
+"bountyhunter",
+"pixie",
+"empath",
+"highpriestess",
+"chambermaid",
+"dreamer",
+"oracle",
+"undertaker",
+"seamstress",
+"philosopher",
+"ravenkeeper",
+"magician",
+"atheist",
+{"id":"hooligan","name":"Hooligan","image":["https://www.impeccabletiming.net/botc/hooligan.png","https://www.impeccabletiming.net/botc/hooligan_evil.png"],"ability":"You think you are a Minion, but you are not. The Minions know who you are and any Minion that has the same ability knows who you pick at night.","flavor":"The true believer, no matter how rowdy and violent his acts, is basically an obedient and submissive person.","firstNight":7,"firstNightReminder":"If there are 7 or more players, wake the Hooligan: Show the <b>THIS IS THE DEMON</b> token. Point to any player.<br /> Show the <b>THESE ARE YOUR MINIONS</b> token. Point to any players. Put the Hooligan to sleep. If the Hooligan has the same ability a Minion, wake that Minion. Show the <b>YOU ARE</b> info token and the Minion token. Wake the Minions one at a time. Show the <b>THIS PLAYER IS</b> info token and the Hooligan token, then point to the Hooligan.","otherNight":14,"otherNightReminder":"Do whatever needs to be done to simulate the Hooligan acting. If the Hooligan has the same ability as an alive Minion, wake the Minion. Show the Hooligan token and their target(s).","reminders":["Chosen","Chosen"],"remindersGlobal":["Is The Hooligan"],"team":"outsider","special":[{"name":"bag-disabled","type":"selection"},{"name":"grimoire","time":"night","type":"signal"},{"name":"replace-character","type":"reveal"}]},{"id":"drunk"},{"id":"recluse"},{"id":"spydp","name":"Spy","image":["https://botc.app/assets/spy_e-DU0tdGGe.webp","https://botc.app/assets/spy_g-7hnV_AFT.webp"],"ability":"Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.","flavor":"Any brewmaster worth their liquor, knows no concoction pours trouble quicker, than one where spies seem double.","edition":"tb","firstNight":16,"firstNightReminder":"Show the Grimoire for as long as the Spy needs.","otherNight":15,"otherNightReminder":"Show the Grimoire for as long as the Spy needs.","team":"minion","special":[{"name":"bag-duplicate","type":"selection"},{"name":"grimoire","time":"night","type":"signal"}],"jinxes":[{"id":"magician","reason":"When the Spy sees the Grimoire, the Demon and Magician's character tokens are removed."}]}
+"tinker",
+"plaguedoctor",
+"moonchild",
+"puzzlemaster",
+"fearmonger",
+"assassin",
+"widow",
+"xaan",
+"goblin"
+]
