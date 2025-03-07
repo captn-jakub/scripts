@@ -45,6 +45,7 @@
     "reminders": ["Dead","Dead","Tormented","Tormented"],
     "name": "Torment",
     "team": "demon",
-    "ability": "Each Night*, choose a player: they die before dawn, and you learn their information from tonight. The Storyteller announces what you learned, but may lie."
+    "ability": "Each Night*, choose a player: they die before dawn, and you learn their information from tonight. The Storyteller announces what you learned, but may lie.",
+    "otherNight": 45
   }
 ]
