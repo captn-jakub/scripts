@@ -28,7 +28,7 @@
     ],
     "name": "Martyr",
     "team": "townsfolk",
-    "ability": "Each Night*, select two players: if either character’s ability would cause a death tonight, you die instead. If executed, you might not die.",
+    "ability": "Each Night*, select two players: if either character’s ability would cause a death tonight, you die instead. If executed, you might not die."
   },
   "drunk",
   "barber",
@@ -52,7 +52,7 @@
     ],
     "name": "Siphon",
     "team": "demon",
-    "ability": "Each night, select a player: if they are executed tomorrow, the Demon learns their ability, and may choose to adopt it alongside their own. The Demon may only have one adopted ability at a time.",
+    "ability": "Each night, select a player: if they are executed tomorrow, the Demon learns their ability, and may choose to adopt it alongside their own. The Demon may only have one adopted ability at a time."
   },
   "pukka",
   "kazali",
