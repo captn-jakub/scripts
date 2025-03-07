@@ -378,7 +378,7 @@
   {
     "id": "nihilist_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/nihilist_thedudeabides.png",
-    "otherNightReminder": "Each Nihilist wakes separately and chooses a player: mark them as Chosen. If the target already has the Chosen reminder, they die.",
+    "otherNightReminder": "Each Nihilist wakes separately, even if dead, and chooses a player: mark them as Chosen. Each chosen player might die. Players chosen more than once should always die.",
     "reminders": [
       "Chosen",
       "Dead"
@@ -386,7 +386,7 @@
     "setup": true,
     "name": "Nihilist",
     "team": "demon",
-    "ability": "Each night*, choose a player: if at least one other Nihilist chose them, they die. You register as a Minion too. [+1 Nihilist. All evil players are Nihilists]",
+    "ability": "Each night*, choose a player (even if you are dead): they might die. You register as a Minion too. [+1 Nihilist. All evil players are Nihilists]",
     "flavor": "Vee belief in nossing. Give us ze money, Lebowski!",
     "otherNight": 14
   }
