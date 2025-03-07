@@ -386,7 +386,7 @@
     "setup": true,
     "name": "Nihilist",
     "team": "demon",
-    "ability": "Each night*, choose a player: if at least one other Nihilist chose them, they die. You make a choice even if dead (but can't kill). You register as a Minion too. [+1 Nihilist. All evil players are Nihilists]",
+    "ability": "Each night*, choose a player (even if you are dead): they might die. You register as a Minion too. [+1 Nihilist. All evil players are Nihilists]",
     "flavor": "Vee belief in nossing. Give us ze money, Lebowski!",
     "otherNight": 14
   }
