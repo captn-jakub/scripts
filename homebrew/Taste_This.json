@@ -14,6 +14,22 @@
   "cannibal",
   "sage",
   "mayor",
+  {
+    "id": "Martyr",
+    "image": [
+      "https://www.bloodstar.xyz/p/Puck/martyr_token/martyr_martyr_token.png",
+      "https://www.bloodstar.xyz/p/Puck/martyr_token/martyr1_martyr_token.png"
+    ],
+    "otherNightReminder": "Each night, wake the Martyr. They pick two players, If either chosen player would cause a death tonight, the Martyr dies instead.",
+    "reminders": [
+      "Dead",
+      "Chosen",
+      "Chosen"
+    ],
+    "name": "Martyr",
+    "team": "townsfolk",
+    "ability": "Each Night*, select two players: if either character’s ability would cause a death tonight, you die instead. If executed, you might not die.",
+  },
   "drunk",
   "barber",
   "puzzlemaster",
@@ -37,7 +53,7 @@
     "name": "Siphon",
     "team": "demon",
     "ability": "Each night, select a player: if they are executed tomorrow, the Demon learns their ability, and may choose to adopt it alongside their own. The Demon may only have one adopted ability at a time.",
-  }
+  },
   "pukka",
   "kazali",
   "shabaloth"
