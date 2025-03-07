@@ -37,7 +37,8 @@
     "id": "skulker",
     "image": [
       "https://www.bloodstar.xyz/p/Puck/Skulker_token/skulker_skulker_token.png", 
-      "https://www.bloodstar.xyz/p/Puck/Skulker_token/skulker1_skulker_token.png" ],
+      "https://www.bloodstar.xyz/p/Puck/Skulker_token/skulker1_skulker_token.png"
+    ],
     "otherNightReminder": "On the second night, wake the Skulker and have them select their alignment. Wake a player and tell them of the choice.",
     "reminders": [
       "Know"
