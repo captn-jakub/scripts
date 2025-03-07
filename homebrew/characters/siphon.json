@@ -1,9 +1,9 @@
 [
   {
-    "id": "siphon_siphon_token",
+    "id": "siphon_token",
     "image": [
       "https://www.bloodstar.xyz/p/Puck/siphon_token/siphon_siphon_token.png",
-      "https://www.bloodstar.xyz/p/Puck/siphon_token/siphon1_siphon_token.png" ]
+      "https://www.bloodstar.xyz/p/Puck/siphon_token/siphon1_siphon_token.png" ],
     "firstNightReminder": "Each night, select a player. This player is chosen.",
     "reminders": [
       "Chosen ",
@@ -12,5 +12,5 @@
     "name": "Siphon",
     "team": "minion",
     "ability": "Each night, select a player: if they are executed tomorrow, the Demon learns their ability, and may choose to adopt it alongside their own. The Demon may only have one adopted ability at a time.",
-  }
+  },
  ]
