@@ -101,7 +101,7 @@
     "otherNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours.",
     "name": "Stranger",
     "team": "townsfolk",
-    "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours.",
+    "ability": "Each night, choose a player (not yourself): you learn the character of 1 of their alive neighbours.",
     "flavor": "Sometimes, there's a man... Lost my train of thought there.",
     "firstNight": 19,
     "otherNight": 19
