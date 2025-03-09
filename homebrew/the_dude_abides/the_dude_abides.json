@@ -405,18 +405,19 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/biglebowski_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
-    "otherNightReminder": "If either of the players chosen last night voted today, they die. The Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
+    "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as Hired, and 1 of them as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
+    "otherNightReminder": "If either of the players chosen last night voted today, they die. The Big Lebowski might choose to force 1 of them do die regardless if they voted (once). If they do, place the Once reminder on the Big Lebowski. Remove all remaining reminder tokens. The Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
     "reminders": [
       "Hired",
       "Hired",
       "Poisoned",
       "Dead",
-      "Dead"
+      "Dead",
+      "Once"
     ],
     "name": "Big Lebowski",
     "team": "demon",
-    "ability": "Each night, choose 2 players: 1 of them is poisoned until dusk. If the player chosen last night voted today, they die.",
+    "ability": "Each night, choose 2 players: 1 of them is poisoned. If the player chosen last night voted today, they die. Once per game, you may kill 1 of the chosen players who did not vote.",
     "flavor": "Are you employed, sir?",
     "firstNight": 15,
     "otherNight": 11
