@@ -172,7 +172,7 @@
     ],
     "name": "Maude",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player: they cannot die tonight.",
+    "ability": "Each night*, choose a player (not yourself): they cannot die tonight.",
     "flavor": "He's a good man, and thorough.",
     "otherNight": 7
   },
