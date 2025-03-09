@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "Puck",
-    "name": "Why Did It Have To Be Snakes? v0.19"
+    "name": "Fangs and Teeth v0.19"
   },
   "clockmaker",
   "sailor",
@@ -47,7 +47,7 @@
     ],
     "name": "Serpent",
     "team": "demon",
-    "ability": "“Each night*, choose a player: they die before dawn. Any players chosen by your target tonight might also die. One player in the target-chain might become poisoned.”",
+    "ability": "Each night*, choose a player: they die before dawn. Any players chosen by your target tonight might also die. One player in the target-chain might become poisoned.",
     "otherNight": 45,
     "otherNightReminder": "The Serpent chooses a player. If that player has selected any other players tonight, the might die as well. One player in the chain may become poisoned."
   }
