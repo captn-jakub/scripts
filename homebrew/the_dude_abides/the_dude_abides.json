@@ -9,11 +9,11 @@
       "minioninfo",
       "demoninfo",
       "sarsaparilla_thedudeabides",
-      "jackytreehorn_thedudeabides",
       "dude_thedudeabides",
       "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
+      "jackytreehorn_thedudeabides",
       "donny_thedudeabides",
       "brandt_thedudeabides",
       "marty_thedudeabides",
@@ -28,13 +28,13 @@
       "ball_thedudeabides",
       "logjammer_thedudeabides",
       "sarsaparilla_thedudeabides",
-      "jackytreehorn_thedudeabides",
       "dude_thedudeabides",
       "maude_thedudeabides",
       "waltersobchak_thedudeabides",
       "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
+      "jackytreehorn_thedudeabides",
       "eagles_thedudeabides",
       "nihilist_thedudeabides",
       "woo_thedudeabides",
@@ -174,7 +174,7 @@
     "team": "townsfolk",
     "ability": "Each night*, choose a player: they cannot die tonight.",
     "flavor": "He's a good man, and thorough.",
-    "otherNight": 8
+    "otherNight": 7
   },
   {
     "id": "dude_thedudeabides",
@@ -192,8 +192,8 @@
     "team": "townsfolk",
     "ability": "Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
     "flavor": "New shit has come to light, man.",
-    "firstNight": 13,
-    "otherNight": 7
+    "firstNight": 12,
+    "otherNight": 6
   },
   {
     "id": "waltersobchak_thedudeabides",
@@ -210,7 +210,7 @@
     "team": "townsfolk",
     "ability": "Once per game, at night*, choose an alive player: a Minion, if chosen, dies. All Minions know that Walter Sobchak is in play.",
     "flavor": "My friend, you're entering a world of pain.",
-    "otherNight": 9
+    "otherNight": 8
   },
   {
     "id": "ball_thedudeabides",
@@ -343,8 +343,8 @@
     "team": "minion",
     "ability": "Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.",
     "flavor": "Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!",
-    "firstNight": 14,
-    "otherNight": 10
+    "firstNight": 13,
+    "otherNight": 9
   },
   {
     "id": "jesus_thedudeabides",
@@ -363,8 +363,8 @@
     "team": "minion",
     "ability": "Each night, you may choose up to 3 players: they are \"mad\" about being the Jesus tomorrow, or might be executed. If only 5 players live, you lose this ability.",
     "flavor": "You said it, man.",
-    "firstNight": 15,
-    "otherNight": 11
+    "firstNight": 14,
+    "otherNight": 10
   },
   {
     "id": "woo_thedudeabides",
@@ -400,27 +400,6 @@
     "otherNight": 4
   },
   {
-    "id": "jackytreehorn_thedudeabides",
-    "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackytreehorn_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackytreehorn_thedudeabides_tokens.png"
-    ],
-    "firstNightReminder": "Jacky Treehorn chooses a player: mark them as Poisoned.",
-    "otherNightReminder": "Jacky Treehorn chooses a player. If 3 other players were already poisoned by Jacky Treehorn, remove the Poisoned reminder from 1 of them. If the player who was executed today was poisoned (in any way), mark their nearest alive good neighbour as Dead. If alive good neighbours are equidistant, you choose.",
-    "reminders": [
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Dead"
-    ],
-    "name": "Jacky Treehorn",
-    "team": "demon",
-    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player is executed today, their nearest alive good neighbour dies tonight.",
-    "flavor": "What's your drink, Dude?",
-    "firstNight": 12,
-    "otherNight": 6
-  },
-  {
     "id": "biglebowski_thedudeabides",
     "image": [
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
@@ -439,6 +418,27 @@
     "team": "demon",
     "ability": "Each night, choose 2 players: 1 of them is poisoned until dusk. If the player chosen last night voted today, they die.",
     "flavor": "Are you employed, sir?",
+    "firstNight": 15,
+    "otherNight": 11
+  },
+  {
+    "id": "jackytreehorn_thedudeabides",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackytreehorn_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackytreehorn_thedudeabides_tokens.png"
+    ],
+    "firstNightReminder": "Jacky Treehorn chooses a player: mark them as Poisoned.",
+    "otherNightReminder": "Jacky Treehorn chooses a player. If 3 other players were already poisoned by Jacky Treehorn, remove the Poisoned reminder from 1 of them. If the player who was executed today was poisoned (in any way), mark their nearest alive good neighbour as Dead. If alive good neighbours are equidistant, you choose.",
+    "reminders": [
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Dead"
+    ],
+    "name": "Jacky Treehorn",
+    "team": "demon",
+    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player is executed today, their nearest alive good neighbour dies tonight.",
+    "flavor": "What's your drink, Dude?",
     "firstNight": 16,
     "otherNight": 12
   },
