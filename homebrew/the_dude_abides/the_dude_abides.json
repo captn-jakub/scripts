@@ -48,7 +48,10 @@
   },
   {
     "id": "brandt_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/brandt_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/brandt_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/brandt_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "Show two evil character tokens.",
     "name": "Brandt",
     "team": "townsfolk",
@@ -58,7 +61,10 @@
   },
   {
     "id": "donny_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/donny_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/donny_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/donny_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "Show the Townsfolk character token and point to the player who is that character.",
     "reminders": [
       "Knows"
@@ -71,7 +77,10 @@
   },
   {
     "id": "marty_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/marty_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/marty_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/marty_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "Show the finger signal (1, 2, 3, ...) for number of steps to the nearest Outsider.",
     "setup": true,
     "name": "Marty",
@@ -82,7 +91,10 @@
   },
   {
     "id": "sarsaparilla_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/sarsaparilla_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/sarsaparilla_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/sarsaparilla_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "The Sarsaparilla chooses a player: mark them as Sober.",
     "otherNightReminder": "The Sarsaparilla chooses a player: mark them as Sober.",
     "reminders": [
@@ -97,7 +109,10 @@
   },
   {
     "id": "stranger_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/stranger_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/stranger_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/stranger_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours.",
     "otherNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours.",
     "name": "Stranger",
@@ -109,7 +124,10 @@
   },
   {
     "id": "dafino_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dafino_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dafino_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/dafino_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "Show Da Fino 2 character tokens: at least 1 of them used their ability tonight.",
     "name": "Da Fino",
     "team": "townsfolk",
@@ -119,7 +137,10 @@
   },
   {
     "id": "littleachiever_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/littleachiever_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/littleachiever_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/littleachiever_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "Show the character token of a 1 Nominee. If the Little Achiever doesn't learn information tonight, they don't wake. Little Achievers might learn different information.",
     "reminders": [
       "Voted",
@@ -139,7 +160,10 @@
   },
   {
     "id": "maude_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/maude_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/maude_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/maude_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "Maude chooses a player: mark them as Safe.",
     "reminders": [
       "Safe"
@@ -152,7 +176,10 @@
   },
   {
     "id": "dude_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dude_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dude_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/dude_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. If they chose the Rug, remove the Rug reminder. If the Rug changes the character or gains an ability, wake the Rug.",
     "otherNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. If they chose the Rug, remove the Rug reminder. If the Rug changes the character or gains an ability, wake the Rug.",
     "reminders": [
@@ -168,7 +195,10 @@
   },
   {
     "id": "waltersobchak_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/waltersobchak_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/waltersobchak_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/waltersobchak_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "Walter Sobchak either shows a 'no' head signal, or chooses a player. If the chosen player is a Minion, mark them as Dead.",
     "reminders": [
       "No Ability",
@@ -182,7 +212,10 @@
   },
   {
     "id": "ball_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/ball_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/ball_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/ball_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "If the Ball made their choice today, and the Strike! reminder token is present, all evil players are drunk tonight. Remove the reminder token at dawn.",
     "reminders": [
       "Strike!"
@@ -195,7 +228,10 @@
   },
   {
     "id": "bunny_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/bunny_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/bunny_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/bunny_thedudeabides_tokens.png"
+    ],
     "name": "Bunny",
     "team": "townsfolk",
     "ability": "If you are chosen by an evil character's ability, another player might be targeted instead.",
@@ -203,7 +239,10 @@
   },
   {
     "id": "caucasian_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/caucasian_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/caucasian_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/caucasian_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "If the Caucasian was killed by the demon: show them 1 good character and 1 evil character of 2 alive players.",
     "name": "Caucasian",
     "team": "townsfolk",
@@ -213,7 +252,10 @@
   },
   {
     "id": "smokey_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/smokey_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "Smokey chooses two players: place reminder tokens on both of them.",
     "otherNightReminder": "If Smokey died and changed alignment, show a thumbs-down or thumbs-up.",
     "reminders": [
@@ -229,7 +271,10 @@
   },
   {
     "id": "rug_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/rug_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/rug_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/rug_thedudeabides_tokens.png"
+    ],
     "remindersGlobal": [
       "Is the Rug"
     ],
@@ -251,7 +296,10 @@
   },
   {
     "id": "johnson_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/johnson_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/johnson_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/johnson_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "If the Johnson died today or tonight, another player might die.",
     "reminders": [
       "Dead"
@@ -264,7 +312,10 @@
   },
   {
     "id": "fawngunderson_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/fawngunderson_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/fawngunderson_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/fawngunderson_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "If Fawn Gunderson turned evil, show a thumbs-down and mark as Drunk.",
     "reminders": [
       "Drunk"
@@ -277,7 +328,10 @@
   },
   {
     "id": "chief_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/chief_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/chief_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/chief_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "The Chief chooses a player and points to an Outsider character on the script. Wake the target. Show the 'this character selected you' card and the Chief token. Show the selected Outsider token. If the player is not mad about being that character tomorrow, they might become it.",
     "otherNightReminder": "The Chief chooses a player and points to an Outsider character on the script. Wake the target. Show the 'this character selected you' card and the Chief token. Show the selected Outsider token. If the player is not mad about being that character tomorrow, they might become it.",
     "reminders": [
@@ -292,7 +346,10 @@
   },
   {
     "id": "jesus_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jesus_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jesus_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jesus_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "The Jesus chooses up to 3 players. Wake each target separately. Show the 'this character selected you' card and the Jesus token. If the player is not mad about being the Jesus tomorrow, they might be executed.",
     "otherNightReminder": "The Jesus chooses up to 3 players. Wake each target separately. Show the 'this character selected you' card and the Jesus token. If the player is not mad about being the Jesus tomorrow, they might be executed.",
     "reminders": [
@@ -309,7 +366,10 @@
   },
   {
     "id": "woo_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/woo_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/woo_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/woo_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "Woo chooses a player: mark them as Pissed. If another player was previously marked as Pissed, move the reminder token to the new target.",
     "reminders": [
       "Pissed"
@@ -323,7 +383,10 @@
   },
   {
     "id": "logjammer_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/logjammer_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/logjammer_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/logjammer_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "The Logjammer chooses a player: mark them as Jammed. If they would normally wake tonight, they don't.",
     "reminders": [
       "Jammed"
@@ -336,7 +399,10 @@
   },
   {
     "id": "jackytreehorn_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackytreehorn_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackytreehorn_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackytreehorn_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "Jacky Treehorn chooses a player: mark them as Poisoned.",
     "otherNightReminder": "Jacky Treehorn chooses a player. If 3 other players were already poisoned by Jacky Treehorn, remove the Poisoned reminder from 1 of them. If the player who was executed today was poisoned (in any way), mark their nearest alive good neighbour as Dead. If alive good neighbours are equidistant, you choose.",
     "reminders": [
@@ -354,7 +420,10 @@
   },
   {
     "id": "biglebowski_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/biglebowski_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
     "otherNightReminder": "If either of the players chosen last night voted today, they die. The Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
     "reminders": [
@@ -373,7 +442,10 @@
   },
   {
     "id": "eagles_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/eagles_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/eagles_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/eagles_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "The Eagles chooses a player: they die. If the Eagles was marked Drunk from their own ability, they become sober after making their choice.",
     "reminders": [
       "Dead",
@@ -387,7 +459,10 @@
   },
   {
     "id": "nihilist_thedudeabides",
-    "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/nihilist_thedudeabides.png",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/nihilist_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/nihilist_thedudeabides_tokens.png"
+    ],
     "otherNightReminder": "Each Nihilist wakes separately, even if dead, and chooses a player: mark them as Chosen. Each chosen player might die. Players chosen more than once should always die.",
     "reminders": [
       "Chosen",
