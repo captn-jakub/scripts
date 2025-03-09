@@ -1,57 +1,70 @@
 [
-{"id":"_meta",
-"author":"Puck",
-"name":"Play Meta Games..."},
-"bountyhunter",
-"pixie",
-"empath",
-"highpriestess",
-"chambermaid",
-"dreamer",
-"oracle",
-"undertaker",
-"seamstress",
-"philosopher",
-"ravenkeeper",
-"magician",
-"atheist",
-{"id":"hooligan",
-    "name":"Hooligan",
-    "image":["https://www.impeccabletiming.net/botc/hooligan.png","https://www.impeccabletiming.net/botc/hooligan_evil.png"],
-    "ability":"You think you are a Minion, but you are not. The Minions know who you are and any Minion that has the same ability knows who you pick at night.",
-    "flavor":"The true believer, no matter how rowdy and violent his acts, is basically an obedient and submissive person.",
-    "firstNight":7,
-    "firstNightReminder":"If there are 7 or more players, wake the Hooligan: Show the <b>THIS IS THE DEMON</b> token. Point to any player.<br /> Show the <b>THESE ARE YOUR MINIONS</b> token. Point to any players. Put the Hooligan to sleep. If the Hooligan has the same ability a Minion, wake that Minion. Show the <b>YOU ARE</b> info token and the Minion token. Wake the Minions one at a time. Show the <b>THIS PLAYER IS</b> info token and the Hooligan token, then point to the Hooligan.",
-    "otherNight":14,"otherNightReminder":"Do whatever needs to be done to simulate the Hooligan acting. If the Hooligan has the same ability as an alive Minion, wake the Minion. Show the Hooligan token and their target(s).",
-    "reminders":["Chosen","Chosen"],
-    "remindersGlobal":["Is The Hooligan"],
-    "team":"outsider"
-},
-"tinker",
-"plaguedoctor",
-"moonchild",
-"puzzlemaster",
-"cerenovus",
-"fearmonger",
-"assassin",
-"widow",
-"xaan",
-"goblin",
-{
-    "id": "torment_torment_token",
-    "image": [
-        "https://www.bloodstar.xyz/p/Puck/torment_token/torment_torment_token.png",
-        "https://www.bloodstar.xyz/p/Puck/torment_token/torment1_torment_token.png"],
-    "otherNightReminder": "The Torment points to a player, this player will die before dawn, and becomes tormented. Once the tormented target wakes in the night, wake the Torment again and relay the target-learned information.",
-    "reminders": [
-        "Dead",
-        "Dead",
-        "Tormented",
-        "Tormented"
-    ],
-    "name": "Torment",
-    "team": "demon",
-    "ability": "Each Night*, choose a player: they die before dawn, and you learn their information from tonight. The Storyteller announces what you learned, but may lie.",
-    "otherNight": 45
-  }
+    {
+        "id": "_meta",
+        "author": "Puck",
+        "name": "Play Meta Games..."
+    },
+    "bountyhunter",
+    "pixie",
+    "empath",
+    "highpriestess",
+    "chambermaid",
+    "dreamer",
+    "oracle",
+    "undertaker",
+    "seamstress",
+    "philosopher",
+    "ravenkeeper",
+    "magician",
+    "atheist",
+    {
+        "id": "hooligan",
+        "name": "Hooligan",
+        "image": [
+            "https://www.impeccabletiming.net/botc/hooligan.png",
+            "https://www.impeccabletiming.net/botc/hooligan_evil.png"
+        ],
+        "ability": "You think you are a Minion, but you are not. The Minions know who you are and any Minion that has the same ability knows who you pick at night.",
+        "flavor": "The true believer, no matter how rowdy and violent his acts, is basically an obedient and submissive person.",
+        "firstNight": 7,
+        "firstNightReminder": "If there are 7 or more players, wake the Hooligan: Show the <b>THIS IS THE DEMON</b> token. Point to any player.<br /> Show the <b>THESE ARE YOUR MINIONS</b> token. Point to any players. Put the Hooligan to sleep. If the Hooligan has the same ability a Minion, wake that Minion. Show the <b>YOU ARE</b> info token and the Minion token. Wake the Minions one at a time. Show the <b>THIS PLAYER IS</b> info token and the Hooligan token, then point to the Hooligan.",
+        "otherNight": 14,
+        "otherNightReminder": "Do whatever needs to be done to simulate the Hooligan acting. If the Hooligan has the same ability as an alive Minion, wake the Minion. Show the Hooligan token and their target(s).",
+        "reminders": [
+            "Chosen",
+            "Chosen"
+        ],
+        "remindersGlobal": [
+            "Is The Hooligan"
+        ],
+        "team": "outsider"
+    },
+    "tinker",
+    "plaguedoctor",
+    "moonchild",
+    "puzzlemaster",
+    "cerenovus",
+    "fearmonger",
+    "assassin",
+    "widow",
+    "xaan",
+    "goblin",
+    {
+        "id": "torment_torment_token",
+        "image": [
+            "https://www.bloodstar.xyz/p/Puck/torment_token/torment_torment_token.png",
+            "https://www.bloodstar.xyz/p/Puck/torment_token/torment1_torment_token.png"
+        ],
+        "otherNightReminder": "The Torment points to a player, this player will die before dawn, and becomes tormented. Once the tormented target wakes in the night, wake the Torment again and relay the target-learned information.",
+        "reminders": [
+            "Dead",
+            "Dead",
+            "Tormented",
+            "Tormented"
+        ],
+        "name": "Torment",
+        "team": "demon",
+        "ability": "Each Night*, choose a player: they die before dawn, and you learn their information from tonight. The Storyteller announces what you learned, but may lie.",
+        "otherNight": 45
+    }
 ]

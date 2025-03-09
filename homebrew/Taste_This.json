@@ -1,7 +1,9 @@
 [
-  {"id":"_meta",
-    "author":"Puck",
-    "name":"Taste This"},
+  {
+    "id": "_meta",
+    "author": "Puck",
+    "name": "Taste This"
+  },
   "steward",
   "chef",
   "empath",
@@ -36,7 +38,7 @@
   {
     "id": "skulker",
     "image": [
-      "https://www.bloodstar.xyz/p/Puck/Skulker_token/skulker_skulker_token.png", 
+      "https://www.bloodstar.xyz/p/Puck/Skulker_token/skulker_skulker_token.png",
       "https://www.bloodstar.xyz/p/Puck/Skulker_token/skulker1_skulker_token.png"
     ],
     "otherNightReminder": "On the second night, wake the Skulker and have them select their alignment. Wake a player and tell them of the choice.",
@@ -54,7 +56,8 @@
     "id": "siphon_siphon_token2",
     "image": [
       "https://www.bloodstar.xyz/p/Puck/siphon_token2/siphon_siphon_token2.png",
-      "https://www.bloodstar.xyz/p/Puck/siphon_token2/siphon1_siphon_token2.png" ],
+      "https://www.bloodstar.xyz/p/Puck/siphon_token2/siphon1_siphon_token2.png"
+    ],
     "firstNightReminder": "Each night, select a player. This player is chosen.",
     "reminders": [
       "Chosen ",
