@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "name": "The Dude Abides v0.3.3",
+    "name": "The Dude Abides v0.3",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
     "firstNight": [
@@ -355,9 +355,10 @@
   {
     "id": "biglebowski_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
-    "firstNightReminder": "The Big Lebowski chooses 2 players: mark 1 as Hired and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
-    "otherNightReminder": "If either of the players chosen last night voted today, they die. The Big Lebowski chooses 2 players: mark 1 as Hired and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
+    "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
+    "otherNightReminder": "If either of the players chosen last night voted today, they die. The Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
     "reminders": [
+      "Hired",
       "Hired",
       "Poisoned",
       "Dead",
