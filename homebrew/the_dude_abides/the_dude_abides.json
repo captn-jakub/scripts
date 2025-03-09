@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "name": "The Dude Abides v0.3.2",
+    "name": "The Dude Abides v0.3.3",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
     "firstNight": [
@@ -354,14 +354,14 @@
   {
     "id": "biglebowski_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
-    "otherNightReminder": "The Big Lebowski chooses two players: mark either 1 or both as Dead.",
+    "otherNightReminder": "The Big Lebowski chooses two players. If the chosen players choose other players in the night, any number of those players might die.",
     "reminders": [
       "Dead",
       "Dead"
     ],
     "name": "Big Lebowski",
     "team": "demon",
-    "ability": "Each night*, choose 2 players: 1 or both die. You might register as good and as the Dude, and the Dude as evil and as the Big Lebowski.",
+    "ability": "Each night*, choose 2 players: players they choose tonight might die.",
     "flavor": "Are you employed, sir?",
     "otherNight": 12
   },
