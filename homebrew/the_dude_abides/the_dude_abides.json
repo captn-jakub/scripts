@@ -25,7 +25,7 @@
     "otherNight": [
       "dusk",
       "fawngunderson_thedudeabides",
-      "ball_thedudeabides",
+      "bowlingball_thedudeabides",
       "logjammer_thedudeabides",
       "sarsaparilla_thedudeabides",
       "dude_thedudeabides",
@@ -213,14 +213,14 @@
     "otherNight": 8
   },
   {
-    "id": "ball_thedudeabides",
+    "id": "bowlingball_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/ball_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/ball_thedudeabides_tokens.png"
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/bowlingball_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/bowlingball_thedudeabides_tokens.png"
     ],
     "otherNightReminder": "If the Ball made their choice today, and the Strike! reminder token is present, all evil players are drunk tonight. Remove the reminder token at dawn.",
     "reminders": [
-      "Strike!"
+      "Spare!"
     ],
     "name": "Ball",
     "team": "townsfolk",
