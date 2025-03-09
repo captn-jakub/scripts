@@ -13,6 +13,7 @@
       "dude_thedudeabides",
       "chief_thedudeabides",
       "jesus_thedudeabides",
+      "biglebowski_thedudeabides",
       "donny_thedudeabides",
       "brandt_thedudeabides",
       "marty_thedudeabides",
@@ -53,7 +54,7 @@
     "team": "townsfolk",
     "ability": "You start knowing 2 not in play evil characters.",
     "flavor": "We've been frantically trying to reach you, Dude.",
-    "firstNight": 17
+    "firstNight": 18
   },
   {
     "id": "donny_thedudeabides",
@@ -66,7 +67,7 @@
     "team": "townsfolk",
     "ability": "You start knowing 1 Townsfolk player.",
     "flavor": "I am the walrus.",
-    "firstNight": 16
+    "firstNight": 17
   },
   {
     "id": "marty_thedudeabides",
@@ -77,7 +78,7 @@
     "team": "townsfolk",
     "ability": "You start knowing how many steps from you to the nearest Outsider. [+0 or +1 Outsider]",
     "flavor": "Dude, uh, tomorrow is already the tenth.",
-    "firstNight": 18
+    "firstNight": 19
   },
   {
     "id": "sarsaparilla_thedudeabides",
@@ -103,7 +104,7 @@
     "team": "townsfolk",
     "ability": "Each night, choose a player (not yourself): you learn the character of 1 of their alive neighbours.",
     "flavor": "Sometimes, there's a man... Lost my train of thought there.",
-    "firstNight": 19,
+    "firstNight": 20,
     "otherNight": 19
   },
   {
@@ -223,7 +224,7 @@
     "team": "outsider",
     "ability": "On your first night, choose 2 players: when you die, you become the alignment of 1 of them, even if drunk or poisoned.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
-    "firstNight": 20,
+    "firstNight": 21,
     "otherNight": 20
   },
   {
@@ -354,15 +355,19 @@
   {
     "id": "biglebowski_thedudeabides",
     "image": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
-    "otherNightReminder": "The Big Lebowski chooses two players. If the chosen players choose other players in the night, any number of those players might die.",
+    "firstNightReminder": "The Big Lebowski chooses 2 players: mark 1 as Hired and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
+    "otherNightReminder": "If either of the players chosen last night voted today, they die. The Big Lebowski chooses 2 players: mark 1 as Hired and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
     "reminders": [
+      "Hired",
+      "Poisoned",
       "Dead",
       "Dead"
     ],
     "name": "Big Lebowski",
     "team": "demon",
-    "ability": "Each night*, choose 2 players: players they choose tonight might die.",
+    "ability": "Each night, choose 2 players: 1 of them is poisoned until dusk. If the player chosen last night voted today, they die.",
     "flavor": "Are you employed, sir?",
+    "firstNight": 16,
     "otherNight": 12
   },
   {
