@@ -410,7 +410,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/biglebowski_thedudeabides_tokens.png"
     ],
     "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as Hired, and 1 of them as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
-    "otherNightReminder": "If either of the players chosen last night voted today, they die. The Big Lebowski might choose to force 1 of them do die regardless if they voted (once). If they do, place the Once reminder on the Big Lebowski.\nRemove all remaining reminder tokens.\nThe Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
+    "otherNightReminder": "If either of the players chosen last night voted today, they die.\nThe Big Lebowski might choose to force 1 of them do die regardless if they voted (once). If they do, place the Once reminder on the Big Lebowski.\nRemove all remaining reminder tokens.\nThe Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
     "reminders": [
       "Hired",
       "Hired",
