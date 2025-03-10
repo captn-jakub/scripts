@@ -111,8 +111,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/maude_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/maude_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Maude chooses a player: mark them as Safe.\nIf any evil players select them with an ability, place the Protected reminder token on Maude.",
-    "otherNightReminder": "If Maude has the Protected reminder token, show a 'yes' head signal and remove the reminder.\nMaude chooses a player: mark them as Safe.\nIf any evil players select them with an ability, place the Protected reminder token on Maude.",
+    "firstNightReminder": "Maude chooses a player: mark them as Safe.\nIf an evil player selects them with an ability, they must choose again (place the Protected reminder token on Maude if that happens).",
+    "otherNightReminder": "If Maude has the Protected reminder token, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'.\nMaude chooses a player: mark them as Safe.\nIf an evil player selects them with an ability, they must choose again (place the Protected reminder token on Maude if that happens).",
     "reminders": [
       "Safe",
       "Protected"
