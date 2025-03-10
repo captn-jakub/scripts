@@ -95,11 +95,11 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dafino_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/dafino_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Show Da Fino 2 character tokens: at least 1 of them used their ability tonight.",
-    "otherNightReminder": "Show Da Fino 2 character tokens: at least 1 of them used their ability tonight.",
+    "firstNightReminder": "Show Da Fino 2 character tokens: at least 1 of them woke due to their ability tonight.",
+    "otherNightReminder": "Show Da Fino 2 character tokens: at least 1 of them woke due to their ability tonight.",
     "name": "Da Fino",
     "team": "townsfolk",
-    "ability": "Each night, you learn 2 characters, at least 1 of which used their ability tonight.",
+    "ability": "Each night, you learn 2 characters, at least 1 of which woke due to their ability tonight.",
     "flavor": "I'm a private snoop! Like you, man!",
     "firstNight": 22,
     "otherNight": 21
