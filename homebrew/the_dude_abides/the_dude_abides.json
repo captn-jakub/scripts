@@ -421,7 +421,7 @@
     ],
     "name": "Big Lebowski",
     "team": "demon",
-    "ability": "Each night, choose 2 players: 1 of them is poisoned. If the player chosen last night voted today, they die. Once per game, you may kill 1 of the chosen players who did not vote.",
+    "ability": "Each night, choose 2 players: 1 of them is poisoned. If the player chosen last night voted today, they die. Once per game, you may kill 1 of the chosen players regardless if they voted.",
     "flavor": "Are you employed, sir?",
     "firstNight": 15,
     "otherNight": 10
