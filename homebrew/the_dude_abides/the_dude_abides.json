@@ -128,11 +128,11 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/stranger_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/stranger_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours.",
-    "otherNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours.",
+    "firstNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours. The Stranger does not count as neighbour for this ability.",
+    "otherNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours. The Stranger does not count as neighbour for this ability.",
     "name": "Stranger",
     "team": "townsfolk",
-    "ability": "Each night, choose a player (not yourself): you learn the character of 1 of their alive neighbours.",
+    "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours (other than yourself).",
     "flavor": "Sometimes, there's a man... Lost my train of thought there.",
     "firstNight": 20,
     "otherNight": 19
