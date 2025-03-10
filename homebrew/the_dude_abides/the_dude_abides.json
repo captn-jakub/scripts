@@ -8,6 +8,7 @@
       "dusk",
       "minioninfo",
       "demoninfo",
+      "maude_thedudeabides",
       "sarsaparilla_thedudeabides",
       "dude_thedudeabides",
       "chief_thedudeabides",
@@ -27,9 +28,9 @@
       "fawngunderson_thedudeabides",
       "bowlingball_thedudeabides",
       "logjammer_thedudeabides",
+      "maude_thedudeabides",
       "sarsaparilla_thedudeabides",
       "dude_thedudeabides",
-      "maude_thedudeabides",
       "waltersobchak_thedudeabides",
       "chief_thedudeabides",
       "jesus_thedudeabides",
@@ -57,7 +58,7 @@
     "team": "townsfolk",
     "ability": "You start knowing 2 not in play evil characters.",
     "flavor": "We've been frantically trying to reach you, Dude.",
-    "firstNight": 18
+    "firstNight": 19
   },
   {
     "id": "donny_thedudeabides",
@@ -73,7 +74,7 @@
     "team": "townsfolk",
     "ability": "You start knowing 1 Townsfolk player.",
     "flavor": "I am the walrus.",
-    "firstNight": 17
+    "firstNight": 18
   },
   {
     "id": "marty_thedudeabides",
@@ -87,7 +88,7 @@
     "team": "townsfolk",
     "ability": "You start knowing how many steps from you to the nearest Outsider. [+0 or +1 Outsider]",
     "flavor": "Dude, uh, tomorrow is already the tenth.",
-    "firstNight": 19
+    "firstNight": 20
   },
   {
     "id": "dafino_thedudeabides",
@@ -101,8 +102,26 @@
     "team": "townsfolk",
     "ability": "Each night, you learn 2 characters, at least 1 of which woke tonight.",
     "flavor": "I'm a private snoop! Like you, man!",
-    "firstNight": 22,
+    "firstNight": 23,
     "otherNight": 21
+  },
+  {
+    "id": "maude_thedudeabides",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/maude_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/maude_thedudeabides_tokens.png"
+    ],
+    "firstNightReminder": "Maude chooses a player: mark them as Safe.",
+    "otherNightReminder": "Maude chooses a player: mark them as Safe.\nIf the previously Safe player was targeted by any evil players, show a 'yes' head signal.",
+    "reminders": [
+      "Safe"
+    ],
+    "name": "Maude",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (not yourself): they cannot be selected by an evil player. You learn if your previous choice had an effect.",
+    "flavor": "He's a good man, and thorough.",
+    "firstNight": 11,
+    "otherNight": 5
   },
   {
     "id": "sarsaparilla_thedudeabides",
@@ -119,8 +138,8 @@
     "team": "townsfolk",
     "ability": "Each night, choose a player: they are sober and healthy until dusk.",
     "flavor": "I like your style, Dude.",
-    "firstNight": 11,
-    "otherNight": 5
+    "firstNight": 12,
+    "otherNight": 6
   },
   {
     "id": "stranger_thedudeabides",
@@ -134,7 +153,7 @@
     "team": "townsfolk",
     "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours (other than yourself).",
     "flavor": "Sometimes, there's a man... Lost my train of thought there.",
-    "firstNight": 20,
+    "firstNight": 21,
     "otherNight": 19
   },
   {
@@ -161,22 +180,6 @@
     ]
   },
   {
-    "id": "maude_thedudeabides",
-    "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/maude_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/maude_thedudeabides_tokens.png"
-    ],
-    "otherNightReminder": "Maude chooses a player: mark them as Safe.",
-    "reminders": [
-      "Safe"
-    ],
-    "name": "Maude",
-    "team": "townsfolk",
-    "ability": "Each night*, choose a player (not yourself): they cannot die tonight.",
-    "flavor": "He's a good man, and thorough.",
-    "otherNight": 7
-  },
-  {
     "id": "dude_thedudeabides",
     "image": [
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dude_thedudeabides.png",
@@ -192,8 +195,8 @@
     "team": "townsfolk",
     "ability": "Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
     "flavor": "New shit has come to light, man.",
-    "firstNight": 12,
-    "otherNight": 6
+    "firstNight": 13,
+    "otherNight": 7
   },
   {
     "id": "waltersobchak_thedudeabides",
@@ -222,7 +225,7 @@
     "reminders": [
       "Spare!"
     ],
-    "name": "Ball",
+    "name": "Bowling Ball",
     "team": "townsfolk",
     "ability": "When you learn that you died, publicly choose an alive player: if they are evil, all evil players are drunk until dawn.",
     "flavor": "Obviously you're not a golfer.",
@@ -268,7 +271,7 @@
     "team": "outsider",
     "ability": "On your first night, choose 2 players: when you die, you become the alignment of 1 of them, even if drunk or poisoned.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
-    "firstNight": 21,
+    "firstNight": 22,
     "otherNight": 20
   },
   {
@@ -343,7 +346,7 @@
     "team": "minion",
     "ability": "Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.",
     "flavor": "Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!",
-    "firstNight": 13,
+    "firstNight": 14,
     "otherNight": 9
   },
   {
@@ -363,7 +366,7 @@
     "team": "minion",
     "ability": "Each night, you may choose up to 3 players: if they are \"mad\" about being their character tomorrow, they might be executed.",
     "flavor": "You said it, man.",
-    "firstNight": 14,
+    "firstNight": 15,
     "otherNight": 10
   },
   {
@@ -419,7 +422,7 @@
     "team": "demon",
     "ability": "Each night, choose 2 players: 1 of them is poisoned. If the player chosen last night voted today, they die. Once per game, you may kill 1 of the chosen players who did not vote.",
     "flavor": "Are you employed, sir?",
-    "firstNight": 15,
+    "firstNight": 16,
     "otherNight": 11
   },
   {
@@ -440,7 +443,7 @@
     "team": "demon",
     "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player is executed today, their nearest alive good neighbour dies tonight.",
     "flavor": "What's your drink, Dude?",
-    "firstNight": 16,
+    "firstNight": 17,
     "otherNight": 12
   },
   {
