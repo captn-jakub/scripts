@@ -352,8 +352,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jesus_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jesus_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Jesus chooses up to 3 players. Wake each target separately. Show the 'this character selected you' card and the Jesus token. If the player is not mad about being the Jesus tomorrow, they might be executed.",
-    "otherNightReminder": "The Jesus chooses up to 3 players. Wake each target separately. Show the 'this character selected you' card and the Jesus token. If the player is not mad about being the Jesus tomorrow, they might be executed.",
+    "firstNightReminder": "The Jesus chooses up to 3 players. Wake each target separately. Show the 'this character selected you' card and the Jesus token. If the player is mad about being the character they are (or that the Jesus is in play) tomorrow, they might be executed.",
+    "otherNightReminder": "The Jesus chooses up to 3 players. Wake each target separately. Show the 'this character selected you' card and the Jesus token. If the player is mad about being the character they are (or that the Jesus is in play) tomorrow, they might be executed.",
     "reminders": [
       "Jesus",
       "Jesus",
@@ -361,7 +361,7 @@
     ],
     "name": "Jesus",
     "team": "minion",
-    "ability": "Each night, you may choose up to 3 players: they are \"mad\" about being the Jesus tomorrow, or might be executed. If only 5 players live, you lose this ability.",
+    "ability": "Each night, you may choose up to 3 players: if they are \"mad\" about being their character tomorrow, they might be executed.",
     "flavor": "You said it, man.",
     "firstNight": 14,
     "otherNight": 10
