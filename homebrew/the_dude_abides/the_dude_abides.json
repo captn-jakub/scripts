@@ -10,11 +10,11 @@
       "demoninfo",
       "maude_thedudeabides",
       "sarsaparilla_thedudeabides",
-      "dude_thedudeabides",
       "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
       "jackytreehorn_thedudeabides",
+      "dude_thedudeabides",
       "donny_thedudeabides",
       "brandt_thedudeabides",
       "marty_thedudeabides",
@@ -30,7 +30,6 @@
       "logjammer_thedudeabides",
       "maude_thedudeabides",
       "sarsaparilla_thedudeabides",
-      "dude_thedudeabides",
       "waltersobchak_thedudeabides",
       "chief_thedudeabides",
       "jesus_thedudeabides",
@@ -39,6 +38,7 @@
       "eagles_thedudeabides",
       "nihilist_thedudeabides",
       "woo_thedudeabides",
+      "dude_thedudeabides",
       "caucasian_thedudeabides",
       "littleachiever_thedudeabides",
       "stranger_thedudeabides",
@@ -196,8 +196,8 @@
     "team": "townsfolk",
     "ability": "Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
     "flavor": "New shit has come to light, man.",
-    "firstNight": 13,
-    "otherNight": 7
+    "firstNight": 17,
+    "otherNight": 16
   },
   {
     "id": "waltersobchak_thedudeabides",
@@ -214,7 +214,7 @@
     "team": "townsfolk",
     "ability": "Once per game, at night*, choose an alive player: a Minion, if chosen, dies. All Minions know that Walter Sobchak is in play.",
     "flavor": "My friend, you're entering a world of pain.",
-    "otherNight": 8
+    "otherNight": 7
   },
   {
     "id": "bowlingball_thedudeabides",
@@ -314,7 +314,7 @@
     "team": "outsider",
     "ability": "When you die, a player might die tonight.",
     "flavor": "Tomorrow vee come back und cut off your chonson.",
-    "otherNight": 15
+    "otherNight": 14
   },
   {
     "id": "fawngunderson_thedudeabides",
@@ -347,8 +347,8 @@
     "team": "minion",
     "ability": "Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.",
     "flavor": "Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!",
-    "firstNight": 14,
-    "otherNight": 9
+    "firstNight": 13,
+    "otherNight": 8
   },
   {
     "id": "jesus_thedudeabides",
@@ -367,8 +367,8 @@
     "team": "minion",
     "ability": "Each night, you may choose up to 3 players: if they are \"mad\" about being their character tomorrow, they might be executed.",
     "flavor": "You said it, man.",
-    "firstNight": 15,
-    "otherNight": 10
+    "firstNight": 14,
+    "otherNight": 9
   },
   {
     "id": "woo_thedudeabides",
@@ -385,7 +385,7 @@
     "team": "minion",
     "ability": "Each night*, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
     "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
-    "otherNight": 16
+    "otherNight": 15
   },
   {
     "id": "logjammer_thedudeabides",
@@ -423,8 +423,8 @@
     "team": "demon",
     "ability": "Each night, choose 2 players: 1 of them is poisoned. If the player chosen last night voted today, they die. Once per game, you may kill 1 of the chosen players who did not vote.",
     "flavor": "Are you employed, sir?",
-    "firstNight": 16,
-    "otherNight": 11
+    "firstNight": 15,
+    "otherNight": 10
   },
   {
     "id": "jackytreehorn_thedudeabides",
@@ -444,8 +444,8 @@
     "team": "demon",
     "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player is executed today, their nearest alive good neighbour dies tonight.",
     "flavor": "What's your drink, Dude?",
-    "firstNight": 17,
-    "otherNight": 12
+    "firstNight": 16,
+    "otherNight": 11
   },
   {
     "id": "eagles_thedudeabides",
@@ -462,7 +462,7 @@
     "team": "demon",
     "ability": "Each night*, choose a player: they die. If no good players publicly said \"I hate the fucking Eagles\" today, 1 is poisoned until dusk. If only good players did, you are poisoned.",
     "flavor": "That's it! Outta this fucking cab!",
-    "otherNight": 13
+    "otherNight": 12
   },
   {
     "id": "nihilist_thedudeabides",
@@ -480,7 +480,7 @@
     "team": "demon",
     "ability": "Each night*, choose a player (even if you are dead): they might die. You register as a Minion too. [+1 Nihilist. All evil players are Nihilists]",
     "flavor": "Vee belief in nossing. Give us ze money, Lebowski!",
-    "otherNight": 14,
+    "otherNight": 13,
     "special": [
       {
         "name": "bag-duplicate",
