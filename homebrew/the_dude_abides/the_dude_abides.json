@@ -363,7 +363,7 @@
     ],
     "name": "Jesus",
     "team": "minion",
-    "ability": "Each night, choose a player: they are poisoned, and learn that the Jesus is in play. Players \"mad\" that the Jesus is in play might die.",
+    "ability": "Each night, choose a player: they are poisoned, and learn this. Players \"mad\" that the Jesus is in play might die.",
     "flavor": "You said it, man.",
     "firstNight": 14,
     "otherNight": 9
