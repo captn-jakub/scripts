@@ -48,10 +48,9 @@
     "assassin",
     {
     "id": "torment_torment_token",
-    "image": [
+    "image":[
         "https://www.bloodstar.xyz/p/Puck/torment_token/torment_torment_token.png",
-        "https://www.bloodstar.xyz/p/Puck/torment_token/torment1_torment_token.png"
-    ],
+        "https://www.bloodstar.xyz/p/Puck/torment_token/torment1_torment_token.png"],
     "otherNightReminder": "The Torment points to a player, the target is woken and told that they are tormented. The tormented player choses whether to wake tonight.",
     "reminders": [
       "Dead",
