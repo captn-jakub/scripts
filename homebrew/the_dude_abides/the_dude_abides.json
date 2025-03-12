@@ -374,7 +374,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/woo_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/woo_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "Woo chooses a player: mark them as <b>PISSED</b>. <i class=\"reminder-token\"></i> If another player was previously marked as Pissed, move the reminder token to the new target.",
+    "otherNightReminder": "Woo chooses a player: mark them as <b>PISSED</b>. <i class=\"reminder-token\"></i> If another player was previously marked as <b>PISSED</b>, move the reminder token to the new target.",
     "reminders": [
       "Pissed"
     ],
