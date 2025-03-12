@@ -80,6 +80,8 @@
     "id": "marty_thedudeabides",
     "image": [
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/marty_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/marty_thedudeabides_tokens.png"
+    ],
     "firstNightReminder": "Show the finger signal (1, 2, 3, ...) for number of steps to the nearest Outsider.",
     "setup": true,
     "name": "Marty",
@@ -161,7 +163,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/littleachiever_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/littleachiever_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "Show the character token of 1 Nominee. If the Little Achiever doesn't learn information tonight, they don't wake. Other Little Achievers might learn different information.",
+    "otherNightReminder": "Show the character token of 1 <b>NOMINEE</b>. If the Little Achiever doesn't learn information tonight, they don't wake. Other Little Achievers might learn different information.",
     "reminders": [
       "Voted",
       "Nominee"
@@ -184,8 +186,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dude_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/dude_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. If they chose the Rug, remove the Rug reminder. If the Rug changes the character or gains an ability, wake the Rug.",
-    "otherNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. If they chose the Rug, remove the Rug reminder. If the Rug changes the character or gains an ability, wake the Rug.",
+    "firstNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. <i class=\"reminder-token\"></i>\nIf they chose the Rug, remove the Rug reminder.\nIf the Rug changes the character or gains an ability, wake the Rug.",
+    "otherNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. <i class=\"reminder-token\"></i>\nIf they chose the Rug, remove the Rug reminder.\nIf the Rug changes the character or gains an ability, wake the Rug.",
     "reminders": [
       "No Ability"
     ],
@@ -203,7 +205,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/waltersobchak_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/waltersobchak_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "Walter Sobchak either shows a 'no' head signal, or chooses a player. If the chosen player is a Minion, mark them as Dead.",
+    "otherNightReminder": "Walter Sobchak either shows a 'no' head signal, or chooses a player. <i class=\"reminder-token\"></i>\nIf the chosen player is a Minion, mark them as Dead. <i class=\"reminder-token\"></i>",
     "reminders": [
       "No Ability",
       "Dead"
@@ -220,7 +222,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/bowlingball_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/bowlingball_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If the Bowling Ball made their choice today, and the Spare! reminder token is present, all evil players are drunk tonight. Remove the reminder token at dawn.",
+    "otherNightReminder": "If the Bowling Ball made their choice today, and the <b>SPARE!</b> reminder token is present, all evil players are drunk tonight. Remove the reminder token at dawn.",
     "reminders": [
       "Spare!"
     ],
@@ -247,7 +249,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/caucasian_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/caucasian_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If the Caucasian was killed by the demon: show them 1 good character and 1 evil character of 2 alive players.",
+    "otherNightReminder": "If the Caucasian was killed by the demon: show them character tokens of 2 alive player (1 good character and 1 evil character).",
     "name": "Caucasian",
     "team": "townsfolk",
     "ability": "If the Demon kills you, you learn 2 alive characters, 1 good and 1 evil.",
@@ -260,7 +262,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/smokey_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Smokey chooses two players: place reminder tokens on both of them.",
+    "firstNightReminder": "Smokey chooses two players. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "otherNightReminder": "If Smokey died and changed alignment, show a thumbs-down or thumbs-up.",
     "reminders": [
       "Mark it 0",
@@ -304,7 +306,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/johnson_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/johnson_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If the Johnson died today or tonight, another player might die.",
+    "otherNightReminder": "If the Johnson died today or tonight, another player might die. <i class=\"reminder-token\"></i>",
     "reminders": [
       "Dead"
     ],
@@ -320,7 +322,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/fawngunderson_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/fawngunderson_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If Fawn Gunderson turned evil, show a thumbs-down and mark as Drunk.",
+    "otherNightReminder": "If Fawn Gunderson turned evil, show a thumbs-down and mark them as <b>DRUNK</b>. <i class=\"reminder-token\"></i>",
     "reminders": [
       "Drunk"
     ],
@@ -336,8 +338,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/chief_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/chief_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Chief chooses a player and points to an Outsider character on the script. Wake the target. Show the 'this character selected you' card and the Chief token. Show the selected Outsider token. If the player is not mad about being that character tomorrow, they might become it.",
-    "otherNightReminder": "The Chief chooses a player and points to an Outsider character on the script. Wake the target. Show the 'this character selected you' card and the Chief token. Show the selected Outsider token. If the player is not mad about being that character tomorrow, they might become it.",
+    "firstNightReminder": "The Chief chooses a player and points to an Outsider character on the script. <i class=\"reminder-token\"></i>\nWake the target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Chief token. Show the selected Outsider token.",
+    "otherNightReminder": "The Chief chooses a player and points to an Outsider character on the script. <i class=\"reminder-token\"></i>\nWake the target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Chief token. Show the selected Outsider token.",
     "reminders": [
       "Mad"
     ],
@@ -354,8 +356,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jesus_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jesus_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Jesus chooses a player: mark them as Poisoned. If the Jesus selected a different player to last night, wake the new target. Show the 'this character selected you' card and the Jesus token.",
-    "otherNightReminder": "The Jesus chooses a player: mark them as Poisoned. If the Jesus selected a different player to last night, wake the new target. Show the 'this character selected you' card and the Jesus token.",
+    "firstNightReminder": "The Jesus chooses a player: mark them as <b>POISONED</b>. <i class=\"reminder-token\"></i> If the Jesus selected a different player to last night, wake the new target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Jesus token.",
+    "otherNightReminder": "The Jesus chooses a player: mark them as <b>POISONED</b>. <i class=\"reminder-token\"></i> If the Jesus selected a different player to last night, wake the new target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Jesus token.",
     "reminders": [
       "Poisoned"
     ],
@@ -372,7 +374,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/woo_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/woo_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "Woo chooses a player: mark them as Pissed. If another player was previously marked as Pissed, move the reminder token to the new target.",
+    "otherNightReminder": "Woo chooses a player: mark them as <b>PISSED</b>. <i class=\"reminder-token\"></i> If another player was previously marked as Pissed, move the reminder token to the new target.",
     "reminders": [
       "Pissed"
     ],
@@ -389,7 +391,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/logjammer_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/logjammer_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "The Logjammer chooses a player: mark them as Jammed. If they would normally wake tonight, they don't.",
+    "otherNightReminder": "The Logjammer chooses a player: mark them as <b>JAMMED</b>. <i class=\"reminder-token\"></i> If they would normally wake tonight, they don't.",
     "reminders": [
       "Jammed"
     ],
@@ -405,8 +407,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/biglebowski_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as Hired, and 1 of them as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
-    "otherNightReminder": "If either of the players chosen last night voted today, they die.\nThe Big Lebowski might choose to force 1 of them do die regardless if they voted (once). If they do, place the Once reminder on the Big Lebowski.\nRemove all remaining reminder tokens.\nThe Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. The Big Lebowski doesn't learn which player is poisoned.",
+    "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as <b>HIRED</b>, and 1 of them as <b>POISONED</b>. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> The Big Lebowski doesn't learn which player is poisoned.",
+    "otherNightReminder": "If either of the players chosen last night voted today, they die.\nThe Big Lebowski might choose to force 1 of them do die regardless if they voted (once). <i class=\"reminder-token\"></i>\nRemove all remaining reminder tokens.\nThe Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. <i class=\"<b>POISONED</b>-token\"></i> The Big Lebowski doesn't learn which player is poisoned.",
     "reminders": [
       "Hired",
       "Hired",
@@ -428,12 +430,13 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackytreehorn_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackytreehorn_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Jacky Treehorn chooses a player: mark them as Poisoned.",
-    "otherNightReminder": "Jacky Treehorn chooses a player. If 3 other players were already poisoned by Jacky Treehorn, remove the Poisoned reminder from 1 of them.\nIf the player who was executed today was poisoned (in any way), their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die.",
+    "firstNightReminder": "Jacky Treehorn chooses a player: mark them as <b>POISONED</b>. <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "Jacky Treehorn chooses a player. <i class=\"reminder-token\"></i> If 3 other players were already poisoned by Jacky Treehorn, remove the <b>POISONED</b> reminder from 1 of them.\nIf the player who was executed today was poisoned (in any way), their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
       "Poisoned",
       "Poisoned",
       "Poisoned",
+      "Dead",
       "Dead"
     ],
     "name": "Jacky Treehorn",
@@ -449,7 +452,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/eagles_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/eagles_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "The Eagles chooses a player: they die. If the Eagles was marked Poisoned by their own ability, they become healthy after making their choice. If no good players said \"I hate the fucking Eagles\" today, mark 1 as Poisoned.",
+    "otherNightReminder": "The Eagles chooses a player: they die. <i class=\"reminder-token\"></i> If the Eagles was marked <b>POISONED</b> by their own ability, they become healthy after making their choice. If no good players said \"I hate the fucking Eagles\" today, mark 1 as <b>POISONED</b>. <i class=\"reminder-token\"></i>",
     "reminders": [
       "Dead",
       "Poisoned"
@@ -466,7 +469,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/nihilist_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/nihilist_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "Each Nihilist wakes separately, even if dead, and chooses a player: mark them as Chosen. Each chosen player might die. Players chosen more than once should always die.",
+    "otherNightReminder": "Each Nihilist wakes separately, even if dead, and chooses a player: mark them as <b>CHOSEN</b>. <i class=\"reminder-token\"></i> Each chosen player might die. Players chosen more than once should always die.",
     "reminders": [
       "Chosen",
       "Dead"
