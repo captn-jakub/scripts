@@ -50,7 +50,7 @@
               {
                 "type": "array",
                 "title": "Set of character icon URLs",
-                "description": "For non-traveler characters, the icons should be regular alignment and flipped alignment, for travelers they should be unaligned, good alignment and evil alignment",
+                "description": "For non-traveller characters, the icons should be regular alignment and flipped alignment, for travellers they should be unaligned, good alignment and evil alignment",
                 "minItems": 1,
                 "maxItems": 3,
                 "items": {
@@ -67,9 +67,9 @@
                     "https://imgur.com/minion_good.png"
                   ],
                   [
-                    "https://imgur.com/traveler.png",
-                    "https://imgur.com/traveler_good.png",
-                    "https://imgur.com/traveler_evil.png"
+                    "https://imgur.com/traveller.png",
+                    "https://imgur.com/traveller_good.png",
+                    "https://imgur.com/traveller_evil.png"
                   ]
                 ]
               }
@@ -83,7 +83,7 @@
               "outsider",
               "minion",
               "demon",
-              "traveler",
+              "traveller",
               "fabled"
             ]
           },
@@ -302,7 +302,7 @@
                     "outsider",
                     "minion",
                     "demon",
-                    "traveler"
+                    "traveller"
                   ]
                 }
               },
@@ -405,6 +405,10 @@
               "https://imgur.com/logo.png"
             ]
           },
+          "hideTitle": {
+            "type": "boolean",
+            "title": "Whether the script title / author should be hidden on the app"
+          },
           "background": {
             "type": "string",
             "format": "uri",
@@ -413,6 +417,19 @@
             "examples": [
               "https://imgur.com/background.jpg"
             ]
+          },
+          "bootlegger": {
+            "type": "array",
+            "title": "A list of homebrew rules that are to be used for this script",
+            "description": "Any (optional) homebrew rules that should be shown on the character sheet can be listed here, up to a limit of 10.",
+            "maxItems": 10,
+            "items": {
+              "type": "string",
+              "title": "A homebrew rule",
+              "examples": [
+                "If the Snake Charmer swaps with the Demon on the first night, they learn their Minions and Bluffs instead of the original Demon."
+              ]
+            }
           },
           "firstNight": {
             "type": "array",
