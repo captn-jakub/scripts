@@ -66,7 +66,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/donny_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/donny_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Show the Townsfolk character token and point to the player who is that character.",
+    "firstNightReminder": "Point to the <b>KNOWS</b> player.",
     "reminders": [
       "Knows"
     ],
@@ -80,8 +80,6 @@
     "id": "marty_thedudeabides",
     "image": [
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/marty_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/marty_thedudeabides_tokens.png"
-    ],
     "firstNightReminder": "Show the finger signal (1, 2, 3, ...) for number of steps to the nearest Outsider.",
     "setup": true,
     "name": "Marty",
@@ -111,8 +109,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/maude_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/maude_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Maude chooses a player: mark them as Safe.\nIf an evil player selects them with an ability, they must choose again (place the Protected reminder token on Maude if that happens).",
-    "otherNightReminder": "If Maude has the Protected reminder token, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'.\nMaude chooses a player: mark them as Safe.\nIf an evil player selects them with an ability, they must choose again (place the Protected reminder token on Maude if that happens).",
+    "firstNightReminder": "Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects them with an ability, they must choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "If Maude has the Protected reminder token, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'. Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects them with an ability, they must choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
     "reminders": [
       "Safe",
       "Protected"
@@ -130,14 +128,14 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/sarsaparilla_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/sarsaparilla_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Sarsaparilla chooses a player: mark them as Sober.",
-    "otherNightReminder": "The Sarsaparilla chooses a player: mark them as Sober.",
+    "firstNightReminder": "The Sarsaparilla chooses a player: mark them <b>SOBER</b>. <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "The Sarsaparilla chooses a player: mark them <b>SOBER</b>. <i class=\"reminder-token\"></i>",
     "reminders": [
       "Sober"
     ],
     "name": "Sarsaparilla",
     "team": "townsfolk",
-    "ability": "Each night, choose a player: they are sober and healthy until dusk.",
+    "ability": "Each night, choose a player: they are sober and healthy.",
     "flavor": "I like your style, Dude.",
     "firstNight": 12,
     "otherNight": 6
