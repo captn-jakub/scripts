@@ -14,7 +14,7 @@
       "Torment"],
     "name": "Torment",
     "team": "minion",
-    "ability": "Each night, choose a player: they may choose to wake, but if they do another player may die. The Torment learns your information tonight.",
+    "ability": "Each night, choose a player: they may choose to wake, but if they do, another player might die. The Torment learns your information tonight.",
     "otherNight": 5
   },
 ]
