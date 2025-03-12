@@ -52,14 +52,13 @@
         "https://www.bloodstar.xyz/p/Puck/torment_token/torment_torment_token.png",
         "https://www.bloodstar.xyz/p/Puck/torment_token/torment1_torment_token.png"],
     "otherNightReminder": "The Torment points to a player, the target is woken and told that they are tormented. The tormented player choses whether to wake tonight.",
-    "reminders": [
+    "reminders":[
       "Dead",
       "Dead",
       "Dead",
       "Torment",
       "Torment",
-      "Torment"
-    ],
+      "Torment"],
     "name": "Torment",
     "team": "minion",
     "ability": "Each night, choose a player: they may choose to wake, but if they do another player may die. The Torment learns your information tonight.",
