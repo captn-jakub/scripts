@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "name": "The Dude Abides v0.4.0",
+    "name": "The Dude Abides",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
     "firstNight": [
@@ -356,8 +356,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jesus_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jesus_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Jesus chooses a player: mark them as Poisoned. Wake the target. Show the 'this character selected you' card and the Jesus token. Players mad that the Jesus is in play might die.",
-    "otherNightReminder": "The Jesus chooses a player: mark them as Poisoned. Wake the target. Show the 'this character selected you' card and the Jesus token. Players mad that the Jesus is in play might die.",
+    "firstNightReminder": "The Jesus chooses a player: mark them as Poisoned. If the Jesus selected a different player to last night, wake the new target. Show the 'this character selected you' card and the Jesus token.",
+    "otherNightReminder": "The Jesus chooses a player: mark them as Poisoned. If the Jesus selected a different player to last night, wake the new target. Show the 'this character selected you' card and the Jesus token.",
     "reminders": [
       "Poisoned"
     ],
