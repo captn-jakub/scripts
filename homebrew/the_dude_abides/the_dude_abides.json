@@ -172,6 +172,7 @@
     "name": "Little Achiever",
     "team": "townsfolk",
     "ability": "Each night*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]",
+    "flavor": "Well, yeah, I did go to collage, but I spent most of my time occupying various administration buildings.",
     "otherNight": 18,
     "special": [
       {
