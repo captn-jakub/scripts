@@ -205,7 +205,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/waltersobchak_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/waltersobchak_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "Walter Sobchak either shows a 'no' head signal, or chooses a player. <i class=\"reminder-token\"></i>\nIf the chosen player is a Minion, mark them as Dead. <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "Walter Sobchak either shows a 'no' head signal, or chooses a player. If the chosen player is a Minion, mark them as <b>DEAD</b>. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
       "No Ability",
       "Dead"
