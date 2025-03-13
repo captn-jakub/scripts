@@ -49,4 +49,12 @@
   }
   "imp",
   "vigormortis",
-  "fanggu"]
+  "fanggu",
+  {
+    "id": "gracefulgrim_fabled",
+    "image": "https://www.bloodstar.xyz/p/Puck/Fabled/gracefulgrim_fabled.png",
+    "name": "Graceful Grim",
+    "team": "fabled",
+    "ability": "The Storyteller passes out grim only to vetted players."
+  }
+]
