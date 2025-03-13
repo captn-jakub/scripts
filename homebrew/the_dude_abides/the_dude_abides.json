@@ -4,6 +4,8 @@
     "name": "The Dude Abides v0.4",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
+    "logo": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/_meta.png",
+    "hideTitle": true,
     "firstNight": [
       "dusk",
       "minioninfo",
