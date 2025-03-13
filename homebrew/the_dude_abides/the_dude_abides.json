@@ -434,17 +434,20 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackytreehorn_thedudeabides_tokens.png"
     ],
     "firstNightReminder": "Jacky Treehorn chooses a player: mark them as <b>POISONED</b>. <i class=\"reminder-token\"></i>",
-    "otherNightReminder": "Jacky Treehorn chooses a player. <i class=\"reminder-token\"></i> If 3 other players were already poisoned by Jacky Treehorn, remove the <b>POISONED</b> reminder from 1 of them.\nIf the player who was executed today was poisoned (in any way), their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "Jacky Treehorn chooses a player. <i class=\"reminder-token\"></i> If 3 other players were already poisoned by Jacky Treehorn, remove the <b>POISONED</b> reminder from 1 of them.\nIf a poisoned (in any way) player died since dawn, their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
       "Poisoned",
       "Poisoned",
       "Poisoned",
       "Dead",
+      "Dead",
+      "Dead",
+      "Dead",
       "Dead"
     ],
     "name": "Jacky Treehorn",
     "team": "demon",
-    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player is executed today, their nearest alive good neighbour dies tonight.",
+    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player died since dawn, their nearest alive good neighbour dies tonight.",
     "flavor": "What's your drink, Dude?",
     "firstNight": 16,
     "otherNight": 11
