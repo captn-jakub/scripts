@@ -53,7 +53,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/brandt_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/brandt_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Show two evil character tokens.",
+    "firstNightReminder": "Show two not in play evil character tokens.",
     "name": "Brandt",
     "team": "townsfolk",
     "ability": "You start knowing 2 not in play evil characters.",
