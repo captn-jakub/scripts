@@ -359,10 +359,10 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jesus_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jesus_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Jesus chooses a player: mark them as <b>POISONED</b>. <i class=\"reminder-token\"></i> If the Jesus selected a different player to last night, wake the new target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Jesus token.",
-    "otherNightReminder": "The Jesus chooses a player: mark them as <b>POISONED</b>. <i class=\"reminder-token\"></i> If the Jesus selected a different player to last night, wake the new target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Jesus token.",
+    "firstNightReminder": "The Jesus chooses a player: mark them as <b>VISITED</b>. <i class=\"reminder-token\"></i> If the Jesus selected a different player to last night, wake the new target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Jesus token.",
+    "otherNightReminder": "The Jesus chooses a player: mark them as <b>VISITED</b>. <i class=\"reminder-token\"></i> If the Jesus selected a different player to last night, wake the new target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Jesus token.",
     "reminders": [
-      "Poisoned"
+      "Visited"
     ],
     "name": "Jesus",
     "team": "minion",
