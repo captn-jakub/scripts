@@ -130,8 +130,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/sarsaparilla_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/sarsaparilla_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Sarsaparilla chooses a player: mark them <b>SOBER</b>. <i class=\"reminder-token\"></i>",
-    "otherNightReminder": "The Sarsaparilla chooses a player: mark them <b>SOBER</b>. <i class=\"reminder-token\"></i>",
+    "firstNightReminder": "The Sarsaparilla chooses a player: mark them as <b>SOBER</b>. <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "The Sarsaparilla chooses a player: mark them as <b>SOBER</b>. <i class=\"reminder-token\"></i>",
     "reminders": [
       "Sober"
     ],
