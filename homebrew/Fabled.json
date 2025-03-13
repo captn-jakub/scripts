@@ -1,0 +1,23 @@
+[
+  {
+    "id": "gracefulgrim_fabled",
+    "image": "https://www.bloodstar.xyz/p/Puck/Fabled/gracefulgrim_fabled.png",
+    "name": "Graceful Grim",
+    "team": "fabled",
+    "ability": "The Storyteller passes out grim only to vetted players."
+  },
+  {
+    "id": "patters_fabled",
+    "image": "https://www.bloodstar.xyz/p/Puck/Fabled/patters_fabled.png",
+    "name": "Patter's ",
+    "team": "fabled",
+    "ability": "The Huntsman selects once per night rather than once per game, but becomes poisoned if they select a minion."
+  },
+  {
+    "id": "damseldanger_fabled",
+    "image": "https://www.bloodstar.xyz/p/Puck/Fabled/damseldanger_fabled.png",
+    "name": "Damsel Danger",
+    "team": "fabled",
+    "ability": "Minions each receive one Damsel guess, rather than sharing one guess for the team. "
+  }
+]
