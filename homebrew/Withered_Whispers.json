@@ -22,6 +22,31 @@
   "poisoner",
   "witch",
   "assassin",
+  {
+    "id": "dreameater_dream_eater",
+    "image":[
+      "https://www.bloodstar.xyz/p/Puck/Dream_Eater/dreameater_dream_eater.png",
+      "https://www.bloodstar.xyz/p/Puck/Dream_Eater/dreameater1_dream_eater.png" ],
+    "otherNightReminder": "The Dream Eater chooses two players, wake them and show that they have been visited by the Dream Eater. Ask if they would like to wake, record their answers, and respond accordingly.",
+    "reminders": [
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Wake",
+      "Wake",
+      "Wake",
+      "Wake",
+      "Sleep",
+      "Sleep",
+      "Sleep",
+      "Sleep"
+    ],
+    "name": "Dream Eater",
+    "team": "minion",
+    "ability": "Each night, choose 2 players: each may choose to have or lose their ability until dusk. If both have it, both lose it.",
+    "otherNight": 5
+  }
   "imp",
   "vigormortis",
   "fanggu"]
