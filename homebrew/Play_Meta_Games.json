@@ -67,5 +67,12 @@
             "reason":"If the Storyteller gains the Torment ability, a living Minion gains the Torment ability in addition to their own ability, and learns this."}]},
     "xaan",
     "goblin",
-    "imp"
+    "imp",
+    {
+    "id": "gracefulgrim_fabled",
+    "image": "https://www.bloodstar.xyz/p/Puck/Fabled/gracefulgrim_fabled.png",
+    "name": "Graceful Grim",
+    "team": "fabled",
+    "ability": "The Storyteller passes out grim only to vetted players."
+  }
 ]
