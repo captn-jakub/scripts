@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "Puck",
-    "name": "Fangs and Teeth v0.19"
+    "name": "Fangs and Teeth v0.2"
   },
   "clockmaker",
   "sailor",
@@ -50,5 +50,26 @@
     "ability": "Each night*, choose a player: they die before dawn. Any players chosen by your target tonight might also die. One player in the target-chain might become poisoned.",
     "otherNight": 45,
     "otherNightReminder": "The Serpent chooses a player. If that player has selected any other players tonight, the might die as well. One player in the chain may become poisoned."
+  },
+  {
+    "id": "gracefulgrim_fabled",
+    "image": "https://www.bloodstar.xyz/p/Puck/Fabled/gracefulgrim_fabled.png",
+    "name": "Graceful Grim",
+    "team": "fabled",
+    "ability": "The Storyteller passes out grim only to vetted players."
+  },
+  {
+    "id": "patters_fabled",
+    "image": "https://www.bloodstar.xyz/p/Puck/Fabled/patters_fabled.png",
+    "name": "Patter's ",
+    "team": "fabled",
+    "ability": "The Huntsman selects once per night rather than once per game, but becomes poisoned if they select a minion."
+  },
+  {
+    "id": "damseldanger_fabled",
+    "image": "https://www.bloodstar.xyz/p/Puck/Fabled/damseldanger_fabled.png",
+    "name": "Damsel Danger",
+    "team": "fabled",
+    "ability": "Minions each receive one Damsel guess, rather than sharing one guess for the team. "
   }
 ]
