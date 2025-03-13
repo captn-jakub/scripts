@@ -434,7 +434,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackytreehorn_thedudeabides_tokens.png"
     ],
     "firstNightReminder": "Jacky Treehorn chooses a player: mark them as <b>POISONED</b>. <i class=\"reminder-token\"></i>",
-    "otherNightReminder": "Jacky Treehorn chooses a player. <i class=\"reminder-token\"></i> If 3 other players were already poisoned by Jacky Treehorn, remove the <b>POISONED</b> reminder from 1 of them.\nIf a player who is poisoned (in any way) died since dawn, their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "Jacky Treehorn chooses a player. <i class=\"reminder-token\"></i> If 3 other players were already poisoned by Jacky Treehorn, remove the <b>POISONED</b> reminder from 1 of them.\nIf a poisoned (in any way) player died since dawn, their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
       "Poisoned",
       "Poisoned",
