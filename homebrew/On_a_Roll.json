@@ -2,42 +2,7 @@
   {
     "id": "_meta",
     "author": "capt'n jakub",
-    "name": "On a Roll v0.1",
-    "firstNight": [
-      "poppygrower",
-      "magician",
-      "minioninfo",
-      "demoninfo",
-      "sailor",
-      "preacher",
-      "lilmonsta",
-      "snakecharmer",
-      "organgrinder",
-      "devilsadvocate",
-      "fearmonger",
-      "rampage",
-      "investigator",
-      "shugenja",
-      "villageidiot"
-    ],
-    "otherNight": [
-      "poppygrower",
-      "sailor",
-      "preacher",
-      "gambler",
-      "snakecharmer",
-      "organgrinder",
-      "devilsadvocate",
-      "fearmonger",
-      "rampage",
-      "imp",
-      "po",
-      "vigormortis",
-      "lilmonsta",
-      "moonchild",
-      "towncrier",
-      "villageidiot"
-    ]
+    "name": "On a Roll v0.1"
   },
   "investigator",
   "shugenja",
@@ -77,6 +42,8 @@
     "name": "Rampage",
     "team": "minion",
     "ability": "On your first night, choose 3 players: the first time you nominate & execute 1 of them, they all might die tonight.",
+    "firstNight": 38,
+    "otherNight": 26,
     "jinxes": [
       {
         "id": "plaguedoctor",
