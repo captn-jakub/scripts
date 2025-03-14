@@ -11,8 +11,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/rampage/rampage_rampage.png",
       "https://www.bloodstar.xyz/p/captn_jakub/rampage/rampage_good_rampage.png"
     ],
-    "firstNightReminder": "The Rampage chooses three players: mark them as Targets.",
-    "otherNightReminder": "If the Rampage nominated and executed one of their Targets today, all Targets might die.",
+    "firstNightReminder": "The Rampage chooses three players <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "If the Rampage nominated and executed 1 of the <b>TARGET</b> players today, all of them might die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
       "Target",
       "Target",
@@ -23,7 +23,7 @@
     ],
     "name": "Rampage",
     "team": "minion",
-    "ability": "On your first night, choose 3 players: the first time you nominate & execute one of them, they all might die tonight.",
+    "ability": "On your first night, choose 3 players: the first time you nominate & execute 1 of them, they all might die tonight.",
     "firstNight": 11,
     "otherNight": 11
   }
