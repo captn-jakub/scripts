@@ -12,7 +12,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/rampage/rampage_rampage.png",
       "https://www.bloodstar.xyz/p/captn_jakub/rampage/rampage_good_rampage.png"
     ],
-    "firstNightReminder": "The Rampage chooses three players <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "firstNightReminder": "The Rampage chooses 3 players <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "otherNightReminder": "If the Rampage nominated and executed 1 of the <b>TARGET</b> players today, all of them might die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
       "Target",
