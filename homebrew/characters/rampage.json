@@ -26,6 +26,12 @@
     "team": "minion",
     "ability": "On your first night, choose 3 players: the first time you nominate & execute 1 of them, they all might die tonight.",
     "firstNight": 11,
-    "otherNight": 11
+    "otherNight": 11,
+    "jinxes": [
+      {
+        "id": "plaguedoctor",
+        "reason": "If the Plague Doctor dies, a living Minion gains the Rampage ability in addition to their own ability, and learns this."
+      }
+    ]
   }
 ]
