@@ -4,7 +4,7 @@
     "name": "Rampage (Minion)",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/rampage/almanac.html",
-    "firstNight": ["dusk","minioninfo","demoninfo","rampage","dawn"]
+    "firstNight": ["minioninfo","demoninfo","rampage"]
   },
   {
     "id": "rampage",
