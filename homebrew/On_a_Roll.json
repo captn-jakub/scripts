@@ -1,11 +1,27 @@
 [
   {
     "id": "_meta",
-    "name": "Rampage (Minion)",
     "author": "capt'n jakub",
-    "almanac": "https://www.bloodstar.xyz/p/captn_jakub/rampage/almanac.html",
-    "firstNight": ["minioninfo","demoninfo","rampage"]
+    "name": "On a Roll v0.1"
   },
+  "investigator",
+  "shugenja",
+  "sailor",
+  "preacher",
+  "villageidiot",
+  "snakecharmer",
+  "towncrier",
+  "gambler",
+  "soldier",
+  "fool",
+  "magician",
+  "poppygrower",
+  "plaguedoctor",
+  "klutz",
+  "moonchild",
+  "mutant",
+  "devilsadvocate",
+  "fearmonger",
   {
     "id": "rampage",
     "name": "Rampage",
@@ -26,13 +42,18 @@
       "Dead",
       "No Ability"
     ],
-    "firstNight": 11,
-    "otherNight": 11,
+    "firstNight": 18,
+    "otherNight": 26,
     "jinxes": [
       {
         "id": "plaguedoctor",
         "reason": "If the Plague Doctor dies, a living Minion gains the Rampage ability in addition to their own ability, and learns this."
       }
     ]
-  }
+  },
+  "organgrinder",
+  "lilmonsta",
+  "shabaloth",
+  "po",
+  "vigormortis"
 ]
