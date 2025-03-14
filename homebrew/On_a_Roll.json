@@ -42,7 +42,7 @@
     "name": "Rampage",
     "team": "minion",
     "ability": "On your first night, choose 3 players: the first time you nominate & execute 1 of them, they all might die tonight.",
-    "firstNight": 38,
+    "firstNight": 18,
     "otherNight": 26,
     "jinxes": [
       {
