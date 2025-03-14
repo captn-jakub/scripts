@@ -33,6 +33,7 @@ List all new content in the appropriate section below, with a local link to the 
 ### Playtest scripts
 
 * [I Like My Friends Close... by Puck](homebrew/I_Like_My_Friends_Close.json) (Skulker)
+* [On a Roll by capt'n jakub](homebrew/On_a_Roll.json) (Rampage)
 * [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr and Skulker)
 * [Why Did It Have To Be Snakes by Puck](homebrew/Why_Did_It_Have_To_Be_Snakes.json) (Serpent)
 
