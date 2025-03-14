@@ -465,7 +465,7 @@
     ],
     "name": "Eagles",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If no good players publicly said \"I hate the fucking Eagles\" today, 1 is poisoned until dusk. If only good players did, you are poisoned.",
+    "ability": "Each night*, choose a player: they die. If no good players said \"I hate the fucking Eagles\" after making a nomination today, 1 is poisoned until dusk. If only good players did, you are poisoned.",
     "flavor": "That's it! Outta this fucking cab!",
     "otherNight": 12
   },
