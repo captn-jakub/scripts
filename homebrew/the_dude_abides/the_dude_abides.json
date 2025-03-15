@@ -458,14 +458,15 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/eagles_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/eagles_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "The Eagles chooses a player: they die. <i class=\"reminder-token\"></i> If the Eagles was marked <b>POISONED</b> by their own ability, they become healthy after making their choice. If no good players said \"I hate the fucking Eagles\" today, mark 1 as <b>POISONED</b>. <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "If a good player is <b>POISONED</b> by the Eagles, the Eagles chooses 1 player, otherwise they choose 2. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
+      "Dead",
       "Dead",
       "Poisoned"
     ],
     "name": "Eagles",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If no good players said \"I hate the fucking Eagles\" after making a nomination today, 1 is poisoned until dusk. If only good players did, you are poisoned.",
+    "ability": "Each night*, choose a player: they die. If no good players publicly said \"I hate the fucking Eagles\" today, choose another: they die. 1 good player who said it is poisoned.",
     "flavor": "That's it! Outta this fucking cab!",
     "otherNight": 12
   },
