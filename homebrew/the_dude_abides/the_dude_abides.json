@@ -231,7 +231,7 @@
     ],
     "name": "Bowling Ball",
     "team": "townsfolk",
-    "ability": "When you learn that you died, publicly choose an alive player: if they are evil, all evil players are drunk until dawn.",
+    "ability": "When you learn that you died, publicly choose an alive player: if they are evil, all evil players are drunk tonight.",
     "flavor": "Obviously you're not a golfer.",
     "otherNight": 3
   },
