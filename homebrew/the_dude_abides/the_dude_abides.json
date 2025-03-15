@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "name": "The Dude Abides v0.4",
+    "name": "The Dude Abides v0.5",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
     "logo": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/_meta.png",
@@ -113,8 +113,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/maude_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/maude_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects them with an ability, they must choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
-    "otherNightReminder": "If Maude has the Protected reminder token, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'. Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects them with an ability, they must choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
+    "firstNightReminder": "Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects the <b>SAFE</b> player with an ability, show them the Maude character token and ask to choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "If Maude has the Protected reminder token, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'. Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects the <b>SAFE</b> player with an ability, show them the Maude character token and ask to choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
     "reminders": [
       "Safe",
       "Protected"
@@ -231,7 +231,7 @@
     ],
     "name": "Bowling Ball",
     "team": "townsfolk",
-    "ability": "When you learn that you died, publicly choose an alive player: if they are evil, all evil players are drunk until dawn.",
+    "ability": "When you learn that you died, publicly choose an alive player: if they are evil, all evil players are drunk tonight.",
     "flavor": "Obviously you're not a golfer.",
     "otherNight": 3
   },
@@ -410,19 +410,18 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/biglebowski_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as <b>HIRED</b>, and 1 of them as <b>POISONED</b>. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> The Big Lebowski doesn't learn which player is poisoned.",
-    "otherNightReminder": "If either of the players chosen last night voted today, they die.\nThe Big Lebowski might choose to force 1 of them do die regardless if they voted (once). <i class=\"reminder-token\"></i>\nRemove all remaining reminder tokens.\nThe Big Lebowski chooses 2 players: mark both as Hired, and 1 as Poisoned. <i class=\"<b>POISONED</b>-token\"></i> The Big Lebowski doesn't learn which player is poisoned.",
+    "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as <b>HIRED</b>. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "If a <b>HIRED</b> player voted today, they die.\nThe Big Lebowski might choose to force 1 of them do die regardless if they voted (once). <i class=\"reminder-token\"></i>\nThe Big Lebowski chooses 2 players: mark both as <b>HIRED</b>. <i class=\"<b>POISONED</b>-token\"></i> <i class=\"<b>POISONED</b>-token\"></i>",
     "reminders": [
       "Hired",
       "Hired",
-      "Poisoned",
       "Dead",
       "Dead",
       "Once"
     ],
     "name": "Big Lebowski",
     "team": "demon",
-    "ability": "Each night, choose 2 players: 1 of them is poisoned. If the player chosen last night voted today, they die. Once per game, you may kill 1 of the chosen players regardless if they voted.",
+    "ability": "Each night, choose 2 players. If a player chosen last night voted today, they die. Once per game, you may kill 1 of the chosen players regardless if they voted.",
     "flavor": "Are you employed, sir?",
     "firstNight": 15,
     "otherNight": 10
@@ -458,14 +457,15 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/eagles_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/eagles_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "The Eagles chooses a player: they die. <i class=\"reminder-token\"></i> If the Eagles was marked <b>POISONED</b> by their own ability, they become healthy after making their choice. If no good players said \"I hate the fucking Eagles\" today, mark 1 as <b>POISONED</b>. <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "If a good player is <b>POISONED</b> by the Eagles, the Eagles chooses 1 player, otherwise they choose 2. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
+      "Dead",
       "Dead",
       "Poisoned"
     ],
     "name": "Eagles",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If no good players publicly said \"I hate the fucking Eagles\" today, 1 is poisoned until dusk. If only good players did, you are poisoned.",
+    "ability": "Each night*, choose a player: they die. If no good players publicly said \"I hate the fucking Eagles\" today, choose another: they die. 1 good player who said it is poisoned.",
     "flavor": "That's it! Outta this fucking cab!",
     "otherNight": 12
   },
@@ -483,7 +483,7 @@
     "setup": true,
     "name": "Nihilist",
     "team": "demon",
-    "ability": "Each night*, choose a player (even if you are dead): they might die. You register as a Minion too. [+1 Nihilist. All evil players are Nihilists]",
+    "ability": "Each night*, choose a player (even if you are dead): they might die. You register as a Minion too. [All evil players are Nihilists]",
     "flavor": "Vee belief in nossing. Give us ze money, Lebowski!",
     "otherNight": 13,
     "special": [
