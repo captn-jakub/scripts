@@ -113,8 +113,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/maude_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/maude_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects them with an ability, they must choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
-    "otherNightReminder": "If Maude has the Protected reminder token, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'. Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects them with an ability, they must choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
+    "firstNightReminder": "Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects the <b>SAFE</b> player with an ability, show them the Maude character token and ask to choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "If Maude has the Protected reminder token, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'. Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects the <b>SAFE</b> player with an ability, show them the Maude character token and ask to choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
     "reminders": [
       "Safe",
       "Protected"
