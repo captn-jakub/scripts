@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "capt'n jakub",
-    "name": "On a Roll v0.1"
+    "name": "On a Roll v0.2"
   },
   "investigator",
   "shugenja",
@@ -21,8 +21,8 @@
   "klutz",
   "moonchild",
   "mutant",
+  "godfather",
   "devilsadvocate",
-  "fearmonger",
   {
     "id": "rampage",
     "name": "Rampage",
