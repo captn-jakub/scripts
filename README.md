@@ -57,10 +57,10 @@ New content can be added via pull request into `main`:
 
 A workflow will run to validate against the schema in `ThePandemoniumInstitute/botc-release repo`. A copy of the schema is available here for convenience. If the workflow fails on the pull request, fix all issues with the JSON file before merging.
 
-Custom scripts build with standard (TPI) characters only should be placed in the `custom` directory. 
+Custom scripts built with standard (TPI) characters only should be placed in the `custom` directory. 
 
 Homebrew (either full scripts or individual characters) should be placed in a dedicated subdirectory of `homebrew`. 
 
 Scripts for play-testing the homebrew characters should be placed in the `homebrew` directory.
 
-List all new content in the appropriate section below, with a local link to the JSON file, and a link to the Almanac and the script database, if applicable.
+List all new content in the appropriate section above, with a local link to the JSON file, and a link to the almanac and/or the script database, if applicable.
