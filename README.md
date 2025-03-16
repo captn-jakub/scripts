@@ -26,7 +26,7 @@ List all new content in the appropriate section below, with a local link to the 
 
 Scripts using standard characters only. Links to the [script database](https://botcscripts.com) where available.
 
-| name | author | script database |
+| name | author | database |
 | :--- | :---: | :---: |
 | [A Few Good Men](custom/A_Few_Good_Men.json) | capt'n jakub | [link](https://botcscripts.com/script/6761) |
 | [Delegation of Duties](custom/Delegation_of_Duties.json) | capt'n jakub | [link](https://botcscripts.com/script/6763) |
@@ -36,14 +36,18 @@ Scripts using standard characters only. Links to the [script database](https://b
 | [Suspicious Brew](custom/Suspicious_Brew.json) | Puck | n/a |
 
 
-## Homebrew Characters
+## Homebrew
 
-* [Martyr (Townsfolk) by Puck](homebrew/characters/martyr.json)
-* [Rampage (Minion) by capt'n jakub](homebrew/characters/rampage.json)
-* [Serpent (Demon) by Puck](homebrew/characters/serpent.json)
-* [Skulker (Minion) by Puck](homebrew/characters/skulker.json)
+### Characters
 
-### Playtest scripts
+| name | type | author | almanac |
+| :---: | :---: | :---: |
+| [Martyr](homebrew/characters/martyr.json) | Townsfolk | Puck |
+| [Rampage](homebrew/characters/rampage.json) | Minion | capt'n jakub |
+| [Serpent](homebrew/characters/serpent.json) | Demon | Puck |
+| [Skulker](homebrew/characters/skulker.json) | Minion | Puck |
+
+### Scripts
 
 * [Fangs and Teeth by Puck](homebrew/Fangs_and_Teeth.json) (Serpent)
 * [I Like My Friends Close... by Puck](homebrew/I_Like_My_Friends_Close.json) (Skulker)
