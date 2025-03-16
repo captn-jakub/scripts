@@ -9,7 +9,7 @@ Repository of Blood on the Clocktower scripts and homebrew creations for use by 
 Scripts using standard characters only.
 
 | name | author | notes |
-| :--- | :---: | :---: |
+| :--- | :---: | :--- |
 | [A Few Good Men](custom/A_Few_Good_Men.json) | capt'n jakub | [script database](https://botcscripts.com/script/6761) |
 | [Delegation of Duties](custom/Delegation_of_Duties.json) | capt'n jakub | [script database](https://botcscripts.com/script/6763) |
 | [Don't Take My Word For It](custom/Dont_Take_My_Word_For_It.json) | capt'n jakub | [script database](https://botcscripts.com/script/6764) |
