@@ -32,10 +32,13 @@ List all new content in the appropriate section below, with a local link to the 
 
 ### Playtest scripts
 
+* [Fangs and Teeth by Puck](homebrew/Fangs_and_Teeth.json) (Serpent)
 * [I Like My Friends Close... by Puck](homebrew/I_Like_My_Friends_Close.json) (Skulker)
 * [On a Roll by capt'n jakub](homebrew/On_a_Roll.json) (Rampage)
-* [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr and Skulker)
-* [Why Did It Have To Be Snakes by Puck](homebrew/Why_Did_It_Have_To_Be_Snakes.json) (Serpent)
+* [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr, Skulker)
+* [Play Meta Games by Puck](homebrew/Play_Meta_Games.json) (Torment, Hooligan)
+* [Taste This by Puck](homebrew/Taste_This.json) (Martyr, Skulker, Siphon)
+* [Withered Whispers by Puck](homebrew/Withered_Whispers.json) (Dream Eater)
 
 
 ## Homebrew Scripts
