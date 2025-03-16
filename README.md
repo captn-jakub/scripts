@@ -22,15 +22,15 @@ Scripts using standard characters only.
 
 ### Characters
 
-| name | type | author |
+| type | name | author |
 | :--- | :---: | :---: |
-| [Dream Eater](homebrew/characters/dream_eater.json) | Minion | Puck |
-| [Martyr](homebrew/characters/martyr.json) | Townsfolk | Puck |
-| [Rampage](homebrew/characters/rampage.json) | Minion | capt'n jakub |
-| [Serpent](homebrew/characters/serpent.json) | Demon | Puck |
-| [Siphon](homebrew/characters/siphon.json) | Minion | Puck |
-| [Skulker](homebrew/characters/skulker.json) | Outsider | Puck |
-| [Torment](homebrew/characters/skulker.json) | Minion | Puck |
+| Townsfolk | [Martyr](homebrew/characters/martyr.json) | Puck |
+| Outsider | [Skulker](homebrew/characters/skulker.json) | Puck |
+| Minion | [Dream Eater](homebrew/characters/dream_eater.json) | Puck |
+| Minion | [Rampage](homebrew/characters/rampage.json) | capt'n jakub |
+| Minion | [Siphon](homebrew/characters/siphon.json) | Puck |
+| Minion | [Torment](homebrew/characters/skulker.json) | Puck |
+| Demon | [Serpent](homebrew/characters/serpent.json) | Puck |
 
 ### Scripts
 
