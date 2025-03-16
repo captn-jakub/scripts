@@ -52,13 +52,15 @@ Scripts using standard characters only. Links to the [script database](https://b
 
 ### Scripts
 
-* [Fangs and Teeth by Puck](homebrew/Fangs_and_Teeth.json) (Serpent)
-* [I Like My Friends Close... by Puck](homebrew/I_Like_My_Friends_Close.json) (Skulker)
-* [On a Roll by capt'n jakub](homebrew/On_a_Roll.json) (Rampage)
-* [Our Hands In Prayer by Puck](homebrew/Our_Hands_In_Prayer.json) (Martyr, Skulker)
-* [Play Meta Games by Puck](homebrew/Play_Meta_Games.json) (Torment, Hooligan)
-* [Taste This by Puck](homebrew/Taste_This.json) (Martyr, Skulker, Siphon)
-* [Withered Whispers by Puck](homebrew/Withered_Whispers.json) (Dream Eater)
+| name | author | notes |
+| :--- | :---: | :--- |
+| [Fangs and Teeth](homebrew/Fangs_and_Teeth.json) | Puck | Serpent |
+| [I Like My Friends Close...](homebrew/I_Like_My_Friends_Close.json) | Puck | Skulker |
+| [On a Roll](homebrew/On_a_Roll.json) | capt'n jakub | Rampage |
+| [Our Hands In Prayer](homebrew/Our_Hands_In_Prayer.json) | Puck | Martyr, Skulker |
+| [Play Meta Games](homebrew/Play_Meta_Games.json) | Puck | Torment, Hooligan |
+| [Taste This](homebrew/Taste_This.json) | Puck | Martyr, Skulker, Siphon |
+| [Withered Whispers](homebrew/Withered_Whispers.json) | Puck | Dream Eater |
 
 
 ## Homebrew Scripts
