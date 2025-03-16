@@ -34,6 +34,8 @@ Scripts using standard characters only. Links to the [script database](https://b
 
 ### Scripts
 
+Most of these are intended for play-testing particular homebrew character(s) - these characters are mentioned in the notes. For full homebrew scripts, refer to the almanac and/or the [script database](https://botcscripts.com) entry.
+
 | name | author | notes |
 | :--- | :---: | :--- |
 | [Fangs and Teeth](homebrew/Fangs_and_Teeth.json) | Puck | Serpent |
@@ -42,7 +44,7 @@ Scripts using standard characters only. Links to the [script database](https://b
 | [Our Hands In Prayer](homebrew/Our_Hands_In_Prayer.json) | Puck | Martyr, Skulker |
 | [Play Meta Games](homebrew/Play_Meta_Games.json) | Puck | Torment, Hooligan |
 | [Taste This](homebrew/Taste_This.json) | Puck | Martyr, Skulker, Siphon |
-| [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json) | capt'n jakub | [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html), [database](https://botc-scripts.azurewebsites.net/script/6594) |
+| [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json) | capt'n jakub | [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html), [database](https://botcscripts.com/script/6594) |
 | [Withered Whispers](homebrew/Withered_Whispers.json) | Puck | Dream Eater |
 
 # Contributing
