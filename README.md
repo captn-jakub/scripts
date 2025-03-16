@@ -40,7 +40,7 @@ Scripts using standard characters only. Links to the [script database](https://b
 
 ### Characters
 
-| name | type | author | almanac |
+| name | type | author |
 | :---: | :---: | :---: |
 | [Martyr](homebrew/characters/martyr.json) | Townsfolk | Puck |
 | [Rampage](homebrew/characters/rampage.json) | Minion | capt'n jakub |
