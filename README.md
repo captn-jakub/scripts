@@ -60,17 +60,5 @@ Scripts using standard characters only. Links to the [script database](https://b
 | [Our Hands In Prayer](homebrew/Our_Hands_In_Prayer.json) | Puck | Martyr, Skulker |
 | [Play Meta Games](homebrew/Play_Meta_Games.json) | Puck | Torment, Hooligan |
 | [Taste This](homebrew/Taste_This.json) | Puck | Martyr, Skulker, Siphon |
+| [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json) | capt'n jakub | [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html), [database](https://botc-scripts.azurewebsites.net/script/6594) |
 | [Withered Whispers](homebrew/Withered_Whispers.json) | Puck | Dream Eater |
-
-
-## Homebrew Scripts
-
-### The Dude Abides by capt'n jakub
-
-[json](homebrew/the_dude_abides/the_dude_abides.json) - 
-[almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html) - 
-[database](https://botc-scripts.azurewebsites.net/script/6594)
-
-Full homebrew script based on The Big Lebowski.
-
-Do not use in streamed games, as it contains copyrighted material.
