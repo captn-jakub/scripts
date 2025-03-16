@@ -34,7 +34,9 @@ Scripts using standard characters only.
 
 ### Scripts
 
-Most of these are intended for play-testing particular a homebrew character - these characters are mentioned in the notes. For full homebrew scripts, refer to the almanac and/or the [script database](https://botcscripts.com) entry.
+Most of these are intended for play-testing particular a homebrew character - these characters are mentioned under notes. 
+
+For full homebrew scripts, refer to the almanac and/or the [script database](https://botcscripts.com) entries.
 
 | name | author | notes |
 | :--- | :---: | :--- |
