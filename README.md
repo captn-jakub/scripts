@@ -42,10 +42,13 @@ Scripts using standard characters only. Links to the [script database](https://b
 
 | name | type | author |
 | :---: | :---: | :---: |
+| [Dream Eater](homebrew/characters/dream_eater.json) | Minion | Puck |
 | [Martyr](homebrew/characters/martyr.json) | Townsfolk | Puck |
 | [Rampage](homebrew/characters/rampage.json) | Minion | capt'n jakub |
 | [Serpent](homebrew/characters/serpent.json) | Demon | Puck |
-| [Skulker](homebrew/characters/skulker.json) | Minion | Puck |
+| [Siphon](homebrew/characters/siphon.json) | Minion | Puck |
+| [Skulker](homebrew/characters/skulker.json) | Outsider | Puck |
+| [Torment](homebrew/characters/skulker.json) | Minion | Puck |
 
 ### Scripts
 
