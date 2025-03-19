@@ -1,7 +1,9 @@
 [
-  {"id":"_meta",
-    "author":"Puck",
-    "name":"Withered Whispers"},
+  {
+    "id": "_meta",
+    "author": "Puck",
+    "name": "Withered Whispers"
+  },
   "highpriestess",
   "balloonist",
   "preacher",
@@ -24,9 +26,10 @@
   "assassin",
   {
     "id": "dreameater_dream_eater",
-    "image":[
+    "image": [
       "https://www.bloodstar.xyz/p/Puck/Dream_Eater/dreameater_dream_eater.png",
-      "https://www.bloodstar.xyz/p/Puck/Dream_Eater/dreameater1_dream_eater.png" ],
+      "https://www.bloodstar.xyz/p/Puck/Dream_Eater/dreameater1_dream_eater.png"
+    ],
     "otherNightReminder": "The Dream Eater chooses two players, wake them and show that they have been visited by the Dream Eater. Ask if they would like to wake, record their answers, and respond accordingly.",
     "reminders": [
       "Immune",
@@ -42,13 +45,16 @@
     "name": "Dream Eater",
     "team": "minion",
     "ability": "Each night, choose 2 players (not yourself): each may choose to have or lose their ability until dusk. If both have it, both lose it. One good player is immune.",
-    "otherNight": 15},
+    "otherNight": 15
+  },
   "imp",
   "vigormortis",
   "fanggu",
-  {"id": "gracefulgrim_fabled",
+  {
+    "id": "gracefulgrim_fabled",
     "image": "https://www.bloodstar.xyz/p/Puck/Fabled/gracefulgrim_fabled.png",
     "name": "Graceful Grim",
     "team": "fabled",
-    "ability": "The Storyteller grants grim access only to vetted spectators."}
+    "ability": "The Storyteller grants grim access only to vetted spectators."
+  }
 ]
