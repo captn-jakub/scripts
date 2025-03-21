@@ -273,7 +273,7 @@
     ],
     "name": "Smokey",
     "team": "outsider",
-    "ability": "On your first night, choose 2 players: when you die, you become the alignment of 1 of them, even if drunk or poisoned.",
+    "ability": "On your 1st night, choose 2 players: when you die, you become the alignment of 1 of them, even if drunk or poisoned.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
     "firstNight": 22,
     "otherNight": 20
