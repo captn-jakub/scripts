@@ -1,0 +1,34 @@
+[
+  {
+    "id": "_meta",
+    "author": "Jackson",
+    "name": "Mindfuck",
+    "bootlegger": [
+      "This is a 2 player script. Any two characters are chosen regardless of character type. The outcome depends on the day one execution. If there is no demon in the game, goods win via not killing at all."
+    ]
+  },
+
+  "atheist",
+  "alchemist",
+
+  "heretic",
+  "lunatic",
+  "politician",
+  "drunk",
+  "ogre",
+  "saint",
+
+  "goblin",
+
+  "imp",
+
+  {
+    "id": "wtf_rule1",
+    "name": "Mindfuck",
+    "ability": "This is a 2 player script. Any two characters are chosen regardless of character type. The outcome depends on the day one execution. If there is no demon in the game, goods win via not killing at all.",
+    "setup": true,
+    "team": "fabled"
+  },
+  "gardener",
+  "bootlegger"
+]
