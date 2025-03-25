@@ -16,6 +16,7 @@ Scripts using standard characters only.
 | [Miss-a-Line](custom/Miss-a-Line.json) | capt'n jakub | [database](https://botcscripts.com/script/6595) |
 | [Stuff Happens](custom/Stuff_Happens.json) | capt'n jakub | [database](https://botcscripts.com/script/6765) |
 | [Suspicious Brew](custom/Suspicious_Brew.json) | Puck | |
+| [Whose Demon Is It Anyway](custom/Whose_Demon_Is_It_Anyway.json) | Jackson | |
 
 
 ## Homebrew
@@ -31,6 +32,7 @@ Scripts using standard characters only.
 | Minion | [Siphon](homebrew/characters/siphon.json) | Puck |
 | Minion | [Torment](homebrew/characters/skulker.json) | Puck |
 | Demon | [Serpent](homebrew/characters/serpent.json) | Puck |
+| Fabled | Mindfuck | Jackson |
 
 ### Scripts
 
@@ -42,6 +44,7 @@ For full homebrew scripts, refer to the almanac and/or the [script database](htt
 | :--- | :---: | :--- |
 | [Fangs and Teeth](homebrew/Fangs_and_Teeth.json) | Puck | Serpent |
 | [I Like My Friends Close...](homebrew/I_Like_My_Friends_Close.json) | Puck | Skulker |
+| [Mindfuck](homebrew/Mindfuck.json) | Jackson | Mindfuck |
 | [On a Roll](homebrew/On_a_Roll.json) | capt'n jakub | Rampage |
 | [Our Hands In Prayer](homebrew/Our_Hands_In_Prayer.json) | Puck | Martyr, Skulker |
 | [Play Meta Games](homebrew/Play_Meta_Games.json) | Puck | Torment, [Hooligan](https://www.impeccabletiming.net/botc/Hooligan.html) |
