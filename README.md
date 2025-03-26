@@ -10,12 +10,12 @@ Scripts using standard characters only.
 
 | name | author | notes |
 | :--- | :---: | :--- |
-| [A Few Good Men](custom/A_Few_Good_Men.json) | capt'n jakub | [database](https://botcscripts.com/script/6761) |
+| [A Few Good Men](custom/A_Few_Good_Men.json) | capt'n jakub | solo Legion<br>[database](https://botcscripts.com/script/6761) |
 | [Delegation of Duties](custom/Delegation_of_Duties.json) | capt'n jakub | [database](https://botcscripts.com/script/6763) |
-| [Don't Take My Word For It](custom/Dont_Take_My_Word_For_It.json) | capt'n jakub | [database](https://botcscripts.com/script/6764) |
-| [Miss-a-Line](custom/Miss-a-Line.json) | capt'n jakub | [database](https://botcscripts.com/script/6595) |
-| [Stuff Happens](custom/Stuff_Happens.json) | capt'n jakub | [database](https://botcscripts.com/script/6765) |
-| [Suspicious Brew](custom/Suspicious_Brew.json) | Puck | |
+| [Don't Take My Word For It](custom/Dont_Take_My_Word_For_It.json) | capt'n jakub | hard mode: mechanical confirmation all around<br>[database](https://botcscripts.com/script/6764) |
+| [Miss-a-Line](custom/Miss-a-Line.json) | capt'n jakub | solo Typhon<br>[database](https://botcscripts.com/script/6595) |
+| [Stuff Happens](custom/Stuff_Happens.json) | capt'n jakub | Wizard (and Alchemist), Amnesiac, bunch of droisoning<br>[database](https://botcscripts.com/script/6765) |
+| [Suspicious Brew](custom/Suspicious_Brew.json) | Puck | solo Kazali |
 | [Whose Demon Is It Anyway](custom/Whose_Demon_Is_It_Anyway.json) | Jackson | |
 
 
