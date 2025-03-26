@@ -19,8 +19,8 @@ Scripts using standard characters only.
 [database](https://botcscripts.com/script/6595) |
 | [Stuff Happens](custom/Stuff_Happens.json) | capt'n jakub | Wizard (and Alchemist), Amnesiac, bunch of droisoning
 [database](https://botcscripts.com/script/6765) |
-| [Suspicious Brew](custom/Suspicious_Brew.json) | Puck | | solo Kazali |
-| [Whose Demon Is It Anyway](custom/Whose_Demon_Is_It_Anyway.json) | Jackson | | |
+| [Suspicious Brew](custom/Suspicious_Brew.json) | Puck | solo Kazali |
+| [Whose Demon Is It Anyway](custom/Whose_Demon_Is_It_Anyway.json) | Jackson | |
 
 
 ## Homebrew
