@@ -2,13 +2,13 @@
     {
         "id": "_meta",
         "author": "capt'n jakub",
-        "name": "One and Done v0.1"
+        "name": "One And Done v0.1"
     },
     "chef",
     "noble",
     "librarian",
-    "fortuneteller",
     "oracle",
+    "engineer",
     "nightwatchman",
     "seamstress",
     "philosopher",
@@ -25,9 +25,9 @@
 
     "godfather",
     "assassin",
-    "scarletwoman",
+    "marionette",
     "boffin",
-    
+
     "imp",
     "vigormortis",
     "vortox",
