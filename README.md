@@ -11,6 +11,7 @@ Scripts using standard characters only.
 | name | author | notes |
 | :--- | :---: | :--- |
 | [A Few Good Men](custom/A_Few_Good_Men.json) | capt'n jakub | solo Legion<br>[database](https://botcscripts.com/script/6761) |
+| [Death Do Us Part](custom/Death_Do_Us_Part.json) | capt'n jakub | all about death |
 | [Delegation of Duties](custom/Delegation_of_Duties.json) | capt'n jakub | [database](https://botcscripts.com/script/6763) |
 | [Don't Take My Word For It](custom/Dont_Take_My_Word_For_It.json) | capt'n jakub | hard mode: mechanical confirmation all around<br>[database](https://botcscripts.com/script/6764) |
 | [Miss-a-Line](custom/Miss-a-Line.json) | capt'n jakub | solo Typhon<br>[database](https://botcscripts.com/script/6595) |
