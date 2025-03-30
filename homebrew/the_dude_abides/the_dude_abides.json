@@ -113,11 +113,11 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/maude_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/maude_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects the <b>SAFE</b> player with an ability, show them the Maude character token and ask to choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
-    "otherNightReminder": "If Maude has the Protected reminder token, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'. Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i>\nIf an evil player selects the <b>SAFE</b> player with an ability, show them the Maude character token and ask to choose again (place the <b>PROTECTED</b> reminder token on Maude if that happens). <i class=\"reminder-token\"></i>",
+    "firstNightReminder": "Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i><br>If an evil player selects the <b>SAFE</b> player with an ability, show them the Maude character token and ask to choose again (mark Maude as <b>THOROUGH</b> if that happens). <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "If Maude was <b>THOROUGH</b>, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'.<br>Maude chooses a player: mark them as <b>SAFE</b>. <i class=\"reminder-token\"></i><br>If an evil player selects the <b>SAFE</b> player with an ability, show them the Maude character token and ask to choose again (mark Maude as <b>THOROUGH</b> if that happens). <i class=\"reminder-token\"></i>",
     "reminders": [
       "Safe",
-      "Protected"
+      "Thorough"
     ],
     "name": "Maude",
     "team": "townsfolk",
@@ -189,8 +189,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dude_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/dude_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. <i class=\"reminder-token\"></i>\nIf they chose the Rug, remove the Rug reminder.\nIf the Rug changes the character or gains an ability, wake the Rug.",
-    "otherNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. <i class=\"reminder-token\"></i>\nIf they chose the Rug, remove the Rug reminder.\nIf the Rug changes the character or gains an ability, wake the Rug.",
+    "firstNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. <i class=\"reminder-token\"></i><br>If they chose the Rug, remove the Rug reminder.<br>If the Rug changes the character or gains an ability, wake the Rug.",
+    "otherNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. <i class=\"reminder-token\"></i><br>If they chose the Rug, remove the Rug reminder.<br>If the Rug changes the character or gains an ability, wake the Rug.",
     "reminders": [
       "No Ability"
     ],
@@ -341,8 +341,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/chief_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/chief_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Chief chooses a player and points to an Outsider character on the script. <i class=\"reminder-token\"></i>\nWake the target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Chief token. Show the selected Outsider token.",
-    "otherNightReminder": "The Chief chooses a player and points to an Outsider character on the script. <i class=\"reminder-token\"></i>\nWake the target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Chief token. Show the selected Outsider token.",
+    "firstNightReminder": "The Chief chooses a player and points to an Outsider character on the script. <i class=\"reminder-token\"></i><br>Wake the target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Chief token. Show the selected Outsider token.",
+    "otherNightReminder": "The Chief chooses a player and points to an Outsider character on the script. <i class=\"reminder-token\"></i><br>Wake the target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Chief token. Show the selected Outsider token.",
     "reminders": [
       "Mad"
     ],
@@ -411,7 +411,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/biglebowski_thedudeabides_tokens.png"
     ],
     "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as <b>HIRED</b>. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
-    "otherNightReminder": "If a <b>HIRED</b> player voted today, they die.\nThe Big Lebowski might choose to force 1 of them do die regardless if they voted (once). <i class=\"reminder-token\"></i>\nThe Big Lebowski chooses 2 players: mark both as <b>HIRED</b>. <i class=\"<b>POISONED</b>-token\"></i> <i class=\"<b>POISONED</b>-token\"></i>",
+    "otherNightReminder": "If a <b>HIRED</b> player voted today, they die.<br>The Big Lebowski might choose to force 1 of them do die regardless if they voted (once). <i class=\"reminder-token\"></i><br>The Big Lebowski chooses 2 players: mark both as <b>HIRED</b>. <i class=\"<b>POISONED</b>-token\"></i> <i class=\"<b>POISONED</b>-token\"></i>",
     "reminders": [
       "Hired",
       "Hired",
@@ -433,7 +433,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackytreehorn_thedudeabides_tokens.png"
     ],
     "firstNightReminder": "Jacky Treehorn chooses a player: mark them as <b>POISONED</b>. <i class=\"reminder-token\"></i>",
-    "otherNightReminder": "Jacky Treehorn chooses a player. <i class=\"reminder-token\"></i> If 3 other players were already poisoned by Jacky Treehorn, remove the <b>POISONED</b> reminder from 1 of them.\nIf a poisoned (in any way) player died since dawn, their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "Jacky Treehorn chooses a player. <i class=\"reminder-token\"></i> If 3 other players were already poisoned by Jacky Treehorn, remove the <b>POISONED</b> reminder from 1 of them.<br>If a poisoned (in any way) player died since dawn, their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
       "Poisoned",
       "Poisoned",
@@ -465,7 +465,7 @@
     ],
     "name": "Eagles",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If no good players publicly said \"I hate the fucking Eagles\" today, choose another: they die. 1 good player who said it is poisoned.",
+    "ability": "Each night*, choose a player: they die. If no good players who publicly said \"I hate the fucking Eagles\" today are alive, choose another: they die. 1 alive good player who said it is poisoned.",
     "flavor": "That's it! Outta this fucking cab!",
     "otherNight": 12
   },
