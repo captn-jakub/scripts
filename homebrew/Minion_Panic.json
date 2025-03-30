@@ -35,6 +35,7 @@
   {
     "id": "minionpanic",
     "name": "Minion Panic",
+    "image": "https://www.bloodstar.xyz/p/captn_jakub/minionpanic/minionpanic_minionpanic.png",
     "team": "fabled",
     "ability": "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. [No Demon. +1 Minion]",
     "flavor": "OOPS ALL MINIONS",
