@@ -1,0 +1,32 @@
+[
+  {
+    "id": "_meta",
+    "author": "Jax & Jackson",
+    "name": "Minion Panic",
+    "bootlegger": [
+      "Each night*, Minions vote on a player to die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. [No Demon. +1 Minion]"
+    ]
+  },
+  "washerwoman",
+  "librarian",
+  "pixie",
+  "empath",
+  "villageidiot",
+  "dreamer",
+  "lycanthrope",
+  "alsaahir",
+  "artist",
+  "alchemist",
+  "cannibal",
+  "amnesiac",
+  "virgin",
+  "drunk",
+  "plaguedoctor",
+  "mutant",
+  "snitch",
+  "puzzlemaster",
+  "poisoner",
+  "harpy",
+  "cerenovus",
+  "fearmonger"
+]
