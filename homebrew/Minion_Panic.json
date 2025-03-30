@@ -41,9 +41,7 @@
     "flavor": "OOPS ALL MINIONS",
     "otherNight": 35,
     "otherNightReminder": "Wake all Minions, allow them to choose who dies. In case of a tie, you choose. <i class=\"reminder-token\"></i>",
-    "reminders": [
-      "Dead"
-    ],
+    "reminders": ["Dead"],
     "setup": true,
     "special": [
       {
@@ -52,6 +50,16 @@
         "time": "night",
         "global": "minion",
         "value": "Minion Panic: Choose Player"
+      }
+    ],
+    "jinxes": [
+      {
+        "id": "puzzlemaster",
+        "reason": "When the Puzzlemaster makes a guess; if they would learn the demon, they instead learn a living minion"
+      },
+      {
+        "id": "lycanthrope",
+        "reason": "The kill made by the Minion Panic kill at night counts as a Demon kill to the Lycanthrope."
       }
     ]
   }
