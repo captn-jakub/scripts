@@ -41,7 +41,7 @@
     "name": "Minion Panic",
     "team": "fabled",
     "ability": "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. [No Demon. +1 Minion]",
-    "otherNight": 30,
+    "otherNight": 35,
     "otherNightReminder": "Wake all Minions, allow them to choose who dies. In case of a tie, you choose. <i class=\"reminder-token\"></i>",
     "flavor": "OOPS ALL MINIONS",
     "special": [
