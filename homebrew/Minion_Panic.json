@@ -4,7 +4,7 @@
     "author": "Jax & Jackson",
     "name": "Minion Panic",
     "bootlegger": [
-      "Each night*, Minions vote on a player to die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. [No Demon. +1 Minion]"
+      "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. [No Demon. +1 Minion]"
     ]
   },
   "washerwoman",
@@ -31,5 +31,27 @@
   "harpy",
   "cerenovus",
   "fearmonger",
-  "xaan"
+  "xaan",
+  {
+    "id": "minionpanic",
+    "setup": true,
+    "reminders": [
+      "Dead"
+    ],
+    "name": "Minion Panic",
+    "team": "fabled",
+    "ability": "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. [No Demon. +1 Minion]",
+    "otherNight": 30,
+    "otherNightReminder": "Wake all Minions, allow them to choose who dies. In case of a tie, you choose. <i class=\"reminder-token\"></i>",
+    "flavor": "OOPS ALL MINIONS",
+    "special": [
+      {
+        "type": "ability",
+        "name": "pointing",
+        "time": "night",
+        "global": "minion",
+        "value": "Minion Panic: Choose Player"
+      }
+    ]
+  }
 ]
