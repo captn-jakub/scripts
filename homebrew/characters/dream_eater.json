@@ -21,7 +21,7 @@
     "name": "Dream Eater",
     "team": "minion",
     "ability": "Each night, choose 2 players (not yourself): each may choose to have or lose their ability until dusk (even if dead). If both have it, both lose it. One good player is immune.",
-    "firstNight":25,
+    "firstNight": 25,
     "otherNight": 12
   }
 ]
