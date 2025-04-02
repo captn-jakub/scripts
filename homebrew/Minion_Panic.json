@@ -4,7 +4,7 @@
     "author": "Jax & Jackson",
     "name": "Minion Panic",
     "bootlegger": [
-      "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. [No Demon. +1 Minion]"
+      "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. If two or more minions are alive and there are three or fewer players alive, evil wins. [No Demon. +1 Minion]"
     ]
   },
   "pixie",
@@ -61,7 +61,11 @@
       },
       {
         "id": "lycanthrope",
-        "reason": "The kill made by the Minion Panic kill at night counts as a Demon kill to the Lycanthrope."
+        "reason": "The Minion Panic kill at night counts as a Demon kill to the Lycanthrope."
+      },
+      {
+        "id": "king",
+        "reason": "One minion learns that a king is in play."
       }
     ]
   }
