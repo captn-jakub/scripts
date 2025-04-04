@@ -1,0 +1,72 @@
+[
+  {
+    "id": "_meta",
+    "author": "Jax & Jackson",
+    "name": "Minion Panic",
+    "bootlegger": [
+      "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. If two or more minions are alive and there are three or fewer players alive, evil wins. [No Demon. +1 Minion]"
+    ]
+  },
+  "pixie",
+  "empath",
+  "villageidiot",
+  "king",
+  "dreamer",
+  "towncrier",
+  "innkeeper",
+  "lycanthrope",
+  "philosopher",
+  "alchemist",
+  "cannibal",
+  "amnesiac",
+  "farmer",
+  "mayor",
+  "drunk",
+  "plaguedoctor",
+  "mutant",
+  "snitch",
+  "puzzlemaster",
+  "godfather",
+  "poisoner",
+  "harpy",
+  "cerenovus",
+  "fearmonger",
+  "xaan",
+  "bootlegger",
+  "djinn",
+  {
+    "id": "minionpanic",
+    "name": "Minion Panic",
+    "image": "https://www.bloodstar.xyz/p/captn_jakub/minionpanic/minionpanic_minionpanic.png",
+    "team": "fabled",
+    "ability": "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. [No Demon. +1 Minion]",
+    "flavor": "OOPS ALL MINIONS",
+    "otherNight": 35,
+    "otherNightReminder": "Wake all Minions, allow them to choose who dies. In case of a tie, you choose. <i class=\"reminder-token\"></i>",
+    "reminders": ["Dead"],
+    "setup": true,
+    "special": [
+      {
+        "type": "ability",
+        "name": "pointing",
+        "time": "night",
+        "global": "minion",
+        "value": "Minion Panic: Choose Player"
+      }
+    ],
+    "jinxes": [
+      {
+        "id": "puzzlemaster",
+        "reason": "When the Puzzlemaster makes a guess; if they would learn the demon, they instead learn a living minion"
+      },
+      {
+        "id": "lycanthrope",
+        "reason": "The Minion Panic kill at night counts as a Demon kill to the Lycanthrope."
+      },
+      {
+        "id": "king",
+        "reason": "One minion learns that a king is in play."
+      }
+    ]
+  }
+]

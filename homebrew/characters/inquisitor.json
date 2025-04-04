@@ -1,0 +1,24 @@
+[
+  {
+    "id": "_meta",
+    "name": "Inquisitor",
+    "author": "Jackson"
+  },
+  {
+    "id": "Inquisitor",
+    "reminders": ["Dead"],
+    "name": "Inquisitor",
+    "team": "townsfolk",
+    "ability": "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. Your ability works even if drunk, poisoned or dead. [No Demon. +1 Minion]",
+    "flavor": "NOBODY expects the Spanish Inquisition!",
+    "special": [
+      {
+        "type": "ability",
+        "name": "pointing",
+        "time": "night",
+        "global": "minion",
+        "value": "Inquisitor: Choose Player"
+      }
+    ]
+  }
+]
