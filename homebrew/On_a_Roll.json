@@ -22,7 +22,6 @@
   "moonchild",
   "mutant",
   "godfather",
-  "devilsadvocate",
   {
     "id": "rampage",
     "name": "Rampage",
@@ -52,7 +51,8 @@
       }
     ]
   },
-  "organgrinder",
+  "devilsadvocate",
+  "assassin",
   "lilmonsta",
   "shabaloth",
   "po",
