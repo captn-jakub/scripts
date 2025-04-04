@@ -21,8 +21,6 @@
   "klutz",
   "moonchild",
   "mutant",
-  "godfather",
-  "devilsadvocate",
   {
     "id": "rampage",
     "name": "Rampage",
@@ -52,6 +50,8 @@
       }
     ]
   },
+  "godfather",
+  "devilsadvocate",
   "organgrinder",
   "lilmonsta",
   "shabaloth",
