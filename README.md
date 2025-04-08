@@ -27,9 +27,12 @@ Scripts using standard characters only.
 
 | type | name | author |
 | :--- | :---: | :---: |
+| Townsfolk | [Hacktivist](homebrew/characters/enigma.json) | Smog |
 | Townsfolk | [Martyr](homebrew/characters/martyr.json) | Puck |
+| Outsider | [Enigma](homebrew/characters/enigma.json) | Smog |
 | Outsider | [Skulker](homebrew/characters/skulker.json) | Puck |
 | Minion | [Dream Eater](homebrew/characters/dream_eater.json) | Puck |
+| Minion | [Phreakker](homebrew/characters/enigma.json) | Smog |
 | Minion | [Rampage](homebrew/characters/rampage.json) | capt'n jakub |
 | Minion | [Siphon](homebrew/characters/siphon.json) | Puck |
 | Minion | [Torment](homebrew/characters/skulker.json) | Puck |
@@ -52,6 +55,7 @@ For full homebrew scripts, refer to the almanac and/or the [script database](htt
 | [Play Meta Games](homebrew/Play_Meta_Games.json) | Puck | Torment, [Hooligan](https://www.impeccabletiming.net/botc/Hooligan.html) |
 | [Taste This](homebrew/Taste_This.json) | Puck | Martyr, Skulker, Siphon |
 | [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json) | capt'n jakub | [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html), [database](https://botcscripts.com/script/6594) |
+| [The Velvet Network](homebrew/The_Velvet_Network.json) | Smog | [almanac](https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/almanac.html) - Enigma and friends |
 | [Withered Whispers](homebrew/Withered_Whispers.json) | Puck | Dream Eater |
 
 
