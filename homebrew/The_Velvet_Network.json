@@ -21,7 +21,7 @@
     "id": "hacktivistthevelvetnetwork",
     "name": "Hacktivist",
     "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/hacktivist_thevelvetnetwork.png",
-    "ability": "Each day, you can privately guess with the storyteller which living player is the Enigma and what their Enigma phrase is. If you guess both correctly(once), you learn the identity and role of a minion",
+    "ability": "Each day, you can privately guess with the storyteller which living player is the Enigma and what their Enigma phrase is. If you guess both correctly (once), you learn the identity and role of a minion",
     "flavor": "When freedom is encrypted, revolution becomes the decryption key.",
     "reminders": [
       "Learned Minion"
