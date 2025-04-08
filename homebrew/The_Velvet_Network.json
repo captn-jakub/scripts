@@ -24,10 +24,8 @@
     "ability": "Each day, you may guess which living player is the Enigma, and their phrase. If you guess both correctly (once), you learn a Minion and their character. [+the Enigma]",
     "flavor": "When freedom is encrypted, revolution becomes the decryption key.",
     "reminders": [
+      "Guessed Correctly",
       "Learned Minion"
-    ],
-    "remindersGlobal": [
-      "Guessed Correctly"
     ],
     "team": "townsfolk"
   },
@@ -57,8 +55,9 @@
     "flavor": "Cracking your system was child's play; what follows is my masterpiece, and your doom!",
     "otherNight": 50,
     "otherNightReminder": "If the Phreakker correctly guessed the Enigma and their phrase, they choose 2 players. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
-    "remindersGlobal": [
-      "Dies"
+    "reminders": [
+      "Dead",
+      "Dead"
     ],
     "team": "minion"
   },
