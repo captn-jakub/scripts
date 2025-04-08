@@ -1,321 +1,72 @@
 [
-    {
-      "author": "Smog",
-      "name": "The Velvet Network",
-      "isOfficial": false,
-      "id": "_meta"
-    },
-    {
-      "id": "librarianthevelvetnetwork",
-      "name": "Librarian",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/librarian_thevelvetnetwork.png",
-      "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
-      "firstNight": 16,
-      "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
-      "reminders": [
-        "Outsider",
-        "Wrong"
-      ],
-      "team": "townsfolk"
-    },
-    {
-      "id": "pixiethevelvetnetwork",
-      "name": "Pixie",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/pixie_thevelvetnetwork.png",
-      "ability": "You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die.",
-      "firstNight": 18,
-      "firstNightReminder": "Show the Pixie 1 in-play Townsfolk character token.",
-      "reminders": [
-        "Mad",
-        "Has ability"
-      ],
-      "team": "townsfolk"
-    },
-    {
-      "id": "chefthevelvetnetwork",
-      "name": "Chef",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/chef_thevelvetnetwork.png",
-      "ability": "You start knowing how many pairs of evil players there are.",
-      "firstNight": 17,
-      "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
-      "team": "townsfolk"
-    },
-    {
-      "id": "gossipthevelvetnetwork",
-      "name": "Gossip",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/gossip_thevelvetnetwork.png",
-      "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
-      "otherNight": 12,
-      "otherNightReminder": "If the Gossip’s public statement was true: Choose a player not protected from dying tonight. That player dies.",
-      "reminders": [
-        "Dead"
-      ],
-      "team": "townsfolk"
-    },
-    {
-      "id": "professorthevelvetnetwork",
-      "name": "Professor",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/professor_thevelvetnetwork.png",
-      "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",
-      "otherNight": 13,
-      "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",
-      "reminders": [
-        "Alive",
-        "No ability"
-      ],
-      "team": "townsfolk"
-    },
-    {
-      "id": "innkeeperthevelvetnetwork",
-      "name": "Innkeeper",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/innkeeper_thevelvetnetwork.png",
-      "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk.",
-      "otherNight": 3,
-      "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
-      "reminders": [
-        "Protected",
-        "Drunk"
-      ],
-      "team": "townsfolk"
-    },
-    {
-      "id": "savantthevelvetnetwork",
-      "name": "Savant",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/savant_thevelvetnetwork.png",
-      "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
-      "team": "townsfolk"
-    },
-    {
-      "id": "balloonistthevelvetnetwork",
-      "name": "Balloonist",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/balloonist_thevelvetnetwork.png",
-      "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
-      "firstNight": 19,
-      "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
-      "otherNight": 15,
-      "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
-      "reminders": [
-        "Seen Townsfolk",
-        "Seen Outsider",
-        "Seen Minion",
-        "Seen Demon",
-        "Seen Traveller"
-      ],
-      "setup": true,
-      "team": "townsfolk"
-    },
-    {
-      "id": "villageidiotthevelvetnetwork",
-      "name": "Village Idiot",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/villageidiot_thevelvetnetwork.png",
-      "ability": "\"Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]\"",
-      "flavor": "”Roses are blue, and violets are red, Please reverse what I just said.”",
-      "firstNight": 20,
-      "firstNightReminder": "efore putting the character tokens in the bag, replace zero, one or two Townsfolk tokens with Village Idiot tokens. While preparing the first night, mark one Village Idiot with the DRUNK reminder.",
-      "otherNight": 14,
-      "otherNightReminder": "During each night, wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat until all Village Idiots have acted.",
-      "remindersGlobal": [
-        "Drunk"
-      ],
-      "team": "townsfolk"
-    },
-    {
-      "id": "fishermanthevelvetnetwork",
-      "name": "Fisherman",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/fisherman_thevelvetnetwork.png",
-      "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
-      "reminders": [
-        "No ability"
-      ],
-      "team": "townsfolk"
-    },
-    {
-      "id": "acrobatthevelvetnetwork",
-      "name": "Acrobat",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/acrobat_thevelvetnetwork.png",
-      "ability": "Each night*, pick a player. If",
-      "flavor": "\"Welcome, one and all, to the greatest show on earth.\"",
-      "otherNight": 5,
-      "otherNightReminder": "\"Each night*, choose a player: if they are or become drunk or poisoned tonight, you die.\"",
-      "reminders": [
-        "Dead"
-      ],
-      "team": "townsfolk"
-    },
-    {
-      "id": "farmerthevelvetnetwork",
-      "name": "Farmer",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/farmer_thevelvetnetwork.png",
-      "ability": "If you die at night, an alive good player becomes a Farmer.",
-      "otherNight": 16,
-      "otherNightReminder": "If a Farmer died tonight, choose another good player and make them the Farmer. Wake this player, show them the 'You are' card and the Farmer character token.",
-      "team": "townsfolk"
-    },
-    {
-      "id": "hacktivistthevelvetnetwork",
-      "name": "Hacktivist",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/hacktivist_thevelvetnetwork.png",
-      "ability": "Each day, you can privately guess with the storyteller which living player is the Enigma and what their Enigma phrase is. If you guess both correctly(once), you learn the identity and role of a minion",
-      "flavor": "\"When freedom is encrypted, revolution becomes the decryption key.\"",
-      "reminders": [
-        "Learned Minion"
-      ],
-      "remindersGlobal": [
-        "Guessed Correctly"
-      ],
-      "team": "townsfolk"
-    },
-    {
-      "id": "enigmathevelvetnetwork",
-      "name": "Enigma",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/enigma_thevelvetnetwork.png",
-      "ability": "You start knowing a phrase that you must say publicly exactly once per day, even if dead. If you are \"mad\" about being an Outsider, or do not say the phrase exactly once, you might be executed. ",
-      "flavor": "\"Every word is a key; every silence, a lock\"",
-      "firstNight": 21,
-      "firstNightReminder": "Show the Enigma the Enigma Phrase.",
-      "otherNight": 17,
-      "otherNightReminder": "Remove the \"Said Phrase\" Token",
-      "reminders": [
-        "Said Phrase"
-      ],
-      "team": "outsider"
-    },
-    {
-      "id": "mutantthevelvetnetwork",
-      "name": "Mutant",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/mutant_thevelvetnetwork.png",
-      "ability": "If you are “mad” about being an Outsider, you might be executed.",
-      "team": "outsider"
-    },
-    {
-      "id": "drunkthevelvetnetwork",
-      "name": "Drunk",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/drunk_thevelvetnetwork.png",
-      "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
-      "remindersGlobal": [
-        "Drunk"
-      ],
-      "setup": true,
-      "team": "outsider"
-    },
-    {
-      "id": "politicianthevelvetnetwork",
-      "name": "Politician",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/politician_thevelvetnetwork.png",
-      "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead.",
-      "team": "outsider"
-    },
-    {
-      "id": "phreakkerthevelvetnetwork",
-      "name": "Phreakker",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/phreakker_thevelvetnetwork.png",
-      "ability": "Once each day, you may privately guess with the storyteller which player is the Enigma and their Enigma phrase. If you guess both correctly(once), that night: Pick 2 players, they die. (+ Enigma)",
-      "flavor": "\"Cracking your system was child’s play; what follows is my masterpiece, and your doom!\"",
-      "otherNight": 9,
-      "otherNightReminder": "If the Phreakker correctly guessed the Enigma and their phrase, wake them and ask them to select 2 players. They die.",
-      "remindersGlobal": [
-        "Dies"
-      ],
-      "team": "minion"
-    },
-    {
-      "id": "godfatherthevelvetnetwork",
-      "name": "Godfather",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/godfather_thevelvetnetwork.png",
-      "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [−1 or +1 Outsider]",
-      "firstNight": 13,
-      "firstNightReminder": "Show each of the Outsider tokens in play.",
-      "otherNight": 10,
-      "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
-      "reminders": [
-        "Died today",
-        "Dead"
-      ],
-      "setup": true,
-      "team": "minion"
-    },
-    {
-      "id": "poisonerthevelvetnetwork",
-      "name": "Poisoner",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/poisoner_thevelvetnetwork.png",
-      "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
-      "firstNight": 11,
-      "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
-      "otherNight": 2,
-      "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
-      "reminders": [
-        "Poisoned"
-      ],
-      "team": "minion"
-    },
-    {
-      "id": "cerenovusthevelvetnetwork",
-      "name": "Cerenovus",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/cerenovus_thevelvetnetwork.png",
-      "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
-      "firstNight": 12,
-      "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
-      "otherNight": 4,
-      "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
-      "reminders": [
-        "Mad"
-      ],
-      "team": "minion"
-    },
-    {
-      "id": "scarletwomanthevelvetnetwork",
-      "name": "Scarlet Woman",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/scarletwoman_thevelvetnetwork.png",
-      "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don’t count)",
-      "otherNight": 11,
-      "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
-      "reminders": [
-        "Demon"
-      ],
-      "team": "minion"
-    },
-    {
-      "id": "shabaloththevelvetnetwork",
-      "name": "Shabaloth",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/shabaloth_thevelvetnetwork.png",
-      "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",
-      "otherNight": 6,
-      "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.",
-      "reminders": [
-        "Dead",
-        "Alive"
-      ],
-      "team": "demon"
-    },
-    {
-      "id": "lilmonstathevelvetnetwork",
-      "name": "Lil' Monsta",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/lilmonsta_thevelvetnetwork.png",
-      "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
-      "firstNight": 14,
-      "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
-      "otherNight": 7,
-      "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
-      "remindersGlobal": [
-        "Is the Demon",
-        "Dead"
-      ],
-      "setup": true,
-      "team": "demon"
-    },
-    {
-      "id": "yaggababblethevelvetnetwork",
-      "name": "Yaggababble",
-      "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/yaggababble_thevelvetnetwork.png",
-      "ability": "\"You start knowing a secret phrase. For each time you said it publicly today, a player might die.\"",
-      "flavor": "\"Murders inside the Rue Morgue? Фальшивые новости! Hounds on the Baskerville moor? Фальшивые новости! Death while sailing the Nile? Фальшивые новости!\"",
-      "firstNight": 15,
-      "firstNightReminder": "Wake the Demon. Show them the Yag phrase, then put them to sleep.",
-      "otherNight": 8,
-      "otherNightReminder": "Assign the deaths based on the Yaggababble's use of their phrase",
-      "remindersGlobal": [
-        "Dead"
-      ],
-      "team": "demon"
-    }
-  ]
+  {
+    "author": "Smog",
+    "name": "The Velvet Network",
+    "isOfficial": false,
+    "id": "_meta"
+  },
+  "librarian",
+  "pixie",
+  "chef",
+  "gossip",
+  "professor",
+  "innkeeper",
+  "savant",
+  "balloonist",
+  "villageidiot",
+  "fisherman",
+  "acrobat",
+  "farmer",
+  {
+    "id": "hacktivistthevelvetnetwork",
+    "name": "Hacktivist",
+    "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/hacktivist_thevelvetnetwork.png",
+    "ability": "Each day, you can privately guess with the storyteller which living player is the Enigma and what their Enigma phrase is. If you guess both correctly(once), you learn the identity and role of a minion",
+    "flavor": "\"When freedom is encrypted, revolution becomes the decryption key.\"",
+    "reminders": [
+      "Learned Minion"
+    ],
+    "remindersGlobal": [
+      "Guessed Correctly"
+    ],
+    "team": "townsfolk"
+  },
+  {
+    "id": "enigmathevelvetnetwork",
+    "name": "Enigma",
+    "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/enigma_thevelvetnetwork.png",
+    "ability": "You start knowing a phrase that you must say publicly exactly once per day, even if dead. If you are \"mad\" about being an Outsider, or do not say the phrase exactly once, you might be executed. ",
+    "flavor": "\"Every word is a key; every silence, a lock\"",
+    "firstNight": 21,
+    "firstNightReminder": "Show the Enigma the Enigma Phrase.",
+    "otherNight": 17,
+    "otherNightReminder": "Remove the \"Said Phrase\" Token",
+    "reminders": [
+      "Said Phrase"
+    ],
+    "team": "outsider"
+  },
+  "mutant",
+  "drunk",
+  "politician",
+  {
+    "id": "phreakkerthevelvetnetwork",
+    "name": "Phreakker",
+    "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/phreakker_thevelvetnetwork.png",
+    "ability": "Once each day, you may privately guess with the storyteller which player is the Enigma and their Enigma phrase. If you guess both correctly(once), that night: Pick 2 players, they die. (+ Enigma)",
+    "flavor": "\"Cracking your system was child’s play; what follows is my masterpiece, and your doom!\"",
+    "otherNight": 9,
+    "otherNightReminder": "If the Phreakker correctly guessed the Enigma and their phrase, wake them and ask them to select 2 players. They die.",
+    "remindersGlobal": [
+      "Dies"
+    ],
+    "team": "minion"
+  },
+  "godfather",
+  "poisoner",
+  "cerenovus",
+  "scarletwoman",
+  "shabaloth",
+  "lilmonsta",
+  "yaggababble"
+]
