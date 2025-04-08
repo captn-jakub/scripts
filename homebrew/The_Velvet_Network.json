@@ -56,7 +56,7 @@
     "ability": "Once each day, you may privately guess with the storyteller which player is the Enigma and their Enigma phrase. If you guess both correctly (once), choose 2 players tonight: they die. [+the Enigma]",
     "flavor": "Cracking your system was child's play; what follows is my masterpiece, and your doom!",
     "otherNight": 50,
-    "otherNightReminder": "If the Phreakker correctly guessed the Enigma and their phrase, wake them and ask them to select 2 players: they die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "otherNightReminder": "If the Phreakker correctly guessed the Enigma and their phrase, they choose 2 players. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "remindersGlobal": [
       "Dies"
     ],
