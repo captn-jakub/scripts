@@ -22,7 +22,7 @@
     "name": "Hacktivist",
     "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/hacktivist_thevelvetnetwork.png",
     "ability": "Each day, you can privately guess with the storyteller which living player is the Enigma and what their Enigma phrase is. If you guess both correctly(once), you learn the identity and role of a minion",
-    "flavor": "\"When freedom is encrypted, revolution becomes the decryption key.\"",
+    "flavor": "When freedom is encrypted, revolution becomes the decryption key.",
     "reminders": [
       "Learned Minion"
     ],
@@ -36,7 +36,7 @@
     "name": "Enigma",
     "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/enigma_thevelvetnetwork.png",
     "ability": "You start knowing a phrase that you must say publicly exactly once per day, even if dead. If you are \"mad\" about being an Outsider, or do not say the phrase exactly once, you might be executed. ",
-    "flavor": "\"Every word is a key; every silence, a lock\"",
+    "flavor": "Every word is a key; every silence, a lock",
     "firstNight": 21,
     "firstNightReminder": "Show the Enigma the Enigma Phrase.",
     "otherNight": 17,
@@ -54,7 +54,7 @@
     "name": "Phreakker",
     "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/phreakker_thevelvetnetwork.png",
     "ability": "Once each day, you may privately guess with the storyteller which player is the Enigma and their Enigma phrase. If you guess both correctly(once), that night: Pick 2 players, they die. (+ Enigma)",
-    "flavor": "\"Cracking your system was child’s play; what follows is my masterpiece, and your doom!\"",
+    "flavor": "Cracking your system was child's play; what follows is my masterpiece, and your doom!",
     "otherNight": 9,
     "otherNightReminder": "If the Phreakker correctly guessed the Enigma and their phrase, wake them and ask them to select 2 players. They die.",
     "remindersGlobal": [
