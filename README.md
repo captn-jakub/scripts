@@ -55,7 +55,7 @@ For full homebrew scripts, refer to the almanac and/or the [script database](htt
 | [Play Meta Games](homebrew/Play_Meta_Games.json) | Puck | Torment, [Hooligan](https://www.impeccabletiming.net/botc/Hooligan.html) |
 | [Taste This](homebrew/Taste_This.json) | Puck | Martyr, Skulker, Siphon |
 | [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json) | capt'n jakub | [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html), [database](https://botcscripts.com/script/6594) |
-| [The Velvet Network](homebrew/The_Velvet_Network.json) | Smog | [almanac](https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/almanac.html) - Enigma and friends |
+| [The Velvet Forum](homebrew/The_Velvet_Forum.json) | Smog | [almanac](https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/almanac.html) - Enigma and friends |
 | [Withered Whispers](homebrew/Withered_Whispers.json) | Puck | Dream Eater |
 
 

@@ -3,8 +3,10 @@
     "id": "hacktivistthevelvetnetwork",
     "name": "Hacktivist",
     "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/hacktivist_thevelvetnetwork.png",
-    "ability": "Each day, you may guess which living player is the Enigma, and their phrase. If you guess both correctly (once), you learn a Minion and their character. [+the Enigma]",
+    "ability": "Each night*, you may guess which player is the Enigma, and their phrase. If you guess both correctly (once), you learn a Minion and their character. [+the Enigma]",
     "flavor": "When freedom is encrypted, revolution becomes the decryption key.",
+    "otherNight": 55,
+    "otherNightReminder": "If the Hacktivist correctly guessed the Enigma and their phrase, they learn a minion and their character type. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
       "Guessed Correctly",
       "Learned Minion"
@@ -30,7 +32,7 @@
     "id": "phreakkerthevelvetnetwork",
     "name": "Phreakker",
     "image": "https://www.bloodstar.xyz/p/SheriffSmog/TheVelvetNetwork/phreakker_thevelvetnetwork.png",
-    "ability": "Each day, you may guess which player is the Enigma, and their phrase. If you guess both correctly (once), choose 2 players tonight: they die. [+the Enigma]",
+    "ability": "Each night*, you may guess which player is the Enigma, and their phrase. If you guess both correctly (once), choose 2 players tonight: they die. [+the Enigma]",
     "flavor": "Cracking your system was child's play; what follows is my masterpiece, and your doom!",
     "otherNight": 50,
     "otherNightReminder": "If the Phreakker correctly guessed the Enigma and their phrase, they choose 2 players. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
