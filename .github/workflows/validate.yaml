@@ -6,10 +6,17 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: dsanders11/json-schema-validate-action@v1.2.0
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: validate schema
+        uses: dsanders11/json-schema-validate-action@v1.2.0
         with:
-          schema: https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/script-schema.json
+          schema: 'json-schema'
+          files: schema.json
+      - name: validate files
+        uses: dsanders11/json-schema-validate-action@v1.2.0
+        with:
+          schema: schema.json
           files: |
             custom/*.json
             homebrew/**/*.json
