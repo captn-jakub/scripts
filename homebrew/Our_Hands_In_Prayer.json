@@ -24,14 +24,14 @@
       "https://www.bloodstar.xyz/p/Puck/martyr_token/martyr1_martyr_token.png"
     ],
     "otherNightReminder": "Each night, wake the Martyr. They pick two players, If either chosen player would cause a death tonight, the Martyr dies instead.",
-    "otherNight": 14,
     "reminders": [
       "Dead",
       "Chosen"
     ],
     "name": "Martyr",
     "team": "townsfolk",
-    "ability": "Each Night*, select two players: if either character's ability would cause a death tonight, you die instead. If executed, you might not die."
+    "ability": "Each Night*, select two players: if either character's ability would cause a death tonight, you die instead. If executed, you might not die.",
+    "otherNight": 14
   },
   "moonchild",
   "saint",
