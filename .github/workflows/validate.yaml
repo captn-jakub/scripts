@@ -17,9 +17,7 @@ jobs:
           # if any homebrew characters were modified, propagate them to play-test scripts
           IFS=$'\n'
           for fname in $( git diff --name-only main | grep ^homebrew/characters ); do
-            echo "${fname}"
             for obj in $( jq -rc .[] "${fname}" ); do
-              echo "${obj}"
               # read to tmp in case of _meta headers
               tmp=$( echo "${obj}" | jq -r .id )
               if [[ '_meta' == $tmp ]]; then
@@ -34,7 +32,6 @@ jobs:
             echo "propagating ${char_id}"
             for script_file in $( ls homebrew/*.json ); do
               obj=$( jq -c '(.[] | select(type=="object" and .id=="'"${char_id}"'"))' "${script_file}" )
-              echo "${obj}"
               if [[ ! -z ${obj} ]]; then
                 # character found
                 echo "- ${script_file}"
@@ -47,10 +44,10 @@ jobs:
                 # update the script
                 jq '(.[] | select(type=="object" and .id=="'"${char_id}"'")) |= '"${full_character}" "${script_file}" > tmp.json && mv tmp.json "${script_file}"
               fi
-              # validate (debug)
-              jq . "${script_file}"
             done
           done
+
+          git diff
 
             
       - name: validate schema
