@@ -76,26 +76,10 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const oldTag = '${{ steps.oldver.outputs.tag }}';
-            const newTag = '${{ steps.newver.outputs.tag }}';
-
-            // generate release notes
-            const { data: notes } = await github.rest.repos.generateReleaseNotes({
-                ...context.repo,
-                tag_name: newTag,
-                target_commitish: ${{ github.sha }},
-                previous_tag_name: oldTag
+            await github.rest.repos.createRelease({
+              ...context.repo,
+              tag_name: '${{ steps.newver.outputs.tag }}',
+              target_commitish: '${{ github.sha }}',
+              generate_release_notes: true
             });
 
-            // build request body
-            const request = {
-              ...context.repo,
-              tag_name: newTag,
-              name: newTag,
-              target_commitish: ${{ github.sha }}
-            };
-            
-            console.debug('creating a new release');
-            // add auto-generated release notes
-            request.body = notes.body;
-            await github.rest.repos.createRelease(request);
