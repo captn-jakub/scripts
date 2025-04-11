@@ -44,7 +44,7 @@ jobs:
                 jq '(.[] | select(type=="object" and .id=='"${char_id}"')) |= '"${full_character}" "${script_file}" > tmp.json && mv tmp.json "${script_file}"
               fi
               # validate (debug)
-              jq "${script_file}"
+              jq . "${script_file}"
             done
           done
 
