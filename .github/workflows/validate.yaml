@@ -47,8 +47,14 @@ jobs:
             done
           done
 
-          git diff
-
+          if [[ 0 != git diff --exit-code &>/dev/null ; echo $? ]]; then
+            # changes made
+            git config set user.name captn-bot
+            git config set user.email captnjakub@gmail.com
+            git add -A
+            git commit -m "chore: propagated homebrew character changes"
+            git push origin
+          fi
             
       - name: validate schema
         uses: dsanders11/json-schema-validate-action@v1.2.0
