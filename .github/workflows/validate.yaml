@@ -1,4 +1,4 @@
-name: validate json
+name: validate pull request
 on: 
   pull_request:
     paths: ['**.json']
@@ -9,6 +9,44 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+      - name: propagate characters
+        if: ${{ 'pull_request' == github.event_name }}
+        shell: bash
+        run: |
+          # if any homebrew characters were modified, propagate them to play-test scripts
+          for fname in $( git diff --name-only main | grep ^homebrew/characters ); do
+            for obj in $( jq -c .[] "${fname}" ); do
+              # read to tmp in case of _meta headers
+              tmp=$( echo "${obj}" | jq -r .id )
+              if [[ '_meta' == $tmp ]]; then
+                continue
+              else
+                # character jsons must contain no more than one proper character object
+                char_id=${tmp}
+                full_character="${obj}"
+              fi
+            done
+            # parse play-test scripts and update all instances of the character
+            echo "propagating ${char_id}"
+            for script_file in $( ls homebrew/*.json ); do
+              obj=$( jq -c '(.[] | select(type=="object" and .id=='"${char_id}"'))' "${script_file}" )
+              if [[ ! -z ${obj} ]]; then
+                # character found
+                echo "- ${script_file}"
+                # do not override night order values
+                firstN=$( echo "${obj}" | jq .firstNight )
+                otherN=$( echo "${obj}" | jq .otherNight )
+                # update the new version to match the script
+                [[ 'null' != ${firstN} ]] && full_character=$( echo "${full_character}" | jq -c '.firstNight = '"${firstN}" )
+                [[ 'null' != ${otherN} ]] && full_character=$( echo "${full_character}" | jq -c '.otherNight = '"${otherN}" )
+                # update the script
+                jq '(.[] | select(type=="object" and .id=='"${char_id}"')) |= '"${full_character}" "${script_file}" > tmp.json && mv tmp.json "${script_file}"
+              fi
+              # validate (debug)
+              jq "${script_file}"
+            done
+
+            
       - name: validate schema
         uses: dsanders11/json-schema-validate-action@v1.2.0
         with:
