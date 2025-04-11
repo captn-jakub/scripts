@@ -33,7 +33,7 @@ jobs:
           # identify the latest tag
           # always use the oldest semver tag - no need for patching older versions here
           git ls-remote --tags --refs --sort=-v:refname origin refs/tags/v[0-9]* | sed 's/.*\///' > tags.txt
-          last_tag=$( grep -m 1 -E "${pattern}" tags.txt )
+          last_tag=$( grep -m 1 -E "${pattern}" tags.txt || true )
           echo "tag=${last_tag:-v0.0.0}" >> $GITHUB_OUTPUT
       
       - name: calculate new tag
