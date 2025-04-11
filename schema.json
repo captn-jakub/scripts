@@ -419,6 +419,15 @@
               "https://imgur.com/background.jpg"
             ]
           },
+          "almanac": {
+            "type": "string",
+            "format": "uri",
+            "maxLength": 250,
+            "title": "A link to the script's almanac page",
+            "examples": [
+              "https://beardytas.com/garden-of-djinn/the-ballad-of-seat-7/"
+            ]
+          },
           "bootlegger": {
             "type": "array",
             "title": "A list of homebrew rules that are to be used for this script",
