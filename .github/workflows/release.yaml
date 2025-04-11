@@ -4,14 +4,14 @@ on:
     branches: [ main ]
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
+permissions:
+  contents: write
 jobs:
   validate:
     uses: ./.github/workflows/validate.yaml
   tag-release:
     needs: validate
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     defaults:
       run:
         shell: bash
