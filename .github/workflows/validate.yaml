@@ -50,7 +50,7 @@ jobs:
             done
           done
 
-          if [[ 0 != git diff --exit-code &>/dev/null ; echo $? ]]; then
+          if [[ 0 -ne $( git diff --exit-code &>/dev/null ; echo $? ) ]]; then
             # changes made
             git config set user.name captn-bot
             git config set user.email captnjakub@gmail.com
