@@ -6,12 +6,15 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: dsanders11/json-schema-validate-action@v1.2.0
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: validate schema
+        uses: dsanders11/json-schema-validate-action@v1.2.0
         with:
           schema: 'json-schema'
           files: schema.json
-      - uses: dsanders11/json-schema-validate-action@v1.2.0
+      - name: validate files
+        uses: dsanders11/json-schema-validate-action@v1.2.0
         with:
           schema: schema.json
           files: |
