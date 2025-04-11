@@ -2,14 +2,14 @@ name: tag and release
 on:
   push:
     branches: [ main ]
+permissions:
+  contents: write
 jobs:
   validate:
     uses: ./.github/workflows/validate.yaml
   tag-release:
     needs: validate
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     defaults:
       run:
         shell: bash
