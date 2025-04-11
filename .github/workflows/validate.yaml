@@ -33,7 +33,7 @@ jobs:
             # parse play-test scripts and update all instances of the character
             echo "propagating ${char_id}"
             for script_file in $( ls homebrew/*.json ); do
-              obj=$( jq -c '(.[] | select(type=="object" and .id=='"${char_id}"'))' "${script_file}" )
+              obj=$( jq -c '(.[] | select(type=="object" and .id=="'"${char_id}"'"))' "${script_file}" )
               echo "${obj}"
               if [[ ! -z ${obj} ]]; then
                 # character found
@@ -45,7 +45,7 @@ jobs:
                 [[ 'null' != ${firstN} ]] && full_character=$( echo "${full_character}" | jq -c '.firstNight = '"${firstN}" )
                 [[ 'null' != ${otherN} ]] && full_character=$( echo "${full_character}" | jq -c '.otherNight = '"${otherN}" )
                 # update the script
-                jq '(.[] | select(type=="object" and .id=='"${char_id}"')) |= '"${full_character}" "${script_file}" > tmp.json && mv tmp.json "${script_file}"
+                jq '(.[] | select(type=="object" and .id=="'"${char_id}"'")) |= '"${full_character}" "${script_file}" > tmp.json && mv tmp.json "${script_file}"
               fi
               # validate (debug)
               jq . "${script_file}"
