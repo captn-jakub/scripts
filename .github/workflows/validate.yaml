@@ -12,4 +12,4 @@ jobs:
           schema: https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/script-schema.json
           files: |
             custom/*.json
-            homebrew/**.json
+            homebrew/**/*.json
