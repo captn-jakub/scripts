@@ -13,6 +13,7 @@ jobs:
         if: ${{ 'pull_request' == github.event_name }}
         shell: bash
         run: |
+          git fetch origin main:main
           # if any homebrew characters were modified, propagate them to play-test scripts
           for fname in $( git diff --name-only main | grep ^homebrew/characters ); do
             for obj in $( jq -c .[] "${fname}" ); do
