@@ -1,0 +1,101 @@
+name: tag and release
+on: 
+  push:
+    branches: [ main ]
+jobs:
+  tag-release:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: context
+        id: context
+        run: |
+          # search for key words in commit messages
+          echo "${commits}" | jq '.[].message' > messages.txt
+          if [[ $( grep -i '\[major\]' messages.txt ) ]]; then
+            type=major
+          elif [[ $( grep -i '\[minor\]' messages.txt ) ]]; then
+            type=minor
+          else
+            type=patch
+          fi
+          echo "type=${type:-patch}" >> $GITHUB_OUTPUT
+        env:
+          commits: ${{ toJSON(github.event.commits) }}
+
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: get old tag
+        id: oldver
+        run: |
+          pattern='^v(0|[0-9]+)\.(0|[0-9]+)\.(0|[0-9]+)$'
+          # identify the latest tag
+          # always use the oldest semver tag - no need for patching older versions here
+          git ls-remote --tags --refs --sort=-v:refname origin refs/tags/v[0-9]* | sed 's/.*\///' > tags.txt
+          last_tag=$( grep -m 1 -E "${pattern}" tags.txt )
+          echo "tag=${last_tag:-v0.0.0}" >> $GITHUB_OUTPUT
+      
+      - name: calculate new tag
+        id: newver
+        run: |
+          # split the latest tag into major/minor/patch values
+          last_tag='${{ steps.oldver.outputs.tag }}'
+          IFS='.' read -r v_major v_minor v_patch <<< "${last_tag:1}"
+
+          type='${{ steps.context.outputs.type }}'
+          case ${type} in
+            major)
+              v_major=$((v_major+1))
+              v_minor=0
+              v_patch=0
+              ;;
+            minor)
+              v_minor=$((v_minor+1))
+              v_patch=0
+              ;;
+            *)
+              v_patch=$((v_patch+1))
+              ;;
+          esac
+
+          new_tag="v${v_major}.${v_minor}.${v_patch}"
+          echo "new version: ${new_tag}"
+
+          echo "tag=${new_tag}" >> $GITHUB_OUTPUT
+
+      - name: push tag
+        run: |
+          new_tag='${{ steps.newver.outputs.tag }}' 
+          git tag -f ${new_tag} HEAD
+          git push -f origin ${new_tag}
+
+      - name: publish release
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const oldTag = '${{ steps.oldver.outputs.tag }}';
+            const newTag = '${{ steps.newver.outputs.tag }}';
+
+            // generate release notes
+            const { data: notes } = await github.rest.repos.generateReleaseNotes({
+                ...context.repo,
+                tag_name: newTag,
+                target_commitish: ${{ github.sha }},
+                previous_tag_name: oldTag
+            });
+
+            // build request body
+            const request = {
+              ...context.repo,
+              tag_name: newTag,
+              name: newTag,
+              target_commitish: ${{ github.sha }}
+            };
+            
+            console.debug('creating a new release');
+            // add auto-generated release notes
+            request.body = notes.body;
+            await github.rest.repos.createRelease(request);
