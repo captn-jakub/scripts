@@ -6,11 +6,11 @@ on:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+permissions:
+  contents: write
 jobs:
   validate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: checkout
         uses: actions/checkout@v4
