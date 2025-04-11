@@ -62,7 +62,9 @@ New content can be added via pull request into `main`:
 * make your changes
 * open a pull request
 
-A workflow will run to validate against the schema in `ThePandemoniumInstitute/botc-release repo`. A copy of the schema is available here for convenience. If the workflow fails on the pull request, fix all issues with the JSON file before merging.
+A workflow will run to validate all JSON files against the schema. The schema definition should be periodically pulled from `ThePandemoniumInstitute/botc-release` repo, with the `minItems` and `maxItems` attributes removed to allow storing individual characters in their own files. The workflow always validates the schema itself.
+
+## Content Structure
 
 Custom scripts built with standard (TPI) characters only should be placed in the `custom` directory. 
 
