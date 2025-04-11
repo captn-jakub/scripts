@@ -46,6 +46,7 @@ jobs:
               # validate (debug)
               jq "${script_file}"
             done
+          done
 
             
       - name: validate schema
