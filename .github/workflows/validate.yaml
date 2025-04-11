@@ -17,7 +17,7 @@ jobs:
           # if any homebrew characters were modified, propagate them to play-test scripts
           for fname in $( git diff --name-only main | grep ^homebrew/characters ); do
             echo "${fname}"
-            for obj in $( jq -c .[] "${fname}" ); do
+            for obj in $( jq -rc .[] "${fname}" ); do
               echo "${obj}"
               # read to tmp in case of _meta headers
               tmp=$( echo "${obj}" | jq -r .id )
