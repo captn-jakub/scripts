@@ -8,7 +8,6 @@
     "otherNightReminder": "Each night, wake the Martyr. They pick two players, If either chosen player would cause a death tonight, the Martyr dies instead.",
     "reminders": [
       "Dead",
-      "Chosen",
       "Chosen"
     ],
     "name": "Martyr",
