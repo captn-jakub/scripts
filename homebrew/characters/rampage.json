@@ -13,18 +13,21 @@
       "https://www.bloodstar.xyz/p/captn_jakub/rampage/rampage_rampage.png",
       "https://www.bloodstar.xyz/p/captn_jakub/rampage/rampage_good_rampage.png"
     ],
-    "team": "minion", 
+    "team": "minion",
     "ability": "On your 1st night, choose 3 players: the 1st time you nominate & execute 1 of them, they all might die tonight.",
     "firstNightReminder": "The Rampage chooses 3 players <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "otherNightReminder": "If the Rampage nominated and executed 1 of the <b>TARGET</b> players today, all of them might die. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "reminders": [
       "Target",
       "Target",
+      "Target",
+      "Dead",
+      "Dead",
       "Dead",
       "No Ability"
     ],
     "firstNight": 11,
-    "otherNight": 12,
+    "otherNight": 11,
     "jinxes": [
       {
         "id": "plaguedoctor",
