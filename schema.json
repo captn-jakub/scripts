@@ -4,8 +4,6 @@
   "type": "array",
   "default": [],
   "title": "Blood on the Clocktower Custom Script",
-  "minItems": 5,
-  "maxItems": 151,
   "items": {
     "oneOf": [
       {
