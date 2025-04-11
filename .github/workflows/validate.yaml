@@ -15,6 +15,7 @@ jobs:
         run: |
           git fetch origin main:main
           # if any homebrew characters were modified, propagate them to play-test scripts
+          IFS=$'\n'
           for fname in $( git diff --name-only main | grep ^homebrew/characters ); do
             echo "${fname}"
             for obj in $( jq -rc .[] "${fname}" ); do
