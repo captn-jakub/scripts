@@ -1,68 +1,14 @@
-name: validate pull request
+name: validate json
 on: 
   pull_request:
     paths: ['**.json']
   workflow_call:
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
 jobs:
   validate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: checkout
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
-      - name: propagate characters
-        if: ${{ 'pull_request' == github.event_name }}
-        shell: bash
-        run: |
-          git fetch origin main:main
-          # if any homebrew characters were modified, propagate them to play-test scripts
-          IFS=$'\n'
-          for fname in $( git diff --name-only main | grep ^homebrew/characters ); do
-            for obj in $( jq -rc .[] "${fname}" ); do
-              # read to tmp in case of _meta headers
-              tmp=$( echo "${obj}" | jq -r .id )
-              if [[ '_meta' == $tmp ]]; then
-                continue
-              else
-                # character jsons must contain no more than one proper character object
-                char_id=${tmp}
-                full_character="${obj}"
-              fi
-            done
-            # parse play-test scripts and update all instances of the character
-            echo "propagating ${char_id}"
-            for script_file in $( ls homebrew/*.json ); do
-              obj=$( jq -c '(.[] | select(type=="object" and .id=="'"${char_id}"'"))' "${script_file}" )
-              if [[ ! -z ${obj} ]]; then
-                # character found
-                echo "- ${script_file}"
-                # do not override night order values
-                firstN=$( echo "${obj}" | jq .firstNight )
-                otherN=$( echo "${obj}" | jq .otherNight )
-                # update the new version to match the script
-                [[ 'null' != ${firstN} ]] && full_character=$( echo "${full_character}" | jq -c '.firstNight = '"${firstN}" )
-                [[ 'null' != ${otherN} ]] && full_character=$( echo "${full_character}" | jq -c '.otherNight = '"${otherN}" )
-                # update the script
-                jq '(.[] | select(type=="object" and .id=="'"${char_id}"'")) |= '"${full_character}" "${script_file}" > tmp.json && mv tmp.json "${script_file}"
-              fi
-            done
-          done
-
-          if [[ 0 -ne $( git diff --exit-code &>/dev/null ; echo $? ) ]]; then
-            # changes made
-            git config set user.name captn-bot
-            git config set user.email captnjakub@gmail.com
-            git add -A
-            git commit -m "chore: propagated homebrew character changes"
-            git push origin
-          fi
-            
       - name: validate schema
         uses: dsanders11/json-schema-validate-action@v1.2.0
         with:
