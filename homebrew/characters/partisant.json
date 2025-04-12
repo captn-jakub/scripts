@@ -15,9 +15,9 @@
     ],
     "flavor": "You can kill the revolutionary, but never the revolution!",
     "firstNightReminder": "Show the Townsfolk token of the <b>KNOWN</b> player.",
-    "otherNightReminder": "If the <b>KNOWN</b> player was killed by the Demon, an evil player dies. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
-    "firstNight": 11,
-    "otherNight": 11,
+    "otherNightReminder": "If the <b>KNOWN</b> player died tonight, an evil player dies. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "firstNight": 50,
+    "otherNight": 80,
     "reminders": [
       "Knows",
       "Dead",
