@@ -8,7 +8,7 @@
     "id": "partisant",
     "name": "Partisant",
     "team": "townsfolk",
-    "ability": "You start knowing an in-play Townsfolk character. If they're killed by the Demon, an evil player dies.",
+    "ability": "You start knowing an in-play Townsfolk character. If they die at night, an evil player dies.",
     "image": [
       "https://www.bloodstar.xyz/p/captn_jakub/brewery/partisant_brewery.png",
       "https://www.bloodstar.xyz/p/captn_jakub/brewery/partisantevil_brewery.png"
