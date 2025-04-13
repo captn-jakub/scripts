@@ -1,0 +1,27 @@
+[
+  {
+    "id": "_meta",
+    "name": "Brewery",
+    "almanac": "https://www.bloodstar.xyz/p/captn_jakub/brewery/almanac.html"
+  },
+  {
+    "id": "partisant",
+    "name": "Partisant",
+    "team": "townsfolk",
+    "ability": "You start knowing an in-play Townsfolk character. If they die at night, an evil player dies. The Demon knows a Partisant is in play.",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/brewery/partisant_brewery.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/brewery/partisantevil_brewery.png"
+    ],
+    "flavor": "You can kill the revolutionary, but never the revolution!",
+    "firstNightReminder": "Show the Townsfolk token of the <b>KNOWN</b> player.<br>Wake the Demon. Show the <b>THIS CHARACTER IS IN PLAY</b> card and the Partisant token.",
+    "otherNightReminder": "If the <b>KNOWN</b> player died tonight, an evil player dies. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "firstNight": 50,
+    "otherNight": 80,
+    "reminders": [
+      "Knows",
+      "Dead",
+      "No Ability"
+    ]
+  }
+]
