@@ -1,0 +1,40 @@
+[
+  {
+    "id": "_meta",
+    "author": "Jackson",
+    "name": "Foretold Prophecy",
+    "bootlegger": [
+      "Every two days, starting from the first day, at least one team receives a new prophecy (goods must be public). If a teams current prophecy is fulfilled, their team receives a boon. If new prophecies are foretold without a teams previous being fulfilled, something bad might happen for their team."
+    ]
+  },
+
+  "shugenja",
+  "highpriestess",
+  "preacher",
+  "fortuneteller",
+  "cultleader",
+  "towncrier",
+  "oracle",
+  "monk",
+  "gossip",
+  "savant",
+  "philosopher",
+  "fisherman",
+  "amnesiac",
+
+  "lunatic",
+  "drunk",
+  "mutant",
+  "damsel",
+
+  "godfather",
+  "devilsadvocate",
+  "summoner",
+  "mastermind",
+
+  "pukka",
+  "po",
+  "vigormortis",
+
+  "djinn"
+]
