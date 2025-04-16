@@ -4,7 +4,7 @@
     "author": "Jax & Jackson",
     "name": "Minion Panic",
     "bootlegger": [
-      "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are less than 2 evil players alive, good wins. If two or more minions are alive and there are three or fewer players alive, evil wins. [No Demon. +1 Minion]"
+      "Each night*, Minions choose a player: they die. In case of a tie, the kill is arbitrary. If there are three players alive, evil wins. [No Demon. +1 Minion]"
     ]
   },
   "pixie",
