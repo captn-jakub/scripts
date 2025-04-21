@@ -1,0 +1,35 @@
+[
+  {
+    "id": "_meta",
+    "author": "Jackson",
+    "name": "Foretold Prophecy",
+    "bootlegger": [
+      "At the start of every night, up to three players are given a prophecy. If fulfilled before the end of the next, their team receives a boon; if not, it expires—and something bad may happen for their team."
+    ]
+  },
+  "shugenja",
+  "highpriestess",
+  "preacher",
+  "fortuneteller",
+  "cultleader",
+  "towncrier",
+  "oracle",
+  "monk",
+  "gossip",
+  "savant",
+  "philosopher",
+  "fisherman",
+  "amnesiac",
+  "lunatic",
+  "drunk",
+  "mutant",
+  "damsel",
+  "godfather",
+  "devilsadvocate",
+  "summoner",
+  "mastermind",
+  "pukka",
+  "po",
+  "vigormortis",
+  "djinn"
+]
