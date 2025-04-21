@@ -1,0 +1,22 @@
+[
+  {
+    "id": "_meta",
+    "author": "Jackson",
+    "name": "Cat & Mouse",
+    "bootlegger": [
+      "This script is a 4 player script. The Alsaahir is always in play, and can only guess once. Each player can only do a single \"shenanigan\" each day. If the Demon publicly guesses the Alsaahir (once), evil wins. [No minions, +the Alsaahir]"
+    ]
+  },
+  "empath",
+  "cultleader",
+  "gossip",
+  "savant",
+  "alsaahir",
+  "juggler",
+  "mutant",
+  "recluse",
+  "drunk",
+  "zombuul",
+  "sentinel",
+  "gardener"
+]
