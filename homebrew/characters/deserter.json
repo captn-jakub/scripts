@@ -1,0 +1,16 @@
+[
+  {
+    "id": "deserter",
+    "name": "Deserter",
+    "team": "outsider",
+    "ability": "When there are 4 players alive, you die. If you are executed, a player might die tonight.",
+    "flavor": "I've had enough. I want to go home.",
+    "otherNightReminder": "If the Deserter was executed today, a player might die. <i class=\"reminder-token\"></i> If there are 4 players alive, the Deserter dies. <i class=\"reminder-token\"></i>",
+    "otherNight": 80,
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Executed Today"
+    ]
+  }
+]
