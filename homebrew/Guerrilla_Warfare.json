@@ -19,7 +19,7 @@
     "firstNightReminder": "Show the Townsfolk token of the <b>KNOWN</b> player.<br>Wake the Demon. Show the <b>THIS CHARACTER IS IN PLAY</b> card and the Partisant token.",
     "otherNightReminder": "If the <b>KNOWN</b> player died tonight, an evil player dies. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
     "firstNight": 50,
-    "otherNight": 80,
+    "otherNight": 55,
     "reminders": [
       "Knows",
       "Dead",
