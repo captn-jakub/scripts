@@ -1,0 +1,51 @@
+[
+  {
+    "id": "_meta",
+    "author": "capt'n jakub",
+    "name": "Guerrilla Warfare"
+  },
+  "librarian",
+  "pixie",  
+  {
+    "id": "partisant",
+    "name": "Partisant",
+    "team": "townsfolk",
+    "ability": "You start knowing 1 in-play Townsfolk. If they die at night, an evil player dies. The Demon knows a Partisant is in play.",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/brewery/partisant_brewery.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/brewery/partisantevil_brewery.png"
+    ],
+    "flavor": "You can kill the revolutionary, but never the revolution!",
+    "firstNightReminder": "Show the Townsfolk token of the <b>KNOWN</b> player.<br>Wake the Demon. Show the <b>THIS CHARACTER IS IN PLAY</b> card and the Partisant token.",
+    "otherNightReminder": "If the <b>KNOWN</b> player died tonight, an evil player dies. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "firstNight": 50,
+    "otherNight": 80,
+    "reminders": [
+      "Knows",
+      "Dead",
+      "No Ability"
+    ]
+  },
+  "bountyhunter",
+  "general",
+  "towncrier",
+  "oracle",
+  "innkeeper",
+  "acrobat",
+  "lycanthrope",
+  "seamstress",
+  "minstrel",
+  "sage",
+  "goon",
+  "tinker",
+  "recluse",
+  "mutant",
+  "mezepheles",
+  "witch",
+  "assassin",
+  "baron",
+  "pukka",
+  "nodashii",
+  "zombuul",
+  "vigormortis"
+]
