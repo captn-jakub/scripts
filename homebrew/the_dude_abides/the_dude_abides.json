@@ -362,7 +362,10 @@
     "firstNightReminder": "The Jesus chooses a player: mark them as <b>VISITED</b>. <i class=\"reminder-token\"></i> If the Jesus selected a different player to last night, wake the new target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Jesus token.",
     "otherNightReminder": "The Jesus chooses a player: mark them as <b>VISITED</b>. <i class=\"reminder-token\"></i> If the Jesus selected a different player to last night, wake the new target. Show the <b>THIS CHARACTER SELECTED YOU</b> card and the Jesus token.",
     "reminders": [
-      "Visited"
+      "Visited",
+      "Mad",
+      "Mad",
+      "Mad"
     ],
     "name": "Jesus",
     "team": "minion",
