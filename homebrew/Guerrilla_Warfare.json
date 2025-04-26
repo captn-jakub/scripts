@@ -2,7 +2,10 @@
   {
     "id": "_meta",
     "author": "capt'n jakub",
-    "name": "Guerrilla Warfare"
+    "name": "Guerrilla Warfare",
+    "bootlegger": [
+      "Homebrew character: Partisant (Townsfolk)"
+    ]
   },
   "librarian",
   "pixie",
@@ -28,6 +31,7 @@
   },
   "bountyhunter",
   "general",
+  "fortuneteller",
   "towncrier",
   "oracle",
   "innkeeper",
@@ -35,7 +39,6 @@
   "lycanthrope",
   "seamstress",
   "minstrel",
-  "sage",
   "goon",
   "tinker",
   "recluse",
