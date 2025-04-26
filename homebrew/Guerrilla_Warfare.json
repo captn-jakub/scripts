@@ -13,7 +13,7 @@
     "id": "partisant",
     "name": "Partisant",
     "team": "townsfolk",
-    "ability": "You start knowing 1 in-play Townsfolk. If they die at night (once), an evil player dies. The Demon knows a Partisant is in play.",
+    "ability": "You start knowing 1 in-play Townsfolk. If they die at night, an evil player dies. The Demon knows a Partisant is in play.",
     "image": [
       "https://www.bloodstar.xyz/p/captn_jakub/brewery/partisant_brewery.png",
       "https://www.bloodstar.xyz/p/captn_jakub/brewery/partisantevil_brewery.png"
