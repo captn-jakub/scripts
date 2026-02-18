@@ -16,6 +16,7 @@
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
       "jackytreehorn_thedudeabides",
+      "woo_thedudeabides",
       "dude_thedudeabides",
       "donny_thedudeabides",
       "brandt_thedudeabides",
@@ -380,6 +381,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/woo_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/woo_thedudeabides_tokens.png"
     ],
+    "firstNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder:",
     "otherNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder: If another player was previously marked as *PISSED*, move the reminder token to the new target.",
     "reminders": [
       "Pissed"
@@ -387,8 +389,9 @@
     "setup": true,
     "name": "Woo",
     "team": "minion",
-    "ability": "Each night*, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
+    "ability": "Each night, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
     "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
+    "firstNight": 18,
     "otherNight": 15
   },
   {
