@@ -15,7 +15,7 @@
       "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
-      "jackytreehorn_thedudeabides",
+      "jackietreehorn_thedudeabides",
       "woo_thedudeabides",
       "dude_thedudeabides",
       "donny_thedudeabides",
@@ -37,7 +37,7 @@
       "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
-      "jackytreehorn_thedudeabides",
+      "jackietreehorn_thedudeabides",
       "eagles_thedudeabides",
       "nihilist_thedudeabides",
       "woo_thedudeabides",
@@ -433,13 +433,13 @@
     "otherNight": 10
   },
   {
-    "id": "jackytreehorn_thedudeabides",
+    "id": "jackietreehorn_thedudeabides",
     "image": [
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackytreehorn_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackytreehorn_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Jacky Treehorn chooses a player: mark them as *POISONED*. :reminder:",
-    "otherNightReminder": "Jacky Treehorn chooses a player. :reminder: If 3 other players were already poisoned by Jacky Treehorn, remove the *POISONED* reminder from 1 of them.\nIf a poisoned (in any way) player died since dawn, their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. :reminder: :reminder:",
+    "firstNightReminder": "Jackie Treehorn chooses a player: mark them as *POISONED*. :reminder:",
+    "otherNightReminder": "Jackie Treehorn chooses a player. :reminder: If 3 other players were already poisoned by Jackie Treehorn, remove the *POISONED* reminder from 1 of them.\nIf a poisoned (in any way) player died since dawn, their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. :reminder: :reminder:",
     "reminders": [
       "Poisoned",
       "Poisoned",
@@ -450,7 +450,7 @@
       "Dead",
       "Dead"
     ],
-    "name": "Jacky Treehorn",
+    "name": "Jackie Treehorn",
     "team": "demon",
     "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player died since dawn, their nearest alive good neighbour dies tonight.",
     "flavor": "What's your drink, Dude?",
