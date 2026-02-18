@@ -19,8 +19,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/brewery/partisantevil_brewery.png"
     ],
     "flavor": "You can kill the revolutionary, but never the revolution!",
-    "firstNightReminder": "Show the Townsfolk character token marked <b>KNOWN</b>.<br>Wake the Demon. Show the Partisant token.",
-    "otherNightReminder": "If the <b>KNOWN</b> player died tonight, an evil player dies. <i class=\"reminder-token\"></i> <i class=\"reminder-token\"></i>",
+    "firstNightReminder": "Show the Townsfolk character token marked *KNOWN*.\nWake the Demon. Show the Partisant token.",
+    "otherNightReminder": "If the *KNOWN* player died tonight, an evil player dies. :reminder: :reminder:",
     "firstNight": 50,
     "otherNight": 55,
     "reminders": [

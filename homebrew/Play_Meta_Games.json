@@ -27,7 +27,7 @@
     "ability": "You think you are a Minion, but you are not. The Minions know who you are and any Minion that has the same ability knows who you pick at night.",
     "flavor": "The true believer, no matter how rowdy and violent his acts, is basically an obedient and submissive person.",
     "firstNight": 7,
-    "firstNightReminder": "If there are 7 or more players, wake the Hooligan: Show the <b>THIS IS THE DEMON</b> token. Point to any player.<br /> Show the <b>THESE ARE YOUR MINIONS</b> token. Point to any players. Put the Hooligan to sleep. If the Hooligan has the same ability a Minion, wake that Minion. Show the <b>YOU ARE</b> info token and the Minion token. Wake the Minions one at a time. Show the <b>THIS PLAYER IS</b> info token and the Hooligan token, then point to the Hooligan.",
+    "firstNightReminder": "If there are 7 or more players, wake the Hooligan: Show the *THIS IS THE DEMON* token. Point to any player.<br /> Show the *THESE ARE YOUR MINIONS* token. Point to any players. Put the Hooligan to sleep. If the Hooligan has the same ability a Minion, wake that Minion. Show the *YOU ARE* info token and the Minion token. Wake the Minions one at a time. Show the *THIS PLAYER IS* info token and the Hooligan token, then point to the Hooligan.",
     "otherNight": 14,
     "otherNightReminder": "Do whatever needs to be done to simulate the Hooligan acting. If the Hooligan has the same ability as an alive Minion, wake the Minion. Show the Hooligan token and their target(s).",
     "reminders": [
