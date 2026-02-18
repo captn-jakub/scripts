@@ -4,38 +4,27 @@
   "type": "array",
   "default": [],
   "title": "Blood on the Clocktower Custom Script",
+  "minItems": 5,
+  "maxItems": 201,
   "items": {
     "oneOf": [
       {
         "type": "object",
         "title": "Script Character",
-        "required": [
-          "id",
-          "name",
-          "team",
-          "ability"
-        ],
+        "required": ["id", "name", "team", "ability"],
         "additionalProperties": false,
         "properties": {
           "id": {
             "type": "string",
             "title": "Character ID, alphanumeric lowercase",
             "maxLength": 50,
-            "examples": [
-              "washerwoman",
-              "lilmonsta",
-              "fanggu"
-            ]
+            "examples": ["washerwoman", "lilmonsta", "fanggu"]
           },
           "name": {
             "type": "string",
             "title": "Character name",
             "maxLength": 30,
-            "examples": [
-              "Washer Woman",
-              "Lil' Monsta",
-              "Fang-Gu"
-            ]
+            "examples": ["Washer Woman", "Lil' Monsta", "Fang-Gu"]
           },
           "image": {
             "oneOf": [
@@ -43,9 +32,7 @@
                 "type": "string",
                 "format": "uri",
                 "title": "Character icon",
-                "examples": [
-                  "https://i.imgur.com/character-icon.png"
-                ]
+                "examples": ["https://i.imgur.com/character-icon.png"]
               },
               {
                 "type": "array",
@@ -84,19 +71,15 @@
               "minion",
               "demon",
               "traveller",
-              "fabled"
+              "fabled",
+              "loric"
             ]
           },
           "edition": {
             "type": "string",
             "title": "The edition ID",
             "maxLength": 50,
-            "examples": [
-              "tb",
-              "bmr",
-              "snv",
-              "fallofrome"
-            ]
+            "examples": ["tb", "bmr", "snv", "fallofrome"]
           },
           "ability": {
             "type": "string",
@@ -121,11 +104,7 @@
           "firstNight": {
             "type": "number",
             "title": "First night wake-up priority. 0 means this character doesn't wake during the first night.",
-            "examples": [
-              37,
-              0,
-              15
-            ]
+            "examples": [37, 0, 15]
           },
           "firstNightReminder": {
             "type": "string",
@@ -140,11 +119,7 @@
           "otherNight": {
             "type": "number",
             "title": "Other nights wake-up priority. 0 means this character doesn't wake during other nights.",
-            "examples": [
-              0,
-              10,
-              15
-            ]
+            "examples": [0, 10, 15]
           },
           "otherNightReminder": {
             "type": "string",
@@ -164,12 +139,7 @@
             "items": {
               "type": "string",
               "maxLength": 30,
-              "examples": [
-                "Townsfolk",
-                "Wrong",
-                "Dead",
-                "Is The Demon"
-              ]
+              "examples": ["Townsfolk", "Wrong", "Dead", "Is The Demon"]
             }
           },
           "remindersGlobal": {
@@ -180,10 +150,7 @@
             "items": {
               "type": "string",
               "maxLength": 25,
-              "examples": [
-                "Drunk",
-                "Is The Philosopher"
-              ]
+              "examples": ["Drunk", "Is The Philosopher"]
             }
           },
           "setup": {
@@ -197,20 +164,13 @@
             "items": {
               "type": "object",
               "title": "An individual Jinx pair",
-              "required": [
-                "id",
-                "reason"
-              ],
+              "required": ["id", "reason"],
               "properties": {
                 "id": {
                   "type": "string",
                   "title": "The ID of the other character this one is jinxed with.",
                   "maxLength": 50,
-                  "examples": [
-                    "spy",
-                    "fanggu",
-                    "lilmonsta"
-                  ]
+                  "examples": ["spy", "fanggu", "lilmonsta"]
                 },
                 "reason": {
                   "type": "string",
@@ -230,21 +190,19 @@
             "items": {
               "type": "object",
               "title": "A special app integration feature",
-              "required": [
-                "name",
-                "type"
-              ],
+              "required": ["name", "type"],
               "properties": {
                 "type": {
                   "type": "string",
                   "title": "The integration type, where the feature will be used.",
-                  "description": "Currently supported values are:\n selection - during character selection,\n signal - during night signaling,\n ability - when clicking on the character token,\n vote - during a vote,\n reveal - at the end of the game, before characters are revealed",
+                  "description": "Currently supported values are:\n selection - during character selection,\n signal - during night signaling,\n ability - when clicking on the character token,\n vote - during a vote,\n reveal - at the end of the game, before characters are revealed,\n player - an ability that can be initiated by the player",
                   "enum": [
                     "selection",
                     "ability",
                     "signal",
                     "vote",
-                    "reveal"
+                    "reveal",
+                    "player"
                   ]
                 },
                 "name": {
@@ -258,11 +216,13 @@
                     "distribute-roles",
                     "bag-disabled",
                     "bag-duplicate",
+                    "good-duplicate",
                     "multiplier",
                     "hidden",
                     "replace-character",
                     "player",
-                    "card"
+                    "card",
+                    "open-eyes"
                   ]
                 },
                 "value": {
@@ -296,7 +256,7 @@
                 "global": {
                   "type": "string",
                   "title": "Global ability scope",
-                  "description": "If it's a global ability that can be used without the character being in play, this property defines on which characters it can be used. This does not work on Fabled, because they are not considered to be on the Script.",
+                  "description": "If it's a global ability that can be used without the character being in play, this property defines on which characters it can be used. This does not work on non-player characters, because they are not considered to be on the Script.",
                   "enum": [
                     "townsfolk",
                     "outsider",
@@ -309,8 +269,8 @@
               },
               "examples": [
                 {
-                  "type": "signal",
-                  "name": "grimoire",
+                  "type": "player",
+                  "name": "open-eyes",
                   "time": "night"
                 },
                 {
@@ -341,10 +301,7 @@
             "team": "townsfolk",
             "firstNightReminder": "Show the Townsfolk character token. Point to both the *TOWNSFOLK* and *WRONG* players.",
             "otherNightReminder": "",
-            "reminders": [
-              "Townsfolk",
-              "Wrong"
-            ],
+            "reminders": ["Townsfolk", "Wrong"],
             "setup": false,
             "ability": "You start knowing that 1 of 2 players is a particular Townsfolk.",
             "flavor": "Bloodstains on a dinner jacket? No, this is cooking sherry. How careless.",
@@ -358,53 +315,36 @@
         "title": "Official character ID",
         "maxLength": 20,
         "description": "If you want to include official characters in the script, it is sufficient to provide their ID as a string",
-        "examples": [
-          "soldier",
-          "imp",
-          "washerwoman"
-        ]
+        "examples": ["soldier", "imp", "washerwoman"]
       },
       {
         "type": "object",
         "title": "Script Metadata",
-        "required": [
-          "id",
-          "name"
-        ],
+        "required": ["id", "name"],
         "properties": {
           "id": {
             "type": "string",
             "title": "The ID property must be called '_meta' for the Script metadata object.",
-            "enum": [
-              "_meta"
-            ]
+            "enum": ["_meta"]
           },
           "name": {
             "type": "string",
             "title": "The script name",
             "maxLength": 50,
-            "examples": [
-              "Fall of Rome",
-              "My Custom Homebrew"
-            ]
+            "examples": ["Fall of Rome", "My Custom Homebrew"]
           },
           "author": {
             "type": "string",
             "title": "The script author",
             "maxLength": 50,
-            "examples": [
-              "The Pandemonium Institute",
-              "Your Name"
-            ]
+            "examples": ["The Pandemonium Institute", "Your Name"]
           },
           "logo": {
             "type": "string",
             "format": "uri",
             "maxLength": 250,
             "title": "The script logo image",
-            "examples": [
-              "https://imgur.com/logo.png"
-            ]
+            "examples": ["https://imgur.com/logo.png"]
           },
           "hideTitle": {
             "type": "boolean",
@@ -415,9 +355,7 @@
             "format": "uri",
             "maxLength": 250,
             "title": "The script background image",
-            "examples": [
-              "https://imgur.com/background.jpg"
-            ]
+            "examples": ["https://imgur.com/background.jpg"]
           },
           "almanac": {
             "type": "string",
@@ -445,7 +383,7 @@
             "type": "array",
             "title": "The relative First Night order of characters on this script.",
             "description": "A custom first night order for this script can be provided in the form of an array here, with optional special entries for 'dusk', 'minioninfo', 'demoninfo' and 'dawn'.",
-            "maxItems": 30,
+            "maxItems": 200,
             "items": {
               "type": "string",
               "title": "Character ID of an on-script character in the first night order"
@@ -472,7 +410,7 @@
             "type": "array",
             "title": "The relative Other Nights order of characters on this script.",
             "description": "A custom other night order for this script can be provided in the form of an array here, with optional special entries for 'dusk' and 'dawn'.",
-            "maxItems": 30,
+            "maxItems": 200,
             "items": {
               "type": "string",
               "title": "Character ID of an on-script character in the other night order"
@@ -508,20 +446,14 @@
         "type": "object",
         "title": "Official Character (deprecated)",
         "deprecated": true,
-        "required": [
-          "id"
-        ],
+        "required": ["id"],
         "additionalProperties": false,
         "properties": {
           "id": {
             "type": "string",
             "maxLength": 20,
             "title": "Official character ID",
-            "examples": [
-              "soldier",
-              "imp",
-              "washerwoman"
-            ]
+            "examples": ["soldier", "imp", "washerwoman"]
           }
         }
       }
