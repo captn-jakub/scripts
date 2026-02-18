@@ -414,7 +414,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/biglebowski_thedudeabides_tokens.png"
     ],
     "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as *HIRED*. :reminder: :reminder:",
-    "otherNightReminder": "If a *HIRED* player voted today, they die.\nThe Big Lebowski might choose to force 1 of them do die regardless if they voted (once). :reminder:\nThe Big Lebowski chooses 2 players: mark both as *HIRED*. <i class=\"*POISONED*-token\"></i> <i class=\"*POISONED*-token\"></i>",
+    "otherNightReminder": "If a *HIRED* player voted today, they die.\nThe Big Lebowski might choose to force 1 of them do die regardless if they voted (once). :reminder:\nThe Big Lebowski chooses 2 players: mark both as *HIRED*. :reminder: :reminder:",
     "reminders": [
       "Hired",
       "Hired",
