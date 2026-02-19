@@ -438,8 +438,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackietreehorn_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackietreehorn_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Jackie Treehorn chooses a player: mark them as *POISONED*. :reminder:",
-    "otherNightReminder": "Jackie Treehorn chooses a player. :reminder: If 3 other players were already poisoned by Jackie Treehorn, remove the *POISONED* reminder from 1 of them.\nIf a poisoned (in any way) player died since dawn, their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. :reminder: :reminder:",
+    "firstNightReminder": "Jackie Treehorn chooses a player. :reminder:",
+    "otherNightReminder": "Jackie Treehorn chooses a player. :reminder: If 3 other players were already poisoned by Jackie Treehorn, remove the *POISONED* reminder from 1 of them first.\nIf a poisoned (in any way) player died since dawn, their alive good neighbour dies. :reminder: This continues until a non-poisoned player dies. :reminder:",
     "reminders": [
       "Poisoned",
       "Poisoned",
@@ -452,7 +452,7 @@
     ],
     "name": "Jackie Treehorn",
     "team": "demon",
-    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player died since dawn, their nearest alive good neighbour dies tonight.",
+    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. When a poisoned player dies, their good neighbour dies tonight. If all alive players are poisoned, evil wins.",
     "flavor": "What's your drink, Dude?",
     "firstNight": 16,
     "otherNight": 11
