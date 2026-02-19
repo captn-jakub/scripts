@@ -439,8 +439,10 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackietreehorn_thedudeabides_tokens.png"
     ],
     "firstNightReminder": "Jackie Treehorn chooses a player. :reminder:",
-    "otherNightReminder": "Jackie Treehorn chooses a player. :reminder: If 3 other players were already poisoned by Jackie Treehorn, remove the *POISONED* reminder from 1 of them first.\nIf a poisoned (in any way) player died since dawn, their alive good neighbour dies. :reminder: This continues until a non-poisoned player dies. :reminder:",
+    "otherNightReminder": "Jackie Treehorn chooses a player. If no players died during the day, they die, otherwise they're poisoned. :reminder:\nFor each poisoned (in any way) player who died since dawn, their alive good neighbour dies (repeat until a non-poisoned player dies). :reminder: :reminder:\nRemove *POISONED* tokens from all players killed in this way.",
     "reminders": [
+      "Poisoned",
+      "Poisoned",
       "Poisoned",
       "Poisoned",
       "Poisoned",
@@ -452,7 +454,7 @@
     ],
     "name": "Jackie Treehorn",
     "team": "demon",
-    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. When a poisoned player dies, their good neighbour dies tonight. If all alive players are poisoned, evil wins.",
+    "ability": "Each night, choose a player: they are poisoned. If no players died today, they die. When a poisoned player dies, they become healthy, and their good neighbour dies tonight.",
     "flavor": "What's your drink, Dude?",
     "firstNight": 16,
     "otherNight": 11
