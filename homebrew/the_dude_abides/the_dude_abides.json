@@ -439,7 +439,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackietreehorn_thedudeabides_tokens.png"
     ],
     "firstNightReminder": "Jackie Treehorn chooses a player. :reminder:",
-    "otherNightReminder": "Jackie Treehorn chooses a player. If no players died during the day, they die, otherwise they're poisoned. :reminder:\nFor each poisoned (in any way) player who died since dawn, their alive good neighbour dies (repeat until a non-poisoned player dies). :reminder: :reminder:\nRemove *POISONED* tokens from all players killed in this way.",
+    "otherNightReminder": "Jackie Treehorn chooses a player: they are poisoned. If no players died during the day, they then die. :reminder:\nFor each poisoned (in any way) player who died since dawn, their alive good neighbour dies (repeat until a non-poisoned player dies). :reminder: :reminder:\nRemove *POISONED* tokens from all players killed in this way.",
     "reminders": [
       "Poisoned",
       "Poisoned",
