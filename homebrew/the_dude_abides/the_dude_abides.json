@@ -360,8 +360,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jesus_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jesus_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Jesus chooses a player: mark them as *VISITED*. :reminder: Wake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
-    "otherNightReminder": "The Jesus chooses a player: mark them as *VISITED*. :reminder: If the Jesus selected a different player to last night, wake the new target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
+    "firstNightReminder": "The Jesus chooses a player. :reminder: Wake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
+    "otherNightReminder": "The Jesus chooses a player. :reminder: If the Jesus selected a different player to last night, wake the new target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
     "reminders": [
       "Visited",
       "Mad",
@@ -370,7 +370,7 @@
     ],
     "name": "Jesus",
     "team": "minion",
-    "ability": "Each night, choose a player: they are poisoned, and learn this. Players \"mad\" that the Jesus is in play might die.",
+    "ability": "Each night, choose a player: they are poisoned. If you chose a new player, they learn this. Players \"mad\" that the Jesus is in play might die.",
     "flavor": "You said it, man.",
     "firstNight": 14,
     "otherNight": 9
