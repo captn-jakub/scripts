@@ -454,7 +454,7 @@
     ],
     "name": "Jackie Treehorn",
     "team": "demon",
-    "ability": "Each night, choose a player: they are poisoned. If no players died today, they die. When a poisoned player dies, they become healthy, and their good neighbour dies tonight.",
+    "ability": "Each night, choose a player: they are poisoned. If no players died today, they die. When a poisoned player dies, they become healthy, and their alive good neighbour dies tonight.",
     "flavor": "What's your drink, Dude?",
     "firstNight": 16,
     "otherNight": 11
