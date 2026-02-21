@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "name": "The Dude Abides v0.5",
+    "name": "The Dude Abides v0.6",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
     "logo": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/_meta.png",
@@ -15,7 +15,8 @@
       "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
-      "jackytreehorn_thedudeabides",
+      "jackietreehorn_thedudeabides",
+      "woo_thedudeabides",
       "dude_thedudeabides",
       "donny_thedudeabides",
       "brandt_thedudeabides",
@@ -36,7 +37,7 @@
       "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
-      "jackytreehorn_thedudeabides",
+      "jackietreehorn_thedudeabides",
       "eagles_thedudeabides",
       "nihilist_thedudeabides",
       "woo_thedudeabides",
@@ -359,8 +360,8 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jesus_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jesus_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Jesus chooses a player: mark them as *VISITED*. :reminder: If the Jesus selected a different player to last night, wake the new target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
-    "otherNightReminder": "The Jesus chooses a player: mark them as *VISITED*. :reminder: If the Jesus selected a different player to last night, wake the new target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
+    "firstNightReminder": "The Jesus chooses a player. :reminder: Wake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
+    "otherNightReminder": "The Jesus chooses a player. :reminder: If the Jesus selected a different player to last night, wake the new target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
     "reminders": [
       "Visited",
       "Mad",
@@ -369,7 +370,7 @@
     ],
     "name": "Jesus",
     "team": "minion",
-    "ability": "Each night, choose a player: they are poisoned, and learn this. Players \"mad\" that the Jesus is in play might die.",
+    "ability": "Each night, choose a player: they are poisoned. If you chose a new player, they learn this. Players \"mad\" that the Jesus is in play might die.",
     "flavor": "You said it, man.",
     "firstNight": 14,
     "otherNight": 9
@@ -380,6 +381,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/woo_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/woo_thedudeabides_tokens.png"
     ],
+    "firstNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder:",
     "otherNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder: If another player was previously marked as *PISSED*, move the reminder token to the new target.",
     "reminders": [
       "Pissed"
@@ -387,8 +389,9 @@
     "setup": true,
     "name": "Woo",
     "team": "minion",
-    "ability": "Each night*, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
+    "ability": "Each night, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
     "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
+    "firstNight": 18,
     "otherNight": 15
   },
   {
@@ -430,14 +433,16 @@
     "otherNight": 10
   },
   {
-    "id": "jackytreehorn_thedudeabides",
+    "id": "jackietreehorn_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackytreehorn_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackytreehorn_thedudeabides_tokens.png"
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackietreehorn_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackietreehorn_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Jacky Treehorn chooses a player: mark them as *POISONED*. :reminder:",
-    "otherNightReminder": "Jacky Treehorn chooses a player. :reminder: If 3 other players were already poisoned by Jacky Treehorn, remove the *POISONED* reminder from 1 of them.\nIf a poisoned (in any way) player died since dawn, their nearest alive good neighbour dies. If alive good neighbours are equidistant, 1 or both die. :reminder: :reminder:",
+    "firstNightReminder": "Jackie Treehorn chooses a player. :reminder:",
+    "otherNightReminder": "Jackie Treehorn chooses a player: they are poisoned. If no players died during the day, they then die. :reminder:\nFor each poisoned (in any way) player who died since dawn, their alive good neighbour dies (repeat until a non-poisoned player dies). :reminder: :reminder:\nRemove *POISONED* tokens from all players killed in this way.",
     "reminders": [
+      "Poisoned",
+      "Poisoned",
       "Poisoned",
       "Poisoned",
       "Poisoned",
@@ -447,9 +452,9 @@
       "Dead",
       "Dead"
     ],
-    "name": "Jacky Treehorn",
+    "name": "Jackie Treehorn",
     "team": "demon",
-    "ability": "Each night, choose a player: they are poisoned. Up to 3 players can be poisoned in this way. If a poisoned player died since dawn, their nearest alive good neighbour dies tonight.",
+    "ability": "Each night, choose a player: they are poisoned. If no players died today, they die. When a poisoned player dies, they become healthy, and their alive good neighbour dies tonight.",
     "flavor": "What's your drink, Dude?",
     "firstNight": 16,
     "otherNight": 11
@@ -464,7 +469,12 @@
     "reminders": [
       "Dead",
       "Dead",
-      "Poisoned"
+      "Poisoned",
+      "Hate 'Em",
+      "Hate 'Em",
+      "Hate 'Em",
+      "Hate 'Em",
+      "Hate 'Em"
     ],
     "name": "Eagles",
     "team": "demon",
