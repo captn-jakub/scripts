@@ -1,5 +1,10 @@
 [
   {
+    "id": "_meta",
+    "name": "Brewery",
+    "almanac": "https://www.bloodstar.xyz/p/captn_jakub/brewery/almanac.html"
+  },
+  {
     "id": "partisant",
     "name": "Partisant",
     "image": [
