@@ -12,7 +12,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/brewery/partisantevil_brewery.png"
     ],
     "team": "townsfolk",
-    "ability": "You start knowing 1 in-play Townsfolk. If they die at night, an evil player dies. The Demon knows a Partisant is in play.",
+    "ability": "You start knowing 1 in-play Townsfolk. If they die at night, an evil player dies (once). The Demon knows a Partisant is in play.",
     "flavor": "You can kill the revolutionary, but never the revolution!",
     "firstNight": 50,
     "otherNight": 60,
