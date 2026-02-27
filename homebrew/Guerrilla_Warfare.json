@@ -59,10 +59,10 @@
     "flavor": "You can kill the revolutionary, but never the revolution!",
     "firstNight": 50,
     "otherNight": 60,
-    "firstNightReminder": "Show the Townsfolk character token marked *KNOWN*.\nWake the Demon. Show the Partisant token.",
-    "otherNightReminder": "If the *KNOWN* player died tonight, an evil player dies. :reminder: :reminder:",
+    "firstNightReminder": "Show the Townsfolk character token marked *KNOW*.\nWake the Demon. Show the Partisant token.",
+    "otherNightReminder": "If the player marked *KNOW* died tonight, an evil player dies. :reminder: :reminder:",
     "reminders": [
-      "Knows",
+      "Know",
       "Dead",
       "No Ability"
     ]
