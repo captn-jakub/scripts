@@ -406,7 +406,7 @@
     ],
     "name": "Logjammer",
     "team": "minion",
-    "ability": "Each night*, choose a player (different to last night): they don't wake tonight.",
+    "ability": "Each night*, choose a player (different to last night): they don't wake due to their own ability tonight.",
     "flavor": "Za, okay, I bring mein toolz.",
     "otherNight": 4
   },
