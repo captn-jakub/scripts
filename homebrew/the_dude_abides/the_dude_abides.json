@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "name": "The Dude Abides v0.6",
+    "name": "The Dude Abides v0.7",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
     "logo": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/_meta.png",
@@ -28,6 +28,7 @@
     ],
     "otherNight": [
       "dusk",
+      "smokey_thedudeabides",
       "bowlingball_thedudeabides",
       "logjammer_thedudeabides",
       "maude_thedudeabides",
@@ -44,7 +45,6 @@
       "caucasian_thedudeabides",
       "littleachiever_thedudeabides",
       "stranger_thedudeabides",
-      "smokey_thedudeabides",
       "dafino_thedudeabides",
       "dawn"
     ]
