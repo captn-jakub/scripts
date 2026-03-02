@@ -265,18 +265,15 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/smokey_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Smokey chooses two players. :reminder: :reminder:",
-    "otherNightReminder": "If Smokey died and changed alignment, show a thumbs-down or thumbs-up.",
+    "otherNightReminder": "If a player changed alignment because of Smokey, show a thumbs-down or thumbs-up.",
     "reminders": [
-      "Mark it 0",
-      "Mark it 8"
+      "Mad"
     ],
     "name": "Smokey",
     "team": "outsider",
-    "ability": "On your 1st night, choose 2 players: when you die, you become the alignment of 1 of them, even if drunk or poisoned.",
+    "ability": "If you are \"mad\" about being Smokey, a player might turn evil tonight.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
-    "firstNight": 22,
-    "otherNight": 20
+    "otherNight": 2
   },
   {
     "id": "rug_thedudeabides",
