@@ -261,22 +261,6 @@
     "otherNight": 17
   },
   {
-    "id": "smokey_thedudeabides",
-    "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/smokey_thedudeabides_tokens.png"
-    ],
-    "otherNightReminder": "If a player changed alignment because of Smokey, show a thumbs-down or thumbs-up.",
-    "reminders": [
-      "Mad"
-    ],
-    "name": "Smokey",
-    "team": "outsider",
-    "ability": "If you are \"mad\" about being Smokey, a player might turn evil tonight.",
-    "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
-    "otherNight": 2
-  },
-  {
     "id": "rug_thedudeabides",
     "image": [
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/rug_thedudeabides.png",
@@ -327,6 +311,22 @@
     "team": "outsider",
     "ability": "When a player is chosen by a good character's ability, another player might be targeted instead.",
     "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?"
+  },
+  {
+    "id": "smokey_thedudeabides",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/smokey_thedudeabides_tokens.png"
+    ],
+    "otherNightReminder": "If a player changed alignment because of Smokey, show a thumbs-down or thumbs-up.",
+    "reminders": [
+      "Mad"
+    ],
+    "name": "Smokey",
+    "team": "outsider",
+    "ability": "If you are \"mad\" about being Smokey, a player might turn evil tonight.",
+    "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
+    "otherNight": 2
   },
   {
     "id": "chief_thedudeabides",
