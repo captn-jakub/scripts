@@ -28,7 +28,6 @@
     ],
     "otherNight": [
       "dusk",
-      "fawngunderson_thedudeabides",
       "bowlingball_thedudeabides",
       "logjammer_thedudeabides",
       "maude_thedudeabides",
@@ -326,15 +325,10 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/fawngunderson_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/fawngunderson_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If Fawn Gunderson turned evil, show a thumbs-down and mark them as *DRUNK*. :reminder:",
-    "reminders": [
-      "Drunk"
-    ],
     "name": "Fawn Gunderson",
     "team": "outsider",
-    "ability": "If you are chosen by a good character's ability, another player might be targeted instead. If you are \"mad\" about being Fawn Gunderson, you might turn evil & drunk.",
-    "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?",
-    "otherNight": 2
+    "ability": "When a good player is chosen by a good character's ability, another player might be targeted instead.",
+    "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?"
   },
   {
     "id": "chief_thedudeabides",
