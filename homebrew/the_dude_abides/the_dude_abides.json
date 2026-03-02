@@ -416,18 +416,17 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/biglebowski_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as *HIRED*. :reminder: :reminder:",
-    "otherNightReminder": "If a *HIRED* player voted today, they die.\nThe Big Lebowski might choose to force 1 of them do die regardless if they voted (once). :reminder:\nThe Big Lebowski chooses 2 players: mark both as *HIRED*. :reminder: :reminder:",
+    "firstNightReminder": "The Big Lebowski chooses 2 players: mark them as *HIRED*. :reminder: :reminder:",
+    "otherNightReminder": "If both players marked *HIRED* voted today, one of them dies; :reminder: otherwise, they both die. :reminder: :reminder:\nThe Big Lebowski chooses 2 players: mark them as *HIRED*. :reminder: :reminder:",
     "reminders": [
       "Hired",
       "Hired",
       "Dead",
-      "Dead",
-      "Once"
+      "Dead"
     ],
     "name": "Big Lebowski",
     "team": "demon",
-    "ability": "Each night, choose 2 players. If a player chosen last night voted today, they die. Once per game, you may kill 1 of the chosen players regardless if they voted.",
+    "ability": "Each night, choose 2 players. If both players chosen last night voted today, 1 of them dies; otherwise, they both die.",
     "flavor": "Are you employed, sir?",
     "firstNight": 15,
     "otherNight": 10
