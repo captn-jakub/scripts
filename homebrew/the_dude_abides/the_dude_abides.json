@@ -30,8 +30,8 @@
       "dusk",
       "smokey_thedudeabides",
       "bowlingball_thedudeabides",
-      "logjammer_thedudeabides",
       "maude_thedudeabides",
+      "logjammer_thedudeabides",
       "sarsaparilla_thedudeabides",
       "waltersobchak_thedudeabides",
       "chief_thedudeabides",
@@ -122,10 +122,10 @@
     ],
     "name": "Maude",
     "team": "townsfolk",
-    "ability": "Each night, choose a player (not yourself): they cannot be selected by an evil player. You learn if your previous choice had an effect.",
+    "ability": "Each night, choose a player (not yourself): they cannot be selected by an evil player tonight. You learn if your previous choice had an effect.",
     "flavor": "He's a good man, and thorough.",
     "firstNight": 11,
-    "otherNight": 5
+    "otherNight": 4
   },
   {
     "id": "sarsaparilla_thedudeabides",
@@ -400,7 +400,7 @@
     "team": "minion",
     "ability": "Each night*, choose a player (different to last night): they don't wake due to their own ability tonight.",
     "flavor": "Za, okay, I bring mein toolz.",
-    "otherNight": 4
+    "otherNight": 5
   },
   {
     "id": "biglebowski_thedudeabides",
