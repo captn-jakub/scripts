@@ -469,7 +469,7 @@
     ],
     "name": "Eagles",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If no good players who publicly said \"I hate the fucking Eagles\" today are alive, choose another: they die. 1 alive good player who said it is poisoned.",
+    "ability": "Each night*, choose a player: they die. If no good players who said \"I hate the fucking Eagles\" when nominated today are alive, choose another: they die. 1 alive good player who said it is poisoned.",
     "flavor": "That's it! Outta this fucking cab!",
     "otherNight": 12
   },
