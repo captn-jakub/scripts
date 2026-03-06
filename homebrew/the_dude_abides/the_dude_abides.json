@@ -18,8 +18,8 @@
       "jackietreehorn_thedudeabides",
       "woo_thedudeabides",
       "dude_thedudeabides",
-      "donny_thedudeabides",
       "brandt_thedudeabides",
+      "donny_thedudeabides",
       "marty_thedudeabides",
       "stranger_thedudeabides",
       "smokey_thedudeabides",
@@ -61,7 +61,7 @@
     "team": "townsfolk",
     "ability": "You start knowing 2 not in play evil characters.",
     "flavor": "We've been frantically trying to reach you, Dude.",
-    "firstNight": 19
+    "firstNight": 18
   },
   {
     "id": "donny_thedudeabides",
@@ -77,7 +77,7 @@
     "team": "townsfolk",
     "ability": "You start knowing 1 Townsfolk player.",
     "flavor": "I am the walrus.",
-    "firstNight": 18
+    "firstNight": 19
   },
   {
     "id": "marty_thedudeabides",
@@ -318,7 +318,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/smokey_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If a player changed alignment because of Smokey, show a thumbs-down or thumbs-up.",
+    "otherNightReminder": "If a player changed alignment because of Smokey, wake that player, and show them a thumbs-down.",
     "reminders": [
       "Mad"
     ],
