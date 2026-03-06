@@ -69,9 +69,9 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/donny_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/donny_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Point to the *KNOWS* player.",
+    "firstNightReminder": "Point to the player marked *KNOW*.",
     "reminders": [
-      "Knows"
+      "Know"
     ],
     "name": "Donny",
     "team": "townsfolk",
@@ -211,8 +211,8 @@
     ],
     "otherNightReminder": "Walter Sobchak either shows a 'no' head signal, or chooses a player. If the chosen player is a Minion, mark them as *DEAD*. :reminder: :reminder:",
     "reminders": [
-      "No Ability",
-      "Dead"
+      "Dead",
+      "No Ability"
     ],
     "name": "Walter Sobchak",
     "team": "townsfolk",
