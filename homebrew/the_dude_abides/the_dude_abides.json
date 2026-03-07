@@ -17,7 +17,6 @@
       "biglebowski_thedudeabides",
       "jackietreehorn_thedudeabides",
       "woo_thedudeabides",
-      "dude_thedudeabides",
       "brandt_thedudeabides",
       "donny_thedudeabides",
       "marty_thedudeabides",
@@ -190,7 +189,6 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dude_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/dude_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. :reminder:\nIf they chose the Rug, remove the Rug reminder.\nIf the Rug changes the character or gains an ability, wake the Rug.",
     "otherNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. :reminder:\nIf they chose the Rug, remove the Rug reminder.\nIf the Rug changes the character or gains an ability, wake the Rug.",
     "reminders": [
       "No Ability"
@@ -200,7 +198,6 @@
     "team": "townsfolk",
     "ability": "Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
     "flavor": "New shit has come to light, man.",
-    "firstNight": 17,
     "otherNight": 16
   },
   {
