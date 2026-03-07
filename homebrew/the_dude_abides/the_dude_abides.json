@@ -458,7 +458,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/eagles_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/eagles_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If a good player is *POISONED* by the Eagles, the Eagles chooses 1 player, otherwise they choose 2. :reminder: :reminder:",
+    "otherNightReminder": "If no alive good players is marked *HATE 'EM*, the Eagles chooses 2 players, otherwise they choose 1. :reminder: :reminder:",
     "reminders": [
       "Dead",
       "Dead",
