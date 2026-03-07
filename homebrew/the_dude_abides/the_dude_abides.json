@@ -253,7 +253,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/caucasian_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/caucasian_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If the Caucasian was killed by the demon: show them character tokens of 2 alive player (1 good character and 1 evil character).",
+    "otherNightReminder": "If the Caucasian was killed by the demon: show them character tokens of 2 alive players (1 good character and 1 evil character).",
     "name": "Caucasian",
     "team": "townsfolk",
     "ability": "If the Demon kills you, you learn 2 alive characters, 1 good and 1 evil.",
