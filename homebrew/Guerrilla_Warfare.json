@@ -7,6 +7,7 @@
       "dusk",
       "minioninfo",
       "demoninfo",
+      "poisoner",
       "godfather",
       "mezepheles",
       "pukka",
@@ -21,12 +22,13 @@
     ],
     "otherNight": [
       "dusk",
+      "poisoner",
       "innkeeper",
       "gambler",
       "mezepheles",
       "lycanthrope",
       "pukka",
-      "nodashii",
+      "fanggu",
       "vigormortis",
       "ojo",
       "assassin",
@@ -47,6 +49,7 @@
   },
   "chef",
   "librarian",
+  "bountyhunter",
   {
     "id": "partisant",
     "name": "Partisant",
@@ -67,7 +70,6 @@
       "No Ability"
     ]
   },
-  "bountyhunter",
   "general",
   "fortuneteller",
   "towncrier",
@@ -83,11 +85,11 @@
   "mutant",
   "mezepheles",
   "godfather",
+  "poisoner",
   "assassin",
-  "baron",
   "pukka",
-  "nodashii",
   "ojo",
   "vigormortis",
+  "fanggu",
   "bootlegger"
 ]
