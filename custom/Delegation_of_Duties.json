@@ -2,21 +2,21 @@
   {
     "id": "_meta",
     "author": "capt'n jakub",
-    "name": "Delegation of Duties v0.2"
+    "name": "Delegation of Duties v0.3"
   },
-  "bountyhunter",
   "pixie",
+  "bountyhunter",
   "highpriestess",
-  "sailor",
   "chambermaid",
   "snakecharmer",
   "dreamer",
   "cultleader",
   "gambler",
   "gossip",
+  "alsaahir",
   "philosopher",
   "cannibal",
-  "pacifist",
+  "minstrel",
   "goon",
   "sweetheart",
   "klutz",
@@ -33,6 +33,6 @@
   "gunslinger",
   "gnome",
   "voudon",
-  "sentinel",
-  "spiritofivory"
+  "spiritofivory",
+  "sentinel"
 ]
