@@ -315,7 +315,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/smokey_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If a player changed alignment because of Smokey, wake that player, and show them a thumbs-down.",
+    "otherNightReminder": "If a player changed alignment because of Smokey, wake the player. Show the *YOU ARE* info token & give a thumbs-down.",
     "reminders": [
       "Mad"
     ],
