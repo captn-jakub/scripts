@@ -2,7 +2,45 @@
   {
     "id": "_meta",
     "author": "capt'n jakub",
-    "name": "On a Roll v0.3"
+    "name": "On a Roll v0.3",
+    "firstNight": [
+      "dusk",
+      "poppygrower",
+      "magician",
+      "minioninfo",
+      "demoninfo",
+      "rampage",
+      "sailor",
+      "preacher",
+      "lilmonsta",
+      "snakecharmer",
+      "godfather",
+      "devilsadvocate",
+      "investigator",
+      "shugenja",
+      "villageidiot",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "poppygrower",
+      "sailor",
+      "preacher",
+      "gambler",
+      "snakecharmer",
+      "devilsadvocate",
+      "shabaloth",
+      "po",
+      "vigormortis",
+      "lilmonsta",
+      "rampage",
+      "assassin",
+      "godfather",
+      "moonchild",
+      "towncrier",
+      "villageidiot",
+      "dawn"
+    ]
   },
   "investigator",
   "shugenja",
@@ -42,12 +80,12 @@
       "Dead",
       "No Ability"
     ],
-    "firstNight": 18,
-    "otherNight": 49,
+    "firstNight": 23,
+    "otherNight": 55,
     "jinxes": [
       {
         "id": "plaguedoctor",
-        "reason": "If the Plague Doctor dies, a living Minion gains the Rampage ability in addition to their own ability, and learns this."
+        "reason": "If the Storyteller would gain the Fearmonger ability, a Minion gains it, and learns this."
       }
     ]
   },
@@ -57,6 +95,6 @@
   "shabaloth",
   "po",
   "vigormortis",
-
+  "bootlegger",
   "sentinel"
 ]
