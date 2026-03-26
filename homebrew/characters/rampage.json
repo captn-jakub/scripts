@@ -26,8 +26,8 @@
       "Dead",
       "No Ability"
     ],
-    "firstNight": 11,
-    "otherNight": 11,
+    "firstNight": 23,
+    "otherNight": 55,
     "jinxes": [
       {
         "id": "plaguedoctor",
