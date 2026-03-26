@@ -31,7 +31,7 @@
     "jinxes": [
       {
         "id": "plaguedoctor",
-        "reason": "If the Plague Doctor dies, a living Minion gains the Rampage ability in addition to their own ability, and learns this."
+        "reason": "If the Storyteller would gain the Fearmonger ability, a Minion gains it, and learns this."
       }
     ]
   }
