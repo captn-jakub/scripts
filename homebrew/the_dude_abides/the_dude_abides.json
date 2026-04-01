@@ -21,7 +21,6 @@
       "donny_thedudeabides",
       "marty_thedudeabides",
       "stranger_thedudeabides",
-      "smokey_thedudeabides",
       "dafino_thedudeabides",
       "dawn"
     ],
@@ -321,7 +320,7 @@
     ],
     "name": "Smokey",
     "team": "outsider",
-    "ability": "If you are \"mad\" about being Smokey, a player might turn evil tonight.",
+    "ability": "If you are \"mad\" about being an Outsider, a player might turn evil tonight.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
     "otherNight": 2
   },
