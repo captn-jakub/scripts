@@ -282,6 +282,17 @@
     ]
   },
   {
+    "id": "fawngunderson_thedudeabides",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/fawngunderson_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/fawngunderson_thedudeabides_tokens.png"
+    ],
+    "name": "Fawn Gunderson",
+    "team": "outsider",
+    "ability": "Once each night, if a player is chosen by a good character's ability, another player might be targeted instead.",
+    "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?"
+  },
+  {
     "id": "johnson_thedudeabides",
     "image": [
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/johnson_thedudeabides.png",
@@ -296,17 +307,6 @@
     "ability": "When you die, a player might die tonight.",
     "flavor": "Tomorrow vee come back und cut off your chonson.",
     "otherNight": 14
-  },
-  {
-    "id": "fawngunderson_thedudeabides",
-    "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/fawngunderson_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/fawngunderson_thedudeabides_tokens.png"
-    ],
-    "name": "Fawn Gunderson",
-    "team": "outsider",
-    "ability": "Once each night, if a player is chosen by a good character's ability, another player might be targeted instead.",
-    "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?"
   },
   {
     "id": "smokey_thedudeabides",
