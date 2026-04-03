@@ -42,7 +42,9 @@ Test Script: [Guerrilla Warfare](homebrew/Guerrilla_Warfare.json)
 Test Script: [On a Roll](homebrew/On_a_Roll.json)
 
 
-## [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json)
+## Scripts
+
+### [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json)
 
 * [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
 * [database](https://botcscripts.com/script/6594)
