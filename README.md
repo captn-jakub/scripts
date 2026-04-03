@@ -1,6 +1,6 @@
 # Polyrhythmic Clocktower
 
-Repository of Blood on the Clocktower scripts and homebrew creations for use by the members of our Discord server.
+[Blood on the Clocktower](https://wiki.bloodontheclocktower.com) scripts and homebrew creations.
 
 ## Contributing
 
