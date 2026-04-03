@@ -1,7 +1,7 @@
 [
   {
     "id": "_meta",
-    "name": "The Dude Abides v0.6",
+    "name": "The Dude Abides v0.7",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
     "logo": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/_meta.png",
@@ -17,18 +17,16 @@
       "biglebowski_thedudeabides",
       "jackietreehorn_thedudeabides",
       "woo_thedudeabides",
-      "dude_thedudeabides",
-      "donny_thedudeabides",
       "brandt_thedudeabides",
+      "donny_thedudeabides",
       "marty_thedudeabides",
       "stranger_thedudeabides",
-      "smokey_thedudeabides",
       "dafino_thedudeabides",
       "dawn"
     ],
     "otherNight": [
       "dusk",
-      "fawngunderson_thedudeabides",
+      "smokey_thedudeabides",
       "bowlingball_thedudeabides",
       "logjammer_thedudeabides",
       "maude_thedudeabides",
@@ -40,12 +38,12 @@
       "jackietreehorn_thedudeabides",
       "eagles_thedudeabides",
       "nihilist_thedudeabides",
+      "johnson_thedudeabides",
       "woo_thedudeabides",
       "dude_thedudeabides",
       "caucasian_thedudeabides",
       "littleachiever_thedudeabides",
       "stranger_thedudeabides",
-      "smokey_thedudeabides",
       "dafino_thedudeabides",
       "dawn"
     ]
@@ -56,12 +54,12 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/brandt_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/brandt_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Show two not in play evil character tokens.",
+    "firstNightReminder": "Show 2 not in play evil character tokens.",
     "name": "Brandt",
     "team": "townsfolk",
     "ability": "You start knowing 2 not in play evil characters.",
     "flavor": "We've been frantically trying to reach you, Dude.",
-    "firstNight": 19
+    "firstNight": 18
   },
   {
     "id": "donny_thedudeabides",
@@ -69,15 +67,15 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/donny_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/donny_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "Point to the *KNOWS* player.",
+    "firstNightReminder": "Point to the player marked *KNOW*.",
     "reminders": [
-      "Knows"
+      "Know"
     ],
     "name": "Donny",
     "team": "townsfolk",
     "ability": "You start knowing 1 Townsfolk player.",
     "flavor": "I am the walrus.",
-    "firstNight": 18
+    "firstNight": 19
   },
   {
     "id": "marty_thedudeabides",
@@ -190,7 +188,6 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dude_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/dude_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. :reminder:\nIf they chose the Rug, remove the Rug reminder.\nIf the Rug changes the character or gains an ability, wake the Rug.",
     "otherNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. :reminder:\nIf they chose the Rug, remove the Rug reminder.\nIf the Rug changes the character or gains an ability, wake the Rug.",
     "reminders": [
       "No Ability"
@@ -200,7 +197,6 @@
     "team": "townsfolk",
     "ability": "Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
     "flavor": "New shit has come to light, man.",
-    "firstNight": 17,
     "otherNight": 16
   },
   {
@@ -211,8 +207,8 @@
     ],
     "otherNightReminder": "Walter Sobchak either shows a 'no' head signal, or chooses a player. If the chosen player is a Minion, mark them as *DEAD*. :reminder: :reminder:",
     "reminders": [
-      "No Ability",
-      "Dead"
+      "Dead",
+      "No Ability"
     ],
     "name": "Walter Sobchak",
     "team": "townsfolk",
@@ -237,12 +233,12 @@
     "otherNight": 3
   },
   {
-    "id": "bunny_thedudeabides",
+    "id": "bunnylebowski_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/bunny_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/bunny_thedudeabides_tokens.png"
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/bunnylebowski_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/bunnylebowski_thedudeabides_tokens.png"
     ],
-    "name": "Bunny",
+    "name": "Bunny Lebowski",
     "team": "townsfolk",
     "ability": "If you are chosen by an evil character's ability, another player might be targeted instead.",
     "flavor": "Wonderful woman. Very free-spirited. We're all very fond of her."
@@ -253,31 +249,12 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/caucasian_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/caucasian_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If the Caucasian was killed by the demon: show them character tokens of 2 alive player (1 good character and 1 evil character).",
+    "otherNightReminder": "If the Caucasian was killed by the demon: show them character tokens of 2 alive players (1 good character and 1 evil character).",
     "name": "Caucasian",
     "team": "townsfolk",
     "ability": "If the Demon kills you, you learn 2 alive characters, 1 good and 1 evil.",
     "flavor": "Fuck, man!  There's a beverage here!",
     "otherNight": 17
-  },
-  {
-    "id": "smokey_thedudeabides",
-    "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/smokey_thedudeabides_tokens.png"
-    ],
-    "firstNightReminder": "Smokey chooses two players. :reminder: :reminder:",
-    "otherNightReminder": "If Smokey died and changed alignment, show a thumbs-down or thumbs-up.",
-    "reminders": [
-      "Mark it 0",
-      "Mark it 8"
-    ],
-    "name": "Smokey",
-    "team": "outsider",
-    "ability": "On your 1st night, choose 2 players: when you die, you become the alignment of 1 of them, even if drunk or poisoned.",
-    "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
-    "firstNight": 22,
-    "otherNight": 20
   },
   {
     "id": "rug_thedudeabides",
@@ -305,6 +282,17 @@
     ]
   },
   {
+    "id": "fawngunderson_thedudeabides",
+    "image": [
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/fawngunderson_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/fawngunderson_thedudeabides_tokens.png"
+    ],
+    "name": "Fawn Gunderson",
+    "team": "outsider",
+    "ability": "Once each night, if a player is chosen by a good character's ability, another player might be targeted instead.",
+    "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?"
+  },
+  {
     "id": "johnson_thedudeabides",
     "image": [
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/johnson_thedudeabides.png",
@@ -321,19 +309,19 @@
     "otherNight": 14
   },
   {
-    "id": "fawngunderson_thedudeabides",
+    "id": "smokey_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/fawngunderson_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/fawngunderson_thedudeabides_tokens.png"
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
+      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/smokey_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If Fawn Gunderson turned evil, show a thumbs-down and mark them as *DRUNK*. :reminder:",
+    "otherNightReminder": "If a player changed alignment because of Smokey, wake the player. Show the *YOU ARE* info token & give a thumbs-down.",
     "reminders": [
-      "Drunk"
+      "Mad"
     ],
-    "name": "Fawn Gunderson",
+    "name": "Smokey",
     "team": "outsider",
-    "ability": "If you are chosen by a good character's ability, another player might be targeted instead. If you are \"mad\" about being Fawn Gunderson, you might turn evil & drunk.",
-    "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?",
+    "ability": "If you are \"mad\" about being an Outsider, a player might turn evil tonight.",
+    "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
     "otherNight": 2
   },
   {
@@ -366,7 +354,8 @@
       "Visited",
       "Mad",
       "Mad",
-      "Mad"
+      "Mad",
+      "Dead"
     ],
     "name": "Jesus",
     "team": "minion",
@@ -406,7 +395,7 @@
     ],
     "name": "Logjammer",
     "team": "minion",
-    "ability": "Each night*, choose a player (different to last night): they don't wake tonight.",
+    "ability": "Each night*, choose a player (different to last night): they don't wake due to their own ability tonight.",
     "flavor": "Za, okay, I bring mein toolz.",
     "otherNight": 4
   },
@@ -416,18 +405,18 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/biglebowski_thedudeabides_tokens.png"
     ],
-    "firstNightReminder": "The Big Lebowski chooses 2 players: mark both as *HIRED*. :reminder: :reminder:",
-    "otherNightReminder": "If a *HIRED* player voted today, they die.\nThe Big Lebowski might choose to force 1 of them do die regardless if they voted (once). :reminder:\nThe Big Lebowski chooses 2 players: mark both as *HIRED*. :reminder: :reminder:",
+    "firstNightReminder": "The Big Lebowski chooses 2 players: mark them as *HIRED*. :reminder: :reminder:",
+    "otherNightReminder": "If both players marked *HIRED* voted today, one of them dies; :reminder: otherwise, they both die. :reminder: :reminder:\nThe Big Lebowski chooses 2 players: mark them as *HIRED*. :reminder: :reminder:",
     "reminders": [
       "Hired",
       "Hired",
+      "Delivered",
       "Dead",
-      "Dead",
-      "Once"
+      "Dead"
     ],
     "name": "Big Lebowski",
     "team": "demon",
-    "ability": "Each night, choose 2 players. If a player chosen last night voted today, they die. Once per game, you may kill 1 of the chosen players regardless if they voted.",
+    "ability": "Each night, choose 2 players. If both players chosen last night voted today, 1 of them dies; otherwise, they both die.",
     "flavor": "Are you employed, sir?",
     "firstNight": 15,
     "otherNight": 10
@@ -465,7 +454,7 @@
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/eagles_thedudeabides.png",
       "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/eagles_thedudeabides_tokens.png"
     ],
-    "otherNightReminder": "If a good player is *POISONED* by the Eagles, the Eagles chooses 1 player, otherwise they choose 2. :reminder: :reminder:",
+    "otherNightReminder": "If no alive good player is marked *HATE 'EM*, the Eagles chooses 2 players, otherwise they choose 1. :reminder: :reminder:",
     "reminders": [
       "Dead",
       "Dead",
@@ -478,7 +467,7 @@
     ],
     "name": "Eagles",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If no good players who publicly said \"I hate the fucking Eagles\" today are alive, choose another: they die. 1 alive good player who said it is poisoned.",
+    "ability": "Each night*, choose a player: they die. 1 alive good player who said \"I hate the fucking Eagles\" when nominated today is poisoned. If there is no such player, choose another: they die.",
     "flavor": "That's it! Outta this fucking cab!",
     "otherNight": 12
   },
