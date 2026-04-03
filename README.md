@@ -1,12 +1,40 @@
-# The Good Vibes Club
+# Polyrhythmic Clocktower
 
-Repository of Blood on the Clocktower scripts and homebrew creations for use by the members of our Discord server.
+[Blood on the Clocktower](https://wiki.bloodontheclocktower.com) scripts and homebrew creations.
 
-# Contents
 
-## Custom Scripts
+# Homebrew
 
-Scripts using standard characters only.
+## Characters
+
+### [Deserter (Outsider)](homebrew/characters/deserter.json)
+
+**When there are 4 players alive, you die. If you are executed, a player might die tonight.**
+
+### <img src="homebrew/characters/assets/partisant.png" width=100 align=center /> [Partisant (Townsfolk)](homebrew/characters/partisant.json)
+
+**You start knowing 1 in-play Townsfolk. If they die at night, an evil player dies (once). The Demon knows a Partisant is in play.**
+
+Test Script: [Guerrilla Warfare](homebrew/Guerrilla_Warfare.json)
+
+### <img src="homebrew/characters/assets/rampage.png" width=100 align=center /> [Rampage (Minion)](homebrew/characters/rampage.json)
+
+**On your 1st night, choose 3 players: the 1st time you nominate & execute 1 of them, they all might die tonight.**
+
+Test Script: [On a Roll](homebrew/On_a_Roll.json)
+
+
+## Scripts
+
+### <img src="homebrew/the_dude_abides/assets/_meta.png" width=100 align=center /> [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json)
+
+* [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
+* [database](https://botcscripts.com/script/6594)
+
+
+# Custom Scripts
+
+Scripts using standard characters only (no homebrew).
 
 | name | author | notes |
 | :--- | :---: | :--- |
@@ -22,46 +50,9 @@ Scripts using standard characters only.
 | [Whose Demon Is It Anyway](custom/Whose_Demon_Is_It_Anyway.json) | Jackson | |
 
 
-## Homebrew
-
-### Characters
-
-| type | name | author |
-| :--- | :---: | :---: |
-| Townsfolk | [Martyr](homebrew/characters/martyr.json) | Puck |
-| Outsider | [Skulker](homebrew/characters/skulker.json) | Puck |
-| Minion | [Dream Eater](homebrew/characters/dream_eater.json) | Puck |
-| Minion | [Rampage](homebrew/characters/rampage.json) | capt'n jakub |
-| Minion | [Siphon](homebrew/characters/siphon.json) | Puck |
-| Minion | [Torment](homebrew/characters/skulker.json) | Puck |
-| Demon | [Serpent](homebrew/characters/serpent.json) | Puck |
-| Fabled | Mindfuck | Jackson |
-
-### Scripts
-
-Most of these are intended for play-testing particular a homebrew character - these characters are mentioned under notes. 
-
-For full homebrew scripts, refer to the almanac and/or the [script database](https://botcscripts.com) entries.
-
-| name | author | notes |
-| :--- | :---: | :--- |
-| [Fangs and Teeth](homebrew/Fangs_and_Teeth.json) | Puck | Serpent |
-| [I Like My Friends Close...](homebrew/I_Like_My_Friends_Close.json) | Puck | Skulker |
-| [Mindfuck](homebrew/Mindfuck.json) | Jackson | Mindfuck |
-| [On a Roll](homebrew/On_a_Roll.json) | capt'n jakub | Rampage |
-| [Our Hands In Prayer](homebrew/Our_Hands_In_Prayer.json) | Puck | Martyr, Skulker |
-| [Play Meta Games](homebrew/Play_Meta_Games.json) | Puck | Torment, [Hooligan](https://www.impeccabletiming.net/botc/Hooligan.html) |
-| [Taste This](homebrew/Taste_This.json) | Puck | Martyr, Skulker, Siphon |
-| [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json) | capt'n jakub | [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html), [database](https://botcscripts.com/script/6594) |
-| [Withered Whispers](homebrew/Withered_Whispers.json) | Puck | Dream Eater |
-
-
 # Contributing
 
-New content can be added via pull request into `main`:
-* fork the repository
-* make your changes
-* open a pull request
+New content can be added via pull request into `main`.
 
 A workflow will run to validate all JSON files against the schema. The schema definition should be periodically pulled from `ThePandemoniumInstitute/botc-release` repo, with the `minItems` and `maxItems` attributes removed to allow storing individual characters in their own files. The workflow also validates the schema itself.
 
