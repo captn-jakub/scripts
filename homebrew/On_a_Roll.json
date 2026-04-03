@@ -64,8 +64,8 @@
     "id": "rampage",
     "name": "Rampage",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/rampage/rampage_rampage.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/rampage/rampage_good_rampage.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/characters/assets/rampage.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/characters/assets/rampage_good.png"
     ],
     "team": "minion",
     "ability": "On your 1st night, choose 3 players: the 1st time you nominate & execute 1 of them, they all might die tonight.",

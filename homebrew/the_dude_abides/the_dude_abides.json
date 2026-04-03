@@ -4,7 +4,7 @@
     "name": "The Dude Abides v0.7",
     "author": "capt'n jakub",
     "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
-    "logo": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/_meta.png",
+    "logo": "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/_meta.png",
     "hideTitle": true,
     "firstNight": [
       "dusk",
@@ -51,8 +51,8 @@
   {
     "id": "brandt_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/brandt_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/brandt_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/brandt.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/brandt_evil.png"
     ],
     "firstNightReminder": "Show 2 not in play evil character tokens.",
     "name": "Brandt",
@@ -64,8 +64,8 @@
   {
     "id": "donny_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/donny_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/donny_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/donny.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/donny_evil.png"
     ],
     "firstNightReminder": "Point to the player marked *KNOW*.",
     "reminders": [
@@ -80,8 +80,8 @@
   {
     "id": "marty_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/marty_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/marty_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/marty.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/marty_evil.png"
     ],
     "firstNightReminder": "Show the finger signal (1, 2, 3, ...) for number of steps to the nearest Outsider.",
     "setup": true,
@@ -94,8 +94,8 @@
   {
     "id": "dafino_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dafino_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/dafino_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dafino.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dafino_evil.png"
     ],
     "firstNightReminder": "Show Da Fino 2 character tokens: at least 1 of them woke tonight.",
     "otherNightReminder": "Show Da Fino 2 character tokens: at least 1 of them woke tonight.",
@@ -109,8 +109,8 @@
   {
     "id": "maude_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/maude_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/maude_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/maude.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/maude_evil.png"
     ],
     "firstNightReminder": "Maude chooses a player: mark them as *SAFE*. :reminder:\nIf an evil player selects the *SAFE* player with an ability, show them the Maude character token and ask to choose again (mark Maude as *THOROUGH* if that happens). :reminder:",
     "otherNightReminder": "If Maude was *THOROUGH*, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'.\nMaude chooses a player: mark them as *SAFE*. :reminder:\nIf an evil player selects the *SAFE* player with an ability, show them the Maude character token and ask to choose again (mark Maude as *THOROUGH* if that happens). :reminder:",
@@ -128,8 +128,8 @@
   {
     "id": "sarsaparilla_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/sarsaparilla_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/sarsaparilla_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/sarsaparilla.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/sarsaparilla_evil.png"
     ],
     "firstNightReminder": "The Sarsaparilla chooses a player: mark them as *SOBER*. :reminder:",
     "otherNightReminder": "The Sarsaparilla chooses a player: mark them as *SOBER*. :reminder:",
@@ -146,8 +146,8 @@
   {
     "id": "stranger_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/stranger_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/stranger_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/stranger.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/stranger_evil.png"
     ],
     "firstNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours. The Stranger does not count as neighbour for this ability.",
     "otherNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours. The Stranger does not count as neighbour for this ability.",
@@ -161,8 +161,8 @@
   {
     "id": "littleachiever_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/littleachiever_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/littleachiever_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/littleachiever.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/littleachiever_evil.png"
     ],
     "otherNightReminder": "Show the character token of 1 *NOMINEE*. If the Little Achiever doesn't learn information tonight, they don't wake. Other Little Achievers might learn different information.",
     "reminders": [
@@ -185,8 +185,8 @@
   {
     "id": "dude_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/dude_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/dude_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dude.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dude_evil.png"
     ],
     "otherNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. :reminder:\nIf they chose the Rug, remove the Rug reminder.\nIf the Rug changes the character or gains an ability, wake the Rug.",
     "reminders": [
@@ -202,8 +202,8 @@
   {
     "id": "waltersobchak_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/waltersobchak_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/waltersobchak_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/waltersobchak.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/waltersobchak_evil.png"
     ],
     "otherNightReminder": "Walter Sobchak either shows a 'no' head signal, or chooses a player. If the chosen player is a Minion, mark them as *DEAD*. :reminder: :reminder:",
     "reminders": [
@@ -219,8 +219,8 @@
   {
     "id": "bowlingball_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/bowlingball_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/bowlingball_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bowlingball.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bowlingball_evil.png"
     ],
     "otherNightReminder": "If the Bowling Ball made their choice today, and the *SPARE!* reminder token is present, all evil players are drunk tonight. Remove the reminder token at dawn.",
     "reminders": [
@@ -235,8 +235,8 @@
   {
     "id": "bunnylebowski_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/bunnylebowski_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/bunnylebowski_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bunnylebowski.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bunnylebowski_evil.png"
     ],
     "name": "Bunny Lebowski",
     "team": "townsfolk",
@@ -246,8 +246,8 @@
   {
     "id": "caucasian_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/caucasian_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/caucasian_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/caucasian.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/caucasian_evil.png"
     ],
     "otherNightReminder": "If the Caucasian was killed by the demon: show them character tokens of 2 alive players (1 good character and 1 evil character).",
     "name": "Caucasian",
@@ -259,8 +259,8 @@
   {
     "id": "rug_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/rug_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/rug_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/rug.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/rug_evil.png"
     ],
     "remindersGlobal": [
       "Is The Rug"
@@ -284,8 +284,8 @@
   {
     "id": "fawngunderson_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/fawngunderson_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/fawngunderson_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson_evil.png"
     ],
     "name": "Fawn Gunderson",
     "team": "outsider",
@@ -295,8 +295,8 @@
   {
     "id": "johnson_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/johnson_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/johnson_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/johnson.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/johnson_evil.png"
     ],
     "otherNightReminder": "If the Johnson died today or tonight, another player might die. :reminder:",
     "reminders": [
@@ -311,8 +311,8 @@
   {
     "id": "smokey_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/smokey_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/smokey_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/smokey.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/smokey_evil.png"
     ],
     "otherNightReminder": "If a player changed alignment because of Smokey, wake the player. Show the *YOU ARE* info token & give a thumbs-down.",
     "reminders": [
@@ -327,8 +327,8 @@
   {
     "id": "chief_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/chief_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/chief_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/chief.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/chief_good.png"
     ],
     "firstNightReminder": "The Chief chooses a player and points to an Outsider character on the script. :reminder:\nWake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Chief token. Show the selected Outsider token.",
     "otherNightReminder": "The Chief chooses a player and points to an Outsider character on the script. :reminder:\nWake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Chief token. Show the selected Outsider token.",
@@ -345,8 +345,8 @@
   {
     "id": "jesus_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jesus_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jesus_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jesus.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jesus_good.png"
     ],
     "firstNightReminder": "The Jesus chooses a player. :reminder: Wake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
     "otherNightReminder": "The Jesus chooses a player. :reminder: If the Jesus selected a different player to last night, wake the new target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
@@ -367,8 +367,8 @@
   {
     "id": "woo_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/woo_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/woo_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo_good.png"
     ],
     "firstNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder:",
     "otherNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder: If another player was previously marked as *PISSED*, move the reminder token to the new target.",
@@ -386,8 +386,8 @@
   {
     "id": "logjammer_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/logjammer_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/logjammer_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/logjammer.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/logjammer_good.png"
     ],
     "otherNightReminder": "The Logjammer chooses a player: mark them as *JAMMED*. :reminder: If they would normally wake tonight, they don't.",
     "reminders": [
@@ -402,8 +402,8 @@
   {
     "id": "biglebowski_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/biglebowski_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/biglebowski_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/biglebowski.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/biglebowski_good.png"
     ],
     "firstNightReminder": "The Big Lebowski chooses 2 players: mark them as *HIRED*. :reminder: :reminder:",
     "otherNightReminder": "If both players marked *HIRED* voted today, one of them dies; :reminder: otherwise, they both die. :reminder: :reminder:\nThe Big Lebowski chooses 2 players: mark them as *HIRED*. :reminder: :reminder:",
@@ -424,8 +424,8 @@
   {
     "id": "jackietreehorn_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/jackietreehorn_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/jackietreehorn_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jackietreehorn.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jackietreehorn_good.png"
     ],
     "firstNightReminder": "Jackie Treehorn chooses a player. :reminder:",
     "otherNightReminder": "Jackie Treehorn chooses a player: they are poisoned. If no players died during the day, they then die. :reminder:\nFor each poisoned (in any way) player who died since dawn, their alive good neighbour dies (repeat until a non-poisoned player dies). :reminder: :reminder:\nRemove *POISONED* tokens from all players killed in this way.",
@@ -451,8 +451,8 @@
   {
     "id": "eagles_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/eagles_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/eagles_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/eagles.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/eagles_good.png"
     ],
     "otherNightReminder": "If no alive good player is marked *HATE 'EM*, the Eagles chooses 2 players, otherwise they choose 1. :reminder: :reminder:",
     "reminders": [
@@ -474,8 +474,8 @@
   {
     "id": "nihilist_thedudeabides",
     "image": [
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/nihilist_thedudeabides.png",
-      "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides_tokens/nihilist_thedudeabides_tokens.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/nihilist.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/nihilist_good.png"
     ],
     "otherNightReminder": "Each Nihilist wakes separately, even if dead, and chooses a player: mark them as *CHOSEN*. :reminder: Each chosen player might die. Players chosen more than once should always die.",
     "reminders": [
