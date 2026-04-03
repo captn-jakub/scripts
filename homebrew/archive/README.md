@@ -8,6 +8,7 @@
 | Minion | [Siphon](siphon.json) |
 | Minion | [Torment](skulker.json) |
 | Demon | [Serpent](serpent.json) |
+| Loric | Mindfuck |
 
 ### Scripts
 
@@ -19,3 +20,4 @@
 | [Play Meta Games](Play_Meta_Games.json) | Puck | Torment, [Hooligan](https://www.impeccabletiming.net/botc/Hooligan.html) |
 | [Taste This](Taste_This.json) | Puck | Martyr, Skulker, Siphon |
 | [Withered Whispers](Withered_Whispers.json) | Puck | Dream Eater |
+| [Mindfuck](Mindfuck.json) | Jackson | Mindfuck |

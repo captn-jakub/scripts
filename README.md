@@ -47,7 +47,6 @@ Scripts using standard characters only.
 | Townsfolk | [Partisant](homebrew/characters/partisant.json) | capt'n jakub |
 | Outsider | [Deserter](homebrew/characters/deserter.json) | capt'n jakub |
 | Minion | [Rampage](homebrew/characters/rampage.json) | capt'n jakub |
-| Fabled | Mindfuck | Jackson |
 
 ### Scripts
 
@@ -58,6 +57,5 @@ For full homebrew scripts, refer to the almanac and/or the [script database](htt
 | name | author | notes |
 | :--- | :---: | :--- |
 | [Guerrilla Warfare](homebrew/Guerrilla_Warfare.json) | capt'n jakub | Partisant |
-| [Mindfuck](homebrew/Mindfuck.json) | Jackson | Mindfuck |
 | [On a Roll](homebrew/On_a_Roll.json) | capt'n jakub | Rampage |
 | [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json) | capt'n jakub | [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html), [database](https://botcscripts.com/script/6594) |
