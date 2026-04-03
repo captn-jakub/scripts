@@ -1,6 +1,22 @@
-# The Good Vibes Club
+# Polyrhythmic Clocktower
 
 Repository of Blood on the Clocktower scripts and homebrew creations for use by the members of our Discord server.
+
+## Contributing
+
+New content can be added via pull request into `main`.
+
+A workflow will run to validate all JSON files against the schema. The schema definition should be periodically pulled from `ThePandemoniumInstitute/botc-release` repo, with the `minItems` and `maxItems` attributes removed to allow storing individual characters in their own files. The workflow also validates the schema itself.
+
+## Content Structure
+
+Custom scripts built with standard (TPI) characters only should be placed in the `custom` directory. 
+
+Homebrew (either full scripts or individual characters) should be placed in a dedicated subdirectory of `homebrew`. 
+
+Scripts for play-testing the homebrew characters should be placed in the `homebrew` directory.
+
+List all new content in the appropriate section above, with a local link to the JSON file, and a link to the almanac and/or the script database, if applicable.
 
 # Contents
 
@@ -42,23 +58,3 @@ For full homebrew scripts, refer to the almanac and/or the [script database](htt
 | [Mindfuck](homebrew/Mindfuck.json) | Jackson | Mindfuck |
 | [On a Roll](homebrew/On_a_Roll.json) | capt'n jakub | Rampage |
 | [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json) | capt'n jakub | [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html), [database](https://botcscripts.com/script/6594) |
-
-
-# Contributing
-
-New content can be added via pull request into `main`:
-* fork the repository
-* make your changes
-* open a pull request
-
-A workflow will run to validate all JSON files against the schema. The schema definition should be periodically pulled from `ThePandemoniumInstitute/botc-release` repo, with the `minItems` and `maxItems` attributes removed to allow storing individual characters in their own files. The workflow also validates the schema itself.
-
-## Content Structure
-
-Custom scripts built with standard (TPI) characters only should be placed in the `custom` directory. 
-
-Homebrew (either full scripts or individual characters) should be placed in a dedicated subdirectory of `homebrew`. 
-
-Scripts for play-testing the homebrew characters should be placed in the `homebrew` directory.
-
-List all new content in the appropriate section above, with a local link to the JSON file, and a link to the almanac and/or the script database, if applicable.
