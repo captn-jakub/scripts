@@ -2,25 +2,8 @@
 
 [Blood on the Clocktower](https://wiki.bloodontheclocktower.com) scripts and homebrew creations.
 
-## Contributing
 
-New content can be added via pull request into `main`.
-
-A workflow will run to validate all JSON files against the schema. The schema definition should be periodically pulled from `ThePandemoniumInstitute/botc-release` repo, with the `minItems` and `maxItems` attributes removed to allow storing individual characters in their own files. The workflow also validates the schema itself.
-
-## Content Structure
-
-Custom scripts built with standard (TPI) characters only should be placed in the `custom` directory. 
-
-Homebrew (either full scripts or individual characters) should be placed in a dedicated subdirectory of `homebrew`. 
-
-Scripts for play-testing the homebrew characters should be placed in the `homebrew` directory.
-
-List all new content in the appropriate section above, with a local link to the JSON file, and a link to the almanac and/or the script database, if applicable.
-
-# Contents
-
-## Custom Scripts
+# Custom Scripts
 
 Scripts using standard characters only.
 
@@ -38,24 +21,45 @@ Scripts using standard characters only.
 | [Whose Demon Is It Anyway](custom/Whose_Demon_Is_It_Anyway.json) | Jackson | |
 
 
-## Homebrew
+# Homebrew
 
-### Characters
+## Characters
 
-| type | name | author |
-| :--- | :---: | :---: |
-| Townsfolk | [Partisant](homebrew/characters/partisant.json) | capt'n jakub |
-| Outsider | [Deserter](homebrew/characters/deserter.json) | capt'n jakub |
-| Minion | [Rampage](homebrew/characters/rampage.json) | capt'n jakub |
+### [Deserter (Outsider)](homebrew/characters/deserter.json)
 
-### Scripts
+**When there are 4 players alive, you die. If you are executed, a player might die tonight.**
 
-Most of these are intended for play-testing particular a homebrew character - these characters are mentioned under notes. 
+### [Partisant (Townsfolk)](homebrew/characters/partisant.json)
 
-For full homebrew scripts, refer to the almanac and/or the [script database](https://botcscripts.com) entries.
+**You start knowing 1 in-play Townsfolk. If they die at night, an evil player dies (once). The Demon knows a Partisant is in play.**
 
-| name | author | notes |
-| :--- | :---: | :--- |
-| [Guerrilla Warfare](homebrew/Guerrilla_Warfare.json) | capt'n jakub | Partisant |
-| [On a Roll](homebrew/On_a_Roll.json) | capt'n jakub | Rampage |
-| [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json) | capt'n jakub | [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html), [database](https://botcscripts.com/script/6594) |
+Test Script: [Guerrilla Warfare](homebrew/Guerrilla_Warfare.json)
+
+### [Rampage (Minion)](homebrew/characters/rampage.json)
+
+**On your 1st night, choose 3 players: the 1st time you nominate & execute 1 of them, they all might die tonight.**
+
+Test Script: [On a Roll](homebrew/On_a_Roll.json)
+
+
+## [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json)
+
+* [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
+* [database](https://botcscripts.com/script/6594)
+
+
+# Contributing
+
+New content can be added via pull request into `main`.
+
+A workflow will run to validate all JSON files against the schema. The schema definition should be periodically pulled from `ThePandemoniumInstitute/botc-release` repo, with the `minItems` and `maxItems` attributes removed to allow storing individual characters in their own files. The workflow also validates the schema itself.
+
+## Content Structure
+
+Custom scripts built with standard (TPI) characters only should be placed in the `custom` directory. 
+
+Homebrew (either full scripts or individual characters) should be placed in a dedicated subdirectory of `homebrew`. 
+
+Scripts for play-testing the homebrew characters should be placed in the `homebrew` directory.
+
+List all new content in the appropriate section above, with a local link to the JSON file, and a link to the almanac and/or the script database, if applicable.
