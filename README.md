@@ -28,13 +28,7 @@ Scripts using standard characters only.
 
 | type | name | author |
 | :--- | :---: | :---: |
-| Townsfolk | [Martyr](homebrew/characters/martyr.json) | Puck |
-| Outsider | [Skulker](homebrew/characters/skulker.json) | Puck |
-| Minion | [Dream Eater](homebrew/characters/dream_eater.json) | Puck |
 | Minion | [Rampage](homebrew/characters/rampage.json) | capt'n jakub |
-| Minion | [Siphon](homebrew/characters/siphon.json) | Puck |
-| Minion | [Torment](homebrew/characters/skulker.json) | Puck |
-| Demon | [Serpent](homebrew/characters/serpent.json) | Puck |
 | Fabled | Mindfuck | Jackson |
 
 ### Scripts
@@ -45,15 +39,9 @@ For full homebrew scripts, refer to the almanac and/or the [script database](htt
 
 | name | author | notes |
 | :--- | :---: | :--- |
-| [Fangs and Teeth](homebrew/Fangs_and_Teeth.json) | Puck | Serpent |
-| [I Like My Friends Close...](homebrew/I_Like_My_Friends_Close.json) | Puck | Skulker |
 | [Mindfuck](homebrew/Mindfuck.json) | Jackson | Mindfuck |
 | [On a Roll](homebrew/On_a_Roll.json) | capt'n jakub | Rampage |
-| [Our Hands In Prayer](homebrew/Our_Hands_In_Prayer.json) | Puck | Martyr, Skulker |
-| [Play Meta Games](homebrew/Play_Meta_Games.json) | Puck | Torment, [Hooligan](https://www.impeccabletiming.net/botc/Hooligan.html) |
-| [Taste This](homebrew/Taste_This.json) | Puck | Martyr, Skulker, Siphon |
 | [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json) | capt'n jakub | [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html), [database](https://botcscripts.com/script/6594) |
-| [Withered Whispers](homebrew/Withered_Whispers.json) | Puck | Dream Eater |
 
 
 # Contributing
