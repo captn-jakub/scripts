@@ -5,7 +5,7 @@
 
 # Homebrew
 
-## <img src="homebrew/the_dude_abides/assets/_meta.png" width=100 align=center /> [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json)
+### <img src="homebrew/the_dude_abides/assets/_meta.png" width=100 align=center /> [The Dude Abides](homebrew/the_dude_abides)
 
 
 ## Characters
