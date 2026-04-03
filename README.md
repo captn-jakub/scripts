@@ -29,13 +29,13 @@ Scripts using standard characters only.
 
 **When there are 4 players alive, you die. If you are executed, a player might die tonight.**
 
-### [Partisant (Townsfolk)](homebrew/characters/partisant.json)
+### <img src="homebrew/characters/assets/partisant.png" width=100 align=center /> [Partisant (Townsfolk)](homebrew/characters/partisant.json)
 
 **You start knowing 1 in-play Townsfolk. If they die at night, an evil player dies (once). The Demon knows a Partisant is in play.**
 
 Test Script: [Guerrilla Warfare](homebrew/Guerrilla_Warfare.json)
 
-### [Rampage (Minion)](homebrew/characters/rampage.json)
+### <img src="homebrew/characters/assets/rampage.png" width=100 align=center /> [Rampage (Minion)](homebrew/characters/rampage.json)
 
 **On your 1st night, choose 3 players: the 1st time you nominate & execute 1 of them, they all might die tonight.**
 
@@ -44,7 +44,7 @@ Test Script: [On a Roll](homebrew/On_a_Roll.json)
 
 ## Scripts
 
-### [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json)
+### <img src="homebrew/the_dude_abides/assets/_meta.png" width=100 align=center /> [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json)
 
 * [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
 * [database](https://botcscripts.com/script/6594)
