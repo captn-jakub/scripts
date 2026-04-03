@@ -3,6 +3,7 @@
 | type | name |
 | :--- | :---: |
 | Townsfolk | [Martyr](martyr.json) |
+| Townsfolk | [Inquisitor](inquisitor.json) |
 | Outsider | [Skulker](skulker.json) |
 | Minion | [Dream Eater](dream_eater.json) |
 | Minion | [Siphon](siphon.json) |
