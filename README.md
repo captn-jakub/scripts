@@ -3,24 +3,6 @@
 [Blood on the Clocktower](https://wiki.bloodontheclocktower.com) scripts and homebrew creations.
 
 
-# Custom Scripts
-
-Scripts using standard characters only.
-
-| name | author | notes |
-| :--- | :---: | :--- |
-| [A Few Good Men](custom/A_Few_Good_Men.json) | capt'n jakub | solo Legion<br>[database](https://botcscripts.com/script/6761) |
-| [Death Do Us Part](custom/Death_Do_Us_Part.json) | capt'n jakub | all about death |
-| [Delegation of Duties](custom/Delegation_of_Duties.json) | capt'n jakub | [database](https://botcscripts.com/script/6763) |
-| [Don't Take My Word For It](custom/Dont_Take_My_Word_For_It.json) | capt'n jakub | hard mode: mechanical confirmation all around<br>[database](https://botcscripts.com/script/6764) |
-| [Escort Mission](custom/Escort_Mission.json) | capt'n jakub | Hermit-Lunatic-Recluse-Saint |
-| [Miss-a-Line](custom/Miss-a-Line.json) | capt'n jakub | solo Typhon<br>[database](https://botcscripts.com/script/6595) |
-| [One and Done](custom/One_and_Done.json) | capt'n jakub | mostly once per game abilities |
-| [Stuff Happens](custom/Stuff_Happens.json) | capt'n jakub | Wizard (and Alchemist), Amnesiac, bunch of droisoning<br>[database](https://botcscripts.com/script/6765) |
-| [Suspicious Brew](custom/Suspicious_Brew.json) | Puck | solo Kazali |
-| [Whose Demon Is It Anyway](custom/Whose_Demon_Is_It_Anyway.json) | Jackson | |
-
-
 # Homebrew
 
 ## Characters
@@ -48,6 +30,24 @@ Test Script: [On a Roll](homebrew/On_a_Roll.json)
 
 * [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
 * [database](https://botcscripts.com/script/6594)
+
+
+# Custom Scripts
+
+Scripts using standard characters only (no homebrew).
+
+| name | author | notes |
+| :--- | :---: | :--- |
+| [A Few Good Men](custom/A_Few_Good_Men.json) | capt'n jakub | solo Legion<br>[database](https://botcscripts.com/script/6761) |
+| [Death Do Us Part](custom/Death_Do_Us_Part.json) | capt'n jakub | all about death |
+| [Delegation of Duties](custom/Delegation_of_Duties.json) | capt'n jakub | [database](https://botcscripts.com/script/6763) |
+| [Don't Take My Word For It](custom/Dont_Take_My_Word_For_It.json) | capt'n jakub | hard mode: mechanical confirmation all around<br>[database](https://botcscripts.com/script/6764) |
+| [Escort Mission](custom/Escort_Mission.json) | capt'n jakub | Hermit-Lunatic-Recluse-Saint |
+| [Miss-a-Line](custom/Miss-a-Line.json) | capt'n jakub | solo Typhon<br>[database](https://botcscripts.com/script/6595) |
+| [One and Done](custom/One_and_Done.json) | capt'n jakub | mostly once per game abilities |
+| [Stuff Happens](custom/Stuff_Happens.json) | capt'n jakub | Wizard (and Alchemist), Amnesiac, bunch of droisoning<br>[database](https://botcscripts.com/script/6765) |
+| [Suspicious Brew](custom/Suspicious_Brew.json) | Puck | solo Kazali |
+| [Whose Demon Is It Anyway](custom/Whose_Demon_Is_It_Anyway.json) | Jackson | |
 
 
 # Contributing
