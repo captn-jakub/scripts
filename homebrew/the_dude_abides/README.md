@@ -125,7 +125,7 @@ If the Bowling Ball chose an evil player, all evil players become drunk at dusk.
 
 **If you are chosen by an evil character's ability, another player might be targeted instead.**
 
-> _Wonderful woman. Very free-spirited. We're all very fond of her_
+> _Wonderful woman. Very free-spirited. We're all very fond of her._
 
 Bunny confuses the evil team by redirecting madness, poisoning, or night kills.
 
