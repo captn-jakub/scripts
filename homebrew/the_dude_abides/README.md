@@ -171,7 +171,7 @@ Extremely simple: a Tinker fighting to survive.
 
 Smokey should strive to die at night. 
 
-If Smokey is executed, one Townsfolk remains sober; this way, evil team can still bluff Smokey, even with Townsfolk who can prove themselves mechanically (e.g. Professor).
+If Smokey is executed and dies, one Townsfolk remains sober; this way, evil team can still bluff Smokey, even with Townsfolk who can prove themselves mechanically (e.g. Professor).
 
 
 ## <img src=assets/fawngunderson.png width=100 align=center /> Fawn Gunderson
