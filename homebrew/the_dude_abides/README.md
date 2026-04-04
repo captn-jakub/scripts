@@ -8,11 +8,17 @@
 
 > _We've been frantically trying to reach you, Dude._
 
+Consider the roles in play when giving Brandt their information: if all Minion abilities become apparent early on (e.g. Evil Twin, Vizier, and Psychopath), show the player two not-in-play Demon characters, so the player doesn't feel their ability has no effect on the game.
+
+
 ## <img src=assets/donny.png width=100 align=center /> Donny
 
 **You start knowing 1 Townsfolk player.**
 
 > _I am the walrus._
+
+Donny knows a guy. Donny is in his element. Donny might be the walrus.
+
 
 ## <img src=assets/marty.png width=100 align=center /> Marty
 
@@ -20,11 +26,17 @@
 
 > _Dude, uh, tomorrow is already the tenth._
 
+
 ## <img src=assets/dafino.png width=100 align=center /> Da Fino
 
 **Each night, you learn 2 characters, at least 1 of which woke tonight.**
 
 > _I'm a private snoop! Like you, man!_
+
+Da Fino learns if a player of the given character woke at all, not necessarily due to their own ability. Showing Da Fino a character that doesn't wake at all may point to that player being "mad" today.
+
+Da Fino might learn a not in play character.
+
 
 ## <img src=assets/maude.png width=100 align=center /> Maude
 
@@ -32,11 +44,25 @@
 
 > _He's a good man, and thorough._
 
+If any evil player targets the Safe player with an ability, show them a 'no' head signal, prompting to choose again.
+
+Each night except the first, show Maude a 'yes' or 'no' head signal to indicate if their ability had an effect since last night, before they make a new choice.
+
+The Safe reminder token remains on the chosen player until Maude chooses again.
+
+
 ## <img src=assets/sarsaparilla.png width=100 align=center /> Sarsaparilla
 
 **Each night, choose a player: they are sober and healthy.**
 
 > _I like your style, Dude._
+
+Sarsaparilla makes 1 player sober and healthy. If the player would become drunk or poisoned while marked Sober, they don't.
+
+If they were already drunk or poisoned when chosen by the Sarsaparilla, turn the relevant reminder token(s) upside down: if the Sarsaparilla selects a different player tomorrow, they may become drunk or poisoned again.
+
+Example: the Sarsaparilla chooses the player who is the Lleech host; the poisoning does not work tomorrow, so the Lleech can be executed and die.
+
 
 ## <img src=assets/stranger.png width=100 align=center /> Stranger
 
@@ -44,17 +70,32 @@
 
 > _Sometimes, there's a man... Lost my train of thought there._
 
+
 ## <img src=assets/littleachiever.png width=100 align=center /> Little Achiever
 
 **Each night\*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]**
 
 > _Well, yeah, I did go to collage, but I spent most of my time occupying various administration buildings._
-  
+
+When the Little Achiever votes, place the Voted reminder token on them.
+
+If not all Little Achievers who are alive on their turn in the night order have the Voted token on them, none of them wake, even if one was dead during nominations and was subsequently resurrected.
+
+The Nominee reminder token may be placed on any nominated player that is to be shown to Little Achievers. This is for convenience only - the final information shared with each player might differ, depending on the state of the grim.
+
+
 ## <img src=assets/dude.png width=100 align=center /> Dude
 
 **Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]**
 
 > _New shit has come to light, man._
+
+When the Dude uses their ability, they do not learn if it was successful.
+
+If it was (they selected the Rug), that player becomes a Townsfolk. They might become the Townsfolk they thought they were, in which case they might not learn this, unless they had a 'once per game' ability that they thought they used, and start waking again.
+
+In some cases, the Rug might become a different character, in which case you wake them and inform them of their new character. This might happen when the Rug is already dead, or if the ability they thought they had would no longer be useful to the good team.
+
 
 ## <img src=assets/waltersobchak.png width=100 align=center /> Walter Sobchak
 
@@ -62,11 +103,13 @@
 
 > _My friend, you're entering a world of pain._
 
+
 ## <img src=assets/bowlingball.png width=100 align=center /> Bowling Ball
 
 **When you learn that you died, publicly choose an alive player: if they are evil, all evil players are drunk tonight.**
 
 > _Obviously you're not a golfer._
+
 
 ## <img src=assets/bunnylebowski.png width=100 align=center /> Bunny Lebowski
 
@@ -88,6 +131,9 @@
 
 > _It really tied the room together._
 
+The Rug functions exactly as the Drunk: if the character they think they are would wake to act at night, they wake to act, etc.
+
+
 ## <img src=assets/fawngunderson.png width=100 align=center /> Fawn Gunderson
 
 **Once each night, if a player is chosen by a good character's ability, another player might be targeted instead.**
@@ -99,6 +145,7 @@
 **When you die, a player might die tonight.**
 
 > _Tomorrow vee come back und cut off your chonson._
+
 
 ## <img src=assets/smokey.png width=100 align=center /> Smokey
 
@@ -114,17 +161,24 @@
 
 > _Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!_
 
+
 ## <img src=assets/jesus.png width=100 align=center /> Jesus
 
 **Each night, choose a player: they are poisoned. If you chose a new player, they learn this. Players \"mad\" that the Jesus is in play might die.**
 
 > _You said it, man._
 
+The players chosen by the Jesus know that they're poisoned, but cannot share this information with other players.
+
+If the Jesus chooses the same player as the previous night, don't wake the target - the players should only learn when they become poisoned.
+
+
 ## <img src=assets/woo.png width=100 align=center /> Woo
 
 **Each night, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]**
 
 > _We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski._
+
 
 ## <img src=assets/logjammer.png width=100 align=center /> Logjammer
 
@@ -140,11 +194,23 @@
 
 > _Are you employed, sir?_
 
+During the day, if both Hired players voted, place the Delivered reminder token on the Big Lebowski.
+
+During the night, if the Delivered token is placed, only one of the HIRED players dies (you choose which), otherwise, they both die. Big Lebowski prefers for the Hired players not to do their job properly.
+
+
 ## <img src=assets/jackietreehorn.png width=100 align=center /> Jackie Treehorn
 
 **Each night, choose a player: they are poisoned. If no players died today, they die. When a poisoned player dies, they become healthy, and their alive good neighbour dies tonight.**
 
 > _What's your drink, Dude?_
+
+Jackie Treehorn poisons players each night. They remain poisoned until they die.
+
+If the player dying to Jackie Treehorn is also poisoned, it triggers a chain reaction until a healthy player dies.
+
+When Jackie Treehorn is in play, its ability triggers when a player poisoned in any way dies - not only poisoned by Jackie Treehorn.
+
 
 ## <img src=assets/eagles.png width=100 align=center /> Eagles
 
@@ -152,12 +218,26 @@
 
 > _That's it! Outta this fucking cab!_
 
+During the day, when a good player says "I hate the fucking Eagles" when nominated, mark them as Poisoned. If more good players say it, you choose which one is Poisoned.
+
+Exactly 1 good alive player may be poisoned by the Eagles. If the Poisoned player dies, they immediately become sober, and another living good player who said the phrase today becomes Poisoned, if possible.
+
+In the night, if no good player is Poisoned by the Eagles, they choose 2 players; otherwise, they choose 1.
+
+
 ## <img src=assets/nihilist.png width=100 align=center /> Nihilist
 
 **Each night\*, choose a player (even if you are dead): they might die. You register as a Minion too. [All evil players are Nihilists]**
 
 > _Vee belief in nossing. Give us ze money, Lebowski!_
 
+During the first night, during the Demon Info step, let all Nihilists make eye contact.
+
+Each night except the first, Nihilists wake separately, even if dead. Any player chosen by at least one Nihilist might die.
+
+If a player is chosen by more than one Nihilist, they should always die, to reward the evil team's coordination. In most situations, the Nihilists should not kill more than 3 players in one night.
+
+The choices made by alive Nihilists should have more weight than the dead ones'. The objective of the dead Nihilists is to provide support to the choices of their alive buddies.
 
 
 ---
