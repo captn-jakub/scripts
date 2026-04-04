@@ -1,6 +1,6 @@
 <img src="assets/_meta.png" width=200 />
 
-# [The Dude Abides](the_dude_abides.json)
+# [The Dude Abides v0.8](the_dude_abides.json)
 
 ## <img src=assets/donny.png width=100 align=center /> Donny
 
