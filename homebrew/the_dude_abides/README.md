@@ -183,15 +183,6 @@ Smokey has the potential to slowly turn the entire town around them evil.
 
 ---
 
-## <img src=assets/chief.png width=100 align=center /> Chief
-
-**Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.**
-
-> _Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!_
-
-This is weak, need to come up with something new for the 4th Minion.
-
-
 ## <img src=assets/jesus.png width=100 align=center /> Jesus
 
 **Each night, choose a player: they are poisoned. If you chose a new player, they learn this. Players \"mad\" that the Jesus is in play might die.**
@@ -221,6 +212,15 @@ The Jammed player does not wake, but they do not learn why. Make sure the player
 The presence of the Logjammer on the script also means that their presence in game can be immitated by not waking drunk or poisoned players.
 
 Note the interaction with the Little Achiever, who have other reasons for not waking in the night (all others dead, or 1 did not vote).
+
+
+## <img src=assets/chief.png width=100 align=center /> Chief
+
+**If the Demon is chosen by a good character's ability in the night, you are targeted instead. 1 good player registers as evil & the Demon, even if you are dead.**
+
+> _The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought 827,987 square miles of lande from the French guys. The Louisiana Purchase was very. There was alot of land._
+
+Protection for the Demon and distraction to town.
 
 
 ---
@@ -280,3 +280,17 @@ The choices made by alive Nihilists should have more weight than the dead ones'.
 ---
 
 _[script database](https://botcscripts.com/script/6594)_
+
+
+---
+
+Scrapped abilities
+
+
+## <img src=assets/chief.png width=100 align=center /> Chief (Minion)
+
+**Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.**
+
+> _Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!_
+
+This is weak, need to come up with something new for the 4th Minion.

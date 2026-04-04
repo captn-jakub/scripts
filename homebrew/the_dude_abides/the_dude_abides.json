@@ -12,7 +12,6 @@
       "demoninfo",
       "maude_thedudeabides",
       "sarsaparilla_thedudeabides",
-      "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
       "jackietreehorn_thedudeabides",
@@ -32,7 +31,6 @@
       "maude_thedudeabides",
       "sarsaparilla_thedudeabides",
       "waltersobchak_thedudeabides",
-      "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
       "jackietreehorn_thedudeabides",
@@ -325,24 +323,6 @@
     "otherNight": 2
   },
   {
-    "id": "chief_thedudeabides",
-    "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/chief.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/chief_good.png"
-    ],
-    "firstNightReminder": "The Chief chooses a player and points to an Outsider character on the script. :reminder:\nWake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Chief token. Show the selected Outsider token.",
-    "otherNightReminder": "The Chief chooses a player and points to an Outsider character on the script. :reminder:\nWake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Chief token. Show the selected Outsider token.",
-    "reminders": [
-      "Mad"
-    ],
-    "name": "Chief",
-    "team": "minion",
-    "ability": "Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.",
-    "flavor": "Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!",
-    "firstNight": 13,
-    "otherNight": 8
-  },
-  {
     "id": "jesus_thedudeabides",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jesus.png",
@@ -398,6 +378,20 @@
     "ability": "Each night*, choose a player (different to last night): they don't wake due to their own ability tonight.",
     "flavor": "Za, okay, I bring mein toolz.",
     "otherNight": 4
+  },
+  {
+    "id": "larrysellers_thedudeabides",
+    "image": [
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers_good.png"
+    ],
+    "reminders": [
+      "Bogey"
+    ],
+    "name": "Larry Sellers",
+    "team": "minion",
+    "ability": "If the Demon is chosen by a good character's ability in the night, you are targeted instead. 1 good player registers as evil & the Demon, even if you are dead.",
+    "flavor": "The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought 827,987 square miles of lande from the French guys. The Louisiana Purchase was very. There was alot of land."
   },
   {
     "id": "biglebowski_thedudeabides",
