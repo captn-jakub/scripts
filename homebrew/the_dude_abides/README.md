@@ -165,7 +165,7 @@ Extremely simple: a Tinker fighting to survive.
 
 ## <img src=assets/smokey.png width=100 align=center /> Smokey
 
-**If you die by execution, all but 1 Townsfolk are drunk until dawn.**
+**If you die during the day, all but 1 Townsfolk are drunk until dawn.**
 
 > _Gimme the marker, Dude, I'm marking it an eight._
 
