@@ -26,6 +26,8 @@ Donny knows a guy. Donny is in his element. Donny might be the walrus.
 
 > _Dude, uh, tomorrow is already the tenth._
 
+Help the Dude find their Rug, but be careful not to reveal it to Woo, for they'll piss all over it!
+
 
 ## <img src=assets/dafino.png width=100 align=center /> Da Fino
 
@@ -70,6 +72,10 @@ Example: the Sarsaparilla chooses the player who is the Lleech host; the poisoni
 
 > _Sometimes, there's a man... Lost my train of thought there._
 
+The Stranger learns a character of 1 of 2 players.
+
+The Stranger does not register as a _neighbour_ to their own ability.
+
 
 ## <img src=assets/littleachiever.png width=100 align=center /> Little Achiever
 
@@ -103,6 +109,8 @@ In some cases, the Rug might become a different character, in which case you wak
 
 > _My friend, you're entering a world of pain._
 
+Walter pulls the trigger until it goes "click".
+
 
 ## <img src=assets/bowlingball.png width=100 align=center /> Bowling Ball
 
@@ -110,18 +118,30 @@ In some cases, the Rug might become a different character, in which case you wak
 
 > _Obviously you're not a golfer._
 
+If the Bowling Ball chose an evil player, all evil players become drunk at dusk. If they forget to make their choice (or choose not to), nothing happens.
+
 
 ## <img src=assets/bunnylebowski.png width=100 align=center /> Bunny Lebowski
 
 **If you are chosen by an evil character's ability, another player might be targeted instead.**
 
 > _Wonderful woman. Very free-spirited. We're all very fond of her_
+
+Bunny confuses the evil team by redirecting madness, poisoning, or night kills.
+
+This might result in the Demon killing an Outsider instead, or the Poisoner poisoning the other Minion. With the right group, you might even redirect a Psychopath kill!
+
   
 ## <img src=assets/caucasian.png width=100 align=center /> Caucasian
 
 **If the Demon kills you, you learn 2 alive characters, 1 good and 1 evil.**
 
 > _Fuck, man!  There's a beverage here!_
+
+The later in the game the Caucasian dies, the stronger their information becomes.
+
+The Caucasian's ability triggers upon death - if the player is drunk or poisoned when they die, they might learn incorrect information.
+
 
 ---
 
@@ -131,20 +151,25 @@ In some cases, the Rug might become a different character, in which case you wak
 
 > _It really tied the room together._
 
-The Rug functions exactly as the Drunk: if the character they think they are would wake to act at night, they wake to act, etc.
+The Rug functions exactly like the Drunk: if the character they think they are would wake to act at night, they wake to act, etc.
 
 
 ## <img src=assets/fawngunderson.png width=100 align=center /> Fawn Gunderson
 
 **Once each night, if a player is chosen by a good character's ability, another player might be targeted instead.**
 
-> _How ya gonna keep 'em down on the farm once they seen Karl Hungus_
+> _How ya gonna keep 'em down on the farm once they seen Karl Hungus._
+
+Inverse of Bunny Lebowski, limited to once per night.
+
   
 ## <img src=assets/johnson.png width=100 align=center /> Johnson
 
 **When you die, a player might die tonight.**
 
 > _Tomorrow vee come back und cut off your chonson._
+
+Extremely simple: a Tinker fighting to survive.
 
 
 ## <img src=assets/smokey.png width=100 align=center /> Smokey
@@ -153,6 +178,9 @@ The Rug functions exactly as the Drunk: if the character they think they are wou
 
 > _Gimme the marker, Dude, I'm marking it an eight._
 
+Smokey has the potential to slowly turn the entire town around them evil.
+
+
 ---
 
 ## <img src=assets/chief.png width=100 align=center /> Chief
@@ -160,6 +188,8 @@ The Rug functions exactly as the Drunk: if the character they think they are wou
 **Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.**
 
 > _Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!_
+
+This is weak, need to come up with something new for the 4th Minion.
 
 
 ## <img src=assets/jesus.png width=100 align=center /> Jesus
@@ -185,6 +215,13 @@ If the Jesus chooses the same player as the previous night, don't wake the targe
 **Each night\*, choose a player (different to last night): they don't wake due to their own ability tonight.**
 
 > _Za, okay, I bring mein toolz._
+
+The Jammed player does not wake, but they do not learn why. Make sure the players know this can happen.
+
+The presence of the Logjammer on the script also means that their presence in game can be immitated by not waking drunk or poisoned players.
+
+Note the interaction with the Little Achiever, who have other reasons for not waking in the night (all others dead, or 1 did not vote).
+
 
 ---
 
