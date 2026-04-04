@@ -2,15 +2,6 @@
 
 # [The Dude Abides](the_dude_abides.json)
 
-## <img src=assets/brandt.png width=100 align=center /> Brandt
-
-**You start knowing 2 not in play evil characters.**
-
-> _We've been frantically trying to reach you, Dude._
-
-Consider the roles in play when giving Brandt their information: if all Minion abilities become apparent early on (e.g. Evil Twin, Vizier, and Psychopath), show the player two not-in-play Demon characters, so the player doesn't feel their ability has no effect on the game.
-
-
 ## <img src=assets/donny.png width=100 align=center /> Donny
 
 **You start knowing 1 Townsfolk player.**
@@ -20,6 +11,15 @@ Consider the roles in play when giving Brandt their information: if all Minion a
 Donny knows a guy. Donny is in his element. Donny might be the walrus.
 
 
+## <img src=assets/brandt.png width=100 align=center /> Brandt
+
+**You start knowing 2 not in play evil characters.**
+
+> _We've been frantically trying to reach you, Dude._
+
+Consider the roles in play when giving Brandt their information: if all Minion abilities become apparent early on (e.g. Evil Twin, Vizier, and Psychopath), show the player two not-in-play Demon characters, so the player doesn't feel their ability has no effect on the game.
+
+
 ## <img src=assets/marty.png width=100 align=center /> Marty
 
 **You start knowing how many steps from you to the nearest Outsider. [+0 or +1 Outsider]**
@@ -27,30 +27,6 @@ Donny knows a guy. Donny is in his element. Donny might be the walrus.
 > _Dude, uh, tomorrow is already the tenth._
 
 Help the Dude find their Rug, but be careful not to reveal it to Woo, for they'll piss all over it!
-
-
-## <img src=assets/dafino.png width=100 align=center /> Da Fino
-
-**Each night, you learn 2 characters, at least 1 of which woke tonight.**
-
-> _I'm a private snoop! Like you, man!_
-
-Da Fino learns if a player of the given character woke at all, not necessarily due to their own ability. Showing Da Fino a character that doesn't wake at all may point to that player being "mad" today.
-
-Da Fino might learn a not in play character.
-
-
-## <img src=assets/maude.png width=100 align=center /> Maude
-
-**Each night, choose a player (not yourself): they cannot be selected by an evil player. You learn if your previous choice had an effect.**
-
-> _He's a good man, and thorough._
-
-If any evil player targets the Safe player with an ability, show them a 'no' head signal, prompting to choose again.
-
-Each night except the first, show Maude a 'yes' or 'no' head signal to indicate if their ability had an effect since last night, before they make a new choice.
-
-The Safe reminder token remains on the chosen player until Maude chooses again.
 
 
 ## <img src=assets/sarsaparilla.png width=100 align=center /> Sarsaparilla
@@ -66,6 +42,17 @@ If they were already drunk or poisoned when chosen by the Sarsaparilla, turn the
 Example: the Sarsaparilla chooses the player who is the Lleech host; the poisoning does not work tomorrow, so the Lleech can be executed and die.
 
 
+## <img src=assets/dafino.png width=100 align=center /> Da Fino
+
+**Each night, you learn 2 characters, at least 1 of which woke tonight.**
+
+> _I'm a private snoop! Like you, man!_
+
+Da Fino learns if a player of the given character woke at all, not necessarily due to their own ability. Showing Da Fino a character that doesn't wake at all may point to that player being "mad" today.
+
+Da Fino might learn a not in play character.
+
+
 ## <img src=assets/stranger.png width=100 align=center /> Stranger
 
 **Each night, choose a player: you learn the character of 1 of their alive neighbours (other than yourself).**
@@ -75,6 +62,19 @@ Example: the Sarsaparilla chooses the player who is the Lleech host; the poisoni
 The Stranger learns a character of 1 of 2 players.
 
 The Stranger does not register as a _neighbour_ to their own ability.
+
+
+## <img src=assets/maude.png width=100 align=center /> Maude
+
+**Each night, choose a player (not yourself): they cannot be selected by an evil player. You learn if your previous choice had an effect.**
+
+> _He's a good man, and thorough._
+
+If any evil player targets the Safe player with an ability, show them a 'no' head signal, prompting to choose again.
+
+Each night except the first, show Maude a 'yes' or 'no' head signal to indicate if their ability had an effect since last night, before they make a new choice.
+
+The Safe reminder token remains on the chosen player until Maude chooses again.
 
 
 ## <img src=assets/littleachiever.png width=100 align=center /> Little Achiever
@@ -251,19 +251,6 @@ If the player dying to Jackie Treehorn is also poisoned, it triggers a chain rea
 When Jackie Treehorn is in play, its ability triggers when a player poisoned in any way dies - not only poisoned by Jackie Treehorn.
 
 
-## <img src=assets/eagles.png width=100 align=center /> Eagles
-
-**Each night\*, choose a player: they die. 1 alive good player who said \"I hate the fucking Eagles\" when nominated today is poisoned. If there is no such player, choose another: they die.**
-
-> _That's it! Outta this fucking cab!_
-
-During the day, when a good player says "I hate the fucking Eagles" when nominated, mark them as Poisoned. If more good players say it, you choose which one is Poisoned.
-
-Exactly 1 good alive player may be poisoned by the Eagles. If the Poisoned player dies, they immediately become sober, and another living good player who said the phrase today becomes Poisoned, if possible.
-
-In the night, if no good player is Poisoned by the Eagles, they choose 2 players; otherwise, they choose 1.
-
-
 ## <img src=assets/nihilist.png width=100 align=center /> Nihilist
 
 **Each night\*, choose a player (even if you are dead): they might die. You register as a Minion too. [All evil players are Nihilists]**
@@ -277,6 +264,19 @@ Each night except the first, Nihilists wake separately, even if dead. Any player
 If a player is chosen by more than one Nihilist, they should always die, to reward the evil team's coordination. In most situations, the Nihilists should not kill more than 3 players in one night.
 
 The choices made by alive Nihilists should have more weight than the dead ones'. The objective of the dead Nihilists is to provide support to the choices of their alive buddies.
+
+
+## <img src=assets/eagles.png width=100 align=center /> Eagles
+
+**Each night\*, choose a player: they die. 1 alive good player who said \"I hate the fucking Eagles\" when nominated today is poisoned. If there is no such player, choose another: they die.**
+
+> _That's it! Outta this fucking cab!_
+
+During the day, when a good player says "I hate the fucking Eagles" when nominated, mark them as Poisoned. If more good players say it, you choose which one is Poisoned.
+
+Exactly 1 good alive player may be poisoned by the Eagles. If the Poisoned player dies, they immediately become sober, and another living good player who said the phrase today becomes Poisoned, if possible.
+
+In the night, if no good player is Poisoned by the Eagles, they choose 2 players; otherwise, they choose 1.
 
 
 ---
