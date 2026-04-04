@@ -25,8 +25,8 @@
     ],
     "otherNight": [
       "dusk",
-      "fawngunderson_thedudeabides",
       "smokey_thedudeabides",
+      "fawngunderson_thedudeabides",
       "bowlingball_thedudeabides",
       "logjammer_thedudeabides",
       "maude_thedudeabides",
@@ -310,7 +310,7 @@
     "team": "outsider",
     "ability": "If you die during the day, all but 1 Townsfolk are drunk until dawn.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
-    "otherNight": 3
+    "otherNight": 2
   },
   {
     "id": "fawngunderson_thedudeabides",
@@ -323,7 +323,7 @@
     "team": "outsider",
     "ability": "If you are \"mad\" about being an Outsider, a player might turn evil tonight.",
     "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?",
-    "otherNight": 2
+    "otherNight": 3
   },
   {
     "id": "jesus_thedudeabides",
