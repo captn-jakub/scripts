@@ -1,4 +1,4 @@
-<img src="assets/_meta.png" width=200 />
+<img src="assets/_meta.png" width=200 align=center /> 
 
 _[The Dude Abides v0.8](the_dude_abides.json)_
 
