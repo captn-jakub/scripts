@@ -2,6 +2,8 @@
 
 # [The Dude Abides v0.8](the_dude_abides.json)
 
+_[script database](https://botcscripts.com/script/6594)_
+
 ## <img src=assets/donny.png width=100 align=center /> Donny
 
 **You start knowing 1 Townsfolk player.**
@@ -281,11 +283,6 @@ In the night, if no good player is Poisoned by the Eagles, they choose 2 players
 
 ---
 
-_[script database](https://botcscripts.com/script/6594)_
-
-
----
-
 Scrapped abilities
 
 
@@ -294,5 +291,3 @@ Scrapped abilities
 **Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.**
 
 > _Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!_
-
-This is weak, need to come up with something new for the 4th Minion.
