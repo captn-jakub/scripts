@@ -1,8 +1,10 @@
 <img src="assets/_meta.png" width=200 />
 
-# [The Dude Abides v0.8](the_dude_abides.json)
+_[The Dude Abides v0.8](the_dude_abides.json)_
 
 _[script database](https://botcscripts.com/script/6594)_
+
+# Townsfolk
 
 ## <img src=assets/donny.png width=100 align=center /> Donny
 
@@ -145,7 +147,7 @@ The later in the game the Caucasian dies, the stronger their information becomes
 The Caucasian's ability triggers upon death - if the player is drunk or poisoned when they die, they might learn incorrect information.
 
 
----
+# Outsiders
 
 ## <img src=assets/rug.png width=100 align=center /> Rug
 
@@ -185,7 +187,7 @@ If Smokey is executed and dies, one Townsfolk remains sober; this way, evil team
 Fawn Gunderson has the potential to slowly turn the entire town aroun them evil.
 
 
----
+# Minions
 
 ## <img src=assets/jesus.png width=100 align=center /> Jesus
 
@@ -227,7 +229,7 @@ Note the interaction with the Little Achiever, who have other reasons for not wa
 Protection for the Demon and distraction to town.
 
 
----
+# Demons
 
 ## <img src=assets/biglebowski.png width=100 align=center /> Big Lebowski
 
