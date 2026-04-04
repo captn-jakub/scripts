@@ -308,7 +308,7 @@
     ],
     "name": "Smokey",
     "team": "outsider",
-    "ability": "If you are executed, all but 1 Townsfolk are drunk until dawn.",
+    "ability": "If you die during the day, all but 1 Townsfolk are drunk until dawn.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
     "otherNight": 3
   },
