@@ -214,9 +214,9 @@ The presence of the Logjammer on the script also means that their presence in ga
 Note the interaction with the Little Achiever, who have other reasons for not waking in the night (all others dead, or 1 did not vote).
 
 
-## <img src=assets/chief.png width=100 align=center /> Chief
+## <img src=assets/larrysellers.png width=100 align=center /> Larry Sellers
 
-**If the Demon is chosen by a good character's ability in the night, you are targeted instead. 1 good player registers as evil & the Demon, even if you are dead.**
+**If the Demon is chosen by a good character's ability in the night, you are targeted instead. 1 good player registers as evil & the Demon.**
 
 > _The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought 827,987 square miles of lande from the French guys. The Louisiana Purchase was very. There was alot of land._
 
