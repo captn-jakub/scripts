@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "The Dude Abides v0.8",
     "author": "capt'n jakub",
-    "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
+    "almanac": "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/README.md",
     "logo": "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/_meta.png",
     "hideTitle": true,
     "firstNight": [
@@ -25,6 +25,7 @@
     ],
     "otherNight": [
       "dusk",
+      "fawngunderson_thedudeabides",
       "smokey_thedudeabides",
       "bowlingball_thedudeabides",
       "logjammer_thedudeabides",
@@ -280,17 +281,6 @@
     ]
   },
   {
-    "id": "fawngunderson_thedudeabides",
-    "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson_evil.png"
-    ],
-    "name": "Fawn Gunderson",
-    "team": "outsider",
-    "ability": "Once each night, if a player is chosen by a good character's ability, another player might be targeted instead.",
-    "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?"
-  },
-  {
     "id": "johnson_thedudeabides",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/johnson.png",
@@ -312,14 +302,27 @@
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/smokey.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/smokey_evil.png"
     ],
-    "otherNightReminder": "If a player changed alignment because of Smokey, wake the player. Show the *YOU ARE* info token & give a thumbs-down.",
+    "otherNightReminder": "If Smokey was executed today, mark the player who is not made drunk by Smokey as *DESIGNATED DRIVER*. :reminder: All other Townsfolk are drunk until dawn.",
     "reminders": [
-      "Mad"
+      "Designated Driver"
     ],
     "name": "Smokey",
     "team": "outsider",
-    "ability": "If you are \"mad\" about being an Outsider, a player might turn evil tonight.",
+    "ability": "If you are executed, all but 1 Townsfolk are drunk until dawn.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
+    "otherNight": 3
+  },
+  {
+    "id": "fawngunderson_thedudeabides",
+    "image": [
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson_evil.png"
+    ],
+    "otherNightReminder": "If a player changed alignment because of Fawn Gunderson, wake the player. Show the *YOU ARE* info token & give a thumbs-down.",
+    "name": "Fawn Gunderson",
+    "team": "outsider",
+    "ability": "If you are \"mad\" about being an Outsider, a player might turn evil tonight.",
+    "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?",
     "otherNight": 2
   },
   {
@@ -382,8 +385,8 @@
   {
     "id": "larrysellers_thedudeabides",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/dude/homebrew/the_dude_abides/assets/larrysellers.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/dude/homebrew/the_dude_abides/assets/larrysellers_good.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers_good.png"
     ],
     "reminders": [
       "Bogey"
