@@ -163,15 +163,6 @@ The Rug functions exactly like the Drunk: if the character they think they are w
 Extremely simple: a Tinker fighting to survive.
 
 
-## <img src=assets/fawngunderson.png width=100 align=center /> Fawn Gunderson
-
-**If you are \"mad\" about being an Outsider, a player might turn evil tonight.**
-
-> _How ya gonna keep 'em down on the farm once they seen Karl Hungus?_
-
-Fawn Gunderson has the potential to slowly turn the entire town aroun them evil.
-
-
 ## <img src=assets/smokey.png width=100 align=center /> Smokey
 
 **If you are executed, all but 1 Townsfolk are drunk until dawn.**
@@ -181,6 +172,15 @@ Fawn Gunderson has the potential to slowly turn the entire town aroun them evil.
 Smokey should strive to die at night. 
 
 If Smokey is executed, one Townsfolk remains sober; this way, evil team can still bluff Smokey, even with Townsfolk who can prove themselves mechanically (e.g. Professor).
+
+
+## <img src=assets/fawngunderson.png width=100 align=center /> Fawn Gunderson
+
+**If you are \"mad\" about being an Outsider, a player might turn evil tonight.**
+
+> _How ya gonna keep 'em down on the farm once they seen Karl Hungus?_
+
+Fawn Gunderson has the potential to slowly turn the entire town aroun them evil.
 
 
 ---
