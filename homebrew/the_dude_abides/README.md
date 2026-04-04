@@ -283,9 +283,7 @@ Exactly 1 good alive player may be poisoned by the Eagles. If the Poisoned playe
 In the night, if no good player is Poisoned by the Eagles, they choose 2 players; otherwise, they choose 1.
 
 
----
-
-Scrapped abilities
+# Scrapped Characters
 
 
 ## <img src=assets/chief.png width=100 align=center /> Chief (Minion)
