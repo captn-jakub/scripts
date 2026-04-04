@@ -105,7 +105,7 @@ In some cases, the Rug might become a different character, in which case you wak
 
 ## <img src=assets/waltersobchak.png width=100 align=center /> Walter Sobchak
 
-**Once per game, at night*, choose an alive player: a Minion, if chosen, dies. All Minions know that Walter Sobchak is in play.**
+**Once per game, at night\*, choose an alive player: a Minion, if chosen, dies. All Minions know that Walter Sobchak is in play.**
 
 > _My friend, you're entering a world of pain._
 
