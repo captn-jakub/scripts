@@ -222,7 +222,7 @@ Note the interaction with the Little Achiever, who have other reasons for not wa
 
 ## <img src=assets/larrysellers.png width=100 align=center /> Larry Sellers
 
-**If the Demon is chosen by a good character's ability, you are targeted instead. 1 good player registers as evil & the Demon.**
+**If the Demon is chosen by a good character's ability, you are targeted instead. 1 good player registers as the Demon.**
 
 > _The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought 827,987 square miles of lande from the French guys. The Louisiana Purchase was very. There was alot of land._
 
