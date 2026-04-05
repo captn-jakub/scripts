@@ -3,7 +3,7 @@
     "id": "_meta",
     "name": "The Dude Abides",
     "author": "capt'n jakub",
-    "almanac": "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/README.md",
+    "almanac": "https://github.com/captn-jakub/scripts/blob/main/homebrew/the_dude_abides/README.md",
     "logo": "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/_meta.png",
     "hideTitle": true,
     "firstNight": [
