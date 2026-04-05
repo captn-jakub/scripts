@@ -164,7 +164,7 @@ The Rug functions exactly like the Drunk: if the character they think they are w
 
 > _Tomorrow vee come back und cut off your chonson._
 
-Extremely simple: a Tinker fighting to survive.
+Does what it says on the tin.
 
 
 ## <img src=assets/smokey.png width=100 align=center /> Smokey
