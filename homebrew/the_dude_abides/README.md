@@ -180,7 +180,7 @@ If Smokey is executed and dies, one Townsfolk remains sober; this way, evil team
 
 ## <img src=assets/fawngunderson.png width=100 align=center /> Fawn Gunderson
 
-**If you are \"mad\" about being an Outsider, a player might turn evil tonight.**
+**If you are \"mad\" about being an Outsider, a player might turn evil.**
 
 > _How ya gonna keep 'em down on the farm once they seen Karl Hungus?_
 
@@ -222,7 +222,7 @@ Note the interaction with the Little Achiever, who have other reasons for not wa
 
 ## <img src=assets/larrysellers.png width=100 align=center /> Larry Sellers
 
-**If the Demon is chosen by a good character's ability in the night, you are targeted instead. 1 good player registers as evil & the Demon.**
+**If the Demon is chosen by a good character's ability, you are targeted instead. 1 good player registers as evil & the Demon.**
 
 > _The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought 827,987 square miles of lande from the French guys. The Louisiana Purchase was very. There was alot of land._
 

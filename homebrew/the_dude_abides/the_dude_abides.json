@@ -334,7 +334,7 @@
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson_evil.png"
     ],
     "team": "outsider",
-    "ability": "If you are \"mad\" about being an Outsider, a player might turn evil tonight.",
+    "ability": "If you are \"mad\" about being an Outsider, a player might turn evil.",
     "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?",
     "firstNight": 0,
     "otherNight": 3,
