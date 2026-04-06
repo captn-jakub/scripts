@@ -30,7 +30,7 @@ Consider the roles in play when giving Brandt their information: if all Minion a
 
 > _Dude, uh, tomorrow is already the tenth._
 
-Help the Dude find their Rug, but be careful not to reveal it to Woo, for they'll piss all over it!
+Help the Dude find their [Rug](#rug), but be careful not to reveal it to [Woo](#woo), for they'll piss all over it!
 
 
 ## <img src=assets/sarsaparilla.png width=100 align=center /> Sarsaparilla
@@ -133,7 +133,7 @@ If the Bowling Ball chose an evil player, all evil players become drunk at dusk.
 
 Bunny confuses the evil team by redirecting madness, poisoning, or night kills.
 
-This might result in the Demon killing an Outsider instead, or the Poisoner poisoning the other Minion. With the right group, you might even redirect a Psychopath kill!
+This might result in the Demon killing an Outsider instead, or the Poisoner poisoning the other Minion. With the right attitude, you might even redirect a Psychopath kill!
 
   
 ## <img src=assets/caucasian.png width=100 align=center /> Caucasian
@@ -175,7 +175,7 @@ Does what it says on the tin.
 
 Smokey should strive to die at night. 
 
-If Smokey is executed and dies, one Townsfolk remains sober; this way, evil team can still bluff Smokey, even with Townsfolk who can prove themselves mechanically (e.g. Professor).
+If Smokey is executed and dies, one Townsfolk remains sober; this way, evil team can still bluff Smokey, even with Townsfolk who can prove themselves mechanically (e.g. Professor, or Banshee).
 
 
 ## <img src=assets/fawngunderson.png width=100 align=center /> Fawn Gunderson
@@ -184,7 +184,7 @@ If Smokey is executed and dies, one Townsfolk remains sober; this way, evil team
 
 > _How ya gonna keep 'em down on the farm once they seen Karl Hungus?_
 
-Fawn Gunderson has the potential to slowly turn the entire town aroun them evil.
+Fawn Gunderson has the potential to slowly turn the entire town around them evil.
 
 
 # Minions
@@ -217,7 +217,7 @@ The Jammed player does not wake, but they do not learn why. Make sure the player
 
 The presence of the Logjammer on the script also means that their presence in game can be immitated by not waking drunk or poisoned players.
 
-Note the interaction with the Little Achiever, who have other reasons for not waking in the night (all others dead, or 1 did not vote).
+Note the interaction with the [Little Achiever](#little-achiever), who have other reasons for not waking in the night (either only 1 alive, or 1 or more did not vote).
 
 
 ## <img src=assets/larrysellers.png width=100 align=center /> Larry Sellers
@@ -239,7 +239,7 @@ Protection for the Demon and distraction to town.
 
 During the day, if both Hired players voted, place the Delivered reminder token on the Big Lebowski.
 
-During the night, if the Delivered token is placed, only one of the HIRED players dies (you choose which), otherwise, they both die. Big Lebowski prefers for the Hired players not to do their job properly.
+During the night, if the Delivered token is placed, only one of the Hired players dies (you choose which), otherwise, they both die. Big Lebowski prefers for the Hired players not to do their job properly.
 
 
 ## <img src=assets/jackietreehorn.png width=100 align=center /> Jackie Treehorn
