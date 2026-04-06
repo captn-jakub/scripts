@@ -5,6 +5,9 @@
 
 # Homebrew
 
+### <img src="homebrew/the_dude_abides/assets/_meta.png" width=100 align=center /> [The Dude Abides](homebrew/the_dude_abides)
+
+
 ## Characters
 
 ### [Deserter (Outsider)](homebrew/characters/deserter.json)
@@ -22,14 +25,6 @@ Test Script: [Guerrilla Warfare](homebrew/Guerrilla_Warfare.json)
 **On your 1st night, choose 3 players: the 1st time you nominate & execute 1 of them, they all might die tonight.**
 
 Test Script: [On a Roll](homebrew/On_a_Roll.json)
-
-
-## Scripts
-
-### <img src="homebrew/the_dude_abides/assets/_meta.png" width=100 align=center /> [The Dude Abides](homebrew/the_dude_abides/the_dude_abides.json)
-
-* [almanac](https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html)
-* [database](https://botcscripts.com/script/6594)
 
 
 # Custom Scripts

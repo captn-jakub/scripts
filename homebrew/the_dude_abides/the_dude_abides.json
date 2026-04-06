@@ -1,9 +1,9 @@
 [
   {
     "id": "_meta",
-    "name": "The Dude Abides v0.7",
+    "name": "The Dude Abides",
     "author": "capt'n jakub",
-    "almanac": "https://www.bloodstar.xyz/p/captn_jakub/thedudeabides/almanac.html",
+    "almanac": "https://github.com/captn-jakub/scripts/blob/main/homebrew/the_dude_abides/README.md",
     "logo": "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/_meta.png",
     "hideTitle": true,
     "firstNight": [
@@ -12,13 +12,12 @@
       "demoninfo",
       "maude_thedudeabides",
       "sarsaparilla_thedudeabides",
-      "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
       "jackietreehorn_thedudeabides",
       "woo_thedudeabides",
-      "brandt_thedudeabides",
       "donny_thedudeabides",
+      "brandt_thedudeabides",
       "marty_thedudeabides",
       "stranger_thedudeabides",
       "dafino_thedudeabides",
@@ -27,17 +26,17 @@
     "otherNight": [
       "dusk",
       "smokey_thedudeabides",
+      "fawngunderson_thedudeabides",
       "bowlingball_thedudeabides",
       "logjammer_thedudeabides",
-      "maude_thedudeabides",
       "sarsaparilla_thedudeabides",
+      "maude_thedudeabides",
       "waltersobchak_thedudeabides",
-      "chief_thedudeabides",
       "jesus_thedudeabides",
       "biglebowski_thedudeabides",
       "jackietreehorn_thedudeabides",
-      "eagles_thedudeabides",
       "nihilist_thedudeabides",
+      "eagles_thedudeabides",
       "johnson_thedudeabides",
       "woo_thedudeabides",
       "dude_thedudeabides",
@@ -49,132 +48,136 @@
     ]
   },
   {
-    "id": "brandt_thedudeabides",
-    "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/brandt.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/brandt_evil.png"
-    ],
-    "firstNightReminder": "Show 2 not in play evil character tokens.",
-    "name": "Brandt",
-    "team": "townsfolk",
-    "ability": "You start knowing 2 not in play evil characters.",
-    "flavor": "We've been frantically trying to reach you, Dude.",
-    "firstNight": 18
-  },
-  {
     "id": "donny_thedudeabides",
+    "name": "Donny",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/donny.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/donny_evil.png"
     ],
-    "firstNightReminder": "Point to the player marked *KNOW*.",
-    "reminders": [
-      "Know"
-    ],
-    "name": "Donny",
     "team": "townsfolk",
     "ability": "You start knowing 1 Townsfolk player.",
     "flavor": "I am the walrus.",
-    "firstNight": 19
+    "firstNight": 19,
+    "otherNight": 0,
+    "firstNightReminder": "Point to the player marked *KNOW*.",
+    "reminders": [
+      "Know"
+    ]
+  },
+  {
+    "id": "brandt_thedudeabides",
+    "name": "Brandt",
+    "image": [
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/brandt.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/brandt_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "You start knowing 2 not in play evil characters.",
+    "flavor": "We've been frantically trying to reach you, Dude.",
+    "firstNight": 18,
+    "otherNight": 0,
+    "firstNightReminder": "Show 2 not in play evil character tokens."
   },
   {
     "id": "marty_thedudeabides",
+    "name": "Marty",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/marty.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/marty_evil.png"
     ],
-    "firstNightReminder": "Show the finger signal (1, 2, 3, ...) for number of steps to the nearest Outsider.",
-    "setup": true,
-    "name": "Marty",
     "team": "townsfolk",
     "ability": "You start knowing how many steps from you to the nearest Outsider. [+0 or +1 Outsider]",
     "flavor": "Dude, uh, tomorrow is already the tenth.",
-    "firstNight": 20
+    "firstNight": 20,
+    "otherNight": 0,
+    "firstNightReminder": "Show the finger signal (1, 2, 3, ...) for number of steps to the nearest Outsider.",
+    "setup": true
+  },
+  {
+    "id": "sarsaparilla_thedudeabides",
+    "name": "Sarsaparilla",
+    "image": [
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/sarsaparilla.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/sarsaparilla_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: they are sober and healthy.",
+    "flavor": "I like your style, Dude.",
+    "firstNight": 12,
+    "otherNight": 6,
+    "firstNightReminder": "The Sarsaparilla chooses a player: mark them as *SOBER*. :reminder:",
+    "otherNightReminder": "The Sarsaparilla chooses a player: mark them as *SOBER*. :reminder:",
+    "reminders": [
+      "Sober"
+    ]
   },
   {
     "id": "dafino_thedudeabides",
+    "name": "Da Fino",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dafino.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dafino_evil.png"
     ],
-    "firstNightReminder": "Show Da Fino 2 character tokens: at least 1 of them woke tonight.",
-    "otherNightReminder": "Show Da Fino 2 character tokens: at least 1 of them woke tonight.",
-    "name": "Da Fino",
     "team": "townsfolk",
     "ability": "Each night, you learn 2 characters, at least 1 of which woke tonight.",
     "flavor": "I'm a private snoop! Like you, man!",
     "firstNight": 23,
-    "otherNight": 21
+    "otherNight": 21,
+    "firstNightReminder": "Show Da Fino 2 character tokens: at least 1 of them woke tonight.",
+    "otherNightReminder": "Show Da Fino 2 character tokens: at least 1 of them woke tonight."
+  },
+  {
+    "id": "stranger_thedudeabides",
+    "name": "Stranger",
+    "image": [
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/stranger.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/stranger_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours (other than yourself).",
+    "flavor": "Sometimes, there's a man... Lost my train of thought there.",
+    "firstNight": 21,
+    "otherNight": 19,
+    "firstNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours. The Stranger does not count as neighbour for this ability.",
+    "otherNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours. The Stranger does not count as neighbour for this ability."
   },
   {
     "id": "maude_thedudeabides",
+    "name": "Maude",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/maude.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/maude_evil.png"
     ],
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (not yourself): they cannot be selected by an evil player. You learn if your previous choice had an effect.",
+    "flavor": "He's a good man, and thorough.",
+    "firstNight": 11,
+    "otherNight": 5,
     "firstNightReminder": "Maude chooses a player: mark them as *SAFE*. :reminder:\nIf an evil player selects the *SAFE* player with an ability, show them the Maude character token and ask to choose again (mark Maude as *THOROUGH* if that happens). :reminder:",
     "otherNightReminder": "If Maude was *THOROUGH*, show a 'yes' head signal and remove the reminder; otherwise, show a 'no'.\nMaude chooses a player: mark them as *SAFE*. :reminder:\nIf an evil player selects the *SAFE* player with an ability, show them the Maude character token and ask to choose again (mark Maude as *THOROUGH* if that happens). :reminder:",
     "reminders": [
       "Safe",
       "Thorough"
-    ],
-    "name": "Maude",
-    "team": "townsfolk",
-    "ability": "Each night, choose a player (not yourself): they cannot be selected by an evil player. You learn if your previous choice had an effect.",
-    "flavor": "He's a good man, and thorough.",
-    "firstNight": 11,
-    "otherNight": 5
-  },
-  {
-    "id": "sarsaparilla_thedudeabides",
-    "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/sarsaparilla.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/sarsaparilla_evil.png"
-    ],
-    "firstNightReminder": "The Sarsaparilla chooses a player: mark them as *SOBER*. :reminder:",
-    "otherNightReminder": "The Sarsaparilla chooses a player: mark them as *SOBER*. :reminder:",
-    "reminders": [
-      "Sober"
-    ],
-    "name": "Sarsaparilla",
-    "team": "townsfolk",
-    "ability": "Each night, choose a player: they are sober and healthy.",
-    "flavor": "I like your style, Dude.",
-    "firstNight": 12,
-    "otherNight": 6
-  },
-  {
-    "id": "stranger_thedudeabides",
-    "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/stranger.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/stranger_evil.png"
-    ],
-    "firstNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours. The Stranger does not count as neighbour for this ability.",
-    "otherNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours. The Stranger does not count as neighbour for this ability.",
-    "name": "Stranger",
-    "team": "townsfolk",
-    "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours (other than yourself).",
-    "flavor": "Sometimes, there's a man... Lost my train of thought there.",
-    "firstNight": 21,
-    "otherNight": 19
+    ]
   },
   {
     "id": "littleachiever_thedudeabides",
+    "name": "Little Achiever",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/littleachiever.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/littleachiever_evil.png"
     ],
+    "team": "townsfolk",
+    "ability": "Each night*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]",
+    "flavor": "Well, yeah, I did go to collage, but I spent most of my time occupying various administration buildings.",
+    "firstNight": 0,
+    "otherNight": 18,
     "otherNightReminder": "Show the character token of 1 *NOMINEE*. If the Little Achiever doesn't learn information tonight, they don't wake. Other Little Achievers might learn different information.",
     "reminders": [
       "Voted",
       "Nominee"
     ],
     "setup": true,
-    "name": "Little Achiever",
-    "team": "townsfolk",
-    "ability": "Each night*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]",
-    "flavor": "Well, yeah, I did go to collage, but I spent most of my time occupying various administration buildings.",
-    "otherNight": 18,
     "special": [
       {
         "name": "bag-duplicate",
@@ -184,92 +187,100 @@
   },
   {
     "id": "dude_thedudeabides",
+    "name": "Dude",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dude.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dude_evil.png"
     ],
+    "team": "townsfolk",
+    "ability": "Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
+    "flavor": "New shit has come to light, man.",
+    "firstNight": 0,
+    "otherNight": 16,
     "otherNightReminder": "The Dude either shows a 'no' head signal, or chooses a player. :reminder:\nIf they chose the Rug, remove the Rug reminder.\nIf the Rug changes the character or gains an ability, wake the Rug.",
     "reminders": [
       "No Ability"
     ],
-    "setup": true,
-    "name": "Dude",
-    "team": "townsfolk",
-    "ability": "Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
-    "flavor": "New shit has come to light, man.",
-    "otherNight": 16
+    "setup": true
   },
   {
     "id": "waltersobchak_thedudeabides",
+    "name": "Walter Sobchak",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/waltersobchak.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/waltersobchak_evil.png"
     ],
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, choose an alive player: a Minion, if chosen, dies. All Minions know that Walter Sobchak is in play.",
+    "flavor": "My friend, you're entering a world of pain.",
+    "firstNight": 0,
+    "otherNight": 7,
     "otherNightReminder": "Walter Sobchak either shows a 'no' head signal, or chooses a player. If the chosen player is a Minion, mark them as *DEAD*. :reminder: :reminder:",
     "reminders": [
       "Dead",
       "No Ability"
-    ],
-    "name": "Walter Sobchak",
-    "team": "townsfolk",
-    "ability": "Once per game, at night*, choose an alive player: a Minion, if chosen, dies. All Minions know that Walter Sobchak is in play.",
-    "flavor": "My friend, you're entering a world of pain.",
-    "otherNight": 7
+    ]
   },
   {
     "id": "bowlingball_thedudeabides",
+    "name": "Bowling Ball",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bowlingball.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bowlingball_evil.png"
     ],
-    "otherNightReminder": "If the Bowling Ball made their choice today, and the *SPARE!* reminder token is present, all evil players are drunk tonight. Remove the reminder token at dawn.",
-    "reminders": [
-      "Spare!"
-    ],
-    "name": "Bowling Ball",
     "team": "townsfolk",
     "ability": "When you learn that you died, publicly choose an alive player: if they are evil, all evil players are drunk tonight.",
     "flavor": "Obviously you're not a golfer.",
-    "otherNight": 3
+    "firstNight": 0,
+    "otherNight": 3,
+    "otherNightReminder": "If the Bowling Ball made their choice today, and the *SPARE!* reminder token is present, all evil players are drunk tonight. Remove the reminder token at dawn.",
+    "reminders": [
+      "Spare!"
+    ]
   },
   {
     "id": "bunnylebowski_thedudeabides",
+    "name": "Bunny Lebowski",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bunnylebowski.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bunnylebowski_evil.png"
     ],
-    "name": "Bunny Lebowski",
     "team": "townsfolk",
     "ability": "If you are chosen by an evil character's ability, another player might be targeted instead.",
-    "flavor": "Wonderful woman. Very free-spirited. We're all very fond of her."
+    "flavor": "Wonderful woman. Very free-spirited. We're all very fond of her.",
+    "firstNight": 0,
+    "otherNight": 0
   },
   {
     "id": "caucasian_thedudeabides",
+    "name": "Caucasian",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/caucasian.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/caucasian_evil.png"
     ],
-    "otherNightReminder": "If the Caucasian was killed by the demon: show them character tokens of 2 alive players (1 good character and 1 evil character).",
-    "name": "Caucasian",
     "team": "townsfolk",
     "ability": "If the Demon kills you, you learn 2 alive characters, 1 good and 1 evil.",
     "flavor": "Fuck, man!  There's a beverage here!",
-    "otherNight": 17
+    "firstNight": 0,
+    "otherNight": 17,
+    "otherNightReminder": "If the Caucasian was killed by the demon: show them character tokens of 2 alive players (1 good character and 1 evil character)."
   },
   {
     "id": "rug_thedudeabides",
+    "name": "Rug",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/rug.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/rug_evil.png"
     ],
+    "team": "outsider",
+    "ability": "You think you are a Townsfolk character, but you are not.",
+    "flavor": "It really tied the room together.",
+    "firstNight": 0,
+    "otherNight": 0,
     "remindersGlobal": [
       "Is The Rug"
     ],
     "setup": true,
-    "name": "Rug",
-    "team": "outsider",
-    "ability": "You think you are a Townsfolk character, but you are not.",
-    "flavor": "It really tied the room together.",
     "special": [
       {
         "name": "bag-disabled",
@@ -282,72 +293,65 @@
     ]
   },
   {
-    "id": "fawngunderson_thedudeabides",
-    "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson_evil.png"
-    ],
-    "name": "Fawn Gunderson",
-    "team": "outsider",
-    "ability": "Once each night, if a player is chosen by a good character's ability, another player might be targeted instead.",
-    "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?"
-  },
-  {
     "id": "johnson_thedudeabides",
+    "name": "Johnson",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/johnson.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/johnson_evil.png"
     ],
-    "otherNightReminder": "If the Johnson died today or tonight, another player might die. :reminder:",
-    "reminders": [
-      "Dead"
-    ],
-    "name": "Johnson",
     "team": "outsider",
     "ability": "When you die, a player might die tonight.",
     "flavor": "Tomorrow vee come back und cut off your chonson.",
-    "otherNight": 14
+    "firstNight": 0,
+    "otherNight": 14,
+    "otherNightReminder": "If the Johnson died today or tonight, another player might die. :reminder:",
+    "reminders": [
+      "Dead"
+    ]
   },
   {
     "id": "smokey_thedudeabides",
+    "name": "Smokey",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/smokey.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/smokey_evil.png"
     ],
-    "otherNightReminder": "If a player changed alignment because of Smokey, wake the player. Show the *YOU ARE* info token & give a thumbs-down.",
-    "reminders": [
-      "Mad"
-    ],
-    "name": "Smokey",
     "team": "outsider",
-    "ability": "If you are \"mad\" about being an Outsider, a player might turn evil tonight.",
+    "ability": "If you die during the day, all but 1 Townsfolk are drunk until dawn.",
     "flavor": "Gimme the marker, Dude, I'm marking it an eight.",
-    "otherNight": 2
+    "firstNight": 0,
+    "otherNight": 2,
+    "otherNightReminder": "If Smokey was executed today, mark the player who is not made drunk by Smokey as *DESIGNATED DRIVER*. :reminder: All other Townsfolk are drunk until dawn.",
+    "reminders": [
+      "Designated Driver"
+    ]
   },
   {
-    "id": "chief_thedudeabides",
+    "id": "fawngunderson_thedudeabides",
+    "name": "Fawn Gunderson",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/chief.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/chief_good.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson_evil.png"
     ],
-    "firstNightReminder": "The Chief chooses a player and points to an Outsider character on the script. :reminder:\nWake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Chief token. Show the selected Outsider token.",
-    "otherNightReminder": "The Chief chooses a player and points to an Outsider character on the script. :reminder:\nWake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Chief token. Show the selected Outsider token.",
-    "reminders": [
-      "Mad"
-    ],
-    "name": "Chief",
-    "team": "minion",
-    "ability": "Each night, choose a player and an Outsider character: they are \"mad\" about being that Outsider tomorrow, or may become that Outsider at dusk.",
-    "flavor": "Stay out of Malibu, deadbeat! Keep your ugly fucking goldbricking ass out of my beach community!",
-    "firstNight": 13,
-    "otherNight": 8
+    "team": "outsider",
+    "ability": "If you are \"mad\" about being an Outsider, a player might turn evil.",
+    "flavor": "How ya gonna keep 'em down on the farm once they seen Karl Hungus?",
+    "firstNight": 0,
+    "otherNight": 3,
+    "otherNightReminder": "If a player changed alignment because of Fawn Gunderson, wake the player. Show the *YOU ARE* info token &amp; give a thumbs-down."
   },
   {
     "id": "jesus_thedudeabides",
+    "name": "Jesus",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jesus.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jesus_good.png"
     ],
+    "team": "minion",
+    "ability": "Each night, choose a player: they are poisoned. If you chose a new player, they learn this. Players \"mad\" that the Jesus is in play might die.",
+    "flavor": "You said it, man.",
+    "firstNight": 14,
+    "otherNight": 9,
     "firstNightReminder": "The Jesus chooses a player. :reminder: Wake the target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
     "otherNightReminder": "The Jesus chooses a player. :reminder: If the Jesus selected a different player to last night, wake the new target. Show the *THIS CHARACTER SELECTED YOU* card and the Jesus token.",
     "reminders": [
@@ -356,55 +360,72 @@
       "Mad",
       "Mad",
       "Dead"
-    ],
-    "name": "Jesus",
-    "team": "minion",
-    "ability": "Each night, choose a player: they are poisoned. If you chose a new player, they learn this. Players \"mad\" that the Jesus is in play might die.",
-    "flavor": "You said it, man.",
-    "firstNight": 14,
-    "otherNight": 9
+    ]
   },
   {
     "id": "woo_thedudeabides",
+    "name": "Woo",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo_good.png"
     ],
+    "team": "minion",
+    "ability": "Each night, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
+    "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
+    "firstNight": 18,
+    "otherNight": 15,
     "firstNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder:",
     "otherNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder: If another player was previously marked as *PISSED*, move the reminder token to the new target.",
     "reminders": [
       "Pissed"
     ],
-    "setup": true,
-    "name": "Woo",
-    "team": "minion",
-    "ability": "Each night, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
-    "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
-    "firstNight": 18,
-    "otherNight": 15
+    "setup": true
   },
   {
     "id": "logjammer_thedudeabides",
+    "name": "Logjammer",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/logjammer.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/logjammer_good.png"
     ],
-    "otherNightReminder": "The Logjammer chooses a player: mark them as *JAMMED*. :reminder: If they would normally wake tonight, they don't.",
-    "reminders": [
-      "Jammed"
-    ],
-    "name": "Logjammer",
     "team": "minion",
     "ability": "Each night*, choose a player (different to last night): they don't wake due to their own ability tonight.",
     "flavor": "Za, okay, I bring mein toolz.",
-    "otherNight": 4
+    "firstNight": 0,
+    "otherNight": 4,
+    "otherNightReminder": "The Logjammer chooses a player: mark them as *JAMMED*. :reminder: If they would normally wake tonight, they don't.",
+    "reminders": [
+      "Jammed"
+    ]
+  },
+  {
+    "id": "larrysellers_thedudeabides",
+    "name": "Larry Sellers",
+    "image": [
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers_good.png"
+    ],
+    "team": "minion",
+    "ability": "If the Demon is chosen by a good character's ability, you are targeted instead. 1 good player registers as the Demon.",
+    "flavor": "The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought 827,987 square miles of lande from the French guys. The Louisiana Purchase was very. There was alot of land.",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [
+      "Bogey"
+    ]
   },
   {
     "id": "biglebowski_thedudeabides",
+    "name": "Big Lebowski",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/biglebowski.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/biglebowski_good.png"
     ],
+    "team": "demon",
+    "ability": "Each night, choose 2 players. If both players chosen last night voted today, 1 of them dies; otherwise, they both die.",
+    "flavor": "Are you employed, sir?",
+    "firstNight": 15,
+    "otherNight": 10,
     "firstNightReminder": "The Big Lebowski chooses 2 players: mark them as *HIRED*. :reminder: :reminder:",
     "otherNightReminder": "If both players marked *HIRED* voted today, one of them dies; :reminder: otherwise, they both die. :reminder: :reminder:\nThe Big Lebowski chooses 2 players: mark them as *HIRED*. :reminder: :reminder:",
     "reminders": [
@@ -413,20 +434,20 @@
       "Delivered",
       "Dead",
       "Dead"
-    ],
-    "name": "Big Lebowski",
-    "team": "demon",
-    "ability": "Each night, choose 2 players. If both players chosen last night voted today, 1 of them dies; otherwise, they both die.",
-    "flavor": "Are you employed, sir?",
-    "firstNight": 15,
-    "otherNight": 10
+    ]
   },
   {
     "id": "jackietreehorn_thedudeabides",
+    "name": "Jackie Treehorn",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jackietreehorn.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jackietreehorn_good.png"
     ],
+    "team": "demon",
+    "ability": "Each night, choose a player: they are poisoned. If no players died today, they die. When a poisoned player dies, they become healthy, and their alive good neighbour dies tonight.",
+    "flavor": "What's your drink, Dude?",
+    "firstNight": 16,
+    "otherNight": 11,
     "firstNightReminder": "Jackie Treehorn chooses a player. :reminder:",
     "otherNightReminder": "Jackie Treehorn chooses a player: they are poisoned. If no players died during the day, they then die. :reminder:\nFor each poisoned (in any way) player who died since dawn, their alive good neighbour dies (repeat until a non-poisoned player dies). :reminder: :reminder:\nRemove *POISONED* tokens from all players killed in this way.",
     "reminders": [
@@ -440,20 +461,45 @@
       "Dead",
       "Dead",
       "Dead"
+    ]
+  },
+  {
+    "id": "nihilist_thedudeabides",
+    "name": "Nihilist",
+    "image": [
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/nihilist.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/nihilist_good.png"
     ],
-    "name": "Jackie Treehorn",
     "team": "demon",
-    "ability": "Each night, choose a player: they are poisoned. If no players died today, they die. When a poisoned player dies, they become healthy, and their alive good neighbour dies tonight.",
-    "flavor": "What's your drink, Dude?",
-    "firstNight": 16,
-    "otherNight": 11
+    "ability": "Each night*, choose a player (even if you are dead): they might die. You register as a Minion too. [All evil players are Nihilists]",
+    "flavor": "Vee belief in nossing. Give us ze money, Lebowski!",
+    "firstNight": 0,
+    "otherNight": 13,
+    "otherNightReminder": "Each Nihilist wakes separately, even if dead, and chooses a player: mark them as *CHOSEN*. :reminder: Each chosen player might die. Players chosen more than once should always die.",
+    "reminders": [
+      "Chosen",
+      "Dead"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "name": "bag-duplicate",
+        "type": "selection"
+      }
+    ]
   },
   {
     "id": "eagles_thedudeabides",
+    "name": "Eagles",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/eagles.png",
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/eagles_good.png"
     ],
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. 1 alive good player who said \"I hate the fucking Eagles\" when nominated today is poisoned. If there is no such player, choose another: they die.",
+    "flavor": "That's it! Outta this fucking cab!",
+    "firstNight": 0,
+    "otherNight": 12,
     "otherNightReminder": "If no alive good player is marked *HATE 'EM*, the Eagles chooses 2 players, otherwise they choose 1. :reminder: :reminder:",
     "reminders": [
       "Dead",
@@ -464,35 +510,7 @@
       "Hate 'Em",
       "Hate 'Em",
       "Hate 'Em"
-    ],
-    "name": "Eagles",
-    "team": "demon",
-    "ability": "Each night*, choose a player: they die. 1 alive good player who said \"I hate the fucking Eagles\" when nominated today is poisoned. If there is no such player, choose another: they die.",
-    "flavor": "That's it! Outta this fucking cab!",
-    "otherNight": 12
-  },
-  {
-    "id": "nihilist_thedudeabides",
-    "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/nihilist.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/nihilist_good.png"
-    ],
-    "otherNightReminder": "Each Nihilist wakes separately, even if dead, and chooses a player: mark them as *CHOSEN*. :reminder: Each chosen player might die. Players chosen more than once should always die.",
-    "reminders": [
-      "Chosen",
-      "Dead"
-    ],
-    "setup": true,
-    "name": "Nihilist",
-    "team": "demon",
-    "ability": "Each night*, choose a player (even if you are dead): they might die. You register as a Minion too. [All evil players are Nihilists]",
-    "flavor": "Vee belief in nossing. Give us ze money, Lebowski!",
-    "otherNight": 13,
-    "special": [
-      {
-        "name": "bag-duplicate",
-        "type": "selection"
-      }
     ]
-  }
+  },
+  "bootlegger"
 ]
