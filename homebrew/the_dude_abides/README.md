@@ -30,7 +30,7 @@ Consider the roles in play when giving Brandt their information: if all Minion a
 
 > _Dude, uh, tomorrow is already the tenth._
 
-Help the Dude find their [Rug](#rug), but be careful not to reveal it to [Woo](#woo), for they'll piss all over it!
+Help the Dude find their [Rug](#-rug), but be careful not to reveal it to [Woo](#-woo), for they'll piss all over it!
 
 
 ## <img src=assets/sarsaparilla.png width=100 align=center /> Sarsaparilla
@@ -217,7 +217,7 @@ The Jammed player does not wake, but they do not learn why. Make sure the player
 
 The presence of the Logjammer on the script also means that their presence in game can be immitated by not waking drunk or poisoned players.
 
-Note the interaction with the [Little Achiever](#little-achiever), who have other reasons for not waking in the night (either only 1 alive, or 1 or more did not vote).
+Note the interaction with the [Little Achiever](#-little-achiever), who have other reasons for not waking in the night (either only 1 alive, or 1 or more did not vote).
 
 
 ## <img src=assets/larrysellers.png width=100 align=center /> Larry Sellers
