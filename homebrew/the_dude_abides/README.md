@@ -96,7 +96,7 @@ The Nominee reminder token may be placed on any nominated player that is to be s
 
 ## <img src=assets/dude.png width=100 align=center /> Dude
 
-**Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]**
+**Once per game, at night\*, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]**
 
 > _New shit has come to light, man._
 

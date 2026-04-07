@@ -193,7 +193,7 @@
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dude_evil.png"
     ],
     "team": "townsfolk",
-    "ability": "Once per game, at night, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
+    "ability": "Once per game, at night*, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
     "flavor": "New shit has come to light, man.",
     "firstNight": 0,
     "otherNight": 16,
