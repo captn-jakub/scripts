@@ -4,7 +4,7 @@
     "name": "The Dude Abides",
     "author": "capt'n jakub",
     "almanac": "https://github.com/captn-jakub/scripts/blob/main/homebrew/the_dude_abides/README.md",
-    "logo": "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/_meta.png",
+    "logo": "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/_meta.png",
     "hideTitle": true,
     "firstNight": [
       "dusk",
@@ -51,8 +51,8 @@
     "id": "donny_thedudeabides",
     "name": "Donny",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/donny.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/donny_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/donny.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/donny_evil.png"
     ],
     "team": "townsfolk",
     "ability": "You start knowing 1 Townsfolk player.",
@@ -68,8 +68,8 @@
     "id": "brandt_thedudeabides",
     "name": "Brandt",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/brandt.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/brandt_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/brandt.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/brandt_evil.png"
     ],
     "team": "townsfolk",
     "ability": "You start knowing 2 not in play evil characters.",
@@ -82,8 +82,8 @@
     "id": "marty_thedudeabides",
     "name": "Marty",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/marty.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/marty_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/marty.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/marty_evil.png"
     ],
     "team": "townsfolk",
     "ability": "You start knowing how many steps from you to the nearest Outsider. [+0 or +1 Outsider]",
@@ -97,8 +97,8 @@
     "id": "sarsaparilla_thedudeabides",
     "name": "Sarsaparilla",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/sarsaparilla.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/sarsaparilla_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/sarsaparilla.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/sarsaparilla_evil.png"
     ],
     "team": "townsfolk",
     "ability": "Each night, choose a player: they are sober and healthy.",
@@ -115,8 +115,8 @@
     "id": "dafino_thedudeabides",
     "name": "Da Fino",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dafino.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dafino_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/dafino.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/dafino_evil.png"
     ],
     "team": "townsfolk",
     "ability": "Each night, you learn 2 characters, at least 1 of which woke tonight.",
@@ -130,8 +130,8 @@
     "id": "stranger_thedudeabides",
     "name": "Stranger",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/stranger.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/stranger_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/stranger.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/stranger_evil.png"
     ],
     "team": "townsfolk",
     "ability": "Each night, choose a player: you learn the character of 1 of their alive neighbours (other than yourself).",
@@ -145,8 +145,8 @@
     "id": "maude_thedudeabides",
     "name": "Maude",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/maude.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/maude_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/maude.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/maude_evil.png"
     ],
     "team": "townsfolk",
     "ability": "Each night, choose a player (not yourself): they cannot be selected by an evil player. You learn if your previous choice had an effect.",
@@ -164,8 +164,8 @@
     "id": "littleachiever_thedudeabides",
     "name": "Little Achiever",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/littleachiever.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/littleachiever_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/littleachiever.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/littleachiever_evil.png"
     ],
     "team": "townsfolk",
     "ability": "Each night*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]",
@@ -189,8 +189,8 @@
     "id": "dude_thedudeabides",
     "name": "Dude",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dude.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dude_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/dude.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/dude_evil.png"
     ],
     "team": "townsfolk",
     "ability": "Once per game, at night*, choose a player: the Rug, if chosen, becomes a Townsfolk. [+the Rug]",
@@ -207,8 +207,8 @@
     "id": "waltersobchak_thedudeabides",
     "name": "Walter Sobchak",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/waltersobchak.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/waltersobchak_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/waltersobchak.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/waltersobchak_evil.png"
     ],
     "team": "townsfolk",
     "ability": "Once per game, at night*, choose an alive player: a Minion, if chosen, dies. All Minions know that Walter Sobchak is in play.",
@@ -225,8 +225,8 @@
     "id": "bowlingball_thedudeabides",
     "name": "Bowling Ball",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bowlingball.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bowlingball_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/bowlingball.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/bowlingball_evil.png"
     ],
     "team": "townsfolk",
     "ability": "When you learn that you died, publicly choose an alive player: if they are evil, all evil players are drunk tonight.",
@@ -242,8 +242,8 @@
     "id": "bunnylebowski_thedudeabides",
     "name": "Bunny Lebowski",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bunnylebowski.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bunnylebowski_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/bunnylebowski.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/bunnylebowski_evil.png"
     ],
     "team": "townsfolk",
     "ability": "If you are chosen by an evil character's ability, another player might be targeted instead.",
@@ -255,8 +255,8 @@
     "id": "caucasian_thedudeabides",
     "name": "Caucasian",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/caucasian.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/caucasian_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/caucasian.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/caucasian_evil.png"
     ],
     "team": "townsfolk",
     "ability": "If the Demon kills you, you learn 2 alive characters, 1 good and 1 evil.",
@@ -269,8 +269,8 @@
     "id": "rug_thedudeabides",
     "name": "Rug",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/rug.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/rug_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/rug.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/rug_evil.png"
     ],
     "team": "outsider",
     "ability": "You think you are a Townsfolk character, but you are not.",
@@ -296,8 +296,8 @@
     "id": "johnson_thedudeabides",
     "name": "Johnson",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/johnson.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/johnson_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/johnson.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/johnson_evil.png"
     ],
     "team": "outsider",
     "ability": "When you die, a player might die tonight.",
@@ -313,8 +313,8 @@
     "id": "smokey_thedudeabides",
     "name": "Smokey",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/smokey.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/smokey_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/smokey.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/smokey_evil.png"
     ],
     "team": "outsider",
     "ability": "If you die during the day, all but 1 Townsfolk are drunk until dawn.",
@@ -330,8 +330,8 @@
     "id": "fawngunderson_thedudeabides",
     "name": "Fawn Gunderson",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/fawngunderson.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/fawngunderson_evil.png"
     ],
     "team": "outsider",
     "ability": "If you are \"mad\" about being an Outsider, a player might turn evil.",
@@ -344,8 +344,8 @@
     "id": "jesus_thedudeabides",
     "name": "Jesus",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jesus.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jesus_good.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/jesus.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/jesus_good.png"
     ],
     "team": "minion",
     "ability": "Each night, choose a player: they are poisoned. If you chose a new player, they learn this. Players \"mad\" that the Jesus is in play might die.",
@@ -366,8 +366,8 @@
     "id": "woo_thedudeabides",
     "name": "Woo",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo_good.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/woo.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/woo_good.png"
     ],
     "team": "minion",
     "ability": "Each night, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
@@ -385,8 +385,8 @@
     "id": "logjammer_thedudeabides",
     "name": "Logjammer",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/logjammer.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/logjammer_good.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/logjammer.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/logjammer_good.png"
     ],
     "team": "minion",
     "ability": "Each night*, choose a player (different to last night): they don't wake due to their own ability tonight.",
@@ -402,8 +402,8 @@
     "id": "larrysellers_thedudeabides",
     "name": "Larry Sellers",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers_good.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/larrysellers.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/larrysellers_good.png"
     ],
     "team": "minion",
     "ability": "If the Demon is chosen by a good character's ability, you are targeted instead. 1 good player registers as the Demon.",
@@ -418,8 +418,8 @@
     "id": "biglebowski_thedudeabides",
     "name": "Big Lebowski",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/biglebowski.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/biglebowski_good.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/biglebowski.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/biglebowski_good.png"
     ],
     "team": "demon",
     "ability": "Each night, choose 2 players. If both players chosen last night voted today, 1 of them dies; otherwise, they both die.",
@@ -440,8 +440,8 @@
     "id": "jackietreehorn_thedudeabides",
     "name": "Jackie Treehorn",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jackietreehorn.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jackietreehorn_good.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/jackietreehorn.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/jackietreehorn_good.png"
     ],
     "team": "demon",
     "ability": "Each night, choose a player: they are poisoned. If no players died today, they die. When a poisoned player dies, they become healthy, and their alive good neighbour dies tonight.",
@@ -467,8 +467,8 @@
     "id": "nihilist_thedudeabides",
     "name": "Nihilist",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/nihilist.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/nihilist_good.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/nihilist.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/nihilist_good.png"
     ],
     "team": "demon",
     "ability": "Each night*, choose a player (even if you are dead): they might die. You register as a Minion too. [All evil players are Nihilists]",
@@ -492,8 +492,8 @@
     "id": "eagles_thedudeabides",
     "name": "Eagles",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/eagles.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/eagles_good.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/eagles.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/token-alignment/homebrew/the_dude_abides/assets/eagles_good.png"
     ],
     "team": "demon",
     "ability": "Each night*, choose a player: they die. 1 alive good player who said \"I hate the fucking Eagles\" when nominated today is poisoned. If there is no such player, choose another: they die.",
