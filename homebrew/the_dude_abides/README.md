@@ -206,6 +206,12 @@ If the Jesus chooses the same player as the previous night, don't wake the targe
 
 > _We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski._
 
+Additional source of poisoning is a bonus - the main ability of Woo is reducing the size of town.
+
+If they do get to act, however, their posioning remains in effect indefinitely, as long as Woo remains sober and healthy (note that droisoning the dead Woo would temporarily disable their poisoning).
+
+Players poisoned by Woo who die when [Jackie Treehorn](#-jackie-treehorn) is in play become healthy as they normally would.
+
 
 ## <img src=assets/logjammer.png width=100 align=center /> Logjammer
 
