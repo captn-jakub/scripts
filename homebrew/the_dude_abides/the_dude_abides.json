@@ -363,25 +363,6 @@
     ]
   },
   {
-    "id": "woo_thedudeabides",
-    "name": "Woo",
-    "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo_good.png"
-    ],
-    "team": "minion",
-    "ability": "Each night, if the Demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
-    "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
-    "firstNight": 18,
-    "otherNight": 15,
-    "firstNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder:",
-    "otherNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder: If another player was previously marked as *PISSED*, move the reminder token to the new target.",
-    "reminders": [
-      "Pissed"
-    ],
-    "setup": true
-  },
-  {
     "id": "logjammer_thedudeabides",
     "name": "Logjammer",
     "image": [
@@ -410,6 +391,25 @@
     "flavor": "The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought 827,987 square miles of lande from the French guys. The Louisiana Purchase was very. There was alot of land.",
     "firstNight": 0,
     "otherNight": 0
+  },
+  {
+    "id": "woo_thedudeabides",
+    "name": "Woo",
+    "image": [
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo_good.png"
+    ],
+    "team": "minion",
+    "ability": "If the Demon chose an Outsider tonight, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
+    "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
+    "firstNight": 18,
+    "otherNight": 15,
+    "firstNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder:",
+    "otherNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder: If another player was previously marked as *PISSED*, move the reminder token to the new target.",
+    "reminders": [
+      "Pissed"
+    ],
+    "setup": true
   },
   {
     "id": "biglebowski_thedudeabides",

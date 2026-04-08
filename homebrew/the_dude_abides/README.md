@@ -200,19 +200,6 @@ The players chosen by the Jesus know that they're poisoned, but cannot share thi
 If the Jesus chooses the same player as the previous night, don't wake the target - the players should only learn when they become poisoned.
 
 
-## <img src=assets/woo.png width=100 align=center /> Woo
-
-**Each night, if the Demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]**
-
-> _We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski._
-
-Additional source of poisoning is a bonus - the main ability of Woo is reducing the size of town.
-
-If they do get to act, however, their posioning remains in effect indefinitely, as long as Woo remains sober and healthy (note that droisoning the dead Woo would temporarily disable their poisoning).
-
-Players poisoned by Woo who die when [Jackie Treehorn](#-jackie-treehorn) is in play become healthy as they normally would.
-
-
 ## <img src=assets/logjammer.png width=100 align=center /> Logjammer
 
 **Each night\*, choose a player (different to last night): they don't wake due to their own ability tonight.**
@@ -235,6 +222,19 @@ Note the interaction with the [Little Achiever](#-little-achiever), who have oth
 Protection for the Demon and distraction to town: Larry seems to be an important character in the story, until you actually meet the guy.
 
 The Demon can register as any character type other than Demon. Larry Sellers can register as the in play Demon character, or others.
+
+
+## <img src=assets/woo.png width=100 align=center /> Woo
+
+**If the Demon chose an Outsider today, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]**
+
+> _We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski._
+
+Additional source of poisoning is a bonus - the main ability of Woo is reducing the size of town.
+
+If they do get to act, however, their posioning remains in effect indefinitely, as long as Woo remains sober and healthy (note that droisoning the dead Woo would temporarily disable their poisoning).
+
+Players poisoned by Woo who die when [Jackie Treehorn](#-jackie-treehorn) is in play become healthy as they normally would.
 
 
 # Demons
