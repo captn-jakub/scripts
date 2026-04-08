@@ -1,6 +1,6 @@
 <img src="assets/_meta.png" width=200 align=center /> 
 
-_[The Dude Abides v0.8](the_dude_abides.json)_
+_[The Dude Abides v0.9](the_dude_abides.json)_
 
 _[script database](https://botcscripts.com/script/6594)_
 
@@ -228,11 +228,13 @@ Note the interaction with the [Little Achiever](#-little-achiever), who have oth
 
 ## <img src=assets/larrysellers.png width=100 align=center /> Larry Sellers
 
-**If the Demon is chosen by a good character's ability, you are targeted instead. 1 good player registers as the Demon.**
+**You register as the Demon to good characters' abilities, and the Demon doesn't.**
 
 > _The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought 827,987 square miles of lande from the French guys. The Louisiana Purchase was very. There was alot of land._
 
-Protection for the Demon and distraction to town.
+Protection for the Demon and distraction to town: Larry seems to be an important character in the story, until you actually meet the guy.
+
+The Demon can register as any character type other than Demon. Larry Sellers can register as the in play Demon character, or others.
 
 
 # Demons
