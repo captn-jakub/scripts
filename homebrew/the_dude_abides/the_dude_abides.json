@@ -115,8 +115,8 @@
     "id": "dafino_thedudeabides",
     "name": "Da Fino",
     "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/dude/homebrew/the_dude_abides/assets/dafino.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/dude/homebrew/the_dude_abides/assets/dafino_evil.png"
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dafino.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dafino_evil.png"
     ],
     "team": "townsfolk",
     "ability": "Each night, you learn 2 characters, at least 1 of which woke tonight.",
