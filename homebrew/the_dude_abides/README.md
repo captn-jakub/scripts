@@ -217,7 +217,7 @@ Note the interaction with the [Little Achiever](#-little-achiever), who have oth
 
 **You register as the Demon to good characters' abilities, and the Demon doesn't.**
 
-> _The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought 827,987 square miles of lande from the French guys. The Louisiana Purchase was very. There was alot of land._
+> _The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought lande from the French guys. The Louisiana Purchase was very. There was alot of land._
 
 Protection for the Demon and distraction to town: Larry seems to be an important character in the story, until you actually meet the guy.
 
