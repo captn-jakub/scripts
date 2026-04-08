@@ -263,7 +263,7 @@
     "flavor": "Fuck, man!  There's a beverage here!",
     "firstNight": 0,
     "otherNight": 17,
-    "otherNightReminder": "If the Caucasian was killed by the demon: show them character tokens of 2 alive players (1 good character and 1 evil character)."
+    "otherNightReminder": "If the Caucasian was killed by the Demon: show them character tokens of 2 alive players (1 good character and 1 evil character)."
   },
   {
     "id": "rug_thedudeabides",
@@ -363,25 +363,6 @@
     ]
   },
   {
-    "id": "woo_thedudeabides",
-    "name": "Woo",
-    "image": [
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo.png",
-      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo_good.png"
-    ],
-    "team": "minion",
-    "ability": "Each night, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
-    "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
-    "firstNight": 18,
-    "otherNight": 15,
-    "firstNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder:",
-    "otherNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder: If another player was previously marked as *PISSED*, move the reminder token to the new target.",
-    "reminders": [
-      "Pissed"
-    ],
-    "setup": true
-  },
-  {
     "id": "logjammer_thedudeabides",
     "name": "Logjammer",
     "image": [
@@ -406,13 +387,29 @@
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers_good.png"
     ],
     "team": "minion",
-    "ability": "If the Demon is chosen by a good character's ability, you are targeted instead. 1 good player registers as the Demon.",
-    "flavor": "The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought 827,987 square miles of lande from the French guys. The Louisiana Purchase was very. There was alot of land.",
+    "ability": "You register as the Demon to good characters' abilities, and the Demon doesn't.",
+    "flavor": "The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought lande from the French guys. The Louisiana Purchase was very. There was alot of land.",
     "firstNight": 0,
-    "otherNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "woo_thedudeabides",
+    "name": "Woo",
+    "image": [
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo.png",
+      "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo_good.png"
+    ],
+    "team": "minion",
+    "ability": "If the Demon chose an Outsider tonight, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
+    "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
+    "firstNight": 18,
+    "otherNight": 15,
+    "firstNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder:",
+    "otherNightReminder": "Woo chooses a player: mark them as *PISSED*. :reminder: If another player was previously marked as *PISSED*, move the reminder token to the new target.",
     "reminders": [
-      "Bogey"
-    ]
+      "Pissed"
+    ],
+    "setup": true
   },
   {
     "id": "biglebowski_thedudeabides",
