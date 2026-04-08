@@ -226,7 +226,7 @@ The Demon can register as any character type other than Demon. Larry Sellers can
 
 ## <img src=assets/woo.png width=100 align=center /> Woo
 
-**If the Demon chose an Outsider today, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]**
+**If the Demon chose an Outsider tonight, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]**
 
 > _We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski._
 
