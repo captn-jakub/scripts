@@ -202,7 +202,7 @@ If the Jesus chooses the same player as the previous night, don't wake the targe
 
 ## <img src=assets/woo.png width=100 align=center /> Woo
 
-**Each night, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]**
+**Each night, if the Demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]**
 
 > _We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski._
 

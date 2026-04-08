@@ -263,7 +263,7 @@
     "flavor": "Fuck, man!  There's a beverage here!",
     "firstNight": 0,
     "otherNight": 17,
-    "otherNightReminder": "If the Caucasian was killed by the demon: show them character tokens of 2 alive players (1 good character and 1 evil character)."
+    "otherNightReminder": "If the Caucasian was killed by the Demon: show them character tokens of 2 alive players (1 good character and 1 evil character)."
   },
   {
     "id": "rug_thedudeabides",
@@ -370,7 +370,7 @@
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo_good.png"
     ],
     "team": "minion",
-    "ability": "Each night, if the demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
+    "ability": "Each night, if the Demon chose an Outsider, choose a player: they are poisoned until you choose again, even if you are dead. [+1 or +2 Outsiders]",
     "flavor": "We know which Lebowski you are, Lebowski. Jackie Treehorn wants to talk to the deadbeat Lebowski.",
     "firstNight": 18,
     "otherNight": 15,
