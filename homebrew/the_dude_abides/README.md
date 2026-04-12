@@ -210,7 +210,7 @@ The Jammed player does not wake, but they do not learn why. Make sure the player
 
 The presence of the Logjammer on the script also means that their presence in game can be immitated by not waking drunk or poisoned players.
 
-Note the interaction with the [Little Achiever](#-little-achiever), who have other reasons for not waking in the night (either only 1 alive, or 1 or more did not vote).
+Note the interaction with the [Little Achiever](#-little-achiever), who do not wake if the others didn't vote.
 
 
 ## <img src=assets/larrysellers.png width=100 align=center /> Larry Sellers
