@@ -168,7 +168,7 @@
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/littleachiever_evil.png"
     ],
     "team": "townsfolk",
-    "ability": "Each night*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]",
+    "ability": "Each night*, if you and at least 1 other Little Achiever voted today, you learn the character of 1 nominee. [+1 to +3 Little Achievers. 1 of the extras might be evil]",
     "flavor": "Well, yeah, I did go to collage, but I spent most of my time occupying various administration buildings.",
     "firstNight": 0,
     "otherNight": 18,
@@ -387,7 +387,7 @@
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers_good.png"
     ],
     "team": "minion",
-    "ability": "You register as the Demon to good characters' abilities, and the Demon doesn't.",
+    "ability": "You register as the Demon to Townsfolk abilities, & the Demon doesn't.",
     "flavor": "The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought lande from the French guys. The Louisiana Purchase was very. There was alot of land.",
     "firstNight": 0,
     "otherNight": 0

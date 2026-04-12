@@ -83,15 +83,15 @@ The Safe reminder token remains on the chosen player until Maude chooses again.
 
 ## <img src=assets/littleachiever.png width=100 align=center /> Little Achiever
 
-**Each night\*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]**
+**Each night\*, if you and at least 1 other Little Achiever voted today, you learn the character of 1 nominee. [+1 to +3 Little Achievers. 1 of the extras might be evil]**
 
 > _Well, yeah, I did go to collage, but I spent most of my time occupying various administration buildings._
 
 When the Little Achiever votes, place the Voted reminder token on them.
 
-If not all Little Achievers who are alive on their turn in the night order have the Voted token on them, none of them wake, even if one was dead during nominations and was subsequently resurrected.
+If at least 1 other Little Achiever also voted today (even if dead), they learn the character of 1 of today's nominees. If the Little Achiever didn't vote, or if they were the only one to vote, they don't wake tonight.
 
-The Nominee reminder token may be placed on any nominated player that is to be shown to Little Achievers. This is for convenience only - the final information shared with each player might differ, depending on the state of the grim.
+Place the Nominee reminder token on any nominated players that are to be shown to Little Achievers. The information shared with each player might differ, depending on the state of the grim.
 
 
 ## <img src=assets/dude.png width=100 align=center /> Dude
@@ -210,18 +210,18 @@ The Jammed player does not wake, but they do not learn why. Make sure the player
 
 The presence of the Logjammer on the script also means that their presence in game can be immitated by not waking drunk or poisoned players.
 
-Note the interaction with the [Little Achiever](#-little-achiever), who have other reasons for not waking in the night (either only 1 alive, or 1 or more did not vote).
+Note the interaction with the [Little Achiever](#-little-achiever), who do not wake if the others didn't vote.
 
 
 ## <img src=assets/larrysellers.png width=100 align=center /> Larry Sellers
 
-**You register as the Demon to good characters' abilities, and the Demon doesn't.**
+**You register as the Demon to Townsfolk abilities, & the Demon doesn't.**
 
 > _The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought lande from the French guys. The Louisiana Purchase was very. There was alot of land._
 
 Protection for the Demon and distraction to town: Larry seems to be an important character in the story, until you actually meet the guy.
 
-The Demon can register as any character type other than Demon. Larry Sellers can register as the in play Demon character, or others.
+The Demon can register as any character type other than Demon. Larry Sellers can register as the in-play Demon character, or others.
 
 
 ## <img src=assets/woo.png width=100 align=center /> Woo
