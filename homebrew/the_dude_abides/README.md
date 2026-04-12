@@ -83,15 +83,15 @@ The Safe reminder token remains on the chosen player until Maude chooses again.
 
 ## <img src=assets/littleachiever.png width=100 align=center /> Little Achiever
 
-**Each night\*, if all alive Little Achievers voted today, you learn the character of 1 nominee. If only 1 Little Achiever lives, you lose this ability. [+1 to +3 Little Achievers. 1 of the extras might be evil]**
+**Each night\*, if at least 2 Little Achievers voted today, you learn the character of 1 nominee. [+1 to +3 Little Achievers. 1 of the extras might be evil]**
 
 > _Well, yeah, I did go to collage, but I spent most of my time occupying various administration buildings._
 
 When the Little Achiever votes, place the Voted reminder token on them.
 
-If not all Little Achievers who are alive on their turn in the night order have the Voted token on them, none of them wake, even if one was dead during nominations and was subsequently resurrected.
+If at least 2 Little Achievers voted today, all alive Little Achievers learn information tonight (votes of dead Little Achiever players also count).
 
-The Nominee reminder token may be placed on any nominated player that is to be shown to Little Achievers. This is for convenience only - the final information shared with each player might differ, depending on the state of the grim.
+Place the Nominee reminder token on any nominated players that are to be shown to Little Achievers. The information shared with each player might differ, depending on the state of the grim.
 
 
 ## <img src=assets/dude.png width=100 align=center /> Dude
