@@ -215,7 +215,7 @@ Note the interaction with the [Little Achiever](#-little-achiever), who have oth
 
 ## <img src=assets/larrysellers.png width=100 align=center /> Larry Sellers
 
-**You register as the Demon to good characters' abilities, and the Demon doesn't.**
+**You register as the Demon to good characters' abilities, & the Demon doesn't.**
 
 > _The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought lande from the French guys. The Louisiana Purchase was very. There was alot of land._
 
