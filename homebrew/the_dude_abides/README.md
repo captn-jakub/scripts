@@ -215,13 +215,13 @@ Note the interaction with the [Little Achiever](#-little-achiever), who do not w
 
 ## <img src=assets/larrysellers.png width=100 align=center /> Larry Sellers
 
-**You register as the Demon to good characters' abilities, & the Demon doesn't.**
+**You register as the Demon to Townsfolk abilities, & the Demon doesn't.**
 
 > _The most important purchase in history is the Louisiana Purchase. It was also the most important evente. It was when the United States bought lande from the French guys. The Louisiana Purchase was very. There was alot of land._
 
 Protection for the Demon and distraction to town: Larry seems to be an important character in the story, until you actually meet the guy.
 
-The Demon can register as any character type other than Demon. Larry Sellers can register as the in play Demon character, or others.
+The Demon can register as any character type other than Demon. Larry Sellers can register as the in-play Demon character, or others.
 
 
 ## <img src=assets/woo.png width=100 align=center /> Woo
