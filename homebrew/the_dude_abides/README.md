@@ -1,6 +1,6 @@
 <img src="assets/_meta.png" width=200 align=center /> 
 
-_[The Dude Abides v0.9](the_dude_abides.json)_
+_[The Dude Abides v0.10](the_dude_abides.json)_
 
 _[script database](https://botcscripts.com/script/6594)_
 
