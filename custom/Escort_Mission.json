@@ -1,8 +1,8 @@
 [
   {
     "id": "_meta",
-    "author": "capt'n jakub",
-    "name": "Escort Mission"
+    "name": "Escort Mission",
+    "author": "capt'n jakub"
   },
   "noble",
   "pixie",
@@ -22,10 +22,10 @@
   "recluse",
   "saint",
   "poisoner",
-  "psychopath",
   "widow",
   "marionette",
   "wraith",
+  "vizier",
   "pukka",
   "imp",
   "fanggu",
