@@ -10,45 +10,45 @@
       "dusk",
       "minioninfo",
       "demoninfo",
-      "maude_thedudeabides",
-      "sarsaparilla_thedudeabides",
-      "jesus_thedudeabides",
-      "biglebowski_thedudeabides",
-      "jackietreehorn_thedudeabides",
-      "woo_thedudeabides",
-      "donny_thedudeabides",
-      "brandt_thedudeabides",
-      "marty_thedudeabides",
-      "stranger_thedudeabides",
-      "dafino_thedudeabides",
+      "maudetda",
+      "sarsaparillatda",
+      "jesustda",
+      "biglebowskitda",
+      "jackietreehorntda",
+      "wootda",
+      "donnytda",
+      "brandttda",
+      "martytda",
+      "strangertda",
+      "dafinotda",
       "dawn"
     ],
     "otherNight": [
       "dusk",
-      "smokey_thedudeabides",
-      "fawngunderson_thedudeabides",
-      "bowlingball_thedudeabides",
-      "logjammer_thedudeabides",
-      "sarsaparilla_thedudeabides",
-      "maude_thedudeabides",
-      "waltersobchak_thedudeabides",
-      "jesus_thedudeabides",
-      "biglebowski_thedudeabides",
-      "jackietreehorn_thedudeabides",
-      "nihilist_thedudeabides",
-      "eagles_thedudeabides",
-      "johnson_thedudeabides",
-      "woo_thedudeabides",
-      "dude_thedudeabides",
-      "caucasian_thedudeabides",
-      "littleachiever_thedudeabides",
-      "stranger_thedudeabides",
-      "dafino_thedudeabides",
+      "smokeytda",
+      "fawngundersontda",
+      "bowlingballtda",
+      "logjammertda",
+      "sarsaparillatda",
+      "maudetda",
+      "waltersobchaktda",
+      "jesustda",
+      "biglebowskitda",
+      "jackietreehorntda",
+      "nihilisttda",
+      "eaglestda",
+      "johnsontda",
+      "wootda",
+      "dudetda",
+      "caucasiantda",
+      "littleachievertda",
+      "strangertda",
+      "dafinotda",
       "dawn"
     ]
   },
   {
-    "id": "donny_thedudeabides",
+    "id": "donnytda",
     "name": "Donny",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/donny.png",
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "id": "brandt_thedudeabides",
+    "id": "brandttda",
     "name": "Brandt",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/brandt.png",
@@ -79,7 +79,7 @@
     "firstNightReminder": "Show 2 not in play evil character tokens."
   },
   {
-    "id": "marty_thedudeabides",
+    "id": "martytda",
     "name": "Marty",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/marty.png",
@@ -94,7 +94,7 @@
     "setup": true
   },
   {
-    "id": "sarsaparilla_thedudeabides",
+    "id": "sarsaparillatda",
     "name": "Sarsaparilla",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/sarsaparilla.png",
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "id": "dafino_thedudeabides",
+    "id": "dafinotda",
     "name": "Da Fino",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dafino.png",
@@ -127,7 +127,7 @@
     "otherNightReminder": "Show Da Fino 2 character tokens: at least 1 of them woke tonight."
   },
   {
-    "id": "stranger_thedudeabides",
+    "id": "strangertda",
     "name": "Stranger",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/stranger.png",
@@ -142,7 +142,7 @@
     "otherNightReminder": "The Stranger points to a player. Show a character token of one of their alive neighbours. The Stranger does not count as neighbour for this ability."
   },
   {
-    "id": "maude_thedudeabides",
+    "id": "maudetda",
     "name": "Maude",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/maude.png",
@@ -161,7 +161,7 @@
     ]
   },
   {
-    "id": "littleachiever_thedudeabides",
+    "id": "littleachievertda",
     "name": "Little Achiever",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/littleachiever.png",
@@ -186,7 +186,7 @@
     ]
   },
   {
-    "id": "dude_thedudeabides",
+    "id": "dudetda",
     "name": "Dude",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/dude.png",
@@ -204,7 +204,7 @@
     "setup": true
   },
   {
-    "id": "waltersobchak_thedudeabides",
+    "id": "waltersobchaktda",
     "name": "Walter Sobchak",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/waltersobchak.png",
@@ -222,7 +222,7 @@
     ]
   },
   {
-    "id": "bowlingball_thedudeabides",
+    "id": "bowlingballtda",
     "name": "Bowling Ball",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bowlingball.png",
@@ -239,7 +239,7 @@
     ]
   },
   {
-    "id": "bunnylebowski_thedudeabides",
+    "id": "bunnylebowskitda",
     "name": "Bunny Lebowski",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/bunnylebowski.png",
@@ -252,7 +252,7 @@
     "otherNight": 0
   },
   {
-    "id": "caucasian_thedudeabides",
+    "id": "caucasiantda",
     "name": "Caucasian",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/caucasian.png",
@@ -266,7 +266,7 @@
     "otherNightReminder": "If the Caucasian was killed by the Demon: show them character tokens of 2 alive players (1 good character and 1 evil character)."
   },
   {
-    "id": "rug_thedudeabides",
+    "id": "rugtda",
     "name": "Rug",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/rug.png",
@@ -293,7 +293,7 @@
     ]
   },
   {
-    "id": "johnson_thedudeabides",
+    "id": "johnsontda",
     "name": "Johnson",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/johnson.png",
@@ -310,7 +310,7 @@
     ]
   },
   {
-    "id": "smokey_thedudeabides",
+    "id": "smokeytda",
     "name": "Smokey",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/smokey.png",
@@ -327,7 +327,7 @@
     ]
   },
   {
-    "id": "fawngunderson_thedudeabides",
+    "id": "fawngundersontda",
     "name": "Fawn Gunderson",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/fawngunderson.png",
@@ -341,7 +341,7 @@
     "otherNightReminder": "If a player changed alignment because of Fawn Gunderson, wake the player. Show the *YOU ARE* info token &amp; give a thumbs-down."
   },
   {
-    "id": "jesus_thedudeabides",
+    "id": "jesustda",
     "name": "Jesus",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jesus.png",
@@ -363,7 +363,7 @@
     ]
   },
   {
-    "id": "logjammer_thedudeabides",
+    "id": "logjammertda",
     "name": "Logjammer",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/logjammer.png",
@@ -380,7 +380,7 @@
     ]
   },
   {
-    "id": "larrysellers_thedudeabides",
+    "id": "larrysellerstda",
     "name": "Larry Sellers",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/larrysellers.png",
@@ -393,7 +393,7 @@
     "otherNight": 0
   },
   {
-    "id": "woo_thedudeabides",
+    "id": "wootda",
     "name": "Woo",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/woo.png",
@@ -412,7 +412,7 @@
     "setup": true
   },
   {
-    "id": "biglebowski_thedudeabides",
+    "id": "biglebowskitda",
     "name": "Big Lebowski",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/biglebowski.png",
@@ -434,7 +434,7 @@
     ]
   },
   {
-    "id": "jackietreehorn_thedudeabides",
+    "id": "jackietreehorntda",
     "name": "Jackie Treehorn",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/jackietreehorn.png",
@@ -461,7 +461,7 @@
     ]
   },
   {
-    "id": "nihilist_thedudeabides",
+    "id": "nihilisttda",
     "name": "Nihilist",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/nihilist.png",
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "id": "eagles_thedudeabides",
+    "id": "eaglestda",
     "name": "Eagles",
     "image": [
       "https://raw.githubusercontent.com/captn-jakub/scripts/main/homebrew/the_dude_abides/assets/eagles.png",

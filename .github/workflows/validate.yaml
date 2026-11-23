@@ -75,3 +75,4 @@ jobs:
           files: |
             custom/*.json
             homebrew/**/*.json
+            !homebrew/archive/*
