@@ -40,6 +40,7 @@ Scripts using standard characters only (no homebrew).
 | [Escort Mission](custom/Escort_Mission.json) | capt'n jakub | Hermit-Lunatic-Recluse-Saint |
 | [Miss-a-Line](custom/Miss-a-Line.json) | capt'n jakub | solo Typhon<br>[database](https://botcscripts.com/script/6595) |
 | [One and Done](custom/One_and_Done.json) | capt'n jakub | mostly once per game abilities |
+| [Pick-a-Goon](custom/Pick-A-Goon.json) | capt'n jakub | all evil and most good characters choose in the night<br>[database](https://www.botcscripts.com/script/11227) |
 | [Stuff Happens](custom/Stuff_Happens.json) | capt'n jakub | Wizard (and Alchemist), Amnesiac, bunch of droisoning<br>[database](https://botcscripts.com/script/6765) |
 | [Suspicious Brew](custom/Suspicious_Brew.json) | Puck | solo Kazali |
 | [Whose Demon Is It Anyway](custom/Whose_Demon_Is_It_Anyway.json) | Jackson | |
