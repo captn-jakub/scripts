@@ -15,15 +15,26 @@
         "properties": {
           "id": {
             "type": "string",
-            "title": "Character ID, alphanumeric lowercase",
+            "title": "Character ID, alphanumeric lowercase without spaces",
+            "pattern": "^[a-z0-9]+$",
             "maxLength": 50,
-            "examples": ["washerwoman", "lilmonsta", "fanggu"]
+            "examples": [
+              "washerwoman",
+              "lilmonsta",
+              "fanggu",
+              "alhadikhia"
+            ]
           },
           "name": {
             "type": "string",
             "title": "Character name",
             "maxLength": 30,
-            "examples": ["Washer Woman", "Lil' Monsta", "Fang-Gu"]
+            "examples": [
+              "Washerwoman",
+              "Lil' Monsta",
+              "Fang Gu",
+              "Al-Hadikhia"
+            ]
           },
           "image": {
             "oneOf": [
@@ -201,7 +212,8 @@
                     "signal",
                     "vote",
                     "reveal",
-                    "player"
+                    "player",
+                    "reminder"
                   ]
                 },
                 "name": {
@@ -215,13 +227,15 @@
                     "distribute-roles",
                     "bag-disabled",
                     "bag-duplicate",
+                    "evil-duplicate",
                     "good-duplicate",
                     "multiplier",
                     "hidden",
                     "replace-character",
                     "player",
                     "card",
-                    "open-eyes"
+                    "open-eyes",
+                    "public"
                   ]
                 },
                 "value": {
