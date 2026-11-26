@@ -39,6 +39,7 @@ Scripts using standard characters only (no homebrew).
 | [Don't Take My Word For It](custom/Dont_Take_My_Word_For_It.json) | capt'n jakub | hard mode: mechanical confirmation all around<br>[database](https://botcscripts.com/script/6764) |
 | [Escort Mission](custom/Escort_Mission.json) | capt'n jakub | Hermit-Lunatic-Recluse-Saint |
 | [Miss-a-Line](custom/Miss-a-Line.json) | capt'n jakub | solo Typhon<br>[database](https://botcscripts.com/script/6595) |
+| [Must Be Something I Ate](custom/Must_Be_Something_I_Ate.json) | capt'n jakub | extremely ambiguous Cannibal buffet, with Tor to further limit their information at night |
 | [One and Done](custom/One_and_Done.json) | capt'n jakub | mostly once per game abilities |
 | [Pick-a-Goon](custom/Pick-A-Goon.json) | capt'n jakub | all evil and most good characters choose in the night<br>[database](https://www.botcscripts.com/script/11227) |
 | [Stuff Happens](custom/Stuff_Happens.json) | capt'n jakub | Wizard (and Alchemist), Amnesiac, bunch of droisoning<br>[database](https://botcscripts.com/script/6765) |
